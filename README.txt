@@ -1,5 +1,8 @@
 Each folder here contains a published alignment of DNA or amino acid sequences. 
 
+Folder names have the first author, then the year of publication. If a single study has 
+>1 dataset, then it will have an additional letter suffix, e.g. Lanfear_2012a.
+
 Inside each folder is:
     1. A README file which contains the reference to the original paper and/or the dataset
        itself, plus any additional comments on the data (e.g. Taxon, number of spp, number
@@ -10,7 +13,7 @@ Inside each folder is:
     4. Optionally, another file: commandlines.txt, which contains a series of example
        commandlines which demonstrate different types of analysis that can be carried out 
        in PartitionFinder using this dataset
-       
+
 All of the datasets in this file are publicly available, and links to the original data
 are provided in the README file of each folder.
  
