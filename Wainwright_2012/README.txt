@@ -7,7 +7,7 @@ Wainwright PC, Smith WL, Price SA, Tang KL, Sparks JS, Ferry LA, Kuhn KL, Near T
 
 
 Dataset_license
-http://creativecommons.org/publicdomain/zero/1.0/
+CC0, http://creativecommons.org/publicdomain/zero/1.0/
 
 
 #Taxa
