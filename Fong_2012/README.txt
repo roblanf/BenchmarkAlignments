@@ -32,3 +32,8 @@ of systematic bias. This study uses other methods to make datasets which are bet
 these are not available on Data Dryad. For that reason, this dataset is useful for 
 algorithmic approaches to model selection, but perhaps less useful for inferring vertebrate 
 phylogeny.
+
+I have also added a second dataset, which is the slowgenes dataset reduced to 16 exemplar 
+taxa. This dataset was NOT used in the original study, although they did use other datasets
+of the same 16 taxa. Having fewer taxa makes comparing model selection approaches quicker
+and more efficient.
