@@ -6,6 +6,10 @@ Original_dataset
 Wainwright PC, Smith WL, Price SA, Tang KL, Sparks JS, Ferry LA, Kuhn KL, Near TJ (2012) Data from: The evolution of pharyngognathy: a phylogenetic and functional appraisal of the pharyngeal jaw key innovation in labroid fishes and beyond. Dryad Digital Repository. doi:10.5061/dryad.5h951h04
 
 
+Dataset_license
+http://creativecommons.org/publicdomain/zero/1.0/
+
+
 #Taxa
 188
 
