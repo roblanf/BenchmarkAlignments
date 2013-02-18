@@ -24,5 +24,14 @@ Unknown, but freely available from www.treebase.org
 7
 
 
-#Clade
+Clade
 Stomoxys (haematophagus flies)
+
+
+Used for tree inference by original authors?
+Yes. 
+
+
+Notes
+The authors used Gblocks on the data, and it is not clear whether this file is the 
+one from before or after Gblocks was used.

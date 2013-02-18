@@ -25,5 +25,9 @@ CC0, http://creativecommons.org/publicdomain/zero/1.0/
 7
 
 
-#Clade
-(Asian Geckos)
+Clade
+Ptychozoon (Asian Geckos)
+
+
+Used for tree inference by original authors?
+Yes
