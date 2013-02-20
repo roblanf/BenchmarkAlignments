@@ -25,6 +25,6 @@ CC0, http://creativecommons.org/publicdomain/zero/1.0/
 #Clade
 Amphibia (frogs, toads, salamanders, caecilians)
 
-Notes
-The amphibians_18taxa.phy dataset is a dataset of ONLY the 18 taxa in the full dataset which have <40% gaps.
-This dataset is not supposed to be useful for phylogeny, but it might be useful for trying out model selection algorithms.
+
+Used for tree inference by original authors?
+Yes. 

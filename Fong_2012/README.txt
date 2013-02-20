@@ -26,6 +26,10 @@ CC0, http://creativecommons.org/publicdomain/zero/1.0/
 Vertebrates
 
 
+Used for tree inference by original authors?
+Yes. 
+
+
 Notes
 This is the SlowGenes dataset, which seems to be the dataset with the smallest amount
 of systematic bias. This study uses other methods to make datasets which are better, but
