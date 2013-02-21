@@ -5,8 +5,8 @@ Original_dataset
 Provided by SYW Ho.
 
 Dataset_license
-SYW Ho agreed that dataset could be uploaded to Dryad, so license will be: 
 CC0, http://creativecommons.org/publicdomain/zero/1.0/
+Permission to include this dataset on this repository was granted by SYW Ho.
 
 
 #Taxa
