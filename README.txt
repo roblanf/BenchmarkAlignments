@@ -54,8 +54,8 @@ Attribution
 -----------
 If you use ANY of the datasets here, make sure to reference three things: 
     1. the original study,
-    2. the dataset itself if the dataset has its own DOI (e.g. data dryad datasets have their own 
-       DOI's and should be referenced separately). 
+    2. the dataset itself if the dataset has its own DOI (e.g. data dryad datasets have 
+       their own DOI's and should be referenced separately). 
     3. This repository (github.com/roblanf/PartitionFinder_datasets)
 
 This is essential to reward and acknowledge those who spend weeks and months in the field, 
