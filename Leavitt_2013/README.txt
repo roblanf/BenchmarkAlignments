@@ -1,9 +1,8 @@
 Original_study
-Leavitt et al, in press
-
+J. R. Leavitt, K. D. Hiatt, M. F. Whiting, H. Song, Searching for the optimal data partitioning strategy in mitochondrial phylogenomics: A phylogeny of Acridoidea (Insecta: Orthoptera: Caelifera) as a case study, Mol Phylogenet Evol (2013), doi:10.1016/j.ympev.2013.02.019.
 
 Original_dataset
-Leavitt et al, in press
+Provided by Hojun Song
 
 
 Dataset_license
