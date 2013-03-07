@@ -13,8 +13,11 @@ What you do
 -----------
 
 1. Make a new folder in the /datasets folder
+
 2. Name it after the first author and year of publication (e.g. Brown_2012)
+
 3. Copy the README.yaml and partitionfinder.cfg files from this folder into that one
+
 4. Fill in the README and .cfg files
 
 
