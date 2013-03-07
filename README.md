@@ -26,15 +26,15 @@ What's in the folders?
 ----------------------
 
 Inside each folder is:
-    1. A README file which contains the reference to the original paper and/or the dataset
-       itself, plus any additional comments on the data (e.g. Taxon, number of spp, number
-       of sites, etc).
-    2. An alignment file in phylip format. This will be the original alignment described
-       in the README, converted if necessary into phylip format.
-    3. A partitionfinder.cfg file which describes the dataset for a PartitionFinder.
-       Most of the settings in this file are arbitrary, and are all identical. The only 
-       settings that are not arbitrary/identical are the alignment name, and the
-       description of the data blocks.
+1.  A README file which contains the reference to the original paper and/or the dataset
+    itself, plus any additional comments on the data (e.g. Taxon, number of spp, number
+    of sites, etc).
+2.  An alignment file in phylip format. This will be the original alignment described
+    in the README, converted if necessary into phylip format.
+3.  A partitionfinder.cfg file which describes the dataset for a PartitionFinder.
+    Most of the settings in this file are arbitrary, and are all identical. The only 
+    settings that are not arbitrary/identical are the alignment name, and the
+    description of the data blocks.
 
 All of the datasets in this file are publicly available, and links to the original data,
 or descriptions of how it was obtained, are provided in the README file of each folder.
@@ -57,11 +57,11 @@ full text here: http://creativecommons.org/licenses/by/3.0/legalcode
 
 Attribution
 -----------
-If you use ANY of the datasets here, make sure to reference three things: 
-    1. the original study,
-    2. the dataset itself if the dataset has its own DOI (e.g. data dryad datasets have 
-       their own DOI's and should be referenced separately). 
-    3. This repository (github.com/roblanf/PartitionFinder_datasets)
+If you use any of the datasets here, make sure to reference three things: 
+1.  The original study,
+2.  The dataset itself if the dataset has its own DOI (e.g. data dryad datasets have 
+    their own DOI's and should be referenced separately). 
+3.  This repository (github.com/roblanf/PartitionFinder_datasets)
 
 This is essential to reward and acknowledge those who spend weeks and months in the field, 
 laboriously chasing frogs/flied/lizards etc., then are kind enough to share their data 
@@ -72,4 +72,4 @@ If you have any questions, or would like your dataset to be included here, or re
 please contact me. Contact details are at www.robertlanfear.com/contact
 
 Rob Lanfear
-March 2012
+March 2013
