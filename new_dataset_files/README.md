@@ -1,75 +1,41 @@
-PartitionFinder datasets repository
-===================================
+How to add a dataset
+====================
 
-What's this?
-------------
+What you need
+-------------
 
-A repository of datasets that are set up to be used with PartitionFinder 
-(www.robertlanfear.com/partitionfinder), which is a program for performing model selection 
-and partitioning scheme selection. 
+1. A DNA or amino acid alignment from a published paper
 
-All of the datasets are publicly available. Each folder here contains a published 
-alignment of DNA or amino acid sequences, with information about the original study.
+2. Information on the loci in that alignment, including codon positions
 
-What's it for?
---------------
 
-It's a place to store and collect datasets for which model selection might be an issue. 
-In phylogenetics, we often go to some lengths to choose a model of evolution that 
-minimises some information criterion like the AICc. This repository should make it easier 
-to develop new methods and compare them to old ones, because it contains a well curated
-collection of datasets which have been, or could be, used to test model selection
-algorithms.
-
- 
-What's in the folders?
-----------------------
-
-Inside each folder is:
-1.  A README file which contains the reference to the original paper and/or the dataset
-    itself, plus any additional comments on the data (e.g. Taxon, number of spp, number
-    of sites, etc).
-2.  An alignment file in phylip format. This will be the original alignment described
-    in the README, converted if necessary into phylip format.
-3.  A partitionfinder.cfg file which describes the dataset for a PartitionFinder.
-    Most of the settings in this file are arbitrary, and are all identical. The only 
-    settings that are not arbitrary/identical are the alignment name, and the
-    description of the data blocks.
-
-All of the datasets in this file are publicly available, and links to the original data,
-or descriptions of how it was obtained, are provided in the README file of each folder.
- 
-Can I use these datasets?
--------------------------
-Yes. All of the original datasets are publicly available and can be re-used. If you use any
-of the datasets, you MUST cite each original study, and the original datasets if they have 
-their own DOIs. I provide copies of them here, as well as links to the original source of 
-the data, and references for the original publication and the dataset if it has a separate
-reference. 
-
-I DO NOT own the copyright to these datasets, but all of them are in the public domain 
-and some have their own licences.
-
-Everything here that is not a dataset (the partitionfinder.cfg files and the README in 
-each folder) is released under a CC-BY 3.0 license: 
-http://creativecommons.org/licenses/by/3.0/deed.en_US)
-full text here: http://creativecommons.org/licenses/by/3.0/legalcode
-
-Attribution
+What you do
 -----------
-If you use any of the datasets here, make sure to reference three things: 
-1.  The original study,
-2.  The dataset itself if the dataset has its own DOI (e.g. data dryad datasets have 
-    their own DOI's and should be referenced separately). 
-3.  This repository (github.com/roblanf/PartitionFinder_datasets)
 
-This is essential to reward and acknowledge those who spend weeks and months in the field, 
-laboriously chasing frogs/flied/lizards etc., then are kind enough to share their data 
-with the world so that people like me (and you, if you're reading this) can re-use them 
-for other things.
+1. Make a new folder in the /datasets folder
+2. Name it after the first author and year of publication (e.g. Brown_2012)
+3. Copy the README.yaml and partitionfinder.cfg files from this folder into that one
+4. Fill in the README and .cfg files
 
-If you have any questions, or would like your dataset to be included here, or removed,
-please contact me. Contact details are at www.robertlanfear.com/contact
 
-Rob Lanfear
-March 2013
+Conventions
+-----------
+
+When naming datablocks, provide as much information as possible, and label as many 
+datablocks as you possibly can. The best example of this is the mtgenome dataset in the 
+/datasets/Leavitt_2013 file. Take a look at the 87 meticulously annotated data blocks.
+
+Other than the data_blocks and the alignment name, leave all other aspects of the .cfg 
+file the same.
+
+In the README.yaml file, fill out everything. But most importantly, make sure you get the
+reference and the DOI of the origial manuscript and the original dataset (if it has one).
+
+Don't change the structure of the yaml file, or delete any entries. Leave things blank if 
+you have no information.
+
+If the dataset isn't publicly available, don't put it in the repository.
+
+For datasets without explicit licenses, always contact the owners of the dataset to ask 
+whether we can put it in the repository, and whether we can release it under a CC0 license.
+If they don't agree, don't put it in the repository.
