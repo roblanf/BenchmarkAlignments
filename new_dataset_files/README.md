@@ -21,6 +21,15 @@ What you do
 4. Fill in the README and .cfg files
 
 
+Before you commit a new dataset
+-------------------------------
+
+1. Check you have completed the ENTIRE README.yaml file
+
+2. Check that the dataset actually runs in PartitionFinder. The run doesn't have to finish
+    but it has to get started.
+
+
 Conventions
 -----------
 
