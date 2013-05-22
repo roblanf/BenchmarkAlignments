@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/Devitt_2013
+
+study:
+    reference: "Devitt TJ, Cameron Devitt SE, Hollingsworth BD, McGuire JA, Moritz C (2013) Montane refugia predict population genetic structure in the Large-blotched Ensatina salamander. Molecular Ecology, 22(6):1650-65"
+    DOI: dx.doi.org/10.1111/mec.12196
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.k9g50
+    license: 
+        type: CC0
+        notes: none
+    genome(s): mitochondrial
+    datatype: DNA
+    number of taxa: 69
+    number of sites: 823
+    number of data blocks: 4
+    used for tree inference: 
+    study clade:
+        latin: Ensatina eschscholtzii klauberi
+        english: Large-blotched Ensatina salamander
+    notes: none
+    
+notes: none
