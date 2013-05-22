@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/McCormack_2013b
+
+study:
+    reference:  "McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, et al. (2013) A Phylogeny of Birds Based on Over 1,500 Loci Collected by Target Enrichment and High-Throughput Sequencing. PLoS ONE 8(1): e54848."
+    DOI: dx.doi.org/10.1371/journal.pone.0054848
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.sd080
+    license: 
+        type: CC0
+        notes: none
+    genome(s): nuclear
+    datatype: dna
+    number of taxa: 30
+    number of sites: 539526
+    number of data blocks: 416
+    used for tree inference: yes
+    study clade:
+        latin: Neoaves
+        english: birds
+    notes: none
+    
+notes: none
