@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/Ekrem_2010
+
+study:
+    reference: "Torbjørn Ekrem, Endre Willassen, Elisabeth Stur, Phylogenetic utility of five genes for dipteran phylogeny: A test case in the Chironomidae leads to generic synonymies, Molecular Phylogenetics and Evolution, Volume 57, Issue 2, November 2010, Pages 561-571"
+    DOI: dx.doi.org/10.1016/j.ympev.2010.06.006
+
+dataset:
+    DOI: NA
+    license: 
+        type: CC0
+        notes: Treebase study ID S10378
+    genome(s): mitochondrial, nuclear
+    datatype: dna
+    number of taxa: 74
+    number of sites: 2701
+    number of data blocks: 10
+    used for tree inference: yes
+    study clade:
+        latin:  Chironomidae
+        english: nonbiting midges
+    notes: Treebase study ID S10378
+    
+notes: none
