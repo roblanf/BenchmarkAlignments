@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/Rightmyer_2013
+
+study:
+    reference:  "RIGHTMYER, M. G., GRISWOLD, T. and BRADY, S. G. (2013), Phylogeny and systematics of the bee genus Osmia (Hymenoptera: Megachilidae) with emphasis on North American Melanosmia: subgenera, synonymies and nesting biology revisited. Systematic Entomology." 
+    DOI: 10.1111/syen.12013
+
+dataset:
+    DOI: 10.5061/dryad.jd5ff
+    license: 
+        type: CC0
+        notes: none
+    genome(s): nuclear, mitochondrial
+    datatype: dna
+    number of taxa: 94
+    number of sites: 3692
+    number of data blocks: 25
+    used for tree inference: yes
+    study clade:
+        latin:  Hymenoptera: Megachilidae
+        english: bee
+    notes: none
+    
+notes: none
