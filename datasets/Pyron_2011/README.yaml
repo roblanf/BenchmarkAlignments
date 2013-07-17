@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/Pyron_2011
+
+study:
+    reference: "Pyron RA, Wiens JJ (2011) A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution 61(2): 543-583."
+    DOI: dx.doi.org/10.1016/j.ympev.2011.06.012
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.vd0m7
+    license: 
+        type: CC0
+        notes: none
+    genome(s): nuclear, mitochondrial
+    datatype: DNA
+    number of taxa: 2872
+    number of sites: 12712
+    number of data blocks: 34
+    used for tree inference: yes
+    study clade:
+        latin: Amphibia
+        english: amphibians
+    notes: none
+    
+notes: none

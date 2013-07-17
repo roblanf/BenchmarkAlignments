@@ -1,0 +1,17 @@
+INFO     | 2013-07-17 15:25:34,919 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2013-07-17 15:25:34,928 | config     | Setting 'alignment' to 'amphibians.phy'
+INFO     | 2013-07-17 15:25:34,928 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2013-07-17 15:25:34,928 | parser     | Setting 'models' to 'all'
+INFO     | 2013-07-17 15:25:34,928 | parser     | The models included in this analysis are: GTR+I+G, GTR+G
+INFO     | 2013-07-17 15:25:34,929 | parser     | Setting datatype to 'DNA'
+INFO     | 2013-07-17 15:25:34,929 | config     | Setting 'model_selection' to 'bic'
+INFO     | 2013-07-17 15:25:35,024 | config     | Setting 'search' to 'greedy'
+INFO     | 2013-07-17 15:25:35,024 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2013-07-17 15:25:35,025 | config     | Looking for alignment file './amphibians.phy'...
+INFO     | 2013-07-17 15:25:35,025 | analysis   | Beginning Analysis
+INFO     | 2013-07-17 15:25:35,025 | analysis   | Removing Schemes in './analysis/schemes' (they will be recalculated from existing subset data)
+INFO     | 2013-07-17 15:25:35,025 | alignment  | Reading alignment file './amphibians.phy'
+INFO     | 2013-07-17 15:25:39,567 | analysis   | No starting tree file found.
+INFO     | 2013-07-17 15:25:39,567 | raxml      | Making MP tree for ./analysis/start_tree/filtered_source.phy
+INFO     | 2013-07-17 15:28:47,426 | raxml      | Estimating GTR+G branch lengths on tree using RAxML
+ERROR    | 2013-07-17 15:30:11,016 | main       | User interrupted the Program
