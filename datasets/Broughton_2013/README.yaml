@@ -1,22 +1,22 @@
---- partitionfinder_datasets/Broughton_2013
-
 study:
     reference:  "Broughton RE, Betancur-R R, Li C, Arratia G, Orti G (2013) Multi-locus phylogenetic analysis reveals the pattern and tempo of bony fish evolution. PLoS Currents: Tree of Life. "
-    DOI: 10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e
+    DOI: dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e
 
 dataset:
-    DOI: 10.5061/dryad.f1t15
+    DOI: dx.doi.org/10.5061/dryad.f1t15
     license: 
         type: CC0
         notes: none
-    genome(s): nuclear, mitchondrial
+    mitochondrial: yes
+    nuclear: yes
+    chloroplast: no
     datatype: dna
     number of taxa: 61
     number of sites: 19997
     number of data blocks: 61 
     used for tree inference: yes
     study clade:
-        latin:  
+        latin: Osteichthyes
         english: Bony Fishes
     notes: none
     

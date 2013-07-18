@@ -1,7 +1,5 @@
---- partitionfinder_datasets/Cognato_2001
-
 study:
-    reference:  "Cognato AI, Vogler AP (2001) Exploring data interaction and nucleotide alignment in a multiple gene analysis of Ips (Coleoptera: Scolytinae). Systematic Biology 50: 758-780"
+    reference: "Cognato AI, Vogler AP (2001) Exploring data interaction and nucleotide alignment in a multiple gene analysis of Ips (Coleoptera: Scolytinae). Systematic Biology 50: 758-780"
     DOI: dx.doi.org/10.1080/106351501753462803
 
 dataset:
@@ -9,14 +7,16 @@ dataset:
     license: 
         type: CC0
         notes: none
-    genome(s): mitochondrial, nuclear
+    mitochondrial: yes
+    nuclear: yes
+    chloroplast: no 
     datatype: dna
     number of taxa: 44
     number of sites: 1896
     number of data blocks: 7
     used for tree inference: yes
     study clade:
-        latin:  Coleoptera: Scolytinae
+        latin:  "Coleoptera: Scolytinae"
         english: Bark beetles
     notes: none
     

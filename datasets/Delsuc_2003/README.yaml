@@ -1,5 +1,3 @@
---- partitionfinder_datasets/Delsuc_2003
-
 study:
     reference:  "Delsuc F, Stanhope MJ, Douzery EJP (2003) Molecular systematics of armadillos (Xenarthra, Dasypodidae): contribution of maximum likelihood and Bayesian analyses of mitochondrial and nuclear genes. Molecular Phylogenetics and Evolution 28: 261-275"
     DOI: dx.doi.org/10.1016/S1055-7903(03)00111-8
@@ -9,15 +7,17 @@ dataset:
     license: 
         type: CC0
         notes: none
-    genome(s): mitochondrial, nuclear
+    mitochondrial: yes
+    nuclear: yes
+    chloroplast: no 
     datatype: dna
     number of taxa: 13
     number of sites: 6070
     number of data blocks: 12
     used for tree inference: yes
     study clade:
-        latin: Xenarthra: Dasypodidae
-        english: Armadillos
+        latin: "Xenarthra: Dasypodidae"
+        english: "Armadillos"
     notes: none
     
 notes: none

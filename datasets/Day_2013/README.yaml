@@ -1,5 +1,3 @@
---- partitionfinder_datasets/filename
-
 study:
     reference: 'Day JJ, Peart CR, Brown KJ, Bills R, Friel JP, Moritz T (2013) Continental diversification of an African catfish radiation (Mochokidae: Synodontis). Systematic Biology, online in advance of print.'
     DOI: dx.doi.org/10.1093/sysbio/syt001 
@@ -10,14 +8,17 @@ dataset:
         type: CC0
         notes: none
     genome(s): mitochondrial, nuclear
-    datatype: DNA
+    mitochondrial: yes
+    nuclear: yes
+    chloroplast: no
+    datatype: dna
     number of taxa: 152
     number of sites: 3586
     number of data blocks: 11
-    used for tree inference: Yes
+    used for tree inference: yes
     study clade:
-        latin: Synodontis
-        english: African catfish
+        latin: "Synodontis"
+        english: "African catfish"
     notes: none
     
 notes: none

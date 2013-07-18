@@ -1,5 +1,3 @@
---- partitionfinder_datasets/Brown_2012
-
 study:
     reference: 'Rafe M. Brown, Cameron D. Siler, Indraneil Das, Yong Min, Testing the phylogenetic affinities of Southeast Asiaís rarest geckos: Flap-legged geckos (Luperosaurus), Flying geckos (Ptychozoon) and their relationship to the pan-Asian genus Gekko, Molecular Phylogenetics and Evolution, Volume 63, Issue 3, June 2012, Pages 915-921, ISSN 1055-7903' 
     DOI: dx.doi.org/10.1016/j.ympev.2012.02.019
@@ -9,8 +7,10 @@ dataset:
     license: 
         type: CC0
         notes: none
-    genome(s): mitochondrial
-    datatype: nucleotide
+    mitochondrial: no
+    nuclear: yes
+    chloroplast: no
+    datatype: dna
     number of taxa: 41
     number of sites: 1665
     number of data blocks: 7
