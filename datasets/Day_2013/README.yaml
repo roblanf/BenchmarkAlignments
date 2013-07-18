@@ -7,7 +7,6 @@ dataset:
     license: 
         type: CC0
         notes: none
-    genome(s): mitochondrial, nuclear
     mitochondrial: yes
     nuclear: yes
     chloroplast: no

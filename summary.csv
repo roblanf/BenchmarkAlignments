@@ -9,15 +9,15 @@ yes,yes,yes,dx.doi.org/10.1016/S1055-7903(03)00111-8,dx.doi.org/10.5061/dryad.18
 yes,yes,yes,dx.doi.org/10.1111/mec.12196,dx.doi.org/10.5061/dryad.k9g50,True,False,False,dna,69,823,4,,Ensatina eschscholtzii klauberi,Large-blotched Ensatina salamander
 yes,yes,yes,dx.doi.org/10.1016/j.meegid.2011.02.004,NA,True,True,False,dna,39,1635,7,True,Muscidae,haematophagous flies
 yes,yes,yes,dx.doi.org/10.1016/j.ympev.2010.06.006,NA,True,True,False,dna,74,2701,10,True,Chironomidae,nonbiting midges
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,dx.doi.org/10.1111/j.1365-294X.2009.04149.x,dx.doi.org/10.5061/dryad.1705,True,True,False,dna,143,4159,12,True,Nymphalidae: Napeogenes,clearwing butterflies
+yes,yes,yes,dx.doi.org/10.1016/j.ajhg.2008.01.019,NA,True,False,False,dna,179,13857,41,True,Homo sapiens,human
+yes,yes,yes,dx.doi.org/10.1080/106351501753462821,dx.doi.org/10.5061/dryad.684,False,True,True,dna,40,9005,11,True,Saxifragales,core Eudicots
+yes,yes,yes,dx.doi.org/10.1371/journal.pone.0048990,dx.doi.org/10.5061/dryad.25j6h,False,True,False,dna,110,25919,168,True,Vertebrata,vertebrates
+yes,yes,yes,dx.doi.org/10.1186/1471-2164-13-626,dx.doi.org/10.5061/dryad.3qd54,True,True,False,dna,37,11136,34,True,Neobatrachia,modern frogs
+yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.09.023,dx.doi.org/10.5061/dryad.s791pg03,True,True,False,dna,54,6548,26,True,Gephyromantis,Malagasy frogs
+yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,False,True,False,dna,28,7276,15,True,Xiphophorus,swordtail fish
+yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,True,False,False,dna,28,1239,6,True,Xiphophorus,swordtail fish
+yes,yes,yes,dx.doi.org/10.1016/j.ympev.2013.02.019,dx.doi.org/10.1016/j.ympev.2013.02.019,True,False,False,dna,34,15404,87,True,Acridoidea,Grasshoppers
 no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

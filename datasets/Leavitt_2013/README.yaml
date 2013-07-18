@@ -1,5 +1,3 @@
---- partitionfinder_datasets/Leavitt_2013
-
 study:
     reference: "J. R. Leavitt, K. D. Hiatt, M. F. Whiting, H. Song, Searching for the optimal data partitioning strategy in mitochondrial phylogenomics: A phylogeny of Acridoidea (Insecta: Orthoptera: Caelifera) as a case study, Mol Phylogenet Evol (2013)"
     DOI: dx.doi.org/10.1016/j.ympev.2013.02.019
@@ -8,18 +6,18 @@ dataset:
     DOI: dx.doi.org/10.1016/j.ympev.2013.02.019
     license: 
         type: CC0
-        notes: none
-    genome(s): mitochondrial
-    datatype: DNA
+        notes: "This dataset, and permission to post it here under a CC0 license, was provided via email by Hojun Song"
+    mitochondrial: yes
+    nuclear: no
+    chloroplast: no 
+    datatype: dna
     number of taxa: 34
     number of sites: 15404
     number of data blocks: 87 
     used for tree inference: yes
     study clade:
-        latin: Acridoidea
-        english: Grasshoppers
-    notes: This dataset, and permission to post it here under a CC0 license, was provided via email by Hojun Song
+        latin: "Acridoidea"
+        english: "Grasshoppers"
+    notes: ""
     
-notes: 
-    1: The .cfg file contains a set of additional partitioning schemes tested by the authors.
-    2: This is an excellent example of a finely-partitioned mitochondrial genome dataset.
+notes: "1: The .cfg file contains a set of additional partitioning schemes tested by the authors. 2: This is an excellent example of a finely-partitioned mitochondrial genome dataset."
