@@ -1,0 +1,23 @@
+--- partitionfinder_datasets/Anderson_2013
+
+study:
+    reference:  "Anderson FE, Bergman A, Cheng SH, Pankey MS, Valinassab T (2013) Lights out: the evolution of bacterial bioluminescence in Loliginidae. Hydrobiologia, online in advance of print."
+    DOI: dx.doi.org/10.1007/s10750-013-1599-1
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.93s3n
+    license: 
+        type: CC0
+        notes: none
+    genome(s): mitochondrial
+    datatype: DNA
+    number of taxa: 145 
+    number of sites: 3037
+    number of data blocks:4 
+    used for tree inference: yes
+    study clade:
+        latin:  Cephalopoda: Loliginidae
+        english: pencil squids
+    notes: none
+    
+notes: none
