@@ -1,23 +1,23 @@
---- partitionfinder_datasets/filename
-
 study:
-    reference:  
-    DOI: dx.doi.org
+    reference: ""
+    DOI: dx.doi.org/
 
 dataset:
-    DOI: dx.doi.org
+    DOI: dx.doi.org/
     license: 
         type: CC0
-        notes: none
-    genome(s): 
+        notes: ""
+    mitochondrial:
+    nuclear:
+    chloroplast: 
     datatype: 
     number of taxa: 
     number of sites: 
     number of data blocks: 
     used for tree inference:
     study clade:
-        latin:  
-        english: 
-    notes: none
+        latin: ""  
+        english: "" 
+    notes: ""
     
-notes: none
+notes: ""
