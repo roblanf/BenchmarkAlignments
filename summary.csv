@@ -1,0 +1,32 @@
+has_yaml,has_alignment,has_cfg,study_DOI,dataset_DOI,mitochondrial,nuclear,chloroplast,datatype,taxa,sites,datablocks,tree_inference,clade_latin,clade_english
+yes,yes,yes,dx.doi.org/10.1007/s10750-013-1599-1,dx.doi.org/10.5061/dryad.93s3n,True,False,False,dna,145,3037,4,True,Cephalopoda: Loliginidae,pencil squids
+yes,yes,yes,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,dx.doi.org/10.5061/dryad.f1t15,True,True,False,dna,61,19997,61,True,Osteichthyes,Bony Fishes
+yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.02.019,dx.doi.org/10.5061/dryad.7bn0fr99,False,True,False,dna,41,1665,7,True,Ptychozoon,Asian Geckos
+yes,yes,yes,dx.doi.org/10.1080/10635150119988,dx.doi.org/10.5061/dryad.615,True,True,False,dna,37,3228,9,True,Lepidoptera: Papilionidae,Swallowtail butterflies
+yes,yes,yes,dx.doi.org/10.1080/106351501753462803,dx.doi.org/10.5061/dryad.678,True,True,False,dna,44,1896,7,True,Coleoptera: Scolytinae,Bark beetles
+yes,yes,yes,dx.doi.org/10.1093/sysbio/syt001,dx.doi.org/10.5061/dryad.b6225,True,True,False,dna,152,3586,11,True,Synodontis,African catfish
+yes,yes,yes,dx.doi.org/10.1016/S1055-7903(03)00111-8,dx.doi.org/10.5061/dryad.1838,True,True,False,dna,13,6070,12,True,Xenarthra: Dasypodidae,Armadillos
+yes,yes,yes,dx.doi.org/10.1111/mec.12196,dx.doi.org/10.5061/dryad.k9g50,True,False,False,dna,69,823,4,,Ensatina eschscholtzii klauberi,Large-blotched Ensatina salamander
+yes,yes,yes,dx.doi.org/10.1016/j.meegid.2011.02.004,NA,True,True,False,dna,39,1635,7,True,Muscidae,haematophagous flies
+yes,yes,yes,dx.doi.org/10.1016/j.ympev.2010.06.006,NA,True,True,False,dna,74,2701,10,True,Chironomidae,nonbiting midges
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
