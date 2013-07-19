@@ -1,32 +1,32 @@
-has_yaml,has_alignment,has_cfg,study_DOI,dataset_DOI,mitochondrial,nuclear,chloroplast,datatype,taxa,sites,datablocks,tree_inference,clade_latin,clade_english
-yes,yes,yes,dx.doi.org/10.1007/s10750-013-1599-1,dx.doi.org/10.5061/dryad.93s3n,True,False,False,dna,145,3037,4,True,Cephalopoda: Loliginidae,pencil squids
-yes,yes,yes,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,dx.doi.org/10.5061/dryad.f1t15,True,True,False,dna,61,19997,61,True,Osteichthyes,Bony Fishes
-yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.02.019,dx.doi.org/10.5061/dryad.7bn0fr99,False,True,False,dna,41,1665,7,True,Ptychozoon,Asian Geckos
-yes,yes,yes,dx.doi.org/10.1080/10635150119988,dx.doi.org/10.5061/dryad.615,True,True,False,dna,37,3228,9,True,Lepidoptera: Papilionidae,Swallowtail butterflies
-yes,yes,yes,dx.doi.org/10.1080/106351501753462803,dx.doi.org/10.5061/dryad.678,True,True,False,dna,44,1896,7,True,Coleoptera: Scolytinae,Bark beetles
-yes,yes,yes,dx.doi.org/10.1093/sysbio/syt001,dx.doi.org/10.5061/dryad.b6225,True,True,False,dna,152,3586,11,True,Synodontis,African catfish
-yes,yes,yes,dx.doi.org/10.1016/S1055-7903(03)00111-8,dx.doi.org/10.5061/dryad.1838,True,True,False,dna,13,6070,12,True,Xenarthra: Dasypodidae,Armadillos
-yes,yes,yes,dx.doi.org/10.1111/mec.12196,dx.doi.org/10.5061/dryad.k9g50,True,False,False,dna,69,823,4,,Ensatina eschscholtzii klauberi,Large-blotched Ensatina salamander
-yes,yes,yes,dx.doi.org/10.1016/j.meegid.2011.02.004,NA,True,True,False,dna,39,1635,7,True,Muscidae,haematophagous flies
-yes,yes,yes,dx.doi.org/10.1016/j.ympev.2010.06.006,NA,True,True,False,dna,74,2701,10,True,Chironomidae,nonbiting midges
-yes,yes,yes,dx.doi.org/10.1111/j.1365-294X.2009.04149.x,dx.doi.org/10.5061/dryad.1705,True,True,False,dna,143,4159,12,True,Nymphalidae: Napeogenes,clearwing butterflies
-yes,yes,yes,dx.doi.org/10.1016/j.ajhg.2008.01.019,NA,True,False,False,dna,179,13857,41,True,Homo sapiens,human
-yes,yes,yes,dx.doi.org/10.1080/106351501753462821,dx.doi.org/10.5061/dryad.684,False,True,True,dna,40,9005,11,True,Saxifragales,core Eudicots
-yes,yes,yes,dx.doi.org/10.1371/journal.pone.0048990,dx.doi.org/10.5061/dryad.25j6h,False,True,False,dna,110,25919,168,True,Vertebrata,vertebrates
-yes,yes,yes,dx.doi.org/10.1186/1471-2164-13-626,dx.doi.org/10.5061/dryad.3qd54,True,True,False,dna,37,11136,34,True,Neobatrachia,modern frogs
-yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.09.023,dx.doi.org/10.5061/dryad.s791pg03,True,True,False,dna,54,6548,26,True,Gephyromantis,Malagasy frogs
-yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,False,True,False,dna,28,7276,15,True,Xiphophorus,swordtail fish
-yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,True,False,False,dna,28,1239,6,True,Xiphophorus,swordtail fish
-yes,yes,yes,dx.doi.org/10.1016/j.ympev.2013.02.019,dx.doi.org/10.1016/j.ympev.2013.02.019,True,False,False,dna,34,15404,87,True,Acridoidea,Grasshoppers
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+name,has_yaml,has_alignment,has_cfg,study_DOI,dataset_DOI,mitochondrial,nuclear,chloroplast,datatype,taxa,sites,datablocks,tree_inference,clade_latin,clade_english
+Anderson_2013,yes,yes,yes,dx.doi.org/10.1007/s10750-013-1599-1,dx.doi.org/10.5061/dryad.93s3n,True,False,False,dna,145,3037,4,True,Cephalopoda: Loliginidae,pencil squids
+Broughton_2013,yes,yes,yes,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,dx.doi.org/10.5061/dryad.f1t15,True,True,False,dna,61,19997,61,True,Osteichthyes,Bony Fishes
+Brown_2012,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.02.019,dx.doi.org/10.5061/dryad.7bn0fr99,False,True,False,dna,41,1665,7,True,Ptychozoon,Asian Geckos
+Caterino_2001,yes,yes,yes,dx.doi.org/10.1080/10635150119988,dx.doi.org/10.5061/dryad.615,True,True,False,dna,37,3228,9,True,Lepidoptera: Papilionidae,Swallowtail butterflies
+Cognato_2001,yes,yes,yes,dx.doi.org/10.1080/106351501753462803,dx.doi.org/10.5061/dryad.678,True,True,False,dna,44,1896,7,True,Coleoptera: Scolytinae,Bark beetles
+Day_2013,yes,yes,yes,dx.doi.org/10.1093/sysbio/syt001,dx.doi.org/10.5061/dryad.b6225,True,True,False,dna,152,3586,11,True,Synodontis,African catfish
+Delsuc_2003,yes,yes,yes,dx.doi.org/10.1016/S1055-7903(03)00111-8,dx.doi.org/10.5061/dryad.1838,True,True,False,dna,13,6070,12,True,Xenarthra: Dasypodidae,Armadillos
+Devitt_2013,yes,yes,yes,dx.doi.org/10.1111/mec.12196,dx.doi.org/10.5061/dryad.k9g50,True,False,False,dna,69,823,4,,Ensatina eschscholtzii klauberi,Large-blotched Ensatina salamander
+Dsouli_2011,yes,yes,yes,dx.doi.org/10.1016/j.meegid.2011.02.004,NA,True,True,False,dna,39,1635,7,True,Muscidae,haematophagous flies
+Ekrem_2010,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2010.06.006,NA,True,True,False,dna,74,2701,10,True,Chironomidae,nonbiting midges
+Elias_2009,yes,yes,yes,dx.doi.org/10.1111/j.1365-294X.2009.04149.x,dx.doi.org/10.5061/dryad.1705,True,True,False,dna,143,4159,12,True,Nymphalidae: Napeogenes,clearwing butterflies
+Endicott_2008,yes,yes,yes,dx.doi.org/10.1016/j.ajhg.2008.01.019,NA,True,False,False,dna,179,13857,41,True,Homo sapiens,human
+Fishbein_2001,yes,yes,yes,dx.doi.org/10.1080/106351501753462821,dx.doi.org/10.5061/dryad.684,False,True,True,dna,40,9005,11,True,Saxifragales,core Eudicots
+Fong_2012,yes,yes,yes,dx.doi.org/10.1371/journal.pone.0048990,dx.doi.org/10.5061/dryad.25j6h,False,True,False,dna,110,25919,168,True,Vertebrata,vertebrates
+Irisarri_2012,yes,yes,yes,dx.doi.org/10.1186/1471-2164-13-626,dx.doi.org/10.5061/dryad.3qd54,True,True,False,dna,37,11136,34,True,Neobatrachia,modern frogs
+Kaffenberger_2011,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.09.023,dx.doi.org/10.5061/dryad.s791pg03,True,True,False,dna,54,6548,26,True,Gephyromantis,Malagasy frogs
+Kang_2013a,yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,False,True,False,dna,28,7276,15,True,Xiphophorus,swordtail fish
+Kang_2013b,yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,True,False,False,dna,28,1239,6,True,Xiphophorus,swordtail fish
+Leavitt_2013,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2013.02.019,dx.doi.org/10.1016/j.ympev.2013.02.019,True,False,False,dna,34,15404,87,True,Acridoidea,Grasshoppers
+Li_2008,no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+McCormack_2013a,yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+McCormack_2013b,yes,no,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pyron_2011,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rightmyer_2013,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seago_2011,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sharanowski_2011,no,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Siler_2013,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tolley_2013,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Unmack_2013,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wainwright_2012,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ward_2010,yes,yes,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
