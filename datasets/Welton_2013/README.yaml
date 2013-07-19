@@ -1,0 +1,23 @@
+study:
+    reference: "Welton LJ, Siler CD, Oaks JR, Diesmos AC, Brown RM (2013) Multilocus phylogeny and Bayesian estimates of species boundaries reveal hidden evolutionary relationships and cryptic diversity in Southeast Asian monitor lizards. Molecular Ecology 22(13): 3495–3510."
+    DOI: dx.doi.org/10.1111/mec.12324
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.m0n61
+    license: 
+        type: CC0
+        notes: ""
+    mitochondrial: yes
+    nuclear: yes
+    chloroplast: no 
+    datatype: dna
+    number of taxa: 145
+    number of sites: 4552
+    number of data blocks: 16
+    used for tree inference: yes
+    study clade:
+        latin: "Varanus"
+        english: "monotor lizards"
+    notes: ""
+
+notes: "The number of species in the file on Dryad is 145, but there are only 137 in the alignment. Thus, there are 137 in the alignment in this repository."
