@@ -1,0 +1,23 @@
+study:
+    reference: "Guschanski K, Krause J, Sawyer S, Valente LM, Bailey S, Finstermeier K, Sabin R, Gilissen E, Sonet G, Nagy ZT, Lenglet G, Mayer F, Savolainen V (2013) Next-generation museomics disentangles one of the largest primate radiations. Systematic Biology 62(4): 539-554."
+    DOI: dx.doi.org/10.1093/sysbio/syt018
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.7k14q
+    license: 
+        type: CC0
+        notes: ""
+    mitochondrial: yes
+    nuclear: no
+    chloroplast: yes 
+    datatype: dna
+    number of taxa: 110
+    number of sites: 17092
+    number of data blocks: 63
+    used for tree inference: yes
+    study clade:
+        latin: "Cercopithecini"
+        english: "Guenons (old world monkeys)" 
+    notes: "Thanks to Katerina Guschanski for providing her input files to PartitionFinder, which weren't included with the data on Dryad"
+    
+notes: "I split the tRNAs into extra datablocks, although in the original paper they were lumped together. I also edited the species names to remove illegal characters."
