@@ -1,23 +1,23 @@
---- partitionfinder_datasets/Seago_2011
-
 study:
     reference:  "Seago AE, Giorgi JA, Li J, Slipinski A (2011) Phylogeny, classification and evolution of ladybird beetles (Coleoptera: Coccinellidae) based on simultaneous analysis of molecular and morphological data. Molecular Phylogenetics and Evolution 60(1): 137-151. "
-    DOI: 10.1016/j.ympev.2011.03.015
+    DOI: dx.doi.org/10.1016/j.ympev.2011.03.015
 
 dataset:
-    DOI: 10.5061/dryad.dc1r2
+    DOI: dx.doi.org/10.5061/dryad.dc1r2
     license: 
         type: CC0
-        notes: none
-    genome(s): mitochondrial
+        notes: ""
+    mitochondrial: yes
+    nuclear: no
+    chloroplast: no
     datatype: dna
     number of taxa: 116
     number of sites: 2253
     number of data blocks: 7
     used for tree inference: yes
     study clade:
-        latin: Coccinellidae
-        english: ladybirds
-    notes: 
+        latin: "Coccinellidae"
+        english: "ladybirds"
+    notes: ""
     
-notes: alignment was edited to remove morphological data
+notes: "alignment was edited to remove morphological data"

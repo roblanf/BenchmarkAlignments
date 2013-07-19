@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.f1t15
     license: 
         type: CC0
-        notes: none
+        notes: ""
     mitochondrial: yes
     nuclear: yes
     chloroplast: no
@@ -16,8 +16,8 @@ dataset:
     number of data blocks: 61 
     used for tree inference: yes
     study clade:
-        latin: Osteichthyes
-        english: Bony Fishes
-    notes: none
+        latin: "Osteichthyes"
+        english: "bony fishes"
+    notes: ""
     
-notes: none
+notes: ""

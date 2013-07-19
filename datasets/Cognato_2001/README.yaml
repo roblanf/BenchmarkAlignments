@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.678
     license: 
         type: CC0
-        notes: none
+        notes: ""
     mitochondrial: yes
     nuclear: yes
     chloroplast: no 
@@ -17,7 +17,7 @@ dataset:
     used for tree inference: yes
     study clade:
         latin:  "Coleoptera: Scolytinae"
-        english: Bark beetles
-    notes: none
+        english: "Bark beetles"
+    notes: ""
     
 notes: "The alignment from Dryad was cut to remove ambiguous positions and morphological characters. This is the alignment used in Lanfear et al 2010, PartitionFinder..., MBE paper"

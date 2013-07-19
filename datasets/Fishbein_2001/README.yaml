@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.684
     license: 
         type: CC0
-        notes: none
+        notes: ""
     genome(s): chloroplast, nuclear 
     mitochondrial: no
     nuclear: yes
@@ -19,6 +19,6 @@ dataset:
     study clade:
         latin:  "Saxifragales"
         english: "core Eudicots"
-    notes: none
+    notes: ""
     
-notes: none
+notes: ""

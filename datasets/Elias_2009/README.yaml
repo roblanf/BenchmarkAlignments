@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.1705
     license: 
         type: CC0
-        notes: none
+        notes: ""
     mitochondrial: yes
     nuclear: yes
     chloroplast: no 
@@ -18,6 +18,6 @@ dataset:
     study clade:
         latin: "Nymphalidae: Napeogenes"
         english: "clearwing butterflies"
-    notes: none
+    notes: ""
     
-notes: none
+notes: ""

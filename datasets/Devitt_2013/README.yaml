@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.k9g50
     license: 
         type: CC0
-        notes: none
+        notes: ""
     genome(s): mitochondrial
     mitochondrial: yes
     nuclear: no
@@ -15,10 +15,10 @@ dataset:
     number of taxa: 69
     number of sites: 823
     number of data blocks: 4
-    used for tree inference: 
+    used for tree inference: yes
     study clade:
         latin: "Ensatina eschscholtzii klauberi"
         english: "Large-blotched Ensatina salamander"
-    notes: none
+    notes: ""
     
-notes: none
+notes: ""

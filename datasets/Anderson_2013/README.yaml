@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.93s3n
     license: 
         type: CC0
-        notes: none
+        notes: ""
     mitochondrial: yes
     nuclear: no
     chloroplast: no
@@ -18,6 +18,6 @@ dataset:
     study clade:
         latin:  "Cephalopoda: Loliginidae"
         english: "pencil squids"
-    notes: none
+    notes: ""
     
-notes: none
+notes: ""

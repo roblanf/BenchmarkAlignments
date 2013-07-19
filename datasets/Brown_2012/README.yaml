@@ -6,7 +6,7 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.7bn0fr99
     license: 
         type: CC0
-        notes: none
+        notes: ""
     mitochondrial: no
     nuclear: yes
     chloroplast: no
@@ -16,8 +16,8 @@ dataset:
     number of data blocks: 7
     used for tree inference: yes
     study clade:
-        latin: Ptychozoon 
-        english: Asian Geckos
-    notes: none
+        latin: "Ptychozoon" 
+        english: "Asian geckos"
+    notes: ""
     
-notes: none
+notes: ""
