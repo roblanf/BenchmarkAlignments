@@ -36,7 +36,7 @@ results = []
 for folder in dataset_folders:
     logging.info("Checking %s" %folder)
     result = dataset.copy()
-    result["name"] = folder.split('\\')[-1]
+    result["name"] = os.path.basename(folder)
     
     # 1. Check that the three files exist, at least in principle (maybe they're empty)
     files = os.listdir(folder)
