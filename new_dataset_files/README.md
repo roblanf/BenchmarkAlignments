@@ -29,6 +29,11 @@ Before you commit a new dataset
 2. Check that the dataset actually runs in PartitionFinder. The run doesn't have to finish
     but it has to get started.
 
+3. Run the generate_csv.py script - this performs some basic checks on your addition, and 
+    adds it to the summary file. 
+
+4. DO NOT commit incomplete datasets, or any that generate warnings when you run the 
+    script. Fix all errors first, then commit.
 
 Conventions
 -----------
@@ -50,4 +55,5 @@ If the dataset isn't publicly available, don't put it in the repository.
 
 For datasets without explicit licenses, always contact the owners of the dataset to ask 
 whether we can put it in the repository, and whether we can release it under a CC0 license.
-If they don't agree, don't put it in the repository.
+If they don't agree, don't put it in the repository. Assume that data sets on TreeBase are
+O.K., since they're already publicly available.
