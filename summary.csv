@@ -1,5 +1,6 @@
 name,has_yaml,has_alignment,has_cfg,study_DOI,dataset_DOI,mitochondrial,nuclear,chloroplast,datatype,taxa,sites,datablocks,tree_inference,clade_latin,clade_english
 Anderson_2013,yes,yes,yes,dx.doi.org/10.1007/s10750-013-1599-1,dx.doi.org/10.5061/dryad.93s3n,True,False,False,dna,145,3037,4,True,Cephalopoda: Loliginidae,pencil squids
+Bergsten_2013,yes,yes,yes,dx.doi.org/10.1093/sysbio/syt029,dx.doi.org/10.5061/dryad.s631d,True,True,False,dna,38,2111,8,True,Coleoptera: Dytiscidae,diving beetles
 Broughton_2013,yes,yes,yes,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,dx.doi.org/10.5061/dryad.f1t15,True,True,False,dna,61,19997,61,True,Osteichthyes,bony fishes
 Brown_2012,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.02.019,dx.doi.org/10.5061/dryad.7bn0fr99,False,True,False,dna,41,1665,7,True,Ptychozoon,Asian geckos
 Caterino_2001,yes,yes,yes,dx.doi.org/10.1080/10635150119988,dx.doi.org/10.5061/dryad.615,True,True,False,dna,37,3228,9,True,Lepidoptera: Papilionidae,Swallowtail butterflies
