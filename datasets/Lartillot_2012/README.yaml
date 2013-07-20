@@ -1,0 +1,23 @@
+study:
+    reference: "Lartillot N, Delsuc F (2012) Joint reconstruction of divergence times and life-history evolution in placental mammals using a phylogenetic covariance model. Evolution 66(6): 1773-1787."
+    DOI: dx.doi.org/10.1111/j.1558-5646.2011.01558.x
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.tt28qk6f
+    license:
+        type: CC0
+        notes: ""
+    mitochondrial: no
+    nuclear: yes
+    chloroplast: no 
+    datatype: dna
+    number of taxa: 78
+    number of sites: 15117
+    number of data blocks: 51
+    used for tree inference: yes
+    study clade:
+        latin: "Eutheria"
+        english: "placental mammals"
+    notes: ""
+    
+notes: ""
