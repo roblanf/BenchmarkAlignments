@@ -1,0 +1,23 @@
+study:
+    reference: "Sauquet H, Ho SYW, Gandolfo MA, Jordan GJ, Wilf P, Cantrill DJ, Bayly MJ, Bromham L, Brown GK, Carpenter RJ, Lee DM, Murphy DJ, Sniderman JMK, Udovicic F (2011) Testing the impact of calibration on molecular divergence times using a fossil-rich group: the case of Nothofagus (Fagales). Systematic Biology 61(2): 289-313."
+    DOI: dx.doi.org/10.1093/sysbio/syr116
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.qq106tm4
+    license: 
+        type: CC0
+        notes: ""
+    mitochondrial: no
+    nuclear: yes
+    chloroplast: yes 
+    datatype: dna
+    number of taxa: 51
+    number of sites: 5444
+    number of data blocks: 10
+    used for tree inference: yes
+    study clade:
+        latin: "Nothofagus"
+        english: "southern beeches"
+    notes: ""
+    
+notes: ""
