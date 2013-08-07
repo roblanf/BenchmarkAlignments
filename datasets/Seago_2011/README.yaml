@@ -20,4 +20,4 @@ dataset:
         english: "ladybirds"
     notes: ""
     
-notes: "alignment was edited to remove morphological data"
+notes: "alignment was edited to remove morphological data and taxa with no nucleotide data. Reduced taxa from 116 to 97"
