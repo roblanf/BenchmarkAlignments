@@ -8,8 +8,8 @@ dataset:
         type: CC0
         notes: ""
     mitochondrial: yes
-    nuclear: no
-    chloroplast: yes 
+    nuclear: yes
+    chloroplast: no 
     datatype: dna
     number of taxa: 110
     number of sites: 17092
