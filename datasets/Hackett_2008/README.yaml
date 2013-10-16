@@ -1,0 +1,23 @@
+study:
+    reference: "S. J. Hackett et al., A phylogenomic study of birds reveals their evolutionary history, Science 320, 1763–1768 (2008)."
+    DOI: dx.doi.org/10.1126/science.1157704
+
+dataset:
+    DOI: dx.doi.org/
+    license: 
+        type: CC0
+        notes: "downloaded from: http://www.biology.ufl.edu/earlybird/aln.html"
+    mitochondrial: no
+    nuclear: yes
+    chloroplast: no 
+    datatype: DNA
+    number of taxa: 171
+    number of sites: 52383
+    number of data blocks: 168
+    used for tree inference: yes
+    study clade:
+        latin: "Aves"  
+        english: "Birds" 
+    notes: ""
+    
+notes: "Data blocks were assigned following the taxon sets in the original nexus alignment. Problematic sites (also identified in the original alignemnt) were not included in any data blocks."
