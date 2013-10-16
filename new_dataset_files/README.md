@@ -20,6 +20,8 @@ What you do
 
 4. Fill in the README and .cfg files
 
+5. Add in the dataset itself, in phylip format, and named alignment.phy
+
 
 Before you commit a new dataset
 -------------------------------
