@@ -11,7 +11,7 @@ dataset:
     nuclear: yes
     chloroplast: no 
     datatype: dna
-    number of taxa: 145
+    number of taxa: 137
     number of sites: 4552
     number of data blocks: 16
     used for tree inference: yes
@@ -20,4 +20,4 @@ dataset:
         english: "monotor lizards"
     notes: ""
 
-notes: "The number of species in the file on Dryad is 145, but there are only 137 in the alignment. Thus, there are 137 in the alignment in this repository."
+notes: "There appear to be some errors in the dryad metadata and uploaded files. Specifically, there are only 137 species in the RAxML file, but 145 listed in the header. Second, some of the partitioning data contain overlapping subsets of sites in the Dryad file."
