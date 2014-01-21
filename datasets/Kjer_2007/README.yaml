@@ -1,0 +1,23 @@
+study:
+    reference: "Kjer KM, Honeycutt RL (2007) Site specific rates of mitochondrial genomes and the phylogeny of eutheria, BMC Evolutionary Biology, Volume 7, Issue 8"
+    DOI: dx.doi.org/10.1186/1471-2148-7-8
+
+dataset:
+    DOI: NA
+    license: 
+        type: CC0
+        notes: "Permission to include this dataset in this repository was granted by K.M. Kjer."
+    mitochondrial: yes
+    nuclear: no
+    chloroplast: no
+    datatype: dna
+    number of taxa: 89
+    number of sites: 14740
+    number of data blocks: 64
+    used for tree inference: yes
+    study clade:
+        latin: "Mammalia"  
+        english: "Mammals" 
+    notes: ""
+    
+notes: ""
