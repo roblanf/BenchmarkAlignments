@@ -3,10 +3,10 @@ study:
     DOI: dx.doi.org/10.1186/1471-2148-7-8
 
 dataset:
-    DOI: dx.doi.org/
+    DOI: NA
     license: 
         type: CC0
-        notes: ""
+        notes: "Permission to include this dataset in this repository was granted by K.M. Kjer."
     mitochondrial: yes
     nuclear: no
     chloroplast: no
