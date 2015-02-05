@@ -11,7 +11,7 @@ dataset:
     nuclear: yes
     chloroplast: no 
     datatype: dna
-    number of taxa: 139 
+    number of taxa: 139
     number of sites: 3982
     number of data blocks: 11
     used for tree inference: yes
