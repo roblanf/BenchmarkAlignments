@@ -1,0 +1,48 @@
+Notes on a lunchtime discussion on this database from the Phylogenetics meeting at Portobello in 2015
+
+#Metadata to include:
+
+## Base composition metrics
+1. Base composition for overall alignment (include IUPAC bases e.g. N, S, R, Y, W??)
+2. Largest GC content (of a taxon)
+3. Smallest GC content (of a taxon)
+4. Variation in GC content (StDev?)
+5. Median GC content
+
+## Diversity metrics
+1. Median pairwise JC distance
+2. Largest pairwise distance between taxa
+3. Smallest pairwise distance among taxa
+
+## Gap statistics
+1. Overall proportion of gaps
+2. Largest number of gaps in a sequence
+3. Smallest number of gaps in a sequence
+4. Median gaps per sequence
+5. Proportion of columns with at least one gap
+6. Something on the distribution of gaps within the alignment??	
+
+## Branch lengths (possibly, but it means inferring a tree)
+1. Median branch length
+2. Smallest branch length
+3. Longest branch length
+4. Slope of regression of log(branch depth) vs. log(branch length) - tells you if smaller branches are deeper in the tree or towards the tips
+
+## Time information
+1. Dates on all sequences in a .csv file ('NA' for contemporary seqs, be careful with units for e.g. viruses versus aDNA)
+2. Rough age of root of the tree from e.g. TimeTree.org
+
+## Label names
+1. Might be useful (though a lot of work) to curate label names carefully so you could distinguish members of same species. Esp. for coalescent type datasets. Alternative - restrict database to datasets for which the original authors assumed there was a single bifurcating tree that applied to all the data in the alignment. 
+
+## Simulated data
+1. Simulated dataset of the same size, assuming rooted ML tree and ML GTR+I+G parameters, no gaps
+2. As for (1), but with original gaps ('-' assumed, not 'N', need to check '?') overlaid on data
+
+## Taxon sampling
+1. Viruses
+2. Bacteria
+3. Archaea
+4. Animals
+5. Fungi
+6. Plants 
