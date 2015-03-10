@@ -1,0 +1,46 @@
+How to change a dataset to nexus format
+
+1. Pull all changes from roblanf/PartitionedAlignments before you start, then for each dataset that needs changing:
+
+2. Import the .phy alignment to Geneious
+
+3. Export it as nexus format (File->Export->Selected documents->Nexus)
+
+4. In the save dialogue, add '.nex' to the file. It will give you a warning which you can ignore and save anyway
+
+5. In the 'Nexus Export' dialogue, there are three tickboxes. Tick the middle one, and untick the top and bottom ones.
+
+6. Click save.
+
+7. Open up the alignment.nex in a text editor (e.g. TextWrangler), and check that it looks OK. It should start with a taxon block, then have the alignment in a characters block. Check that the alignment is the same as the alignment.phy in the same folder.
+
+8. At the bottom, add two new blocks: a 'sets' block, and a 'genomes' block. They should look like this:
+
+    begin sets;
+
+    end;
+
+    begin genomes;
+
+    end;
+
+9. Inside the 'sets' block, paste the data blocks from the partitionfinder.cfg file, like this:
+
+    begin sets;
+    	CHARSET	COI_codonposition1 = 1-1592\3;
+    	CHARSET	COI_codonposition2 = 2-1592\3;
+    	CHARSET	COI_codonposition3 = 3-1592\3;
+    	CHARSET	16S = 1593-3037;
+    end;
+
+    notice that each one starts with 'CHARSET', and that they are indented by tabs.
+
+10. For protein coding genes, we now use the format above, which is NAME_codonpositionN. Where "NAME" is the name of the gene, and 'N' is the codon position (1, 2, or 3).
+
+11. Now check that each protein coding gene really is in the frame you think it should be (and that you have indicated in the nexus file). Do this in geneious by translating it and checking the translation
+
+12. Add information to the genomes set, to make sure that every single base is covered by one of three annotations: mitochondrial, chloroplast, nucear.
+
+13. Once you are sure you are done, save your .nex file, and delete the other two files.
+
+14. Load your .nex file into Geneious to check that it works at least there. 
