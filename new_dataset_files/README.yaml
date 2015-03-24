@@ -7,17 +7,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial:
-    nuclear:
-    chloroplast: 
-    datatype: 
-    number of taxa: 
-    number of sites: 
-    number of data blocks: 
     used for tree inference:
+    outgroup: ""
+    timetree root age: ""
+    study root age: ""
     study clade:
         latin: ""  
         english: "" 
+        taxon ID: 
     notes: ""
     
 notes: ""
