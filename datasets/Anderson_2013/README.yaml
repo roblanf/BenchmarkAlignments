@@ -7,17 +7,16 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: no
-    chloroplast: no
-    datatype: dna
-    number of taxa: 145 
-    number of sites: 3037
-    number of data blocks: 4 
     used for tree inference: yes
+    outgroup: ""
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin:  "Cephalopoda: Loliginidae"
         english: "Pencil squids"
+        taxon ID: 6615
     notes: ""
-    
+
 notes: ""
+
+Loligo_bleekeri_CG, Loligo_forbesii_FEA, Loligo_formosana_Lind, Loligo_reynaudii_FEA, Loligo_vulgaris_FEA

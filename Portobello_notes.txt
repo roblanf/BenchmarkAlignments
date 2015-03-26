@@ -1,26 +1,22 @@
 Notes on a lunchtime discussion on this database from the Phylogenetics meeting at Portobello in 2015
 
-#Metadata to include:
+## Metadata to include:
 
-## Base composition metrics
-1. Base composition for overall alignment (include IUPAC bases e.g. N, S, R, Y, W??)
-2. Largest GC content (of a taxon)
-3. Smallest GC content (of a taxon)
-4. Variation in GC content (StDev?)
-5. Median GC content
+For each metric, include
+1. Overall for whole alignment (e.g. GC_all)
+2. Largest (e.g. GC_max)
+3. Smallest (e.g. GC_min)
+4. Median (e.g. GC_med)
+5. Variation (e.g. GC_var: stdev? 95%CI?)
 
-## Diversity metrics
-1. Median pairwise JC distance
-2. Largest pairwise distance between taxa
-3. Smallest pairwise distance among taxa
-
-## Gap statistics
-1. Overall proportion of gaps
-2. Largest number of gaps in a sequence
-3. Smallest number of gaps in a sequence
-4. Median gaps per sequence
-5. Proportion of columns with at least one gap
-6. Something on the distribution of gaps within the alignment??	
+## Metrics to inlcude
+1. Base composition (just for overall alignment, i.e. counts of every symbol after to.upper())
+2. GC content
+3. GC skew
+4. Pairwise JC distance
+5. Proportion of gaps per row
+6. Proportion of gaps per column
+7. Branch lengths (possibly, from e.g. NJ tree using fast NJ or something similar)
 
 ## Branch lengths (possibly, but it means inferring a tree)
 1. Median branch length
@@ -31,6 +27,7 @@ Notes on a lunchtime discussion on this database from the Phylogenetics meeting 
 ## Time information
 1. Dates on all sequences in a .csv file ('NA' for contemporary seqs, be careful with units for e.g. viruses versus aDNA)
 2. Rough age of root of the tree from e.g. TimeTree.org
+3. Outgroup taxa (or split defining the root)
 
 ## Label names
 1. Might be useful (though a lot of work) to curate label names carefully so you could distinguish members of same species. Esp. for coalescent type datasets. Alternative - restrict database to datasets for which the original authors assumed there was a single bifurcating tree that applied to all the data in the alignment. 

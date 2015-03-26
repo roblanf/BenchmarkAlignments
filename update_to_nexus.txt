@@ -41,6 +41,8 @@ How to change a dataset to nexus format
 
 12. Add information to the genomes set, to make sure that every single base is covered by one of three annotations: mitochondrial, chloroplast, nucear.
 
-13. Once you are sure you are done, save your .nex file, and delete the other two files.
+13. If the data is heterochronous (i.e. sampled from multiple time points) make sure that you include a 'samplingdates' set. See the Duchene dataset(s) for an example.
 
-14. Load your .nex file into Geneious to check that it works at least there. 
+14. Once you are sure you are done, save your .nex file, and delete the other two files.
+
+15. Load your .nex file into Geneious to check that it works at least there. 
