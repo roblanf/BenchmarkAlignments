@@ -7,17 +7,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no
-    datatype: dna
-    number of taxa: 38 
-    number of sites: 2111
-    number of data blocks: 8
     used for tree inference: yes
+    outgroup: "Andex insignis, Hyphydrus ovatus, Hovahydrus minutissimus, Canthyporus hottentottus, Laccornellus copelatoides, Hydrodolus sahlbergi, Sanfilippodyte terminalis, Heterostemuta pulcher, Neoporus arizoicus, Neoporus undulatus"
+    timetree root age: "NA"
+    study root age: "NA"
     study clade:
         latin: "Coleoptera: Dytiscidae"
         english: "diving beetles"
+        taxon ID: 50515
     notes: ""
 
 notes: ""
