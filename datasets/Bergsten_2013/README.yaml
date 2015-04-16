@@ -1,6 +1,6 @@
 study:
-    reference: "Bergsten J, Nilsson AN, Ronquist F (2013) Bayesian tests of topology hypotheses with an example from diving beetles. Systematic Biology, online in advance of print."
-    DOI: dx.doi.org/10.1093/sysbio/syt029
+    reference: "Bergsten J, Nilsson AN, Ronquist F. Bayesian tests of topology hypotheses with an example from diving beetles. Syst Biol. 2013;62:660-73."
+    DOI: 10.1093/sysbio/syt029
 
 dataset:
     DOI: dx.doi.org/10.5061/dryad.s631d
@@ -8,11 +8,11 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    outgroup: "Andex insignis, Hyphydrus ovatus, Hovahydrus minutissimus, Canthyporus hottentottus, Laccornellus copelatoides, Hydrodolus sahlbergi, Sanfilippodyte terminalis, Heterostemuta pulcher, Neoporus arizoicus, Neoporus undulatus"
+    outgroup: "Andex_insignis, Hyphydrus_ovatus, Hovahydrus_minutissimus, Canthyporus_hottentottus, Laccornellus_copelatoides, Hydrocolus_sahlbergi, Sanfilippodytes_terminalis, Heterostemuta_pulcher, Neoporus_arizonicus, Neoporus_undulatus"
     timetree root age: "NA"
     study root age: "NA"
     study clade:
-        latin: "Coleoptera: Dytiscidae"
+        latin: "Dytiscidae"
         english: "diving beetles"
         taxon ID: 50515
     notes: ""

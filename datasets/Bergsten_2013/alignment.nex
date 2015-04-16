@@ -97,12 +97,12 @@ begin sets;
 	CHARSET H3_codonposition2 = 753-1062\3;
 	CHARSET H3_codonposition3 = 754-1062\3;
 	CHARSET 16S = 1063-1501;
-	CHARSET 18S = 1502-2111;
+	CHARSET 18S = 1511-2111;
 end;
 
 begin genomes;
-	CHARSET nuclear_dsDNA = 3-752;
-	CHARSET nuclear_dsDNA = 755-1062;
-	CHARSET nuclear_dsDNA = 1063-1501;
-	CHARSET nuclear_dsDNA = 1502-1062;
+	CHARSET mitochondrial_DNA = 3-752;
+	CHARSET nuclear_DNA = 753-1062;
+	CHARSET mitochondrial_DNA = 1063-1501;
+	CHARSET nuclear_DNA = 1511-2111;
 end;
