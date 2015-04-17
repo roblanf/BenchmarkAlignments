@@ -45,7 +45,7 @@ begin DATA;
 ;
 end;
 
-begin sets;
+begin SETS;
 
 	[loci]
 	CHARSET COI_1stpos = 3-752\3;
@@ -62,6 +62,6 @@ begin sets;
 	CHARSET nuclear_genome = 753-1062 1511-2111;
 
 	[outgroups]
-	outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentottus Laccornellus_copelatoides Hydrocolus_sahlbergi Sanfilippodytes_terminalis Heterostemuta_pulcher Neoporus_arizonicus Neoporus_undulatus;
+	TAXSET outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentottus Laccornellus_copelatoides Hydrocolus_sahlbergi Sanfilippodytes_terminalis Heterostemuta_pulcher Neoporus_arizonicus Neoporus_undulatus;
 
 end;
