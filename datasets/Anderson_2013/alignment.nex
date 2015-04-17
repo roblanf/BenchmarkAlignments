@@ -152,7 +152,7 @@ begin DATA;
 ;
 end;
 
-begin sets;
+begin SETS;
 
 	[loci]
 	CHARSET	COI_1stpos = 1-1592\3;
