@@ -1,22 +1,18 @@
 study:
-    reference:  "Anderson FE, Bergman A, Cheng SH, Pankey MS, Valinassab T (2013) Lights out: the evolution of bacterial bioluminescence in Loliginidae. Hydrobiologia, online in advance of print."
+    reference:  "Anderson, F. E., Bergman, A., Cheng, S. H., Pankey, M. S., & Valinassab, T. (2014). Lights out: the evolution of bacterial bioluminescence in Loliginidae. Hydrobiologia, 725(1), 189-203."
+    year: 2013
     DOI: dx.doi.org/10.1007/s10750-013-1599-1
 
 dataset:
     DOI: dx.doi.org/10.5061/dryad.93s3n
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    outgroup: ""
     timetree root age: NA
     study root age: NA
     study clade:
-        latin:  "Cephalopoda: Loliginidae"
-        english: "Pencil squids"
+        latin:  "Loliginidae"
+        english: "pencil squids"
         taxon ID: 6615
-    notes: ""
-
-notes: ""
-
-Loligo_bleekeri_CG, Loligo_forbesii_FEA, Loligo_formosana_Lind, Loligo_reynaudii_FEA, Loligo_vulgaris_FEA
+    notes: NA
