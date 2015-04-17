@@ -36,7 +36,33 @@ Tests
 24. If the [outgroups] section has a taxset, it must be called 'outgroups', and start 'TAXSET ougroups = ', and end with a semicolon
 25. Names in the [outgroups] section should be separated with single spaces (not commas), and every name should match one of the names in the alignment precisely.
 
+26. There is optionally a 'SAMPLINGDATES' block. 
+27. Line one of the block should have 'dimensions ntax =' followed by an integer that matches the number of taxa both in the block itself, and in the 'DATA' block
+28. Line two of the block specifies units from a list that currently includes only 'calendaryears' (but which might grow)
+29. Each subsequent line specifies a valid taxon name that matches a taxon in the DATA block, followed by a comma, then an integer.
+
+
+begin SAMPLINGDATES;
+    dimensions ntax=50;
+    units = calendaryears
+    FJ174401, 1978
+    KC990883, 2012
+    FJ174385, 1961
+    GQ477151, 2007
+    HM745325, 2009
+    HM745346, 2005
+    JX857503, 2009
+    HM745344, 2005
+    HM745350, 2005
+    FJ174397, 1988
+    FJ174412, 1993
+    HM745343, 2005
+
+
 26. File can be read by the read.nexus.data function from R's ape library without errors
+
+
+
 
 # YAML file
 Conforms to this format. Square brackets shows what kind of thing should be there
