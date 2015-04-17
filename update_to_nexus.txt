@@ -14,35 +14,70 @@ How to change a dataset to nexus format
 
 7. Open up the alignment.nex in a text editor (e.g. TextWrangler), and check that it looks OK. It should start with a taxon block, then have the alignment in a characters block. Check that the alignment is the same as the alignment.phy in the same folder.
 
-8. At the bottom, add two new blocks: a 'sets' block, and a 'genomes' block. They should look like this:
+8. Delete the 'taxon' block, and edit the top of the 'characeters' block to
+    (i) change the name to 'DATA'
+    (ii) include the ntax dimension from the 'taxon' block
+    (iii) if you have a 'dna' or 'rna' datatype, change it to 'nucleotide'
+
+Here's an example:
+
+        begin DATA;
+            dimensions ntax=145 nchar=3037;
+            format datatype=nucleotide missing=? gap=-;
+
+
+9. At the bottom, add this new block:
 
     begin sets;
 
+        [loci]
+
+        [genomes]
+
+        [outgroups]
+
     end;
 
-    begin genomes;
+9. Inside the 'sets' block, we are aiming for something like this: 
 
-    end;
+begin SETS;
 
-9. Inside the 'sets' block, paste the data blocks from the partitionfinder.cfg file, like this:
+    [loci]
+    CHARSET COI_1stpos = 1-1592\3;
+    CHARSET COI_2ndpos = 2-1592\3;
+    CHARSET COI_3rdpos = 3-1592\3;
+    CHARSET 16S = 1593-3037;
 
-    begin sets;
-    	CHARSET	COI_codonposition1 = 1-1592\3;
-    	CHARSET	COI_codonposition2 = 2-1592\3;
-    	CHARSET	COI_codonposition3 = 3-1592\3;
-    	CHARSET	16S = 1593-3037;
-    end;
+    [genomes]
+    CHARSET mitochondrial_genome = 1-3037;
 
-    notice that each one starts with 'CHARSET', and that they are indented by tabs.
+    [outgroups]
+    TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327;;
 
-10. For protein coding genes, we now use the format above, which is NAME_codonpositionN. Where "NAME" is the name of the gene, and 'N' is the codon position (1, 2, or 3).
+end;
 
-11. Now check that each protein coding gene really is in the frame you think it should be (and that you have indicated in the nexus file). Do this in geneious by translating it and checking the translation
+10. You get the CHARSETS from the partitions.txt file. For protein coding genes, we now use the format above, which is e.g. NAME_1stpos. Where "NAME" is the name of the gene.
 
-12. Add information to the genomes set, to make sure that every single base is covered by one of three annotations: mitochondrial, chloroplast, nucear.
+11. Now check that each protein coding gene really is in the frame you think it should be (and that you have indicated in the nexus file). Do this in geneious by translating it and checking the translation by BLASTing the sequence against GenBank and checking the official translation [THIS BIT IS REALLY IMPORTANT]
+
+12. Add information to the genomes section, to make sure that every single base is covered by one of the following annotations:
+
+    mitochondrial_genome
+    nuclear_genome
+    chloroplast_genome
+    dsDNA_genome
+    ssDNA_genome
+    dsRNA_genome
+    ssRNA_genome
+
+The latter four are reserved for viruses
 
 13. If the data is heterochronous (i.e. sampled from multiple time points) make sure that you include a 'samplingdates' set. See the Duchene dataset(s) for an example.
 
 14. Once you are sure you are done, save your .nex file, and delete the other two files.
 
 15. Load your .nex file into Geneious to check that it works at least there. 
+
+16. Double check for any small errors in the .nex file. This is vital. 
+
+17. Update the YAML file to the required new format.
