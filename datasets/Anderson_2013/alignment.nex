@@ -1,158 +1,7 @@
 #NEXUS
-begin taxa;
-	dimensions ntax=145;
-	taxlabels
-	10CH
-	12CH
-	13CH
-	1CH
-	4CH
-	6CH
-	72_VN018
-	73_VN019
-	75_VN021
-	76_VN022
-	78_VN024
-	79_VN025
-	7CH
-	82_VN028
-	84_VN113
-	86_VN115
-	89_VN118
-	8CH
-	91_VN120
-	92_VN121
-	9CH
-	Afrololigo_mercatoris_FEA
-	Alloteuthis_africana_312327
-	Alloteuthis_africana_312328
-	Alloteuthis_africana_312329
-	Alloteuthis_africana_312330
-	Alloteuthis_africana_312331
-	Alloteuthis_africana_312333
-	Alloteuthis_africana_312334
-	Alloteuthis_africana_312335
-	Alloteuthis_africana_312336
-	Alloteuthis_media_312337
-	Alloteuthis_media_312340
-	Alloteuthis_media_312342
-	Alloteuthis_media_312344
-	Alloteuthis_media_312346
-	Alloteuthis_media_312348
-	Alloteuthis_media_312349
-	Alloteuthis_media_312350
-	Alloteuthis_media_312355
-	Alloteuthis_media_312359
-	Alloteuthis_media_312361
-	Alloteuthis_subulata_312364
-	Alloteuthis_subulata_312365
-	Alloteuthis_subulata_312366
-	Alloteuthis_subulata_FEA1
-	BO6
-	BO7
-	Doryteuthis_gahi_FEA1
-	Doryteuthis_opalescens_2001_MB_1
-	Doryteuthis_opalescens_FEAa
-	Doryteuthis_pealeii_FEA1
-	Doryteuthis_pleii_FEA1
-	DUM032
-	Loligo_bleekeri_CG
-	Loligo_forbesii_FEA
-	Loligo_formosana_Lind
-	Loligo_reynaudii_FEA
-	Loligo_vulgaris_FEA
-	Loliolus_beka_LB_1
-	Loliolus_beka_LB_10
-	Loliolus_beka_LB_12
-	Loliolus_beka_LB_2
-	Loliolus_beka_LB_3
-	Loliolus_beka_LB_4
-	Loliolus_japonica_FEA
-	Loliolus_japonica_LJ_1
-	Loliolus_sp__JMS_2004_Strug
-	Loliolus_uyii_LU_1
-	Loliolus_uyii_LU_2
-	Lolliguncula_brevis_FEA
-	Lolliguncula_diomedeae_Lind
-	Photololigo_sp__JMS_2004
-	RAJ040_01
-	RAJ040_02
-	RAJ040_03
-	RAJ040_04
-	RAJ040_05
-	RAJ040_06
-	RAJ040_08
-	RAJ040_09
-	RAJ040_11
-	RAJ040_12
-	RAJ040_13
-	RAJ040_19
-	Sepioteuthis_australis_FEAb
-	Sepioteuthis_lessoniana_1
-	Sepioteuthis_lessoniana_ha13
-	Sepioteuthis_lessoniana_ha16
-	Sepioteuthis_lessoniana_ha17
-	Sepioteuthis_lessoniana_ha18
-	Sepioteuthis_lessoniana_ha19
-	Sepioteuthis_lessoniana_ha20
-	Sepioteuthis_lessoniana_ha21
-	Sepioteuthis_lessoniana_ha22
-	Sepioteuthis_lessoniana_ha23
-	Sepioteuthis_lessoniana_ha24
-	Sepioteuthis_lessoniana_ha25
-	Sepioteuthis_lessoniana_ha26
-	Sepioteuthis_lessoniana_ha27
-	Sepioteuthis_lessoniana_ha28
-	Sepioteuthis_lessoniana_ha29
-	Sepioteuthis_lessoniana_ha4
-	Sepioteuthis_lessoniana_ha5
-	Sepioteuthis_lessoniana_ha6
-	Sepioteuthis_lessoniana_ha7
-	Sepioteuthis_lessoniana_ha8
-	Sepioteuthis_lessoniana_NC_007
-	Sepioteuthis_lessoniana_SL_1
-	Sepioteuthis_lessoniana_SL_2
-	Sepioteuthis_lessoniana_SL_3
-	Sepioteuthis_sepioidea_FEA
-	SUM001_01
-	SUM001_03
-	SUM001_08
-	SUM001_13
-	SUM001_15
-	SUM001_16
-	SUM001_17
-	SUM001_20
-	Uroteuthis_chinensis_FEA
-	Uroteuthis_chinensis_HKA
-	Uroteuthis_chinensis_HKB
-	Uroteuthis_chinensis_UC_1
-	Uroteuthis_chinensis_Xia02
-	Uroteuthis_duvauceli_1M
-	Uroteuthis_duvauceli_CC6
-	Uroteuthis_duvauceli_FEAa
-	Uroteuthis_duvauceli_UD_1
-	Uroteuthis_duvauceli_UD_2
-	Uroteuthis_duvauceli_UD_4
-	Uroteuthis_duvauceli_UD_7
-	Uroteuthis_duvauceli_UD_8
-	Uroteuthis_eduiis_A_Pankey
-	Uroteuthis_eduiis_B_Pankey
-	Uroteuthis_eduiis_C_Pankey
-	Uroteuthis_edulis_budo_CG
-	Uroteuthis_edulis_D_Pankey
-	Uroteuthis_edulis_kensaki_CG
-	Uroteuthis_edulis_NC_017746
-	Uroteuthis_edulis_Jp01
-	Uroteuthis_etheridgei_FEA
-	Uroteuthis_noctiluca_FEA
-	Uroteuthis_noctiluca_Nish
-	Uroteuthis_sibogae_US_3
-;
-end;
-
-begin characters;
-	dimensions nchar=3037;
-	format datatype=dna missing=? gap=-;
+begin DATA;
+	dimensions ntax=145 nchar=3037;
+	format datatype=nucleotide missing=? gap=-;
 	matrix
 	10CH	-----------------------------------TGGAACATTATATTTCATTTTTGGAATTTGAGCAGGATTAGTTGGTACTTCATTAAGACTAATAATCCGAACAGAATTGGGGAAACCTGGTTCACTACTCAATGACGATCAATTATATAACGTAGTAGTAACTGCTCATGGCTTCATTATAATTTTTTTCATAGTTATACCTATTATAATTGGGGGTTTTGGTAATTGATTAGTACCTTTAATACTAGGAGCCCCAGACATAGCTTTTCCACGTATAAATAATATAAGATTTTGACTACTTCCACCATCTCTGACATTATTATTAGCCTCATCAGCAGTCGAAAGAGGGGCTGGTACTGGATGGACAGTTTATCCTCCTTTATCTAGAAACTTATCTCACGCTGGACCCTCAGTAGATTTAGCTATTTTTTCACTTCACTTAGCTGGTATTTCATCTATTCTAGGTGCAATTAACTTCATTACAACTATTATAAATATACGATGAGAAGGCTTGTTAATAGAACGAATATCTTTATTTGTATGATCTGTATTTATTACAGCAATTCTATTATTACTATCTCTCCCAGTCTTAGCAGGGGCAATTACCATACTGCTCACTGATCGAAATTTTAACACCACATTTTTTGATCCGAGAGGAGGAG-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAAAACATCTCTCTTTGT-GT-ATTA-ATAAATAAGGAGTT--GGGCCTGCTCG-GTGAAGAT---TTTT-AACAGCTGCGGTATTTTAA-CTGTACTAAGGTAGCATAATAATTTGCCTTATAAT-TTGAGGCTAGAATGAATGGTTTGACGAAGGTTAATCTGTCTCCGTTTTATTTTTTAGAAATTAATTTTCATAGTGAAAAAGCTTGGATTTTTTAAAGGGACGAGAAGACCCTATTGAGCT-TATA-ATTTTATT-GTTATTA-TG-TTTATTAA-ATTTATCA-TTGT--AATA-TAT--AAATTTTAATTGGGGTGATTAAGGA-ATAA------AATT--TTTA-TAGTATAACTTCCTTAG---ATTA--T-AAT-ATTGTTAAATTAAGTAACC-GAT--AT-ATTT-AC--AGTTCGTGTT-GTGTATTGCTTATAATATAGTTACCATAGGGATAACAGCGTAATTTACTTAGAG-AG-TTCTTATTGAAA-AGTAAGAT-TGCG-ACCTCGATGT-TGGA-T-TAAAGTAACCTTAAGGT-GCAGAAGCT-TTATAAGG--TAAATCTGTTCGATTTTTAAAACTTTACGTGATCT-------------------------------------------------------------------------------------------------------------------------------------------
 	12CH	----------------------------------------CATTATATTTCATTTT--GGAATTGAGCAGGATTAGTTGGTACTTCATTAAGACTAATAATCCGAACAGAATTGGGGAAACCTGGTTCACTACTCAATGACGATCAATTATATAACGTAGTAGTAACTGCTCATGGCTTCATTATAATTTTTTTCATAGTTATACCTATTATAATTGGGGGTTTTGGTAATTGATTAGTACCTTTAATACTAGGAGCCCCAGACATAGCTTTTCCACGTATAAATAATATAAGATTTTGACTACTTCCACCATCTCTGACATTATTATTAGCCTCATCAGCAGTCGAAAGAGGGGCTGGTACTGGATGGACAGTTTATCCTCCTTTATCTAGAAACTTATCTCACGCTGGACCCTCAGTAGATTTAGCTATTTTTTCACTTCACTTAGCTGGTATTTCATCTATTCTAGGTGCAATTAACTTCATTACAACTATTATAAATATACGATGAGAAGGCTTGTTAATAGAACGAATATCTTTATTTGTATGATCTGTATTTATTACAGCAATTCTATTATTACTATCTCTCCCAGTCTTAGCAGGGGCAATTACCATACTGCTCACTGATCGAAATTTTAACACCACATTTTTTGATCCGAGAGGAGGAGGTGACCCAATTCTTTACCAACATTTATTTTGATTTT-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAAAACATCTCTCTTTGT-GT-ATTA-ATAAATAAGGAGTT--GGGCCTGCTCG-GTGAAGAT---TTTT-AACAGCTGCGGTATTTTAA-CTGTACTAAGGTAGCATAATAATTTGCCTTATAAT-TTGAGGCTAGAATGAATGGTTTGACGAAGGTTAATCTGTCTCCGTTTTATTTTTTAGAAATTAATTTTCATAGTGAAAAAGCTTGGATTTTTTAAAGGGACGAGAAGACCCTATTGAGCT-TATA-ATTTTATT-GTTATTA-TG-TTTATTAA-ATTTATCA-TTGT--AATA-TAT--AAATTTTAATTGGGGTGATTAAGGA-ATAA------AATT--TTTA-TAGTATAACTTCCTTAG---ATTA--T-AAT-ATTGTTAAATTAAGTAACC-GAT--AT-ATTT-AC--AGTTCGTGTT-GTGTATTGCTTATAATATAGTTACCATAGGGATAACAGCGTAATTTACTTAGAG-AG-TTCTTATTGAAA-AGTAAGAT-TGCG-ACCTCGATGT-TGGA-T-TAAAGTAACCTTAAGGT-GCAGAAGCT-TTATAAGG--TAAATCTGTTCGATTTTTAAAACTTTACGTGATCTGAG----------------------------------------------------------------------------------------------------------------------------------------
@@ -304,12 +153,17 @@ begin characters;
 end;
 
 begin sets;
-	CHARSET	COI_codonposition1 = 1-1592\3;
-	CHARSET	COI_codonposition2 = 2-1592\3;
-	CHARSET	COI_codonposition3 = 3-1592\3;
-	CHARSET	16S = 1593-3037;
-end;
 
-begin genomes;
-	CHARSET mitochondrial = 1-3037;
+	[loci]
+	CHARSET	COI_1stpos = 1-1592\3;
+	CHARSET	COI_2ndpos = 2-1592\3;
+	CHARSET	COI_3rdpos = 3-1592\3;
+	CHARSET	16S = 1593-3037;
+
+	[genomes]
+	CHARSET	mitochondrial_genome = 1-3037;
+
+	[outgroups]
+	TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327 Alloteuthis_africana_312328 Alloteuthis_africana_312329 Alloteuthis_africana_312330 Alloteuthis_africana_312331 Alloteuthis_africana_312333 Alloteuthis_africana_312334 Alloteuthis_africana_312335 Alloteuthis_africana_312336 Alloteuthis_media_312337 Alloteuthis_media_312340 Alloteuthis_media_312342 Alloteuthis_media_312344 Alloteuthis_media_312346 Alloteuthis_media_312348 Alloteuthis_media_312349 Alloteuthis_media_312350 Alloteuthis_media_312355 Alloteuthis_media_312359 Alloteuthis_media_312361 Alloteuthis_subulata_312364 Alloteuthis_subulata_312365 Alloteuthis_subulata_312366 Alloteuthis_subulata_FEA1 Doryteuthis_gahi_FEA1 Doryteuthis_opalescens_2001_MB_1 Doryteuthis_opalescens_FEAa Doryteuthis_pealeii_FEA1 Doryteuthis_pleii_FEA1 Loligo_bleekeri_CG Loligo_forbesii_FEA Loligo_formosana_Lind Loligo_reynaudii_FEA Loligo_vulgaris_FEA Lolliguncula_brevis_FEA Lolliguncula_diomedeae_Lind Sepioteuthis_australis_FEAb Sepioteuthis_lessoniana_1 Sepioteuthis_lessoniana_ha13 Sepioteuthis_lessoniana_ha16 Sepioteuthis_lessoniana_ha17 Sepioteuthis_lessoniana_ha18 Sepioteuthis_lessoniana_ha19 Sepioteuthis_lessoniana_ha20 Sepioteuthis_lessoniana_ha21 Sepioteuthis_lessoniana_ha22 Sepioteuthis_lessoniana_ha23 Sepioteuthis_lessoniana_ha24 Sepioteuthis_lessoniana_ha25 Sepioteuthis_lessoniana_ha26 Sepioteuthis_lessoniana_ha27 Sepioteuthis_lessoniana_ha28 Sepioteuthis_lessoniana_ha29 Sepioteuthis_lessoniana_ha4 Sepioteuthis_lessoniana_ha5 Sepioteuthis_lessoniana_ha6 Sepioteuthis_lessoniana_ha7 Sepioteuthis_lessoniana_ha8 Sepioteuthis_lessoniana_NC_007 Sepioteuthis_lessoniana_SL_1 Sepioteuthis_lessoniana_SL_2 Sepioteuthis_lessoniana_SL_3 Sepioteuthis_sepioidea_FEA;
+
 end;
