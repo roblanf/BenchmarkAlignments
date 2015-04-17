@@ -1,20 +1,18 @@
 study:
-    reference: ""
-    DOI: dx.doi.org/
+    reference:  [reference taken from google scholar's 'cite' button, in APA format]
+    year: [year of publication, as an integer]
+    DOI: [URL starting dx.doi.org, check and double check that this points to the right study]
 
 dataset:
-    DOI: dx.doi.org/
-    license: 
-        type: CC0
-        notes: ""
-    used for tree inference:
-    outgroup: ""
-    timetree root age: ""
-    study root age: ""
+    DOI: ['NA', or a URL starting dx.doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
+    license:
+        type: [should always == "CC0", if not, spit an error]
+        notes: ['NA' if the final part of the dataset DOI is '/dryad.' (a repo with CC0 datasets); otherwise it should be some text explaining that permission to release the dataset under a CC0 license has been granted]
+    used for tree inference: ['yes' or 'no']
+    timetree root age: ['NA' or an integer optionally followed by 'mya'; get this from timetree.org, as the age of the root of your tree]
+    study root age: ['NA' or an integer optionally followed by 'mya', if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
-        latin: ""  
-        english: "" 
-        taxon ID: 
-    notes: ""
-    
-notes: ""
+        latin:  [A single word in latin that describes the smalles clade of organisms that includes all those in the current study]
+        english: [One or more words]
+        taxon ID: [a GenBank Taxon ID, which should be an integer that resolves without a 404 when you add it to the end of this URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, e.g. http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=27563]
+ notes: ['NA', or some text, for example if the dataset DOI points to lots of datasets, we need to know which one we have here]

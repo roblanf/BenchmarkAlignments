@@ -26,9 +26,9 @@ What you do
 
 2. Copy the partitions information into the SETS block in the NEXUS file. (I.e. loci and codon positions)
 
-3. Add information to the NEXUS block on which genome each column comes from.
+3. Add information to the SETS block on which genome each column comes from.
 
-4. If you have heterochronous data, create an ages.csv file, and populate it with the sampling dates of all taxa.
+4. If you have heterochronous data, create a samplingdates block, and populate it with the sampling dates of all taxa (see Duchene_2015a for an example).
 
 5. Make a new folder in the /datasets folder
 
