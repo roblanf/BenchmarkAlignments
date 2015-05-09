@@ -17,7 +17,7 @@ library(testthat)
 sourcePath <- getwd()
 
 checkYAML <- function(yaml) {
-  # TODO - cope with trailing / on directory
+  # TODO - cope with trailing / on path
   if (!file.exists(yaml)) stop(paste0("File '", yaml, "' does not exist!"), call. = FALSE)
   if (file.info(yaml)$isdir) {
     yamlFiles <- list.files(path = yaml, pattern = "yaml", full.names = TRUE, recursive = TRUE)
