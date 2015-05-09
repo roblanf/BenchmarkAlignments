@@ -1,50 +1,52 @@
+# perform validation tests on YAML file
+# called from config_yaml.R
+
 library(yaml)
 library(RCurl)
 
-#rm(list = ls())
-
-# relevant functions from utility.R
+# returns current year
 getCurrentYear <- function() {
   as.integer(format(Sys.time(), "%Y"))
 }
 
-
+#yamlFileName <- "~/Work/nexus/PartitionedAlignments/datasets/Anderson_2013/README.yaml"  # testing only
+options(warn = -1)
 y <- yaml.load_file(yamlFileName)
+options(warn = 1)
 
-context("Read YAML file")
+context("[Read YAML file]")
 
-test_that("YAML file was read successfully", {
+test_that(" YAML file was read successfully", {
   expect_true(exists("y"))
 })
 
 context("[Top-level structure]")
 
 test_that(" number of sections is correct", {
-  expect_equal(length(y), length(validSectionNames))
+  expect_equal(length(validSectionNames), length(y))
 })
 
-test_that("Section names are all present", {
+test_that(" section names are all present", {
   expect_equal(setdiff(validSectionNames, names(y)), character(0))
 })
 
-#test_that("Each individual section name is present", {
-#  lapply(validSectionNames, function(x) {
-#    expect_true(x %in% names(y))
-#  })
-#})
-
-context("[study]")
-
-# study
-
-s <- y$study
-
-test_that("[study] number of keys is correct", {
-  expect_equal(length(s), 3)
+test_that(" sections are in preferred order", {
+  expect_equal(validSectionNames, names(y))
 })
 
-test_that("[study] keys are all present", {
+context("[study]")
+s <- y$study
+
+test_that(" number of keys is correct", {
+  expect_equal(length(validStudyKeys), length(s))
+})
+
+test_that(" keys are all present", {
   expect_equal(setdiff(validStudyKeys, names(s)), character(0))
+})
+
+test_that(" keys are in preferred order", {
+  expect_equal(validStudyKeys, names(s))
 })
 
 test_that("[study$reference] is a valid character string", {
@@ -62,10 +64,6 @@ test_that("[study$year] is a valid year", {
 
 studyDOI <- s$DOI
 
-#test_that("[study$DOI] is a valid URL", {
-#  expect_is(s$DOI, "character")
-#})
-
 test_that("[study$DOI] is a valid DOI URL", {
   expect_true(grepl("^dx.doi.org", s$DOI, fixed = FALSE))
 })
@@ -75,23 +73,22 @@ test_that("[study$DOI] URL resolves", {
 })
 
 context("[dataset]")
-
 d <- y$dataset
 
 test_that("[dataset] number of keys is correct", {
-  expect_equal(length(d), length(validDatasetKeys))
+  expect_equal(length(validDatasetKeys), length(d))
 })
 
 test_that("[dataset] keys are all present", {
   expect_equal(setdiff(validDatasetKeys, names(d)), character(0))
 })
 
-#test_that("[dataset$DOI] is text", {
-#  expect_is(d$DOI, "character")
-#})
+test_that("[dataset] keys are in preferred order", {
+  expect_equal(validDatasetKeys, names(d))
+})
 
 test_that("[dataset$DOI] is valid DOI URL", {
-  expect_true(grepl("^dx.doi.org", d$DOI, fixed = FALSE) | d$DOI == "NA")
+  expect_true(grepl(paste0("^", doiUrlStub), d$DOI, fixed = FALSE) | d$DOI == "NA")
 })
 
 test_that("[dataset$DOI] URL resolves", {
@@ -105,7 +102,7 @@ test_that("[dataset$DOI] differs from study DOI", {
 })
 
 test_that("[dataset$used for tree inference] is 'yes' or 'no'", {
-  expect_true(d$'used for tree inference' == "yes" | d$'used for tree inference' == "no")
+  expect_true(d$'used for tree inference' %in% c("yes", "no"))
 })
 
 test_that("[dataset$timetree root age] is integer(mya) or NA", {
@@ -120,20 +117,23 @@ test_that("[dataset$notes] is text", {
   expect_is(d$notes, "character")
 })
 
-test_that("[dataset$notes] is text", {
+test_that("[dataset$notes] has length > 0", {
   expect_true(nchar(d$notes) > 0)
 })
 
 context("[license]")
-
 l <- d$license
 
 test_that("[license] number of keys is correct", {
-  expect_equal(length(l), length(validLicenseKeys))
+  expect_equal(length(validLicenseKeys), length(l))
 })
 
 test_that("[license] keys names are all present", {
   expect_equal(setdiff(validLicenseKeys, names(l)), character(0))
+})
+
+test_that("[license] keys are in preferred order", {
+  expect_equal(validLicenseKeys, names(l))
 })
 
 test_that("[license$type] type is CC0", {
@@ -151,18 +151,21 @@ if (grepl("/dryad.", datasetDOI, fixed = TRUE)) {
 }
 
 context("[study clade]")
-
 sc <- d$'study clade'
 
 test_that("[study clade] number of keys is correct", {
-  expect_equal(length(sc), length(validStudyCladeKeys))
+  expect_equal(length(validStudyCladeKeys), length(sc))
 })
 
 test_that("[study clade] key names are all present", {
   expect_equal(setdiff(validStudyCladeKeys, names(sc)), character(0))
 })
 
-test_that("[study clade$latin] is one capitalised word", {
+test_that("[study clade] keys are in preferred order", {
+  expect_equal(validStudyCladeKeys, names(sc))
+})
+
+test_that("[study clade$latin] is one title-case word", {
   expect_match(sc$latin, "^[A-Z][a-z]+$")
 })
 
@@ -174,7 +177,7 @@ test_that("[study clade$taxon ID] is an integer", {
   expect_is(sc$'taxon ID', "integer")
 })
 
-test_that("[study clade$taxon ID URL resolves", {
+test_that("[study clade$taxon ID] URL resolves", {
   expect_true(url.exists(paste0(taxonUrlStub, sc$'taxon ID')))
 })
 
