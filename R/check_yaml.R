@@ -12,7 +12,7 @@ getCurrentYear <- function() {
 #yamlFileName <- "~/Work/nexus/PartitionedAlignments/datasets/Anderson_2013/README.yaml"  # testing only
 options(warn = -1)
 y <- yaml.load_file(yamlFileName)
-options(warn = 1)
+options(warn = 0)
 
 context("[Read YAML file]")
 
