@@ -73,16 +73,12 @@ The following test(s) failed when checking file '~/Work/nexus/PartitionedAlignme
 ```
 
 Bear in mind when examining output that the tests listed are those that **failed**. So given the output above, you would need to enter a valid year for the study, and check the study DOI.
+
 Known issues
 ------------
-1. The YAML parser contained in the `yaml` package expects the final line of the .yaml file to be terminated with a "new line" character, i.e. for there to be a "blank" line at the bottom of the file. If this is not the case then a non-fatal warning will be generated, which does not affect the operation of this tool.
-```
-Warning message:
-In readLines(input) :
-  incomplete final line found on '/path/to/my/file.yaml'
-```
-UPDATE: The warning message has now been suppressed, but it seems good practice to end the YAML file with a blank line, i.e. to terminate the final line of data with a new line character.
-2. The YAML specification interprets [certain reserved words](http://yaml.org/type/bool.html) as boolean, including `yes` and `no`. For these strings to be correctly interpreted they must be wrapped in quotes, i.e. `'yes'` or `'no'`.
+* The YAML parser contained in the `yaml` package expects the final line of the .yaml file to be terminated with a "new line" character, i.e. for there to be a "blank" line at the bottom of the file. If this is not the case then a non-fatal warning will be generated, which does not affect the operation of this tool. In short, it seems good practice to end the YAML file with a blank line, i.e. to terminate the final line of data with a new line character.
+
+* The YAML specification interprets [certain reserved words](http://yaml.org/type/bool.html) as boolean, including `yes` and `no`. For these strings to be correctly interpreted they must be wrapped in quotes, i.e. `'yes'` or `'no'`.
 
 
 Important!
