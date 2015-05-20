@@ -138,6 +138,6 @@ begin SETS;
 	CHARSETS mitochondrial_genome = 18181-19997;
 
 [outgroups]
-	TAXSET outgroups = Callorhinchus_mili Leucoraja_erinacea
+	TAXSET outgroups = Callorhinchus_milii Leucoraja_erinacea;
 
 end;
