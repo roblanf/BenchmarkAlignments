@@ -60,10 +60,12 @@ begin SETS;
 	CHARSET PDC_3rdpos = 1249-1665\3;
 
 	[genomes]
-	CHARSET nuclear_genome = 1-1665
+	CHARSET mitochondrial_genome = 1-1246;
+	CHARSET nuclear_genome = 1247-1665;
+	
 
 	[outgroups]
-	TAXSET outgroups = Tarentola_mauritanica
+	TAXSET outgroups = Tarentola_mauritanica;
 
 	end;
 	
