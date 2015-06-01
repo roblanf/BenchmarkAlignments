@@ -134,10 +134,10 @@ begin SETS;
 	CHARSETS 16S = 18181-19997;
 
 [genomes]
-	CHARSETS nuclear_genome = 1-18180;
+	CHARSETS nuclear_genome = 1-798 799-1650 1651-2460 2461-3207 3208-4095 4096-5166 5167-5793 5794-6768 6769-7800 7801-8583 8584-9264 9265-9969 9970-11601 11602-13170 13171-14004 14005-15141 15142-15846 15847-16443 16444-17130 17131-18180;
 	CHARSETS mitochondrial_genome = 18181-19997;
 
 [outgroups]
-	TAXSET outgroups = Callorhinchus_mili Leucoraja_erinacea
+	TAXSET outgroups = Callorhinchus_milii Leucoraja_erinacea;
 
 end;
