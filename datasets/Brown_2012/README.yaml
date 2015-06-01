@@ -7,12 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.7bn0fr99
     license: 
         type: CC0
-        notes: "
+        notes: "NA"
     used for tree inference: "yes"
-    timetree root age: "66.9 mya"
+    timetree root age: "66900000"
     study root age: "NA"
     study clade:
         latin: "Ptychozoon" 
         english: "Asian geckos"
         taxon ID: 1118401
-    notes: ""
+    notes: "NA"
