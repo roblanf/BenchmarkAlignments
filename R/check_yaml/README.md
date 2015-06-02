@@ -19,7 +19,7 @@ Install required packages as follows:
 ```
 install.packages("testthat")
 install.packages("yaml")
-install.packages("RCurl")
+install.packages("httr")
 ```
 Get the current R source files from the PartitionedAlignments repository. There are two files, `config_yaml.R` and `check_yaml.R`:
 
