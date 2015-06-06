@@ -2,7 +2,7 @@
 # called from config_yaml.R
 
 library(yaml)
-library(RCurl)
+library(httr)
 
 # returns current year
 getCurrentYear <- function() {
@@ -69,7 +69,7 @@ test_that("[study$DOI] is a valid DOI URL", {
 })
 
 test_that("[study$DOI] URL resolves", {
-  expect_true(url.exists(s$DOI))
+  expect_equal(http_status(GET(s$DOI))$category, "success")
 })
 
 context("[dataset]")
@@ -92,7 +92,7 @@ test_that("[dataset$DOI] is valid DOI URL", {
 })
 
 test_that("[dataset$DOI] URL resolves", {
-  expect_true(url.exists(d$DOI))
+  expect_equal(http_status(GET(d$DOI))$category, "success")
 })
 
 datasetDOI <- d$DOI
