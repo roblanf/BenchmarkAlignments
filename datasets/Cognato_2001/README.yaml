@@ -1,23 +1,18 @@
 study:
-    reference: "Cognato AI, Vogler AP (2001) Exploring data interaction and nucleotide alignment in a multiple gene analysis of Ips (Coleoptera: Scolytinae). Systematic Biology 50: 758-780"
+    reference: "Cognato, A. I., & Vogler, A. P. (2001). Exploring data interaction and nucleotide alignment in a multiple gene analysis of Ips (Coleoptera: Scolytinae). Syst Biol, 50(6), 758-780"
+    year: 2001
     DOI: dx.doi.org/10.1080/106351501753462803
 
 dataset:
     DOI: dx.doi.org/10.5061/dryad.678
     license: 
         type: CC0
-        notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 44
-    number of sites: 1896
-    number of data blocks: 7
-    used for tree inference: yes
+        notes: NA
+    used for tree inference: "yes"
+    timetree root age: NA
+    study root age: NA
     study clade:
-        latin:  "Coleoptera: Scolytinae"
+        latin: "Scolytinae"
         english: "Bark beetles"
-    notes: ""
-    
-notes: "The alignment from Dryad was cut to remove ambiguous positions and morphological characters. This is the alignment used in Lanfear et al 2010, PartitionFinder..., MBE paper"
+        taxon ID: 55867
+    notes: "The alignment from Dryad was cut to remove ambiguous positions and morphological characters. This is the alignment used in Lanfear et al 2010, PartitionFinder..., MBE paper"
