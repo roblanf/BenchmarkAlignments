@@ -62,6 +62,6 @@ begin SETS;
 	CHARSET nuclear_genome = 753-1062 1511-2111;
 
 	[outgroups]
-	TAXSET outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentottus Laccornellus_copelatoides Hydrocolus_sahlbergi Sanfilippodytes_terminalis Heterostemuta_pulcher Neoporus_arizonicus Neoporus_undulatus;
+	TAXSET outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentottus Laccornellus_copelatoides;
 
 end;
