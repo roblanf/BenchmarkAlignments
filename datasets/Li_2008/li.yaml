@@ -1,0 +1,21 @@
+study:
+    reference: "C. Li, G. Lu, G. Ortí, Optimal data partitioning and a test case for ray-finned fishes (Actinopterygii) based on ten nuclear loci, Syst Biol 57, 519–539 (2008)."
+    year: 2008
+    DOI: dx.doi.org/10.1080/10635150802206883
+
+dataset:
+    DOI: NA
+    license: 
+        type: NA
+        notes: "TreeBase Study ID S2044, matrix ID M3165"
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Actinopterygii"  
+        english: "ray-finned fishes" 
+        taxon ID:
+    notes: ""
+    
+notes: ""

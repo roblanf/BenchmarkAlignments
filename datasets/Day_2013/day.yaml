@@ -1,0 +1,21 @@
+study:
+    reference: 'Day JJ, Peart CR, Brown KJ, Bills R, Friel JP, Moritz T (2013) Continental diversification of an African catfish radiation (Mochokidae: Synodontis). Systematic Biology, online in advance of print.'
+    year: 2013
+    DOI: dx.doi.org/10.1093/sysbio/syt001 
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.b6225
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Synodontis"
+        english: "African catfish"
+        taxon ID:
+    notes: ""
+    
+notes: ""

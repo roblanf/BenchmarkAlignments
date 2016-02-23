@@ -1,0 +1,21 @@
+study:
+    reference:  "Meusemann, K., von Reumont, B. M., Simon, S., Roeding, F., Strauss, S., Kück, P., ... & Misof, B. (2010). A phylogenomic approach to resolve the arthropod tree of life. Molecular biology and Evolution, 27(11), 2451-2464."
+    year: 2010
+    DOI: dx.doi.org/10.1093/molbev/msq130
+
+dataset:
+    DOI: NA
+    license:
+        type: NA
+        notes: This file is from treebase as described in the original study http://purl.org/phylo/treebase/phylows/study/TB2/S10507 
+    used for tree inference: yes
+    timetree root age: 402 mya
+        timetree link:
+    study root age: 479 mya
+    study clade:
+        latin:  Insecta
+        english: Insects
+        taxon ID: 50557
+    notes:
+    
+notes: The file from treebase from which this matrix is derived is is SOSaa.nexorg

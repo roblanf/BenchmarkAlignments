@@ -1,0 +1,21 @@
+study:
+    reference:  "Najla Dsouli, Frédéric Delsuc, Johan Michaux, Eric De Stordeur, Arnaud Couloux, Michel Veuille, Gérard Duvallet, Phylogenetic analyses of mitochondrial and nuclear data in haematophagous flies support the paraphyly of the genus Stomoxys (Diptera: Muscidae), Infection, Genetics and Evolution, Volume 11, Issue 3, April 2011, Pages 663-670, ISSN 1567-1348"
+    year: 2011
+    DOI: dx.doi.org/10.1016/j.meegid.2011.02.004
+
+dataset:
+    DOI: NA
+    license: 
+        type: NA
+        notes: "TreeBase Study ID S12823"
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Muscidae"
+        english: "haematophagous flies"
+        taxon ID:
+    notes: "The authors used Gblocks on the data, and it is not clear whether this file is the one from before or after Gblocks was used."
+    
+notes: ""

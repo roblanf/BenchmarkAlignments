@@ -1,0 +1,21 @@
+study:
+    reference: "Irisarri I, San Mauro D, Abascal F, Ohler A, Vences M, Zardoya R (2012) The origin of modern frogs (Neobatrachia) was accompanied by acceleration in mitochondrial and nuclear substitution rates. BMC Genomics 13(626)."
+    year: 2012
+    DOI: dx.doi.org/10.1186/1471-2164-13-626
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.3qd54
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Neobatrachia"  
+        english: "modern frogs" 
+        taxon ID:
+    notes: ""
+    
+notes: "The alignment contains a lot of sites that weren't used for tree inference, and these are appropriately excluded in the PF.cfg file. E.g. mt 1st and 3rd positions, and nuclear 3rd positions. For completeness, I've included the definitions of these partitions in the .cfg file, but just commented them out so they won't be used during model selection."

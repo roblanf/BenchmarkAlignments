@@ -1,0 +1,21 @@
+study:
+    reference: "Sharanowski BJ, Dowling APG, Sharkey MJ (2011) Molecular phylogenetics of Braconidae (Hymenoptera: Ichneumonoidea) based on multiple nuclear genes and implications for classification. Systematic Entomology 36(3): 549-572."
+    year: 2011
+    DOI: dx.doi.org/10.1111/j.1365-3113.2011.00580.x
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.1688p
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Braconidae"
+        english: "parasitoid wasps"
+        taxon ID:
+    notes: ""
+    
+notes: ""

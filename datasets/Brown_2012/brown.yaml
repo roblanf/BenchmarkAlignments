@@ -1,0 +1,21 @@
+study:
+    reference: 'Rafe M. Brown, Cameron D. Siler, Indraneil Das, Yong Min, Testing the phylogenetic affinities of Southeast Asiaís rarest geckos: Flap-legged geckos (Luperosaurus), Flying geckos (Ptychozoon) and their relationship to the pan-Asian genus Gekko, Molecular Phylogenetics and Evolution, Volume 63, Issue 3, June 2012, Pages 915-921, ISSN 1055-7903' 
+    year: 2012
+    DOI: dx.doi.org/10.1016/j.ympev.2012.02.019
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.7bn0fr99
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Ptychozoon" 
+        english: "Asian geckos"
+        taxon ID:
+    notes: ""
+    
+notes: ""

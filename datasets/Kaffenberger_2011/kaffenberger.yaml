@@ -1,0 +1,21 @@
+study:
+    reference: "Kaffenberger N, Wollenberg KC, Köhler J, Glaw F, Vieites DR, Vences M (2011) Molecular phylogeny and biogeography of Malagasy frogs of the genus Gephyromantis. Molecular Phylogenetics and Evolution 62(1): 555-560."
+    year: 2011
+    DOI: dx.doi.org/10.1016/j.ympev.2011.09.023
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.s791pg03
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Gephyromantis"  
+        english: "Malagasy frogs" 
+        taxon ID:
+    notes: ""
+    
+notes: "The number of sites in the alignment is 6548, but 403 are not included by the authors. The authors also exclude these sites, but it's not clear why so I didn't exclude them in the partitionfinder.cfg file."

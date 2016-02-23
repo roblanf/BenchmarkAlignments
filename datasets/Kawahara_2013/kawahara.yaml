@@ -1,0 +1,21 @@
+study:
+    reference: "Kawahara AY, Rubinoff D (2013) Convergent evolution in the explosive Hawaiian Fancy Cased caterpillar radiation. Journal of Evolutionary Biology, online in advance of print."
+    year: 2013
+    DOI: dx.doi.org/10.1111/jeb.12176
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.gh895
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Hyposmocoma"
+        english: "Hawaiian Fancy Cased caterpillar" 
+        taxon ID:
+    notes: ""
+
+notes: ""

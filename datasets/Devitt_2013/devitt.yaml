@@ -1,0 +1,21 @@
+study:
+    reference: "Devitt TJ, Cameron Devitt SE, Hollingsworth BD, McGuire JA, Moritz C (2013) Montane refugia predict population genetic structure in the Large-blotched Ensatina salamander. Molecular Ecology, 22(6):1650-65"
+    year: 2013
+    DOI: dx.doi.org/10.1111/mec.12196
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.k9g50
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age:
+        timetree link:
+    study root age:
+    study clade:
+        latin: "Ensatina eschscholtzii klauberi"
+        english: "Large-blotched Ensatina salamander"
+        taxon ID:
+    notes: ""
+    
+notes: ""
