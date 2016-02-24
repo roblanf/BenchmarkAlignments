@@ -1,5 +1,5 @@
 study:
-    reference: "Irisarri I, San Mauro D, Abascal F, Ohler A, Vences M, Zardoya R (2012) The origin of modern frogs (Neobatrachia) was accompanied by acceleration in mitochondrial and nuclear substitution rates. BMC Genomics 13(626)."
+    reference: "Irisarri I, San Mauro D, Abascal F, Ohler A, Vences M, Zardoya R. The origin of modern frogs (Neobatrachia) was accompanied by acceleration in mitochondrial and nuclear substitution rates. BMC genomics. 2012 Nov 15;13(1):1."
     year: 2012
     DOI: dx.doi.org/10.1186/1471-2164-13-626
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Neobatrachia"  

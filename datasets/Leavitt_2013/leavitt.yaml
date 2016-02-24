@@ -1,5 +1,5 @@
 study:
-    reference: "J. R. Leavitt, K. D. Hiatt, M. F. Whiting, H. Song, Searching for the optimal data partitioning strategy in mitochondrial phylogenomics: A phylogeny of Acridoidea (Insecta: Orthoptera: Caelifera) as a case study, Mol Phylogenet Evol (2013)"
+    reference: "Leavitt JR, Hiatt KD, Whiting MF, Song H. Searching for the optimal data partitioning strategy in mitochondrial phylogenomics: A phylogeny of Acridoidea (Insecta: Orthoptera: Caelifera) as a case study. Molecular phylogenetics and evolution. 2013 May 31;67(2):494-508."
     year: 2013
     DOI: dx.doi.org/10.1016/j.ympev.2013.02.019
 
@@ -10,7 +10,6 @@ dataset:
         notes: "This dataset, and permission to post it here under a CC0 license, was provided via email by Hojun Song"
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Acridoidea"

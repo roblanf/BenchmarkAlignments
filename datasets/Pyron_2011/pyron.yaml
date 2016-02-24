@@ -1,5 +1,5 @@
 study:
-    reference: "Pyron RA, Wiens JJ (2011) A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution 61(2): 543-583."
+    reference: "Pyron RA, Wiens JJ. A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution. 2011 Nov 30;61(2):543-83."
     year: 2011
     DOI: dx.doi.org/10.1016/j.ympev.2011.06.012
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Amphibia"

@@ -1,5 +1,5 @@
 study:
-    reference: "Wood HM, Matzke NJ, Gillespie RG, Griswold CE (2012) Treating fossils as terminal taxa in divergence time estimation reveals ancient vicariance patterns in the palpimanoid spiders. Systematic Biology 62(2): 264-284."
+    reference: "Wood HM, Matzke NJ, Gillespie RG, Griswold CE. Treating fossils as terminal taxa in divergence time estimation reveals ancient vicariance patterns in the palpimanoid spiders. Systematic Biology. 2012 Nov 28:sys092."
     year: 2012
     DOI: dx.doi.org/10.1093/sysbio/sys092
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference:
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Archaeidae"

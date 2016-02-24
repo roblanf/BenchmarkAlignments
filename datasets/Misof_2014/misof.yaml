@@ -1,5 +1,5 @@
 study:
-    reference:  "Misof, B., Liu, S., Meusemann, K., Peters, R. S., Donath, A., Mayer, C., ... & Ott, M. (2014). Phylogenomics resolves the timing and pattern of insect evolution. Science, 346(6210), 763-767."
+    reference: "Misof B, Liu S, Meusemann K, Peters RS, Donath A, Mayer C, Frandsen PB, Ware J, Flouri T, Beutel RG, Niehuis O. Phylogenomics resolves the timing and pattern of insect evolution. Science. 2014 Nov 7;346(6210):763-7."
     year: 2014
     DOI: dx.doi.org/10.1126/science.1257570
 
@@ -10,7 +10,6 @@ dataset:
         notes: NA
     used for tree inference: yes
     timetree root age: 402 mya
-        timetree link:
     study root age: 479 mya
     study clade:
         latin:  Insecta

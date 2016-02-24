@@ -1,5 +1,5 @@
 study:
-    reference: "Philip S. Ward,Seán G. Brady,Brian L. Fisher,and Ted R. Schultz (2010) Phylogeny and Biogeography of Dolichoderine Ants: Effects of Data Partitioning and Relict Taxa on Historical Inference Syst Biol (2010) 59(3): 342-362"
+    reference: "Ward PS, Brady SG, Fisher BL, Schultz TR. Phylogeny and biogeography of dolichoderine ants: effects of data partitioning and relict taxa on historical inference. Systematic Biology. 2010:syq012."
     year: 2010
     DOI: dx.doi.org/10.1093/sysbio/syq012 
 
@@ -10,7 +10,6 @@ dataset:
         notes: "treebase studyID S10012"
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Dolichoderinae"

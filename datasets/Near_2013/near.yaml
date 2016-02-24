@@ -1,5 +1,5 @@
 study:
-    reference: "Near TJ, Dornburg A, Keck BP, Smith WL, Kuhn KL, Moore JA, Price SA, Burbrink FT, Friedman M, Wainwright PC, Eytan RI (2013) Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the National Academy of Sciences of the United States of America, online in advance of print."
+    reference: "Near TJ, Dornburg A, Eytan RI, Keck BP, Smith WL, Kuhn KL, Moore JA, Price SA, Burbrink FT, Friedman M, Wainwright PC. Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the National Academy of Sciences. 2013 Jul 30;110(31):12738-43."
     year: 2013
     DOI: dx.doi.org/10.1073/pnas.1304661110
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Acanthomorpha"

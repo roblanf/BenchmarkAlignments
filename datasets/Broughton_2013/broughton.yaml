@@ -1,5 +1,5 @@
 study:
-    reference:  "Broughton RE, Betancur-R R, Li C, Arratia G, Orti G (2013) Multi-locus phylogenetic analysis reveals the pattern and tempo of bony fish evolution. PLoS Currents: Tree of Life."
+    reference: "Broughton RE, Betancur RR, Li C, Arratia G, Ortí G. Multi-locus phylogenetic analysis reveals the pattern and tempo of bony fish evolution. PLoS Curr. 2013 Apr 16;5(5)."
     year: 2013
     DOI: dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e
 
@@ -10,7 +10,6 @@ dataset:
         notes: "" 
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age: 
     study clade:
         latin: "Osteichthyes"

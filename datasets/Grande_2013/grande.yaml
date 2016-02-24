@@ -1,5 +1,5 @@
 study:
-    reference: "Grande T, Borden WC, Smith WL (2013) Limits and relationships of Paracanthopterygii: A molecular framework for evaluating past morphological hypotheses. Mesozoic Fishes 5: 385-418. ISBN:978-3-89937-159-8"
+    reference: "Grande T, Borden WC, Smith WL. Limits and relationships of Paracanthopterygii: a molecular framework for evaluating past morphological hypotheses. Mesozoic fishes. 2013;5:385-418."
     year: 2013
     DOI: NA
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Paracanthopterygii"

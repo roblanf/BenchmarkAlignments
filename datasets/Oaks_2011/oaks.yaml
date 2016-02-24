@@ -1,5 +1,5 @@
 study:
-    reference: "Oaks JR (2011) A time-calibrated species tree of Crocodylia reveals a recent radiation of the true crocodiles. Evolution 65(11): 3285-3297."
+    reference: "Oaks JR. A time-calibrated species tree of Crocodylia reveals a recent radiation of the true crocodiles. Evolution. 2011 Nov 1;65(11):3285-97."
     year: 2011
     DOI: dx.doi.org/10.1111/j.1558-5646.2011.01373.x
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Crocodylia"

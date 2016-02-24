@@ -1,5 +1,5 @@
 study:
-    reference: "Comprehensive phylogenetic analysis of all species of swordtails and platies (Pisces: Genus Xiphophorus) uncovers a hybrid origin of a swordtail fish, Xiphophorus monticolus, and demonstrates that the sexually selected sword originated in the ancestral lineage of the genus, but was lost again secondarily"
+    reference: "Kang JH, Schartl M, Walter RB, Meyer A. Comprehensive phylogenetic analysis of all species of swordtails and platies (Pisces: Genus Xiphophorus) uncovers a hybrid origin of a swordtail fish, Xiphophorus monticolus, and demonstrates that the sexually selected sword originated in the ancestral lineage of the genus, but was lost again secondarily. BMC evolutionary biology. 2013 Jan 29;13(1):1."
     year: 2013
     DOI: dx.doi.org/10.1186/1471-2148-13-25
 
@@ -10,7 +10,6 @@ dataset:
         notes: "available from http://www.biomedcentral.com/imedia/2038548627906210/supp9.nxs"
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Xiphophorus"

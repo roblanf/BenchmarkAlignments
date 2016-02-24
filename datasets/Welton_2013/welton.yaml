@@ -1,5 +1,5 @@
 study:
-    reference: "Welton LJ, Siler CD, Oaks JR, Diesmos AC, Brown RM (2013) Multilocus phylogeny and Bayesian estimates of species boundaries reveal hidden evolutionary relationships and cryptic diversity in Southeast Asian monitor lizards. Molecular Ecology 22(13): 3495–3510."
+    reference: "Welton LJ, Siler CD, Oaks JR, Diesmos AC, Brown RM. Multilocus phylogeny and Bayesian estimates of species boundaries reveal hidden evolutionary relationships and cryptic diversity in Southeast Asian monitor lizards. Molecular ecology. 2013 Jul 1;22(13):3495-510."
     year: 2013
     DOI: dx.doi.org/10.1111/mec.12324
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Varanus"

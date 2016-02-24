@@ -1,5 +1,5 @@
 study:
-    reference:  "Elias M, Joron M, Willmott K, Silva-Brandão KL, Kaiser V, Arias CF, Gomez Piñeres LM, Uribe S, Brower AVZ, Freitas AVL, Jiggins CD (2009) Out of the Andes: patterns of diversification in clearwing butterflies. Molecular Ecology 18: 1716-1729."
+    reference: "Elias M, Joron M, Willmott K, SILVA‐BRANDÃO KL, Kaiser V, Arias CF, Piñerez LG, Uribe S, Brower AV, Freitas AV, Jiggins CD. Out of the Andes: patterns of diversification in clearwing butterflies. Molecular Ecology. 2009 Apr 1;18(8):1716-29."
     year: 2009
     DOI: dx.doi.org/10.1111/j.1365-294X.2009.04149.x
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Nymphalidae: Napeogenes"

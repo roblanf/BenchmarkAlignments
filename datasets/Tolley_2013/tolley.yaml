@@ -1,5 +1,5 @@
 study:
-    reference:  "Tolley KA, Townsend TM, Vences M (2013) Large-scale phylogeny of chameleons suggests African origins and rapid Eocene radiation. Proceedings of the Royal Society B 280(1759): 20130184."
+    reference: "Tolley KA, Townsend TM, Vences M. Large-scale phylogeny of chameleons suggests African origins and Eocene diversification. Proceedings of the Royal Society of London B: Biological Sciences. 2013 May 22;280(1759):20130184."
     year: 2013
     DOI: dx.doi.org/10.1098/rspb.2013.0184
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Chamaeleonidae"

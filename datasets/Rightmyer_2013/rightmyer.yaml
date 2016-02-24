@@ -1,5 +1,5 @@
 study:
-    reference:  "RIGHTMYER, M. G., GRISWOLD, T. and BRADY, S. G. (2013), Phylogeny and systematics of the bee genus Osmia (Hymenoptera: Megachilidae) with emphasis on North American Melanosmia: subgenera, synonymies and nesting biology revisited. Systematic Entomology." 
+    reference: "Rightmyer MG, Griswold T, Brady SG. Phylogeny and systematics of the bee genus Osmia (Hymenoptera: Megachilidae) with emphasis on North American Melanosmia: subgenera, synonymies and nesting biology revisited. Systematic Entomology. 2013 Jul 1;38(3):561-76."
     year: 2013
     DOI: dx.doi.org/10.1111/syen.12013
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin:  "Hymenoptera: Megachilidae"

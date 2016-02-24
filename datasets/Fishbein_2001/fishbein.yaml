@@ -1,5 +1,5 @@
 study:
-    reference:  "Fishbein M, Hibsch-Jetter C, Soltis DE, Hufford L (2001) Phylogeny of Saxifragales (angiosperms, eudicots): analysis of a rapid, ancient radiation. Systematic Biology 50: 817-847."
+    reference: "Fishbein M, Hibsch-Jetter C, Soltis DE, Hufford L. Phylogeny of Saxifragales (angiosperms, eudicots): analysis of a rapid, ancient radiation. Systematic Biology. 2001 Nov 1;50(6):817-47."
     year: 2001
     DOI: dx.doi.org/10.1080/106351501753462821
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin:  "Saxifragales"

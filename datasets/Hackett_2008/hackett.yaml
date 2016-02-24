@@ -1,5 +1,5 @@
 study:
-    reference: "S. J. Hackett et al., A phylogenomic study of birds reveals their evolutionary history, Science 320, 1763–1768 (2008)."
+    reference: "Hackett SJ, Kimball RT, Reddy S, Bowie RC, Braun EL, Braun MJ, Chojnowski JL, Cox WA, Han KL, Harshman J, Huddleston CJ. A phylogenomic study of birds reveals their evolutionary history. science. 2008 Jun 27;320(5884):1763-8."
     year: 2008
     DOI: dx.doi.org/10.1126/science.1157704
 
@@ -10,7 +10,6 @@ dataset:
         notes: "downloaded from: http://www.biology.ufl.edu/earlybird/aln.html"
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: "Aves"  

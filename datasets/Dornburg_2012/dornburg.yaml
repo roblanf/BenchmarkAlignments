@@ -1,5 +1,5 @@
 study:
-    reference:  "Dornburg A, Moore JA, Webster R, Warren DL, Brandley MC, Iglesias TL, Wainwright PC, Near TJ (2013) Molecular phylogenetics of squirrelfishes and soldierfishes (Teleostei:Beryciformes: Holocentridae): reconciling more than 100 years of taxonomic confusion. Molecular Phylogenetics and Evolution 65(2): 727-738"
+    reference: "Dornburg A, Moore JA, Webster R, Warren DL, Brandley MC, Iglesias TL, Wainwright PC, Near TJ. Molecular phylogenetics of squirrelfishes and soldierfishes (Teleostei: Beryciformes: Holocentridae): Reconciling more than 100 years of taxonomic confusion. Molecular phylogenetics and Evolution. 2012 Nov 30;65(2):727-38."
     year: 2013
     DOI: dx.doi.org/10.1016/j.ympev.2012.07.020
 
@@ -10,7 +10,6 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin:  "Teleostei: Beryciformes: Holocentridae"

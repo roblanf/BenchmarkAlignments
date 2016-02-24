@@ -1,5 +1,5 @@
 study:
-    reference:  "McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, et al. (2013) A Phylogeny of Birds Based on Over 1,500 Loci Collected by Target Enrichment and High-Throughput Sequencing. PLoS ONE 8(1): e54848."
+    reference: "McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, Brumfield RT. A phylogeny of birds based on over 1,500 loci collected by target enrichment and high-throughput sequencing. PLoS One. 2013 Jan 29;8(1):e54848."
     year: 2013
     DOI: dx.doi.org/10.1371/journal.pone.0054848
 
@@ -10,7 +10,6 @@ dataset:
         notes: "Thanks to Brant Faircloth for providing additional data"
     used for tree inference: yes
     timetree root age:
-        timetree link:
     study root age:
     study clade:
         latin: Neoaves
