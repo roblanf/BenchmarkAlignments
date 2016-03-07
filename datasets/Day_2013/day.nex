@@ -178,6 +178,6 @@ begin SETS;
 	CHARSET mitochondrial_genome = 1-1138 2910-3586;
 	
 	[outgroups]
-	TAXSET outgroups = CU81135_Atopochilussavorgnani CU87530_Euchilichthysdybowskii CU89213_Microsynodontissp S018_Mocholkusniloticus S068_Chiloglanisniloticus CU90429_Chiloglanissp Mochokiellapaynei;
+	TAXSET outgroups = CU88625_Malapterurustanganyikaensis CU81135_Atopochilussavorgnani CU87530_Euchilichthysdybowskii CU89213_Microsynodontissp S018_Mocholkusniloticus S068_Chiloglanisniloticus CU90429_Chiloglanissp Mochokiellapaynei;
 		
 end;

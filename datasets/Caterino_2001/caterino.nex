@@ -63,7 +63,7 @@ begin SETS;
 	CHARSET mitochondrial_genome = 29-1576  1648-2332;
 	
 	[outgroups]
-	TAXSET outgroups = 
+	TAXSET outgroups = Pieris.napi.943 Colias.eury.543 Hylephil.phy.989 Erynnis.tris.945 Pyrgus.commu.901; ##unsure of Coenonymph.984 Euphil.bern.969 Macrosoma.983 Proserp.clark.988 Ostrinia.nub.5 Lambdina.fisc.9 Feltia.jacul.150
 	
 end;
 

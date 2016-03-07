@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 144.4 mya
+        timetree link: http://www.timetree.org/search/pairwise/myripristis%20vittata/sargocentron%20ittodai
     study root age:
     study clade:
         latin:  "Teleostei: Beryciformes: Holocentridae"

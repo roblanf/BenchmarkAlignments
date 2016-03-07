@@ -9,8 +9,9 @@ dataset:
         type: NA
         notes: "TreeBase Study ID S12823"
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: 27.0 mya
+        timetree link: http://www.timetree.org/search/pairwise/Stomoxys%20sitiens/Stomoxys%20indicus
+    study root age: 27.0 mya
     study clade:
         latin: "Muscidae"
         english: "haematophagous flies"

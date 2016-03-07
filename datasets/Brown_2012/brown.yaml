@@ -9,8 +9,9 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: 84.7 mya
+        timetree link: http://www.timetree.org/search/pairwise/Phelsuma%20serraticauda/Gekko%20gecko
+    study root age: 
     study clade:
         latin: "Ptychozoon" 
         english: "Asian geckos"
