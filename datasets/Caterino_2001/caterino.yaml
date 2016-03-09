@@ -1,0 +1,21 @@
+study:
+    reference: "Caterino MS, Reed RD, Kuo MM, Sperling FA. A partitioned likelihood analysis of swallowtail butterfly phylogeny (Lepidoptera: Papilionidae). Systematic Biology. 2001 Feb 1;50(1):106-27."
+    year: 2001
+    DOI: dx.doi.org/10.1080/10635150119988
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.615
+    license: 
+        type: CC0
+        notes: "The dataset has different author order: Kuo MM, Sperling FAH, Caterino MS, Reed RD (2001) Data from: A partitioned likelihood analysis of swallowtail butterfly phylogeny (Lepidoptera: Papilionidae). Dryad Digital Repository."
+    used for tree inference: yes
+    timetree root age: 65.4 mya
+        timetree link: http://www.timetree.org/search/pairwise/Baronia%20brevicornis/Papilio%20xuthus
+    study root age:
+    study clade:
+        latin: "Lepidoptera: Papilionidae" 
+        english: "Swallowtail butterflies"
+        taxon ID:
+    notes: ""
+    
+notes: ""

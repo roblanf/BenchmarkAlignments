@@ -1,0 +1,20 @@
+study:
+    reference: "Endicott P, Ho SY. A Bayesian evaluation of human mitochondrial substitution rates. The American Journal of Human Genetics. 2008 Apr 11;82(4):895-902."
+    year: 2008 
+    DOI: dx.doi.org/10.1016/j.ajhg.2008.01.019
+
+dataset:
+    DOI: NA
+    license: 
+        type: CC0
+        notes: "Permission to include this dataset on this repository was granted by SYW Ho."
+    used for tree inference: yes
+    timetree root age:
+    study root age:
+    study clade:
+        latin:  "Homo sapiens"
+        english: "human"
+        taxon ID:
+    notes: ""
+    
+notes: ""

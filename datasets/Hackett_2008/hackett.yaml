@@ -1,0 +1,21 @@
+study:
+    reference: "Hackett SJ, Kimball RT, Reddy S, Bowie RC, Braun EL, Braun MJ, Chojnowski JL, Cox WA, Han KL, Harshman J, Huddleston CJ. A phylogenomic study of birds reveals their evolutionary history. science. 2008 Jun 27;320(5884):1763-8."
+    year: 2008
+    DOI: dx.doi.org/10.1126/science.1157704
+
+dataset:
+    DOI: dx.doi.org/
+    license: 
+        type: CC0
+        notes: "downloaded from: http://www.biology.ufl.edu/earlybird/aln.html"
+    used for tree inference: yes
+    timetree root age: 117.9 mya
+        timetree link: http://www.timetree.org/search/pairwise/Rhea/Puffinus
+    study root age:
+    study clade:
+        latin: "Aves"  
+        english: "Birds" 
+        taxon ID:
+    notes: ""
+    
+notes: "Data blocks were assigned following the taxon sets in the original nexus alignment. Problematic sites (also identified in the original alignemnt) were not included in any data blocks."
