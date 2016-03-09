@@ -190,6 +190,6 @@ begin SETS;
 	CHARSET mitochondrial_genome = 74-2701 2779-3732 3941-4985 5400-6940 7085-7768 7919-8080 8122-8768 8771-9554 9624-9969 10035-10322 10331-11702 11903-13714 13718-14245 14320-15460;
 	
 	[outgroups]
-	TAXSET outgroups = T__gelada_gb T__gelada_B_ET L__albigena_B Cerc_torquatus_RB Cerc_chrysogaster_DPZ Mand__leucophaeus;
+	TAXSET outgroups = T__gelada_gb T__gelada_B_ET L__albigena_B Cerc_torquatus_RB Cerc_chrysogaster_DPZ Mand__leucophaeus Proc__badius_gb Col__guereza_gb M__mulatta_gb M__fascicularis_gb M__thibetana_gb M__sylvanus_gb P__hamadryas_gb; 
 	
 end;

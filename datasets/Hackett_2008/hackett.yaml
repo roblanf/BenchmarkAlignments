@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: "downloaded from: http://www.biology.ufl.edu/earlybird/aln.html"
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 117.9 mya
+        timetree link: http://www.timetree.org/search/pairwise/Rhea/Puffinus
     study root age:
     study clade:
         latin: "Aves"  

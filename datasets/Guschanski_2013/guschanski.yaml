@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 8.2 mya
+        timetree link: http://www.timetree.org/search/pairwise/Erythrocebus%20patas/Miopithecus%20talapoin
     study root age:
     study clade:
         latin: "Cercopithecini"

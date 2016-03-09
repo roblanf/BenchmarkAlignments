@@ -9,8 +9,9 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: 103.0 mya
+        timetree link: http://www.timetree.org/search/pairwise/Sedum/Disanthus
+    study root age: 
     study clade:
         latin:  "Saxifragales"
         english: "core Eudicots"

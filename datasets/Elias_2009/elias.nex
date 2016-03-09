@@ -173,6 +173,6 @@ begin SETS;
 	CHARSET nuclear_genome = 1-1993;
 	
 	[outgroups]
-	TAXSET outgroups = Ithomia_agnosia_20711 Hypothyris_anastasia_20507 Hypothyris_moebiusi_20299;
+	TAXSET outgroups = Ithomia_agnosia_20711 Hypothyris_anastasia_20507 Hypothyris_moebiusi_20299; ##missing one outgroup from paper in dataset
 	
 end;
