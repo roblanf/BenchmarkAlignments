@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: "Thanks to Brant Faircloth for providing additional data"
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 82.8 mya
+        timetree link: http://www.timetree.org/search/pairwise/Otididae/Picidae
     study root age:
     study clade:
         latin: "Neoaves"
