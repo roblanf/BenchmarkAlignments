@@ -61,6 +61,6 @@ begin SETS;
 	CHARSET nuclear_genome = 659-3112 3441-5185;
 		
 	[outgroups]
-	TAXSET outgroups = Hypochilus_pococki Hickmania_troglodytes Lycosidae_sp Dysdera_sp Kukulcania_hibernalis_hw;
+	TAXSET outgroups = Hypochilus_pococki Hickmania_troglodytes Loxosceles_sp Dysdera_sp Kukulcania_hibernalis_hw; 
 	
 end;

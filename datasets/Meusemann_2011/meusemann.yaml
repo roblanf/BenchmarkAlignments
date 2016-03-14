@@ -9,8 +9,9 @@ dataset:
         type: NA
         notes: This file is from treebase as described in the original study http://purl.org/phylo/treebase/phylows/study/TB2/S10507 
     used for tree inference: yes
-    timetree root age: 402 mya
-    study root age: 479 mya
+    timetree root age: 832.3 mya
+        timetree link: http://www.timetree.org/search/pairwise/Hypsibius%20dujardini/Manduca%20sexta
+    study root age: 
     study clade:
         latin:  Insecta
         english: Insects

@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 40.2 mya 
+        timetree link: http://www.timetree.org/search/pairwise/Pantherophis%20obsoletus/Lycodon%20jara
     study root age:
     study clade:
         latin:  "Lycodon"

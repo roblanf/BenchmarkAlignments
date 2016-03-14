@@ -165,6 +165,6 @@ begin SETS;
 	CHARSET nuclear_genome = 1-2077;
 	
 	[outgroups]
-	TAXSET outgroups =
+	TAXSET outgroups = DM054 DM057 DM059 DM094 DM095;
 	
 end;

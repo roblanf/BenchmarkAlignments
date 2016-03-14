@@ -9,7 +9,8 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
+    timetree root age: 47.0 mya
+        timetree link: http://www.timetree.org/search/pairwise/Varanus%20niloticus/Varanus%20indicus
     study root age:
     study clade:
         latin: "Varanus"
