@@ -9,12 +9,12 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin:  "Coleoptera: Scolytinae"
         english: "Bark beetles"
-        taxon ID:
+        taxon ID: 55867
     notes: ""
     
 notes: "The alignment from Dryad was cut to remove ambiguous positions and morphological characters. This is the alignment used in Lanfear et al 2010, PartitionFinder..., MBE paper"

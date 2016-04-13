@@ -72,7 +72,7 @@ begin SETS;
 
 	[loci]
 	CHARSET apc2_1stpost = 1-798\3;
-	CHARSET apc2_2ndpos = 2-798\3;
+	CHARSET apc2_2ndpos = 2-798\3; 
 	CHARSET apc2_3rdpos = 3-798\3;
 	CHARSET btbd7_1stpos = 799-1650\3;
 	CHARSET btbd7_2nspos = 800-1650\3;
@@ -80,31 +80,31 @@ begin SETS;
 	CHARSET enc1_1stpos = 1651-2460\3;
 	CHARSET enc1_2ndpos = 1652-2460\3;
 	CHARSET enc1_3rdpos = 1653-2460\3;
-	CHARSET ficd_1stpos = 2461-3207\3;
+	CHARSET ficd_1stpos = 2461-3207\3; 
 	CHARSET ficd_2ndpos = 2462-3207\3;
 	CHARSET ficd_3rdpos = 2463-3207\3;
-	CHARSET gtdc2_1stpos = 3208-4095\3;
+	CHARSET gtdc2_1stpos = 3208-4095\3; *
 	CHARSET gtdc2_2ndpos = 3209-4095\3;
 	CHARSET gtdc2_3rdpos = 3210-4095\3;
-	CHARSET gpr85_1stpos = 4096-5166\3;
+	CHARSET gpr85_1stpos = 4096-5166\3; 
 	CHARSET gpr85_2ndpos = 4097-5166\3;
 	CHARSET gpr85_3rdpos = 4098-5166\3;
-	CHARSET kbtbd4_1stpos = 5167-5793\3;
+	CHARSET kbtbd4_1stpos = 5167-5793\3; 
 	CHARSET kbtbd4_2ndpos = 5168-5793\3;
 	CHARSET kbtbd4_3rdpos = 5169-5793\3;
-	CHARSET kiaal_1stpos = 5794-6768\3;
+	CHARSET kiaal_1stpos = 5794-6768\3; *
 	CHARSET kiaal_2ndpos = 5795-6768\3;
 	CHARSET kiaal_3rdpos = 5796-6768\3;
-	CHARSET myh6_1stpos = 6769-7800\3;
+	CHARSET myh6_1stpos = 6769-7800\3; 
 	CHARSET myh6_2ndpos = 6770-7800\3;
 	CHARSET myh6_3rdpos = 6771-7800\3;
-	CHARSET panx2_1stpos = 7801-8583\3;
+	CHARSET panx2_1stpos = 7801-8583\3; 
 	CHARSET panx2_2ndpos = 7802-8583\3;
 	CHARSET panx2_3rdpos = 7803-8583\3;
 	CHARSET plagl2_1stpos = 8584-9264\3;
 	CHARSET plagl2_2ndpos = 8585-9264\3;
 	CHARSET plagl2_3rdpos = 8586-9264\3;
-	CHARSET ptchd4_1stpos = 9265-9969\3;
+	CHARSET ptchd4_1stpos = 9265-9969\3; 
 	CHARSET ptchd4_2ndpos = 9266-9969\3;
 	CHARSET ptchd4_3rdpos = 9267-9969\3;
 	CHARSET rag1_1stpos = 9970-11601\3;
@@ -113,16 +113,16 @@ begin SETS;
 	CHARSET rag2_1stpos = 11602-13170\3;
 	CHARSET rag2_2ndpos = 11603-13170\3;
 	CHARSET rag2_3rdpos = 11604-13170\3;
-	CHARSET ryr3_1stpos = 13171-14004\3;
+	CHARSET ryr3_1stpos = 13171-14004\3; 
 	CHARSET ryr3_2ndpos = 13172-14004\3;
 	CHARSET ryr3_3rdpos = 13173-14004\3;
-	CHARSET sacsl_1stpos = 14005-15141\3;
+	CHARSET sacsl_1stpos = 14005-15141\3; *
 	CHARSET sacsl_2ndpos = 14006-15141\3;
 	CHARSET sacsl_3rdpos = 14007-15141\3;
-	CHARSET snx33_1stpos = 15142-15846\3;
+	CHARSET snx33_1stpos = 15142-15846\3; *
 	CHARSET snx33_2ndpos = 15143-15846\3;
 	CHARSET snx33_3rdpos = 15144-15846\3;
-	CHARSET tbccl_1stpos = 15847-16443\3;
+	CHARSET tbccl_1stpos = 15847-16443\3; *
 	CHARSET tbccl_2ndpos = 15848-16443\3;
 	CHARSET tbccl_3rdpos = 15849-16443\3;
 	CHARSET tbr1b_1stpos = 16444-17130\3;
@@ -135,6 +135,7 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 18181-19997;
+	CHARSET nuclear_genome =  1-3207 4096-5793 6769-14004 16444-18180;
 	
 	[outgoups]
 	TAXSET outgroups = Callorhinchus_milii Leucoraja_erinacea;  

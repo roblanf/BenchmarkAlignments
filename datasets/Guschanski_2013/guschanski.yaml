@@ -15,7 +15,7 @@ dataset:
     study clade:
         latin: "Cercopithecini"
         english: "Guenons (old world monkeys)" 
-        taxon ID:
+        taxon ID: *
     notes: "Thanks to Katerina Guschanski for providing her input files to PartitionFinder, which weren't included with the data on Dryad"
     
 notes: "I split the tRNAs into extra datablocks, although in the original paper they were lumped together. I also edited the species names to remove illegal characters."

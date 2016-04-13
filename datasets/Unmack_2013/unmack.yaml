@@ -9,12 +9,12 @@ dataset:
         type: CC0
         notes: ""
     used for tree inference: yes
-    timetree root age:
+    timetree root age: ##error: are the same
     study root age:
     study clade:
         latin: "Melanotaeniidae"
         english: "rainbowfish"
-        taxon ID:
+        taxon ID: 30700
     notes: ""
     
 notes: ""

@@ -55,7 +55,7 @@ begin SETS;
 	CHARSET CYTB_1stpos = 754-1340\3;
 	CHARSET CYTB_2ndpos = 755-1340\3;
 	CHARSET CYTB_3rdpos = 756-1340\3;
-	CHARSET ITS2 = 1341-1635;
+	CHARSET ITS2 = 1341-1635; *
 
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1340;

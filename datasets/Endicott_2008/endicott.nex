@@ -188,7 +188,7 @@ end;
 
 begin SETS;
 
-	[loci]
+	[loci] ***
 	CHARSET dloop = 1-1114;
 	CHARSET a6_1stpos = 1115-1792\3;
 	CHARSET a6_2ndpos = 1116-1792\3;
@@ -233,7 +233,7 @@ begin SETS;
 	CHARSET 16s_loops = 12904-13857;
 	
 	[genomes]
-	CHARSET mitochondrial_genome = 1-1114 4172-4951 12422-13857;
+	CHARSET mitochondrial_genome = 1-1114 4952-6085 12422-13857;
 	
 	[outgroups]
 	TAXSET outgroups =

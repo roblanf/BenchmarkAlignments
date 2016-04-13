@@ -165,8 +165,8 @@ begin SETS;
 	CHARSET Cytb_1stpos = 1-1138\3;
 	CHARSET Cytb_2ndpos = 2-1138\3;
 	CHARSET Cytb_3rdpos = 3-1138\3; 
-	CHARSET tRNA = 1139-1256; 
-	CHARSET S7 = 1257-1887; 
+	CHARSET tRNA = 1139-1256; *
+	CHARSET S7 = 1257-1887; *
 	CHARSET Rag2_1stpos = 1888-2909\3;
 	CHARSET Rag2_2ndpos = 1889-2909\3; 
 	CHARSET Rag2_3rdpos = 1890-2909\3; 
@@ -176,6 +176,7 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1138 2910-3586;
+	CHARSET nuclear_genome = 1888-2909;
 	
 	[outgroups]
 	TAXSET outgroups = CU88625_Malapterurustanganyikaensis CU81135_Atopochilussavorgnani CU87530_Euchilichthysdybowskii CU89213_Microsynodontissp S018_Mocholkusniloticus S068_Chiloglanisniloticus CU90429_Chiloglanissp Mochokiellapaynei;

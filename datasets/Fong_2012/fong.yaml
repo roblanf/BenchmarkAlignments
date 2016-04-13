@@ -14,7 +14,7 @@ dataset:
     study clade:
         latin: "Vertebrata"  
         english: "vertebrates" 
-        taxon ID:
+        taxon ID: 7742
     notes: ""
     
 notes: "This is the SlowGenes dataset, which seems to be the dataset with the smallest amount of systematic bias. This study uses other methods to make datasets which are better, but these are not available on Data Dryad. For that reason, this dataset is useful for algorithmic approaches to model selection, but perhaps less useful for inferring vertebrate phylogeny."

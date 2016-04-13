@@ -14,7 +14,7 @@ dataset:
     study clade:
         latin: "Gephyromantis"  
         english: "Malagasy frogs" 
-        taxon ID:
+        taxon ID: 403241
     notes: ""
     
 notes: "The number of sites in the alignment is 6548, but 403 are not included by the authors. The authors also exclude these sites, but it's not clear why so I didn't exclude them in the partitionfinder.cfg file."

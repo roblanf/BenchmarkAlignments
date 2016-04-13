@@ -57,13 +57,13 @@ begin SETS;
 	CHARSET ENC_1stpos = 1-786\3;
 	CHARSET ENC_2ndpos = 2-786\3;
 	CHARSET ENC_3rdpos = 3-786\3;
-	CHARSET GLYT_1stpos = 787-1588\3;
+	CHARSET GLYT_1stpos = 787-1588\3; *
 	CHARSET GLYT_2ndpos = 788-1588\3;
 	CHARSET GLYT_3rdpos = 789-1588\3;
 	CHARSET MYH6_1stpos = 1589-2288\3;
 	CHARSET MYH6_2ndpos = 1590-2288\3;
 	CHARSET MYH6_3rdpos = 1591-2288\3;
-	CHARSET PTR_1stpos = 2289-2993\3;
+	CHARSET PTR_1stpos = 2289-2993\3; *
 	CHARSET PTR_2ndpos = 2290-2993\3;
 	CHARSET PTR_3rdpos = 2291-2993\3;
 	CHARSET RAG_1stpos = 2994-4400\3;		#unsure of codon pos
@@ -78,6 +78,7 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 5269-5919;
+	CHARSET nuclear_genome = 1-786 1589-2288 2994-5268;
 	
 	[outgroups]
 	TAXSET outgroups = Beryx_decadactylus Percopsis_omiscomaycus;

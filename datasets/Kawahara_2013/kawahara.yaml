@@ -1,5 +1,5 @@
 study:
-    reference: "Kawahara AY, Rubinoff D. Convergent evolution of morphology and habitat use in the explosive Hawaiian fancy case caterpillar radiation. Journal of evolutionary biology. 2013 Aug 1;26(8):1763-73."
+    reference: "Kawahara AY, Rubinoff D. Convergent evolution of morphology and habitat use in the explosive Hawaiian fancy case caterpillar radiation. Journal of evolutionary biology. 2013 Aug 1;26(8):1763-73."54
     year: 2013
     DOI: dx.doi.org/10.1111/jeb.12176
 
@@ -14,7 +14,7 @@ dataset:
     study clade:
         latin: "Hyposmocoma"
         english: "Hawaiian Fancy Cased caterpillar" 
-        taxon ID:
+        taxon ID: 545366
     notes: ""
 
 notes: ""

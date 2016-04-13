@@ -14,7 +14,7 @@ dataset:
     study clade:
         latin: "Neobatrachia"  
         english: "modern frogs" 
-        taxon ID:
+        taxon ID: 8416
     notes: ""
     
 notes: "The alignment contains a lot of sites that weren't used for tree inference, and these are appropriately excluded in the PF.cfg file. E.g. mt 1st and 3rd positions, and nuclear 3rd positions. For completeness, I've included the definitions of these partitions in the .cfg file, but just commented them out so they won't be used during model selection."

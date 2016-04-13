@@ -90,7 +90,7 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1436;
-	CHARSET nuclear_genome = 1437-2147;
+	CHARSET nuclear_genome = 1437-4027;
 	
 	[outgroups]
 	TAXSET outgroups = 

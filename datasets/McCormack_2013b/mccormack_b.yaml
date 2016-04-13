@@ -13,9 +13,9 @@ dataset:
         timetree link: http://www.timetree.org/search/pairwise/Otididae/Picidae
     study root age:
     study clade:
-        latin: Neoaves
-        english: birds
-        taxon ID:
+        latin: "Neoaves"
+        english: "birds"
+        taxon ID: 8782
     notes: ""
     
 notes: "This alignment is a superset of McCormak_2013a"

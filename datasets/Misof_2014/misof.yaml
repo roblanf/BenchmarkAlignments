@@ -13,8 +13,8 @@ dataset:
         timetree link: http://www.timetree.org/search/pairwise/Collembola/Hemiptera
     study root age: 479 mya
     study clade:
-        latin:  Insecta
-        english: Insects
+        latin:  "Insecta"
+        english: "insects"
         taxon ID: 50557
     notes:
     

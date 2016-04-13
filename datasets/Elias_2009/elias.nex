@@ -166,7 +166,7 @@ begin SETS;
 	CHARSET COII_2ndpos = 3521-4221\3;
 	CHARSET COII_3rdpos = 3522-4221\3;
 	
-	EXSET* omitted_from_analysis = 3458-3519;
+	EXSET* omitted_from_analysis = 3458-3519; *
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1994-3457 3520-4221;

@@ -15,7 +15,7 @@ dataset:
     study clade:
         latin: "Varanus"
         english: "monotor lizards"
-        taxon ID:
+        taxon ID: 8556
     notes: ""
 
 notes: "There appear to be some errors in the dryad metadata and uploaded files. Specifically, there are only 137 species in the RAxML file, but 145 listed in the header. Second, some of the partitioning data contain overlapping subsets of sites in the Dryad file. Furthermore, there were a few alignment columns missing in teh RAxML partitions file. It's not clear why, but it is clear that this dataset would not have run in RAxML, because of errors in both the alignmenta and partitions file."

@@ -66,8 +66,8 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = ;
-	CHARSET nuclear_genome = 1538-3253;
-	CHARSET chloroplast_genome = 3340-5856;
+	CHARSET nuclear_genome = 1538-3253 5857-9237;
+	CHARSET chloroplast_genome =  58-1470 3340-5856;
 	
 	[outgroups]
 	TAXSET outgroups = Leea Vitis Tetracentron Lambertia Trochodendron;
