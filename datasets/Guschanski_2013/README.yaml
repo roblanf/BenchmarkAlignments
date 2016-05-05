@@ -1,0 +1,21 @@
+study:
+    reference: "Guschanski K, Krause J, Sawyer S, Valente LM, Bailey S, Finstermeier K, Sabin R, Gilissen E, Sonet G, Nagy ZT, Lenglet G. Next-generation museomics disentangles one of the largest primate radiations. Systematic biology. 2013 Jul 1;62(4):539-54."
+    year: 2013
+    DOI: dx.doi.org/10.1093/sysbio/syt018
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.7k14q
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age: 8.2 mya
+        timetree link: http://www.timetree.org/search/pairwise/Erythrocebus%20patas/Miopithecus%20talapoin
+    study root age:
+    study clade:
+        latin: "Cercopithecini"
+        english: "Guenons (old world monkeys)" 
+        taxon ID: 
+    notes: "Thanks to Katerina Guschanski for providing her input files to PartitionFinder, which weren't included with the data on Dryad"
+    
+notes: "I split the tRNAs into extra datablocks, although in the original paper they were lumped together. I also edited the species names to remove illegal characters."

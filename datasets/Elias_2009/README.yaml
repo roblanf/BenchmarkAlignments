@@ -1,0 +1,21 @@
+study:
+    reference: "Elias M, Joron M, Willmott K, SILVA‐BRANDÃO KL, Kaiser V, Arias CF, Piñerez LG, Uribe S, Brower AV, Freitas AV, Jiggins CD. Out of the Andes: patterns of diversification in clearwing butterflies. Molecular Ecology. 2009 Apr 1;18(8):1716-29."
+    year: 2009
+    DOI: dx.doi.org/10.1111/j.1365-294X.2009.04149.x
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.1705
+    license: 
+        type: CC0
+        notes: ""
+    used for tree inference: yes
+    timetree root age: 12.7 mya
+        timetree link: http://www.timetree.org/search/pairwise/Napeogenes%20larilla%20larilla/Napeogenes%20lycora%20lycora
+    study root age: 12.7 mya
+    study clade:
+        latin: "Nymphalidae: Napeogenes"
+        english: "clearwing butterflies"
+        taxon ID: 127224
+    notes: ""
+    
+notes: ""
