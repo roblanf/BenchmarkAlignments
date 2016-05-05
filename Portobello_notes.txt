@@ -17,6 +17,8 @@ For each metric, include
 5. Proportion of gaps per row
 6. Proportion of gaps per column
 7. Branch lengths (possibly, from e.g. NJ tree using fast NJ or something similar)
+8. Matt Phillips' RCV measure - which is about base frequency variance
+9. Matt Phillips' Stemminess measure - which is about the shape of the tree
 
 ## Branch lengths (possibly, but it means inferring a tree)
 1. Median branch length
