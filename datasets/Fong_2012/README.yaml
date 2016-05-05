@@ -1,5 +1,6 @@
 study:
-    reference: "Fong JJ, Brown JM, Fujita MK, Boussau B (2012) A phylogenomic approach to vertebrate phylogeny supports a turtle-archosaur affinity and a possible paraphyletic Lissamphibia. PLoS ONE 7(11): e48990."
+    reference: "Fong JJ, Brown JM, Fujita MK, Boussau B. A phylogenomic approach to vertebrate phylogeny supports a turtle-archosaur affinity and a possible paraphyletic lissamphibia. PLoS One. 2012 Nov 7;7(11):e48990."
+    year: 2012
     DOI: dx.doi.org/10.1371/journal.pone.0048990
 
 dataset:
@@ -7,17 +8,13 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: no
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 110 
-    number of sites: 25919
-    number of data blocks: 168 
     used for tree inference: yes
+    timetree root age:
+    study root age:
     study clade:
         latin: "Vertebrata"  
         english: "vertebrates" 
+        taxon ID: 7742
     notes: ""
     
 notes: "This is the SlowGenes dataset, which seems to be the dataset with the smallest amount of systematic bias. This study uses other methods to make datasets which are better, but these are not available on Data Dryad. For that reason, this dataset is useful for algorithmic approaches to model selection, but perhaps less useful for inferring vertebrate phylogeny."

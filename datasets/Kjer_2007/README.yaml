@@ -1,5 +1,6 @@
 study:
-    reference: "Kjer KM, Honeycutt RL (2007) Site specific rates of mitochondrial genomes and the phylogeny of eutheria, BMC Evolutionary Biology, Volume 7, Issue 8"
+    reference: "Kjer KM, Honeycutt RL. Site specific rates of mitochondrial genomes and the phylogeny of eutheria. BMC Evolutionary Biology. 2007 Jan 25;7(1):8."
+    year: 2007
     DOI: dx.doi.org/10.1186/1471-2148-7-8
 
 dataset:
@@ -7,17 +8,14 @@ dataset:
     license: 
         type: CC0
         notes: "Permission to include this dataset in this repository was granted by K.M. Kjer."
-    mitochondrial: yes
-    nuclear: no
-    chloroplast: no
-    datatype: dna
-    number of taxa: 89
-    number of sites: 14740
-    number of data blocks: 64
     used for tree inference: yes
+    timetree root age: 162.4 mya
+        timetree link: http://www.timetree.org/search/pairwise/Didelphis/Lemur
+    study root age:
     study clade:
         latin: "Mammalia"  
         english: "Mammals" 
+        taxon ID: 40674
     notes: ""
     
 notes: ""

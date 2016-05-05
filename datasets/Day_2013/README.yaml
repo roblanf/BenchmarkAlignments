@@ -1,5 +1,6 @@
 study:
-    reference: 'Day JJ, Peart CR, Brown KJ, Bills R, Friel JP, Moritz T (2013) Continental diversification of an African catfish radiation (Mochokidae: Synodontis). Systematic Biology, online in advance of print.'
+    reference: "Day JJ, Peart CR, Brown KJ, Friel JP, Bills R, Moritz T. Continental diversification of an African catfish radiation (Mochokidae: Synodontis). Systematic biology. 2013 Jan 9:syt001."
+    year: 2013
     DOI: dx.doi.org/10.1093/sysbio/syt001 
 
 dataset:
@@ -7,17 +8,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no
-    datatype: dna
-    number of taxa: 152
-    number of sites: 3586
-    number of data blocks: 11
     used for tree inference: yes
+    timetree root age: 18.5 mya
+        timetree link: http://www.timetree.org/search/pairwise/Synodontis%20frontosus/Synodontis%20unicolor
+    study root age: 
     study clade:
         latin: "Synodontis"
         english: "African catfish"
+        taxon ID: 42509
     notes: ""
     
 notes: ""

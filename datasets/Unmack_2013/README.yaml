@@ -1,5 +1,6 @@
 study:
-    reference:  "Peter J. Unmack, Gerald R. Allen, Jerald B. Johnson, Phylogeny and biogeography of rainbowfishes (Melanotaeniidae) from Australia and New Guinea, Molecular Phylogenetics and Evolution, Volume 67, Issue 1, April 2013, Pages 15-27"
+    reference: "Unmack PJ, Allen GR, Johnson JB. Phylogeny and biogeography of rainbowfishes (Melanotaeniidae) from Australia and New Guinea. Molecular Phylogenetics and Evolution. 2013 Apr 30;67(1):15-27."
+    year: 2013
     DOI: dx.doi.org/10.1016/j.ympev.2012.12.019
 
 dataset:
@@ -7,17 +8,13 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: no
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 139
-    number of sites: 6827
-    number of data blocks: 25
     used for tree inference: yes
+    timetree root age:
+    study root age:
     study clade:
         latin: "Melanotaeniidae"
         english: "rainbowfish"
+        taxon ID: 30700
     notes: ""
     
 notes: ""

@@ -1,5 +1,6 @@
 study:
-    reference:  "Wainwright PC, Smith WL, Price SA, Tang KL, Sparks JS, Ferry LA, Kuhn KL, Eytan RI, Near TJ (2012) The evolution of pharyngognathy: a phylogenetic and functional appraisal of the pharyngeal jaw key innovation in labroid fishes and beyond. Systematic Biology 61(6): 1001-1027."
+    reference: "Wainwright PC, Smith WL, Price SA, Tang KL, Sparks JS, Ferry LA, Kuhn KL, Eytan RI, Near TJ. The evolution of pharyngognathy: a phylogenetic and functional appraisal of the pharyngeal jaw key innovation in labroid fishes and beyond. Systematic Biology. 2012 Dec 1;61(6):1001-27."
+    year: 2012
     DOI: dx.doi.org/10.1093/sysbio/sys060
 
 dataset:
@@ -7,17 +8,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: no
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 188
-    number of sites: 8439
-    number of data blocks: 30
     used for tree inference: yes
+    timetree root age: 144.4 mya
+        timetree link: http://www.timetree.org/search/pairwise/Brotula%20multibarbata/Eleotris%20pisonis
+    study root age:
     study clade:
         latin: "Acanthomorpha"
         english: "Acanthomorph fishes"
+        taxon ID: 123368
     notes: ""
     
 notes: ""

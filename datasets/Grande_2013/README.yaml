@@ -1,5 +1,6 @@
 study:
-    reference: "Grande T, Borden WC, Smith WL (2013) Limits and relationships of Paracanthopterygii: A molecular framework for evaluating past morphological hypotheses. Mesozoic Fishes 5: 385-418. ISBN:978-3-89937-159-8"
+    reference: "Grande T, Borden WC, Smith WL. Limits and relationships of Paracanthopterygii: a molecular framework for evaluating past morphological hypotheses. Mesozoic fishes. 2013;5:385-418."
+    year: 2013
     DOI: NA
 
 dataset:
@@ -7,17 +8,13 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 65
-    number of sites: 4027
-    number of data blocks: 12
     used for tree inference: yes
+    timetree root age:
+    study root age:
     study clade:
         latin: "Paracanthopterygii"
         english: "paracanthopterygian fish"
+        taxon ID: 
     notes: ""
   
 notes: "The ms does not have a DOI, but it has an ISBN: ISBN:978-3-89937-159-8. The data blocks in this dataset were inferred with reference to the readme text associated with the dataset on dryad. Codon positions in each coding gene may not correspond with each other (i.e. '1' is not necessarily 1st codon position)."

@@ -1,5 +1,6 @@
 study:
-    reference: "Duchêne, Sebastián, Simon YW Ho, and Edward C. Holmes. Declining transition/transversion ratios through time reveal limitations to the accuracy of nucleotide substitution models. BMC evolutionary biology 15.1 (2015): 36."
+    reference: "Duchêne S, Ho SY, Holmes EC. Declining transition/transversion ratios through time reveal limitations to the accuracy of nucleotide substitution models. BMC evolutionary biology. 2015 Mar 11;15(1):1."
+    year: 2015   
     DOI: dx.doi.org/10.1186/s12862-015-0312-6
 
 dataset:
@@ -8,7 +9,6 @@ dataset:
         type: CC0
         notes: "With written permission from all three authors"
     used for tree inference: yes
-    outgroup: ""
     timetree root age: ""
     study root age: ""
     study clade:

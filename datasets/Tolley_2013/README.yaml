@@ -1,5 +1,6 @@
 study:
-    reference:  "Tolley KA, Townsend TM, Vences M (2013) Large-scale phylogeny of chameleons suggests African origins and rapid Eocene radiation. Proceedings of the Royal Society B 280(1759): 20130184."
+    reference: "Tolley KA, Townsend TM, Vences M. Large-scale phylogeny of chameleons suggests African origins and Eocene diversification. Proceedings of the Royal Society of London B: Biological Sciences. 2013 May 22;280(1759):20130184."
+    year: 2013
     DOI: dx.doi.org/10.1098/rspb.2013.0184
 
 dataset:
@@ -7,17 +8,13 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: no
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 203
-    number of sites: 5054
-    number of data blocks: 16
     used for tree inference: yes
+    timetree root age:
+    study root age:
     study clade:
         latin: "Chamaeleonidae"
         english: "chameleons"
+        taxon ID: 40248
     notes: ""
     
 notes: ""

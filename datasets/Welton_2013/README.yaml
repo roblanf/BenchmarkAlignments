@@ -1,5 +1,6 @@
 study:
-    reference: "Welton LJ, Siler CD, Oaks JR, Diesmos AC, Brown RM (2013) Multilocus phylogeny and Bayesian estimates of species boundaries reveal hidden evolutionary relationships and cryptic diversity in Southeast Asian monitor lizards. Molecular Ecology 22(13): 3495–3510."
+    reference: "Welton LJ, Siler CD, Oaks JR, Diesmos AC, Brown RM. Multilocus phylogeny and Bayesian estimates of species boundaries reveal hidden evolutionary relationships and cryptic diversity in Southeast Asian monitor lizards. Molecular ecology. 2013 Jul 1;22(13):3495-510."
+    year: 2013
     DOI: dx.doi.org/10.1111/mec.12324
 
 dataset:
@@ -7,17 +8,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 137
-    number of sites: 4552
-    number of data blocks: 16
     used for tree inference: yes
+    timetree root age: 47.0 mya
+        timetree link: http://www.timetree.org/search/pairwise/Varanus%20niloticus/Varanus%20indicus
+    study root age:
     study clade:
         latin: "Varanus"
         english: "monotor lizards"
+        taxon ID: 8556
     notes: ""
 
 notes: "There appear to be some errors in the dryad metadata and uploaded files. Specifically, there are only 137 species in the RAxML file, but 145 listed in the header. Second, some of the partitioning data contain overlapping subsets of sites in the Dryad file. Furthermore, there were a few alignment columns missing in teh RAxML partitions file. It's not clear why, but it is clear that this dataset would not have run in RAxML, because of errors in both the alignmenta and partitions file."

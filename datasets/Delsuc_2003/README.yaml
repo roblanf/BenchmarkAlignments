@@ -1,5 +1,6 @@
 study:
-    reference:  "Delsuc F, Stanhope MJ, Douzery EJP (2003) Molecular systematics of armadillos (Xenarthra, Dasypodidae): contribution of maximum likelihood and Bayesian analyses of mitochondrial and nuclear genes. Molecular Phylogenetics and Evolution 28: 261-275"
+    reference: "Delsuc F, Stanhope MJ, Douzery EJ. Molecular systematics of armadillos (Xenarthra, Dasypodidae): contribution of maximum likelihood and Bayesian analyses of mitochondrial and nuclear genes. Molecular phylogenetics and evolution. 2003 Aug 31;28(2):261-75."
+    year: 2003      
     DOI: dx.doi.org/10.1016/S1055-7903(03)00111-8
 
 dataset:
@@ -7,17 +8,14 @@ dataset:
     license: 
         type: CC0
         notes: ""
-    mitochondrial: yes
-    nuclear: yes
-    chloroplast: no 
-    datatype: dna
-    number of taxa: 13
-    number of sites: 6070
-    number of data blocks: 12
     used for tree inference: yes
+    timetree root age: 40.0 mya
+        timetree link: http://www.timetree.org/search/pairwise/Dasypus%20kappleri/Euphractus
+    study root age:
     study clade:
         latin: "Xenarthra: Dasypodidae"
         english: "Armadillos"
+        taxon ID: 9359
     notes: ""
     
 notes: ""
