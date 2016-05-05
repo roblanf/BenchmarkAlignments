@@ -135,7 +135,7 @@ begin SETS;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 18181-19997;
-	CHARSET nuclear_genome =  1-3207 4096-5793 6769-14004 16444-18180;
+	CHARSET nuclear_genome =  1-18180;
 	
 	[outgoups]
 	TAXSET outgroups = Callorhinchus_milii Leucoraja_erinacea;  
