@@ -10,12 +10,9 @@ dataset:
         notes: "Permission to include this dataset in this repository was granted by K.M. Kjer."
     used for tree inference: yes
     timetree root age: 162.4 mya
-        timetree link: http://www.timetree.org/search/pairwise/Didelphis/Lemur
     study root age:
     study clade:
         latin: "Mammalia"  
         english: "Mammals" 
         taxon ID: 40674
-    notes: ""
-    
-notes: ""
+    notes: NA

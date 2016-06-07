@@ -57,11 +57,23 @@ begin SETS;
 	CHARSET 16S = 1063-1501;
 	CHARSET 18S = 1511-2111;
 
+	CHARPARTITION loci = 	1:COI_1stpos,
+						 	2:COI_2ndpos,
+							3:COI_3rdpos,
+							4:H3_1stpos,
+							5:H3_2ndpos,
+							6:H3_3rdpos,
+							7:16S,
+							8:18S;
+
+
 	[genomes]
 	CHARSET mitochondrial_genome = 1-752 1063-1501;
 	CHARSET nuclear_genome = 753-1062 1511-2111;
 
+	CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
 	[outgroups]
-	TAXSET outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentottus Laccornellus_copelatoides;
+	TAXSET outgroups = Andex_insignis Hyphydrus_ovatus Hovahydrus_minutissimus Canthyporus_hottentotus Laccornellus_copelatoides;
 
 end;

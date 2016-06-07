@@ -10,12 +10,9 @@ dataset:
         notes: ""
     used for tree inference: yes
     timetree root age: 79.0 mya
-        timetree link: http://www.timetree.org/search/pairwise/Quercus%20rubra%20/Nothofagus%20fusca
-    study root age: 119.7 mya / 83.5 mya ??
+    study root age: 83.5 mya
     study clade:
         latin: "Nothofagus"
         english: "southern beeches"
         taxon ID: 26779
-    notes: ""
-    
-notes: ""
+    notes: NA

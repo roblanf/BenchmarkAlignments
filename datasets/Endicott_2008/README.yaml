@@ -15,6 +15,4 @@ dataset:
         latin:  "Homo sapiens"
         english: "human"
         taxon ID: 9609
-    notes: ""
-    
-notes: ""
+    notes: NA

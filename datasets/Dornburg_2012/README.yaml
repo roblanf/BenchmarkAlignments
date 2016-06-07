@@ -7,15 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.3t19n
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
     timetree root age: 144.4 mya
-        timetree link: http://www.timetree.org/search/pairwise/myripristis%20vittata/sargocentron%20ittodai
-    study root age:
+    study root age: NA
     study clade:
         latin:  "Teleostei: Beryciformes: Holocentridae"
         english: "Squirrel Fishes"
         taxon ID: 47697
-    notes: ""
-    
-notes: ""
+    notes: NA

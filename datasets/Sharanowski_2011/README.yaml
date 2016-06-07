@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.1688p
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin: "Braconidae"
         english: "parasitoid wasps"
         taxon ID: 7402
-    notes: ""
-    
-notes: ""
+    notes: NA

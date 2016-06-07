@@ -11,11 +11,9 @@ dataset:
     used for tree inference: yes
     timetree root age: 832.3 mya
         timetree link: http://www.timetree.org/search/pairwise/Hypsibius%20dujardini/Manduca%20sexta
-    study root age: 
+    study root age: NA 
     study clade:
         latin: "Insecta"
         english: "insects"
         taxon ID: 50557
-    notes:
-    
-notes: The file from treebase from which this matrix is derived is is SOSaa.nexorg
+    notes: The file from treebase from which this matrix is derived is is SOSaa.nexorg

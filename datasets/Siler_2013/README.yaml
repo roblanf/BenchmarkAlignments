@@ -7,15 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.cp6gg
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
     timetree root age: 40.2 mya 
-        timetree link: http://www.timetree.org/search/pairwise/Pantherophis%20obsoletus/Lycodon%20jara
-    study root age:
+    study root age: NA
     study clade:
         latin:  "Lycodon"
         english: "wolf snakes"
         taxon ID: 39095
-    notes: ""
-    
-notes: "I did not verify the actual codon positions of cytb and cmos, so the '1', '2', '3' do not necessarily indicate 1st 2nd and 3rd positions."
+    notes: "I did not verify the actual codon positions of cytb and cmos, so the '1', '2', '3' do not necessarily indicate 1st 2nd and 3rd positions."

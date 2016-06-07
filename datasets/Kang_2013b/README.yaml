@@ -15,6 +15,4 @@ dataset:
         latin: "Xiphophorus"
         english: "swordtail fish"
         taxon ID: 8082
-    notes: ""
-    
-notes: "This dataset contains just the mitochondrial sequences. A separate data set containing just nuclear sequences is available."
+    notes: "This dataset contains just the mitochondrial sequences. A separate data set containing just nuclear sequences is available."

@@ -7,15 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.f1t15
     license: 
         type: CC0
-        notes: "" 
+        notes: NA 
     used for tree inference: yes
     timetree root age: 436.8 mya
-        timetree link: http://www.timetree.org/search/pairwise/Homo%20sapiens/Amia%20calva
     study root age: 427 mya
     study clade:
         latin: "Osteichthyes"
         english: "bony fishes"
-        taxon ID: 
-    notes: ""
-    
-notes: ""
+        taxon ID: 117571
+    notes: NA

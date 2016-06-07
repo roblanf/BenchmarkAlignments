@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.jd5ff
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin:  "Hymenoptera: Megachilidae"
         english: "bee"
         taxon ID: 124286
-    notes: ""
-    
-notes: ""
+    notes: NA

@@ -7,15 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.7bn0fr99
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
     timetree root age: 84.7 mya
-        timetree link: http://www.timetree.org/search/pairwise/Phelsuma%20serraticauda/Gekko%20gecko
-    study root age: 
+    study root age: NA
     study clade:
         latin: "Ptychozoon" 
         english: "Asian geckos"
         taxon ID: 1118401
-    notes: ""
-    
-notes: ""
+    notes: NA

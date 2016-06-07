@@ -9,12 +9,10 @@ dataset:
         type: CC0
         notes: "This dataset, and permission to post it here under a CC0 license, was provided via email by Hojun Song"
     used for tree inference: yes
-    timetree root age: ##getting strange error, confusing outgroups
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin: "Acridoidea"
         english: "Grasshoppers"
         taxon ID: 92621
-    notes: ""
-    
-notes: "1: The .cfg file contains a set of additional partitioning schemes tested by the authors. 2: This is an excellent example of a finely-partitioned mitochondrial genome dataset."
+    notes: "1: The .cfg file contains a set of additional partitioning schemes tested by the authors. 2: This is an excellent example of a finely-partitioned mitochondrial genome dataset."

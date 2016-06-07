@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.s791pg03
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin: "Gephyromantis"  
         english: "Malagasy frogs" 
         taxon ID: 403241
-    notes: ""
-    
-notes: "The number of sites in the alignment is 6548, but 403 are not included by the authors. The authors also exclude these sites, but it's not clear why so I didn't exclude them in the partitionfinder.cfg file."
+    notes: "The number of sites in the alignment is 6548, but 403 are not included by the authors. The authors also exclude these sites, but it's not clear why so I didn't exclude them in the partitionfinder.cfg file."

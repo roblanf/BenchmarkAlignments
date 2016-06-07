@@ -9,12 +9,10 @@ dataset:
         type: NA
         notes: "Treebase study ID S10378"
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin:  "Chironomidae"
         english: "nonbiting midges"
         taxon ID: 7149
-    notes: ""
-    
-notes: ""
+    notes: NA

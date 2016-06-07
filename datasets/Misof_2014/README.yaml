@@ -10,12 +10,9 @@ dataset:
         notes: NA
     used for tree inference: yes
     timetree root age: 495.1 mya
-        timetree link: http://www.timetree.org/search/pairwise/Collembola/Hemiptera
     study root age: 479 mya
     study clade:
         latin:  "Insecta"
         english: "insects"
         taxon ID: 50557
-    notes:
-    
-notes: This is the largest dataset in the supplementary files, specifically, it is supermatrix A in supplementary archive 8. The partitions are from the file supermatrix_A.domains_partitions
+    notes: This is the largest dataset in the supplementary files, specifically, it is supermatrix A in supplementary archive 8. The partitions are from the file supermatrix_A.domains_partitions

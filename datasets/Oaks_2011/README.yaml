@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.5k9s0
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA 
+    study root age: NA
     study clade:
         latin: "Crocodylia"
         english: "Crocodilians"
         taxon ID: 1294634
-    notes: ""
-
-notes: "The original dataset specified each exon for each of the nuclear coding genes. But many of these exons are very short, making it impractical to divide them up into codon positions, so I made the pragmatic decision to lump exons together."
+    notes: "The original dataset specified each exon for each of the nuclear coding genes. But many of these exons are very short, making it impractical to divide them up into codon positions, so I made the pragmatic decision to lump exons together."

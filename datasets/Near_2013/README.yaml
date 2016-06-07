@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.d3mb4
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin: "Acanthomorpha"
         english: "spiny-rayed fishes" 
         taxon ID: 123368
-    notes: ""
-    
-notes: "There were a few issues with capitalisations in the species names, which I fixed"
+    notes: "There were a few issues with capitalisations in the species names, which I fixed"

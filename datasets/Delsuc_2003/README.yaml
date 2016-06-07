@@ -7,15 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.1838
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
     timetree root age: 40.0 mya
-        timetree link: http://www.timetree.org/search/pairwise/Dasypus%20kappleri/Euphractus
     study root age:
     study clade:
         latin: "Xenarthra: Dasypodidae"
         english: "Armadillos"
         taxon ID: 9359
-    notes: ""
-    
-notes: ""
+    notes: NA

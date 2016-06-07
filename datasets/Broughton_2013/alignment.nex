@@ -71,7 +71,7 @@ end;
 begin SETS;
 
 	[loci]
-	CHARSET apc2_1stpost = 1-798\3;
+	CHARSET apc2_1stpos = 1-798\3;
 	CHARSET apc2_2ndpos = 2-798\3; 
 	CHARSET apc2_3rdpos = 3-798\3;
 	CHARSET btbd7_1stpos = 799-1650\3;
@@ -133,10 +133,74 @@ begin SETS;
 	CHARSET zic1_3rdpos = 17133-18180\3;
 	CHARSET 16s = 18181-19997;
 	
+    CHARPARTITION loci =    1:apc2_1stpos,
+                            2:apc2_2ndpos,
+                            3:apc2_3rdpos,
+                            4:btbd7_1stpos,
+                            5:btbd7_2nspos,
+                            6:btbd7_3rdpos,
+                            7:enc1_1stpos,
+                            8:enc1_2ndpos,
+                            9:enc1_3rdpos,
+                            10:ficd_1stpos,
+                            11:ficd_2ndpos,
+                            12:ficd_3rdpos,
+                            13:gtdc2_1stpos,
+                            14:gtdc2_2ndpos,
+                            15:gtdc2_3rdpos,
+                            16:gpr85_1stpos,
+                            17:gpr85_2ndpos,
+                            18:gpr85_3rdpos,
+                            19:kbtbd4_1stpos,
+                            20:kbtbd4_2ndpos,
+                            21:kbtbd4_3rdpos,
+                            22:kiaal_1stpos,
+                            23:kiaal_2ndpos,
+                            24:kiaal_3rdpos,
+                            25:myh6_1stpos,
+                            26:myh6_2ndpos,
+                            27:myh6_3rdpos,
+                            28:panx2_1stpos,
+                            29:panx2_2ndpos,
+                            30:panx2_3rdpos,
+                            31:plagl2_1stpos,
+                            32:plagl2_2ndpos,
+                            33:plagl2_3rdpos,
+                            34:ptchd4_1stpos,
+                            35:ptchd4_2ndpos,
+                            36:ptchd4_3rdpos,
+                            37:rag1_1stpos,
+                            38:rag1_2ndpos,
+                            39:rag1_3rdpos,
+                            40:rag2_1stpos,
+                            41:rag2_2ndpos,
+                            42:rag2_3rdpos,
+                            43:ryr3_1stpos,
+                            44:ryr3_2ndpos,
+                            45:ryr3_3rdpos,
+                            46:sacsl_1stpos,
+                            47:sacsl_2ndpos,
+                            48:sacsl_3rdpos,
+                            49:snx33_1stpos,
+                            50:snx33_2ndpos,
+                            51:snx33_3rdpos,
+                            52:tbccl_1stpos,
+                            53:tbccl_2ndpos,
+                            54:tbccl_3rdpos,
+                            55:tbr1b_1stpos,
+                            56:tbr1b_2ndpos,
+                            57:tbr1b_3rdpos,
+                            58:zic1_1stpos,
+                            59:zic1_2ndpos,
+                            60:zic1_3rdpos,
+                            61:16s;
+
 	[genomes]
 	CHARSET mitochondrial_genome = 18181-19997;
 	CHARSET nuclear_genome =  1-18180;
 	
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
 	[outgoups]
 	TAXSET outgroups = Callorhinchus_milii Leucoraja_erinacea;  
 	

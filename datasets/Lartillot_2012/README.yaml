@@ -7,14 +7,12 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.tt28qk6f
     license:
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age:
-    study root age:
+    timetree root age: NA
+    study root age: NA
     study clade:
         latin: "Eutheria"
         english: "placental mammals"
         taxon ID: 9347
-    notes: ""
-    
-notes: ""
+    notes: NA

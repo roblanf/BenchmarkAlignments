@@ -48,17 +48,17 @@ begin SETS;
 
 	[loci]
 	CHARSET CO1_1stpos = 1-658\3;
-	CHARSET CO1_2ndpos = 2-656\3;
-	CHARSET CO1_3rdpos = 3-657\3;
+	CHARSET CO1_2ndpos = 2-658\3;
+	CHARSET CO1_3rdpos = 3-658\3;
 	CHARSET 18S	= 659-3112;
 	CHARSET H3_1stpos = 3113-3440\3;
-	CHARSET H3_2ndpos = 3114-3438\3;
-	CHARSET H3_3rdpos = 3115-3439\3;
-	CHARSET 28S_2 = 3441-5185;
+	CHARSET H3_2ndpos = 3114-3440\3;
+	CHARSET H3_3rdpos = 3115-3440\3;
+	CHARSET 28S = 3441-5185;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-658;
-	CHARSET nuclear_genome = 659-3112 3441-5185;
+	CHARSET nuclear_genome = 659-5185;
 		
 	[outgroups]
 	TAXSET outgroups = Hypochilus_pococki Hickmania_troglodytes Loxosceles_sp Dysdera_sp Kukulcania_hibernalis_hw; 
