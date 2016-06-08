@@ -10,7 +10,6 @@ dataset:
         notes: "treebase studyID S10012"
     used for tree inference: yes
     timetree root age: 72.1 mya
-        timetree link: http://www.timetree.org/search/pairwise/Liometopum%20apiculatum/Azteca%20instabilis
     study root age: 67 mya
     study clade:
         latin: "Dolichoderinae"

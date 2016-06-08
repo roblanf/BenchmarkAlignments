@@ -4,7 +4,7 @@ study:
     DOI: dx.doi.org/10.1126/science.1257570
 
 dataset:
-    DOI: http://dx.doi.org/10.5061/dryad.3c0f1
+    DOI: dx.doi.org/10.5061/dryad.3c0f1
     license:
         type: CC0
         notes: NA

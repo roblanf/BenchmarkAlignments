@@ -10,7 +10,6 @@ dataset:
         notes: "TreeBase Study ID S2044, matrix ID M3165"
     used for tree inference: yes
     timetree root age: 349.4 mya
-        timetree link: http://www.timetree.org/search/pairwise/Polyodon%20spathula/Amia%20calva
     study root age:
     study clade:
         latin: "Actinopterygii"  
