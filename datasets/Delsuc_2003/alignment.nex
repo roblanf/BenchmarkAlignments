@@ -41,6 +41,8 @@ begin SETS;
 	[genomes]
 	CHARSET mitochondrial_genome = 5114-6968;
 	CHARSET nuclear_genome = 1-5113;
+
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Bradypus Choloepus Cyclopes Tamandua Myrmecophaga;

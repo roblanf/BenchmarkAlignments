@@ -172,6 +172,8 @@ begin SETS;
 	CHARSET mitochondrial_genome = 1994-3457 3520-4221;
 	CHARSET nuclear_genome = 1-1993;
 	
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
 	[outgroups]
 	TAXSET outgroups = Ithomia_agnosia_20711 Hypothyris_anastasia_20507 Hypothyris_moebiusi_20299; ##missing one outgroup from paper in dataset
 	

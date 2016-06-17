@@ -63,6 +63,8 @@ begin SETS;
 	CHARSET mitochondrial_genome = 1-1246; 
 	CHARSET nuclear_genome = 1247-1665; 
 	
+	CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
 	[outgoups]
 	TAXSET outgroups = Tarentola_mauritanica_EU443255;
 	

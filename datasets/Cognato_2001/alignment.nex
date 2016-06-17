@@ -66,6 +66,8 @@ begin SETS;
 	CHARSET mitochondrial_genome = 650-1897;
 	CHARSET nuclear_genome = 1-649;
 	
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+	
 	[outgroups]
 	TAXSET outgroups = Con3 Mx1 Oer1 Ort1 Pito1 Pica1 Pho1 Pk1;
 	

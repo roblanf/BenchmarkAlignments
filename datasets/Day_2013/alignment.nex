@@ -178,6 +178,9 @@ begin SETS;
 	CHARSET mitochondrial_genome = 1-1256 2910-3586;
 	CHARSET nuclear_genome = 1257-2909;
 	
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
+
 	[outgroups]
 	TAXSET outgroups = CU88625_Malapterurustanganyikaensis CU81135_Atopochilussavorgnani CU87530_Euchilichthysdybowskii CU89213_Microsynodontissp S018_Mocholkusniloticus S068_Chiloglanisniloticus CU90429_Chiloglanissp Mochokiellapaynei;
 		

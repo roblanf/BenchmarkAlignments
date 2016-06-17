@@ -80,6 +80,8 @@ begin SETS;
 	CHARSET mitochondrial_genome = 5269-5919;
 	CHARSET nuclear_genome = 1-786 1589-2288 2994-5268;
 	
+    CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
+
 	[outgroups]
 	TAXSET outgroups = Beryx_decadactylus Percopsis_omiscomaycus;
 	
