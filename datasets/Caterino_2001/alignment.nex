@@ -56,15 +56,19 @@ begin SETS;
 	CHARSET EF1a_1stpos = 2335-3329\3;
 	CHARSET EF1a_2ndpos = 2336-3329\3;
 	CHARSET EF1a_3rdpos = 2337-3329\3;
-	
-	EXSET* omitted_from_analysis = 1-28 1577-1647 2333-2334; 
-	
+		
 	[genomes]
 	CHARSET mitochondrial_genome = 29-1576 1648-2332;
 	CHARSET nuclear_genome = 2335-3329;
 	
 	[outgroups]
-	TAXSET outgroups = Pieris_napi_943 Colias_eury_543 Hylephil_phy_989 Erynnis_tris_945 Pyrgus_commu_901; ##unsure of Coenonymph_984 Euphil_bern_969 Macrosoma_983 Proserp_clark_988 Ostrinia_nub_5 Lambdina_fisc_9 Feltia_jacul_150
+	TAXSET outgroups = Pieris_napi_943 Colias_eury_543 Hylephil_phy_989 Erynnis_tris_945 Pyrgus_commu_901; ##unsure of Coenonymph_984 Euphil_bern_969 Macrosoma_983 Proserp_clark_988 Ostrinia_nub_5 Lambdina_fisc_9 Feltia_jacul_150;
 	
+end;
+
+begin ASSUMPTIONS;
+
+    EXSET omitted_from_analysis = 1-28 1577-1647 2333-2334; 
+
 end;
 
