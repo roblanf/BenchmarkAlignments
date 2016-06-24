@@ -160,7 +160,7 @@ begin SETS;
 	CHARSET	COI_3rdpos = 3-1592\3;
 	CHARSET	16S = 1593-3037;
 
-    CHARPARTITION loci = 	1:COI_1stpos, 2:COI_2ndpos, 3:COI_3rdpos, 4:16S;
+    CHARPARTITION loci = 1:COI_1stpos, 2:COI_2ndpos, 3:COI_3rdpos, 4:16S;
 
 	[genomes]
 	CHARSET	mitochondrial_genome = 1-3037;
