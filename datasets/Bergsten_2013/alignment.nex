@@ -55,7 +55,7 @@ begin SETS;
 	CHARSET H3_2ndpos = 753-1062\3;
 	CHARSET H3_3rdpos = 754-1062\3;
 	CHARSET 16S = 1063-1501;
-	CHARSET 18S = 1511-2111;
+	CHARSET 18S = 1502-2111;
 
 	CHARPARTITION loci = 	1:COI_1stpos,
 						 	2:COI_2ndpos,
@@ -69,7 +69,7 @@ begin SETS;
 
 	[genomes]
 	CHARSET mitochondrial_genome = 1-752 1063-1501;
-	CHARSET nuclear_genome = 753-1062 1511-2111;
+	CHARSET nuclear_genome = 753-1062 1502-2111;
 
 	CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
 
