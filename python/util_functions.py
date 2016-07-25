@@ -5,15 +5,20 @@ import datetime
 import urllib2
 from Bio.Nexus import Nexus
 from Bio import SeqUtils
+import itertools
 
 def add_alignment(aln, result):
     result["n_taxa"] = aln.ntax
     result["n_sites"] = aln.nchar
     result["n_datablocks"] = len(aln.charpartitions["loci"])
 
-    alnseq = ''.join([str(x) for x in aln.matrix.values()])
-    gc_skew = SeqUtils.GC_skew(aln_seq, window = len(aln_seq))
+    # get GC skew
+    aln_seq = ''.join([str(x) for x in aln.matrix.values()])
+    gc_skew = SeqUtils.GC_skew(aln_seq, window = len(aln_seq))[0]
     gc = SeqUtils.GC(aln_seq)
+
+    result["gc_skew"] = gc_skew
+    result["gc_percent"] = gc
 
     return result
 
@@ -39,15 +44,34 @@ def check_alignment(alignment_file):
         raise ValueError
 
     # Check that no sites are duplicated in either charpartition
+    all_sites = set(range(aln.nchar))
+
+    loci_sites = [x[1] for x in aln.charpartitions['loci'].items()]
+    loci_sites = list(itertools.chain.from_iterable(loci_sites))
+
+    if len(loci_sites) > len(all_sites):
+        logging.error("The loci charpartition has %d more site(s) than the number of sites in the alignment" %(len(loci_sites) - len(all_sites)))    
+        raise ValueError
+
+
+    geno_sites = [x[1] for x in aln.charpartitions['genomes'].items()]
+    geno_sites = list(itertools.chain.from_iterable(geno_sites))
+
+    if len(geno_sites) > len(all_sites):
+        logging.error("The genomes charpartition has %d more site(s) than the number of sites in the alignment" %(len(geno_sites) - len(all_sites)))    
+        raise ValueError
 
 
     # Check that all sites are covered by 'loci' charpartition
+    if len(set(loci_sites)) < len(all_sites):
+        logging.error("The loci charpartition does not cover the following sites, please fix: %s" %(all_sites.difference(set(loci_sites))))    
+        raise ValueError
 
 
     # Check that all sites are covered by 'genomes' charpartition
-
-
-
+    if len(set(geno_sites)) < len(all_sites):
+        logging.error("The genomes charpartition does not cover the following sites, please fix: %s" %(all_sites.difference(set(geno_sites))))    
+        raise ValueError
 
     return(aln)
 

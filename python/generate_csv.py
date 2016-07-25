@@ -25,7 +25,9 @@ dataset = {"name":"NA",
           "taxon_ID":"NA",
           "n_taxa":"NA",
           "n_sites":"NA",
-          "n_datablocks":"NA"
+          "n_datablocks":"NA",
+          "gc_percent":"NA",
+          "gc_skew":"NA"
           }
 
 # read each file and extract the things you want, writing a csv as you go
