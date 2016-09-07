@@ -1,7 +1,7 @@
 # a little script to generate charpartitions from files of charsets
 
 
-filename = "/Users/robertlanfear/Desktop/sets.txt"
+filename = "/Users/roblanfear/Desktop/sets.txt"
 
 charsets = open(filename, 'r').readlines()
 
