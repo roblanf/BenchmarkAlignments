@@ -229,9 +229,14 @@ begin SETS;
 	CHARSET RAG1_2ndpos = 3088-4661\3;
 	CHARSET RAG1_3rdpos = 3089-4661\3;
 	CHARSET 16S = 4662-5054;
+
+	CHARPARTITION loci = 1:cmos_1stpos, 2:cmos_2ndpos, 3:cmos_3rdpos, 4:ND2_1stpos, 5:ND2_2ndpos, 6:ND2_3rdpos, 7:ND4_1stpos, 8:ND4_2ndpos, 9:ND4_3rdpos, 10:PRLR_1stpos, 11:PRLR_2ndpos, 12:PRLR_3rdpos, 13:RAG1_1stpos, 14:RAG1_2ndpos, 15:RAG1_3rdpos, 16:16S;
 	
 	[genomes]
-	CHARSET mitochodrial_genome = 4662-5054;
+	CHARSET mitochondrial_genome = 856-2505;
+	CHARSET nuclear_genome = 1-855 2506-5054;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Sphenodon_punctatus_AF534390 Dibamus_sp_AY649149 Coleonyx_variegatus_NC008774 Gekko_gecko_NC007627 Acontias_meleagris_AY028880 Mabuya_quinquetaeniata_DQ238906 Cordylosaurus_subtesselatus_AY217951 Cordylus_namaquensis_AY217950 Lepidophyma_flavimaculatum_NC008775 Takydromus_tachydromoides_NC008773 Rhineura_floridana_NC006282 Amphisbaena_fuliginosa_FJ441683 Alopoglossus_copii_AF420745 Liotyphlops_albirostris_AF366762 Dinodon_semicarinatus_NC001945 Elgaria_multicarinata_TWR469 Xenosaurus_platyceps_DQ990973 Heloderma_suspectum_ISIS100503 Varanus_indicus_EF193692 Shinisaurus_crocodilurus_AB080274 Anolis_carolinenesis_NC010972 Liolaemus_scapularis_L41447 Uromastyx_acanthinura_FJ639598 Leiolepis_belliana_AF378379 Physignathus_cocincinus_AB031990 Agama_agama_GU128439;

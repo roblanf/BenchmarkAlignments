@@ -9,8 +9,8 @@ dataset:
         type: CC0
         notes: NA
     used for tree inference: yes
-    timetree root age: NA
-    study root age: NA
+    timetree root age: 56.7 mya
+    study root age: 65 mya
     study clade:
         latin: "Chamaeleonidae"
         english: "chameleons"

@@ -1,0 +1,5 @@
+gc_skew,study_DOI,n_taxa,study_year,n_datablocks,root_age_study,n_sites,clade_latin,name,license,clade_english,root_age_timetree,gc_percent,dataset_DOI,taxon_ID
+-0.14823884983185898,dx.doi.org/10.1098/rspb.2013.0184,203,2013,16,65 mya,5054,Chamaeleonidae,Tolley_2013,CC0,chameleons,56.7 mya,32.63980537290855,dx.doi.org/10.5061/dryad.11350,40248
+-0.3418819849636561,dx.doi.org/10.1016/j.ympev.2012.12.019,139,2013,25,75 mya,6827,Melanotaeniidae,Unmack_2013,CC0,rainbowfish,NA,40.564706576616544,dx.doi.org/10.5061/dryad.qq846,30700
+-0.014678872958696984,dx.doi.org/10.1093/sysbio/sys060,188,2012,30,NA,8439,Acanthomorpha,Wainwright_2012,CC0,Acanthomorph fishes,144.4 mya,48.70018379711219,dx.doi.org/10.5061/dryad.5h951h04,123368
+0.09909149307148757,dx.doi.org/10.1093/sysbio/sys092,37,2012,8,276.5 mya,5185,Archaeidae,Wood_2012,CC0,pelican spiders,NA,28.409392999556935,dx.doi.org/10.5061/dryad.7231d,336678

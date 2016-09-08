@@ -228,9 +228,13 @@ begin SETS;
 	CHARSET zic_1stpos = 7573-8437\3;
 	CHARSET zic_2ndpos = 7574-8438\3;
 	CHARSET zic_3rdpos = 7575-8439\3;
-	
+
+	CHARPARTITION loci = 1:enc_1stpos, 2:enc_2ndpos, 3:enc_3rdpos, 4:glyt_1stpos, 5:glyt_2ndpos, 6:glyt_3rdpos, 7:myh_1stpos, 8:myh_2ndpos, 9:myh_3rdpos, 10:plag_1stpos, 11:plag_2ndpos, 12:plag_3rdpos, 13:ptr_1stpos, 14:ptr_2ndpos, 15:ptr_3rdpos, 16:rag_1stpos, 17:rag_2ndpos, 18:rag_3rdpos, 19:sh3_1stpos, 20:sh3_2ndpos, 21:sh3_3rdpos, 22:sreb_1stpos, 23:sreb_2ndpos, 24:sreb_3rdpos, 25:tbr_1stpos, 26:tbr_2ndpos, 27:tbr_3rdpos, 28:zic_1stpos, 29:zic_2ndpos, 30:zic_3rdpos;	
+
 	[genomes]
-	CHARSET
+	CHARSET nuclear_genome = 1-8439;
+
+	CHARPARTITION genomes = 1:nuclear_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Polymixia_loweiB Polymixia_japonicaA Percopsis_omiscomaycusA Beryx_decadactylusA Hoplostethus_atlanticusA;

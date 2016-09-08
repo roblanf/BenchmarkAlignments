@@ -129,9 +129,14 @@ begin SETS;
 	CHARSET co1_2ndpos = 2789-3602\3;
 	CHARSET co1_3rdpos = 2790-3603\3;
 	CHARSET opsin_intron = 3605-3692;
+
+	CHARPARTITION loci = 1:ef1a_exon1_1stpos, 2:ef1a_exon1_2ndpos, 3:ef1a_exon1_3rdpos, 4:intron1, 5:ef1a_exon2_1stpos, 6:ef1a_exon2_2ndpos, 7:ef1a_exon2_3rdpos, 8:intron2, 9:ef1a_exon3_1stpos, 10:ef1a_exon3_2ndpos, 11:ef1a_exon3_3rdpos, 12:cad_exon1_1stpos, 13:cad_exon1_2ndpos, 14:cad_exon1_3rdpos, 15:intron3, 16:cad_exon2_1stpos, 17:cad_exon2_2ndpos, 18:cad_exon2_3rdpos, 19:opsin_1stpos, 20:opsin_2ndpos, 21:opsin_3rdpos, 22:co1_1stpos, 23:co1_2ndpos, 24:co1_3rdpos, 25:opsin_intron;
 	
 	[genomes]
-	CHARSET mitochondrial_genome = 2789-3604;
+	CHARSET nuclear_genome = 1-2787 3605-3692;
+	CHARSET mitochondrial_genome = 2788-3604;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Hoplitis_albifrons Hoplitis_nasuta Hoplitis_bisulca;

@@ -114,10 +114,14 @@ begin SETS;
 	CHARSET COII_2ndpos = 690-1390\3;
 	CHARSET COII_3rdpos = 691-1390\3;
 	CHARSET 28S = 1391-2253;
+
+	CHARPARTITION loci = 1:COI_1stpos, 2:COI_2ndpos, 3:COI_3rdpos, 4:COII_1stpos, 5:COII_2ndpos, 6:COII_3rdpos, 7:28S;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1390;
 	CHARSET nuclear_genome = 1391-2253;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Periptyctus_ccoc233 Periptyctus_CO712 Amphix_CO318;

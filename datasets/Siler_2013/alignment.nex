@@ -74,13 +74,18 @@ begin SETS;
 	CHARSET Cytb_1stpos = 1-1110\3;
 	CHARSET Cytb_2ndpos = 2-1110\3;
 	CHARSET Cytb_3rdpos = 3-1110\3;
-	CHARSET Cmos_1stpos = 1111-1679\3;
-	CHARSET Cmos_2ndpos = 1112-1679\3;
-	CHARSET Cmos_3rdpos = 1113-1679\3;
+	CHARSET Cmos_2ndpos = 1111-1679\3;
+	CHARSET Cmos_3rdpos = 1112-1679\3;
+	CHARSET Cmos_1stpos = 1113-1679\3;
 	CHARSET Vim = 1680-2697;
+
+	CHARPARTITION loci = 1:Cytb_1stpos, 2:Cytb_2ndpos, 3:Cytb_3rdpos, 4:Cmos_1stpos, 5:Cmos_2ndpos, 6:Cmos_3rdpos, 7:Vim;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1110;
+	CHARSET nuclear_genome = 1111-2697;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
 	TAXSET outgroups = Ahaetulla_prasina_CDS1130 Ahaetulla_prasina_RMB3042;

@@ -7,10 +7,10 @@ dataset:
     DOI: dx.doi.org/10.5061/dryad.qq106tm4
     license: 
         type: CC0
-        notes: ""
+        notes: NA
     used for tree inference: yes
-    timetree root age: 79.0 mya
-    study root age: 83.5 mya
+    timetree root age: 79 mya
+    study root age: 72 mya
     study clade:
         latin: "Nothofagus"
         english: "southern beeches"

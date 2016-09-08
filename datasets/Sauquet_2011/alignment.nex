@@ -71,11 +71,16 @@ begin SETS;
 	CHARSET spacer_trnlf = 3778-4258;
 	CHARSET trnl_intron = 4259-4816;
 	CHARSET its = 4817-5444;
+
+	CHARPARTITION loci = 1:atpb_1stpos, 2:atpb_2ndpos, 3:atpb_3rdpos, 4:rbcl_1stpos, 5:rbcl_2ndpos, 6:rbcl_3rdpos, 7:spacer_rbcl, 8:spacer_trnlf, 9:trnl_intron, 10:its;
 	
 	[genomes]
-	CHARSET
+	CHARSET chloroplast_genome = 1-4816;
+	CHARSET nuclear_genome = 4817-5444;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:chloroplast_genome;
 	
 	[outgroups]
-	TAXSET outgroups = Cucumis_sativus Lotus_japonicus Phaseolous_vulgaris;
+	TAXSET outgroups = Alfaroa_williamsii Alfaropsis_roxburghiana Betula_platyphylla Carpinus_betulus Carya_illinoinensis Castanea_sativa Casuarina_equisetifolia Chrysolepis_sempervirens Comptonia_peregrina Cucumis_sativus Cyclocarya_paliurus Engelhardia_fenzelii Fagus_grandifolia Juglans_nigra Lithocarpus_henryi Lotus_japonicus Morella_cerifera Oreomunnea_mexicana Phaseolous_vulgaris Platycarya_strobilacea Quercus_rubra Rhoiptelea_chiliantha Ticodendron_incognitum Trigonobalanus_verticellata;
 	
 end;

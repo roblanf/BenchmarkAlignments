@@ -15,4 +15,4 @@ dataset:
         latin:  "Lycodon"
         english: "wolf snakes"
         taxon ID: 39095
-    notes: "I did not verify the actual codon positions of cytb and cmos, so the '1', '2', '3' do not necessarily indicate 1st 2nd and 3rd positions."
+    notes: NA

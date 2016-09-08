@@ -140,8 +140,13 @@ begin SETS;
 	CHARSET tRNAtrp = 6699-6718;
 	CHARSET DLOOP = 6719-7282;
 
+	CHARPARTITION loci = 1:cmos_1stpos, 2:cmos_2ndpos, 3:cmos_3rdpos, 4:LDHB_exons_1stpos, 5:LDHB_exons_2ndpos, 6:LDHB_exons_3rdpos, 7:LDHA_exons_1stpos, 8:LDHA_exons_2ndpos, 9:LDHA_exons_3rdpos, 10:RHO_exons_1stpos, 11:RHO_exons_2ndpos, 12:RHO_exons_3rdpos, 13:ACTC_exons_1stpos, 14:ACTC_exons_2ndpos, 15:ACTC_exons_3rdpos, 16:AChR_exons_1stpos, 17:AChR_exons_2ndpos, 18:AChR_exons_3rdpos, 19:aTROP_exons_1stpos, 20:aTROP_exons_2ndpos, 21:aTROP_exons_3rdpos, 22:ACTB_exons_1stpos, 23:ACTB_exons_2ndpos, 24:ACTB_exons_3rdpos, 25:GAPDH_exons_1stpos, 26:GAPDH_exons_2ndpos, 27:GAPDH_exons_3rdpos, 28:ACTC_intron_4, 29:AChR_intron_7, 30:aTROP_intron_5, 31:ACTB_intron_3, 32:GAPDH_intron_11, 33:LDHA_intron_7, 34:LDHB_intron_6, 35:RHO_intron_2, 36:CYTB_1stpos, 37:CYTB_2ndpos, 38:CYTB_3rdpos, 39:ND2_1stpos, 40:ND2_2ndpos, 41:ND2_3rdpos, 42:ND3_1stpos, 43:ND3_2ndpos, 44:ND3_3rdpos, 45:tRNAarg, 46:tRNAglu, 47:tRNAgly, 48:tRNAmet, 49:tRNAtrp, 50:DLOOP;
+
 	[genomes]
-	CHARSET mitochondrial_genome = 3948-5144;
+	CHARSET nuclear_genome = 1-3947;
+	CHARSET mitochondrial_genome = 3948-7282;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
 	TAXSET outgroups = LSUMZ_H21755 LSUMZ_H21756 LSUMZ_H6990 LSUMZ_H6992 LSUMZ_H6976 LSUMZ_H21718 LSUMZ_H21719 LSUMZ_H21720;

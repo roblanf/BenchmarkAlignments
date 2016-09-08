@@ -56,9 +56,15 @@ begin SETS;
 	CHARSET H3_3rdpos = 3115-3440\3;
 	CHARSET 28S = 3441-5185;
 	
+	CHARPARTITION loci = 1:CO1_1stpos, 2:CO1_2ndpos, 3:CO1_3rdpos, 4:18S, 5:H3_1stpos, 6:H3_2ndpos, 7:H3_3rdpos, 8:28S;
+
+
 	[genomes]
 	CHARSET mitochondrial_genome = 1-658;
 	CHARSET nuclear_genome = 659-5185;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
+
 		
 	[outgroups]
 	TAXSET outgroups = Hypochilus_pococki Hickmania_troglodytes Loxosceles_sp Dysdera_sp Kukulcania_hibernalis_hw; 
