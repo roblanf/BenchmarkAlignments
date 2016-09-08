@@ -36,7 +36,9 @@ begin SETS;
 	CHARSET ND1_2ndpos = 6013-6968\3;
 	CHARSET ND1_3rdpos = 6014-6968\3;
 	
-	EXSET* omitted_from_analysis = 5114-6011;
+	CHARPARTITION loci = 1:ADRA2B_1stpos, 2:ADRA2B_2ndpos, 3:ADRA2B_3rdpos, 4:BRCA1_1stpos, 5:BRCA1_2ndpos, 6:BRCA1_3rdpos, 7:VWF_1stpos, 8:VWF_2ndpos, 9:VWF_3rdpos, 10:ND1_1stpos, 11:ND1_2ndpos, 12:ND1_3rdpos;
+
+	CHARSET omitted_from_analysis = 5114-6011;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 5114-6968;
@@ -48,3 +50,4 @@ begin SETS;
 	TAXSET outgroups = Bradypus Choloepus Cyclopes Tamandua Myrmecophaga;
 	
 end;
+

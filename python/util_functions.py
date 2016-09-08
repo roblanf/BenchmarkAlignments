@@ -197,10 +197,13 @@ def check_license(license):
 def check_url(url):
     try: 
         urllib2.urlopen(url)
-    except:
-        logging.error("The following url didn't resolve properly. Check and try again please!")
-        logging.error(url)
-        raise ValueError
+    except urllib2.URLError as e:
+        logging.error("There was a URLError: %r" % e)
+        logging.error("This URL didn't work: %s" % url)
+    except socket.timeout as e:
+        logging.error("The url timed out. Check and try again please!")
+        logging.error("The error was: %r" %e)
+        logging.error("This URL didn't work: %s" % url)
 
 def check_reference(text):
     if len(text) < 10:

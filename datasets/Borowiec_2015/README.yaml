@@ -15,4 +15,4 @@ dataset:
         latin: "Metazoa"
         english: "metazoans"
         taxon ID: 33208   
-    notes: "The timetree root age is for Porifera vs. other deuterostomes."
+    notes: The timetree root age is for Porifera vs. other deuterostomes.

@@ -10,7 +10,9 @@ logging.basicConfig(format='%(levelname)s:\t%(asctime)s:\t%(message)s', datefmt=
 
 # first we get a list of all the datasets
 # each one is a dataset that SHOULD have an associated .yaml readme
-dataset_folders = [x[0] for x in os.walk(os.path.join(os.getcwd(), "../datasets"))][1:]
+dataset_folders = [x[0] for x in os.walk(os.path.join(os.getcwd(), "../datasets"))][16:]
+
+logging.info("Found these %d datasets %s" %(len(dataset_folders), dataset_folders))
 
 # let's keep it simple and use a dictionary here
 dataset = {"name":"NA",

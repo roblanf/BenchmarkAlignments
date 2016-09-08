@@ -76,9 +76,11 @@ begin SETS;
 	CHARSET COI_2ndpos = 5270-5919\3;
 	CHARSET COI_3rdpos = 5271-5919\3;
 	
+	CHARPARTITION loci = 1:ENC_1stpos, 2:ENC_2ndpos, 3:ENC_3rdpos, 4:GLYT_1stpos, 5:GLYT_2ndpos, 6:GLYT_3rdpos, 7:MYH6_1stpos, 8:MYH6_2ndpos, 9:MYH6_3rdpos, 10:PTR_1stpos, 11:PTR_2ndpos, 12:PTR_3rdpos, 13:RAG_1stpos, 14:RAG_2ndpos, 15:RAG_3rdpos, 16:SREB_1stpos, 17:SREB_2ndpos, 18:SREB_3rdpos, 19:COI_1stpos, 20:COI_2ndpos, 21:COI_3rdpos;
+
 	[genomes]
 	CHARSET mitochondrial_genome = 5269-5919;
-	CHARSET nuclear_genome = 1-786 1589-2288 2994-5268;
+	CHARSET nuclear_genome = 1-5268;
 	
     CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
 

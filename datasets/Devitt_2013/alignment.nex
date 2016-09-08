@@ -83,9 +83,11 @@ begin SETS;
 	CHARSET ND4_2ndpos = 2-686\3;
 	CHARSET ND4_3rdpos = 3-686\3;
 	CHARSET tRNAs = 687-823; 
+
+	CHARPARTITION loci = 1:ND4_1stpos, 2:ND4_2ndpos, 3:ND4_3rdpos, 4:tRNAs;
 	
 	[genomes]
-	CHARSET mitochondrial_genome = 1-686;
+	CHARSET mitochondrial_genome = 1-823;
 	
     CHARPARTITION genomes = 1:mitochondrial_genome;
 

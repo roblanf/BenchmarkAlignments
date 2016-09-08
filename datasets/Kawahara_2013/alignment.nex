@@ -90,10 +90,15 @@ begin SETS;
 	CHARSET COI_2ndpos = 1478-2238\3;
 	CHARSET COI_3rdpos = 1479-2238\3;
 	
+	CHARPARTITION loci = 1:CAD_1stpos, 2:CAD_2ndpos, 3:CAD_3rdpos, 4:EF1a_1stpos, 5:EF1a_2ndpos, 6:EF1a_3rdpos, 7:COI_1stpos, 8:COI_2ndpos, 9:COI_3rdpos;
+
 	[genomes]
+	CHARSET nuclear_genome = 1-1476;
 	CHARSET mitochondrial_genome = 1477-2238;
+
+	CHARPARTITION genomes = 1:nuclear_genome, 2:mitochondrial_genome;
 	
 	[outgroups]
-	TAXSET outgroups = 
+	TAXSET outgroups = dn55 dn57 dn81 outmdn53;
 	
 end;

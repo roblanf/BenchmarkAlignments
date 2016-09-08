@@ -15,4 +15,4 @@ dataset:
         latin:  "Coleoptera: Scolytinae"
         english: "Bark beetles"
         taxon ID: 55867
-    notes: "The alignment from Dryad was cut to remove ambiguous positions and morphological characters. This is the alignment used in Lanfear et al 2010, PartitionFinder..., MBE paper"
+    notes: Morphological characters were removed from the alignment

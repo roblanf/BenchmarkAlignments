@@ -139,11 +139,15 @@ begin SETS;
 	CHARSET ZFX_1stpos = 14914-15117\3;
 	CHARSET ZFX_2ndpos = 14915-15117\3;
 	CHARSET ZFX_3rdpos = 14916-15117\3;
+
+	CHARPARTITION loci = 1:ADORA3_1stpos, 2:ADORA3_2ndpos, 3:ADORA3_3rdpos, 4:ADRA2B_1stpos, 5:ADRA2B_2ndpos, 6:ADRA2B_3rdpos, 7:ADRB2_1stpos, 8:ADRB2_2ndpos, 9:ADRB2_3rdpos, 10:APOB_1stpos, 11:APOB_2ndpos, 12:APOB_3rdpos, 13:ATP7A_1stpos, 14:ATP7A_2ndpos, 15:ATP7A_3rdpos, 16:BDNF_1stpos, 17:BDNF_2ndpos, 18:BDNF_3rdpos, 19:BRCA1_1stpos, 20:BRCA1_2ndpos, 21:BRCA1_3rdpos, 22:CNR1_1stpos, 23:CNR1_2ndpos, 24:CNR1_3rdpos, 25:GHR_1stpos, 26:GHR_2ndpos, 27:GHR_3rdpos, 28:PNOC_1stpos, 29:PNOC_2ndpos, 30:PNOC_3rdpos, 31:RAG1_1stpos, 32:RAG1_2ndpos, 33:RAG1_3rdpos, 34:RAG2_1stpos, 35:RAG2_2ndpos, 36:RAG2_3rdpos, 37:RBP3_1stpos, 38:RBP3_2ndpos, 39:RBP3_3rdpos, 40:S1PR1_1stpos, 41:S1PR1_2ndpos, 42:S1PR1_3rdpos, 43:TYR_1stpos, 44:TYR_2ndpos, 45:TYR_3rdpos, 46:VWF_1stpos, 47:VWF_2ndpos, 48:VWF_3rdpos, 49:ZFX_1stpos, 50:ZFX_2ndpos, 51:ZFX_3rdpos;
 		
 	[genomes]
-	CHARSET
+	CHARSET nuclear_genome = 1-15117;
+
+	CHARPARTITION genomes = 1:nuclear_genome;
 	
 	[outgroups]
-	TAXSET outgroups =
+	TAXSET outgroups = Tamandua Myrmecophaga Choloepusho Choloepusdi Euphractus Chaetophractus Dasypus Trichechus Procavia Loxodonta Macroscelides Elephantulus Echinops Amblysomus Orycteropus;
 	
 end;

@@ -58,6 +58,8 @@ begin SETS;
 	CHARSET Phos_1stpos = 1247-1665\3; 
 	CHARSET Phos_2ndpos = 1248-1665\3;
 	CHARSET Phos_3rdpos = 1249-1665\3;
+
+	CHARPARTITION loci = 1:ND2_1stpos, 2:ND2_2ndpos, 3:ND2_3rdpos, 4:tRNA_ALL, 5:Phos_1stpos, 6:Phos_2ndpos, 7:Phos_3rdpos;
 	
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1246; 

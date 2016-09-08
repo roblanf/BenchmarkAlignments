@@ -56,16 +56,17 @@ begin SETS;
 	CHARSET EF1a_1stpos = 2335-3329\3;
 	CHARSET EF1a_2ndpos = 2336-3329\3;
 	CHARSET EF1a_3rdpos = 2337-3329\3;
+
+	CHARPARTITION loci = 1:COI_1stpos, 2:COI_2ndpos, 3:COI_3rdpos, 4:COII_1stpos, 5:COII_2ndpos, 6:COII_3rdpos, 7:EF1a_1stpos, 8:EF1a_2ndpos, 9:EF1a_3rdpos;
 		
 	[genomes]
 	CHARSET mitochondrial_genome = 1-1576 1648-2332;
 	CHARSET nuclear_genome = 2335-3329;
 
     CHARPARTITION genomes = 1:mitochondrial_genome, 2:nuclear_genome;
-
 	
 	[outgroups]
-	TAXSET outgroups = Pieris_napi_943 Colias_eury_543 Hylephil_phy_989 Erynnis_tris_945 Pyrgus_commu_901; ##unsure of Coenonymph_984 Euphil_bern_969 Macrosoma_983 Proserp_clark_988 Ostrinia_nub_5 Lambdina_fisc_9 Feltia_jacul_150;
+	TAXSET outgroups = Pieris_napi_943 Colias_eury_543 Hylephil_phy_989 Erynnis_tris_945 Pyrgus_commu_901 Coenonymph_984 Euphil_bern_969 Macrosoma_983 Proserp_clark_988 Ostrinia_nub_5 Lambdina_fisc_9 Feltia_jacul_150 Hemileu_elec_970 Boloria_epit_944 Apodemia_mor_A13;
 	
 end;
 

@@ -117,6 +117,9 @@ begin SETS;
 	CHARSET	SLC8A3_2ndpos = 19540-20663\3;
 	CHARSET	SLC8A3_3rdpos = 19541-20663\3;
 	
+	CHARPARTITION loci = 1:RRNL, 2:RRNS, 3:tRNAs, 4:ATP6_1stpos, 5:ATP6_2ndpos, 6:ATP6_3rdpos, 7:ATP8_1stpos, 8:ATP8_2ndpos, 9:ATP8_3rdpos, 10:COB_1stpos, 11:COB_2ndpos, 12:COB_3rdpos, 13:COX1_1stpos, 14:COX1_2ndpos, 15:COX1_3rdpos, 16:COX2_1stpos, 17:COX2_2ndpos, 18:COX2_3rdpos, 19:COX3_1stpos, 20:COX3_2ndpos, 21:COX3_3rdpos, 22:ND1_1stpos, 23:ND1_2ndpos, 24:ND1_3rdpos, 25:ND2_1stpos, 26:ND2_2ndpos, 27:ND2_3rdpos, 28:ND3_1stpos, 29:ND3_2ndpos, 30:ND3_3rdpos, 31:ND4_1stpos, 32:ND4_2ndpos, 33:ND4_3rdpos, 34:ND4L_1stpos, 35:ND4L_2ndpos, 36:ND4L_3rdpos, 37:ND5_1stpos, 38:ND5_2ndpos, 39:ND5_3rdpos, 40:ND6_1stpos, 41:ND6_2ndpos, 42:ND6_3rdpos, 43:BDNF_1stpos, 44:BDNF_2ndpos, 45:BDNF_3rdpos, 46:CXCR4_1stpos, 47:CXCR4_2ndpos, 48:CXCR4_3rdpos, 49:H3_1stpos, 50:H3_2ndpos, 51:H3_3rdpos, 52:POMC_1stpos, 53:POMC_2ndpos, 54:POMC_3rdpos, 55:RAG1_1stpos, 56:RAG1_2ndpos, 57:RAG1_3rdpos, 58:RAG2_1stpos, 59:RAG2_2ndpos, 60:RAG2_3rdpos, 61:RHO_1stpos, 62:RHO_2ndpos, 63:RHO_3rdpos, 64:SLC8A1_1stpos, 65:SLC8A1_2ndpos, 66:SLC8A1_3rdpos, 67:SLC8A3_1stpos, 68:SLC8A3_2ndpos, 69:SLC8A3_3rdpos;
+
+
 	[genomes]
 	CHARSET
 	
