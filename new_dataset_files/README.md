@@ -6,7 +6,7 @@ What you need
 
 1. A DNA, amino acid, morphology, or language alignment from a published paper.
 
-2. Permission to archive that alignment with a CC0 license. (This is important)
+2. A DOI for the dataset, where the dataset is already archived with a CC0 license (this is critical)
 
 3. Lots of additional information on the alignment, including:
 
@@ -30,7 +30,7 @@ What you do
 
 4. Add CHARSETS that describe each genome of origin to the [genomes] section, according to the conventions below. Every site in the alignment needs to be covered by one and only one of these CHARSETS.
 
-5. If there are outgroups in your dataset, add them as a TAXSET in the [outgroups] section.
+5. Define outgroups such that the tree can be rooted.
 
 6. If you have heterochronous data, create a SAMPLINGDATES block, and populate it with the sampling dates of all taxa (see Duchene_2015a for an example).
 
@@ -49,6 +49,8 @@ Before you submit a pull request
 --------------------------------
 
 1. Check you have completed the ENTIRE README.yaml file, and that there are no errors in your nexus or YAML file. Take your time.
+
+2. Try running the python scrit to build the CSV file. This will also check your data.
 
 Conventions
 -----------
@@ -82,17 +84,24 @@ The datatype must be either 'nucleotide' or 'protein'. The missing and gap symbo
 
         begin SETS;
 
-            [loci]
-            CHARSET COI_1stpos = 1-1592\3;
-            CHARSET COI_2ndpos = 2-1592\3;
-            CHARSET COI_3rdpos = 3-1592\3;
-            CHARSET 16S = 1593-3037;
+        	[loci]
+        	CHARSET	COI_1stpos = 1-1592\3;
+        	CHARSET	COI_2ndpos = 2-1592\3;
+        	CHARSET	COI_3rdpos = 3-1592\3;
+        	CHARSET	16S = 1593-3037;
 
-            [genomes]
-            CHARSET mitochondrial_genome = 1-3037;
+            CHARPARTITION loci = 	1:COI_1stpos,
+        							2:COI_2ndpos,
+        							3:COI_3rdpos,
+        							4:16S;
 
-            [outgroups]
-            TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327;;
+        	[genomes]
+        	CHARSET	mitochondrial_genome = 1-3037;
+
+            CHARPARTITION genomes = 1:mitochondrial_genome;
+
+        	[outgroups]
+        	TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327;
 
         end;
 
@@ -133,4 +142,4 @@ The latter four are reserved for viruses
 
 10. In the README.yaml file, fill out everything as instructed in the file itself. Don't change the structure of the yaml file, or delete any entries.
 
-11. For datasets without explicit licenses, always contact the owners of the dataset to ask whether we can put it in the repository, and whether we can release it under a CC0 license. If they don't agree, don't put it in the repository. Assume that data sets on TreeBase are O.K., since they're already in the public domain.
+11. Fill in the CHARPARTITIONS. Make sure that each CHARPARTITION covers every single base (yes, every single one) in teh alignment.
