@@ -1,5 +1,5 @@
-PartitionFinder datasets repository
-===================================
+BenmarkAlignments repository
+============================
 
 What's this?
 ------------
@@ -26,14 +26,14 @@ What's in the folders?
 
 Inside each folder is:
 
-1.  A README.yaml file which contains the reference to the original paper and/or the dataset itself, plus any additional comments on the data (e.g. Taxon, number of spp, number of sites, etc).
+1.  A README.yaml file which contains the reference to the original paper and/or the dataset itself, plus some additional comments on the data.
 
-2.  An alignment file in nexus format. This will be the original alignment described in the README, converted if necessary into phylip format, and with any modifications (e.g. removal of morphological characters) listed in the notes section of the README.yaml.
+2.  An alignment file in nexus format. This will be the original alignment described in the README.yaml file, converted if necessary into nexus format, and with any modifications (e.g. removal of morphological characters) listed in the notes section of the README.yaml.
 
 
 Can I use these datasets?
 -------------------------
-Yes. All of the original datasets are publicly available and can be re-used. The datasets themselves are all released under a CC0 license (either because they come from Dryad, or because I have asked the authors whether I can release their data under this license).
+Yes. All of the original datasets are publicly available and can be re-used. The datasets themselves are all released under a CC0 license.
 
 Everything here that is not a dataset (the partitionfinder.cfg files and the README in each folder) is released under a CC-BY 3.0 license: http://creativecommons.org/licenses/by/3.0/deed.en_US) full text here: http://creativecommons.org/licenses/by/3.0/legalcode
 
@@ -47,10 +47,7 @@ If you use any of the datasets here, please make sure to reference three things:
 
 3.  This repository (github.com/roblanf/Alignments)
 
-This is essential to reward and acknowledge those who spend weeks and months in the field, laboriously chasing frogs/flied/lizards etc., then are kind enough to share their data with the world so that people like me (and you, if you're reading this) can re-use them
+This is essential to reward and acknowledge those who spend weeks and months in the field, laboriously chasing frogs/flies/lizards etc., then are kind enough to share their data with the world so that people like me (and you, if you're reading this) can re-use them
 for other things.
 
 If you have any questions, or would like your dataset to be included here, or removed, please contact me. Contact details are at www.robertlanfear.com/contact
-
-Rob Lanfear
-March 2015
