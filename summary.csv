@@ -1,46 +1,32 @@
-name,has_yaml,has_alignment,has_cfg,study_DOI,dataset_DOI,mitochondrial,nuclear,chloroplast,datatype,taxa,sites,datablocks,tree_inference,clade_latin,clade_english
-Anderson_2013,yes,yes,yes,dx.doi.org/10.1007/s10750-013-1599-1,dx.doi.org/10.5061/dryad.93s3n,True,False,False,dna,145,3037,4,True,Cephalopoda: Loliginidae,pencil squids
-Bergsten_2013,yes,yes,yes,dx.doi.org/10.1093/sysbio/syt029,dx.doi.org/10.5061/dryad.s631d,True,True,False,dna,38,2111,8,True,Coleoptera: Dytiscidae,diving beetles
-Broughton_2013,yes,yes,yes,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,dx.doi.org/10.5061/dryad.f1t15,True,True,False,dna,61,19997,61,True,Osteichthyes,bony fishes
-Brown_2012,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.02.019,dx.doi.org/10.5061/dryad.7bn0fr99,False,True,False,dna,41,1665,7,True,Ptychozoon,Asian geckos
-Caterino_2001,yes,yes,yes,dx.doi.org/10.1080/10635150119988,dx.doi.org/10.5061/dryad.615,True,True,False,dna,37,3228,9,True,Lepidoptera: Papilionidae,Swallowtail butterflies
-Cognato_2001,yes,yes,yes,dx.doi.org/10.1080/106351501753462803,dx.doi.org/10.5061/dryad.678,True,True,False,dna,44,1896,7,True,Coleoptera: Scolytinae,Bark beetles
-Day_2013,yes,yes,yes,dx.doi.org/10.1093/sysbio/syt001,dx.doi.org/10.5061/dryad.b6225,True,True,False,dna,152,3586,11,True,Synodontis,African catfish
-Delsuc_2003,yes,yes,yes,dx.doi.org/10.1016/S1055-7903(03)00111-8,dx.doi.org/10.5061/dryad.1838,True,True,False,dna,13,6070,12,True,Xenarthra: Dasypodidae,Armadillos
-Devitt_2013,yes,yes,yes,dx.doi.org/10.1111/mec.12196,dx.doi.org/10.5061/dryad.k9g50,True,False,False,dna,69,823,4,True,Ensatina eschscholtzii klauberi,Large-blotched Ensatina salamander
-Dornburg_2012,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.07.020,doi:10.5061/dryad.3t19n,True,True,False,dna,44,5919,21,True,Teleostei: Beryciformes: Holocentridae,Squirrel Fishes
-Dsouli_2011,yes,yes,yes,dx.doi.org/10.1016/j.meegid.2011.02.004,NA,True,True,False,dna,39,1635,7,True,Muscidae,haematophagous flies
-Ekrem_2010,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2010.06.006,NA,True,True,False,dna,74,2701,10,True,Chironomidae,nonbiting midges
-Elias_2009,yes,yes,yes,dx.doi.org/10.1111/j.1365-294X.2009.04149.x,dx.doi.org/10.5061/dryad.1705,True,True,False,dna,143,4159,12,True,Nymphalidae: Napeogenes,clearwing butterflies
-Endicott_2008,yes,yes,yes,dx.doi.org/10.1016/j.ajhg.2008.01.019,NA,True,False,False,dna,179,13857,41,True,Homo sapiens,human
-Fishbein_2001,yes,yes,yes,dx.doi.org/10.1080/106351501753462821,dx.doi.org/10.5061/dryad.684,False,True,True,dna,40,9005,11,True,Saxifragales,core Eudicots
-Fong_2012,yes,yes,yes,dx.doi.org/10.1371/journal.pone.0048990,dx.doi.org/10.5061/dryad.25j6h,False,True,False,dna,110,25919,168,True,Vertebrata,vertebrates
-Grande_2013,yes,yes,yes,NA,dx.doi.org/10.5061/dryad.k4m8t,True,True,False,dna,65,4027,12,True,Paracanthopterygii,paracanthopterygian fish
-Guschanski_2013,yes,yes,yes,dx.doi.org/10.1093/sysbio/syt018,dx.doi.org/10.5061/dryad.7k14q,True,True,False,dna,110,17092,63,True,Cercopithecini,Guenons (old world monkeys)
-Hackett_2008,yes,yes,yes,dx.doi.org/10.1126/science.1157704,dx.doi.org/,False,True,False,DNA,171,52383,168,True,Aves,Birds
-Irisarri_2012,yes,yes,yes,dx.doi.org/10.1186/1471-2164-13-626,dx.doi.org/10.5061/dryad.3qd54,True,True,False,dna,37,11136,34,True,Neobatrachia,modern frogs
-Kaffenberger_2011,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.09.023,dx.doi.org/10.5061/dryad.s791pg03,True,True,False,dna,54,6548,26,True,Gephyromantis,Malagasy frogs
-Kang_2013a,yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,False,True,False,dna,28,7276,15,True,Xiphophorus,swordtail fish
-Kang_2013b,yes,yes,yes,dx.doi.org/10.1186/1471-2148-13-25,dx.doi.org/10.1186/1471-2148-13-25,True,False,False,dna,28,1239,6,True,Xiphophorus,swordtail fish
-Kawahara_2013,yes,yes,yes,dx.doi.org/10.1111/jeb.12176,dx.doi.org/10.5061/dryad.gh895,True,True,False,dna,70,2238,9,True,Hyposmocoma,Hawaiian Fancy Cased caterpillar
-Kjer_2007,yes,yes,yes,dx.doi.org/10.1186/1471-2148-7-8,dx.doi.org/,True,False,False,dna,89,14740,64,True,Mammalia,Mammals
-Lartillot_2012,yes,yes,yes,dx.doi.org/10.1111/j.1558-5646.2011.01558.x,dx.doi.org/10.5061/dryad.tt28qk6f,False,True,False,dna,78,15117,51,True,Eutheria,placental mammals
-Leavitt_2013,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2013.02.019,dx.doi.org/10.1016/j.ympev.2013.02.019,True,False,False,dna,34,15404,87,True,Acridoidea,Grasshoppers
-Li_2008,yes,yes,yes,dx.doi.org/10.1080/10635150802206883,NA,False,True,False,dna,56,7995,30,True,Actinopterygii,ray-finned fishes
-McCormack_2013a,yes,yes,yes,dx.doi.org/10.1371/journal.pone.0054848,dx.doi.org/10.5061/dryad.sd080,False,True,False,dna,30,165163,416,True,Neoaves,birds
-McCormack_2013b,yes,yes,yes,dx.doi.org/10.1371/journal.pone.0054848,dx.doi.org/10.5061/dryad.sd080,False,True,False,dna,30,539526,1541,True,Neoaves,birds
-Murray_2013,yes,yes,yes,dx.doi.org/10.1098/rspb.2013.0495,dx.doi.org/10.5061/dryad.qn57t,True,True,False,dna,237,3111,9,True,Eucharitidae,eucharitid wasps
-Near_2013,yes,yes,yes,dx.doi.org/10.1073/pnas.1304661110,dx.doi.org/10.5061/dryad.d3mb4,False,True,False,dna,608,8577,30,True,Acanthomorpha,spiny-rayed fishes
-Oaks_2011,yes,yes,yes,dx.doi.org/10.1111/j.1558-5646.2011.01373.x,dx.doi.org/10.5061/dryad.5k9s0,True,True,False,dna,79,7282,50,True,Crocodylia,Crocodilians
-Pyron_2011,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.06.012,dx.doi.org/10.5061/dryad.vd0m7,True,True,False,dna,2872,12712,34,True,Amphibia,amphibians
-Rightmyer_2013,yes,yes,yes,dx.doi.org/10.1111/syen.12013,dx.doi.org/10.5061/dryad.jd5ff,True,True,False,dna,94,3692,25,True,Hymenoptera: Megachilidae,bee
-Sauquet_2011,yes,yes,yes,dx.doi.org/10.1093/sysbio/syr116,dx.doi.org/10.5061/dryad.qq106tm4,False,True,True,dna,51,5444,10,True,Nothofagus,southern beeches
-Seago_2011,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2011.03.015,dx.doi.org/10.5061/dryad.dc1r2,True,False,False,dna,97,2253,7,True,Coccinellidae,ladybirds
-Sharanowski_2011,yes,yes,yes,dx.doi.org/10.1111/j.1365-3113.2011,dx.doi.org/10.5061/dryad.1688p,False,True,False,dna,139,3982,11,True,Braconidae,parasitoid wasps
-Siler_2013,yes,yes,yes,dx.doi.org/10.1111/zsc.12007,dx.doi.org/10.5061/dryad.cp6gg,True,True,False,dna,61,2697,7,True,Lycodon,wolf snakes
-Tolley_2013,yes,yes,yes,dx.doi.org/10.1098/rspb.2013.0184,dx.doi.org/10.5061/dryad.11350,True,False,False,dna,203,5054,16,True,Chamaeleonidae,chameleons
-Unmack_2013,yes,yes,yes,dx.doi.org/10.1016/j.ympev.2012.12.019,dx.doi.org/10.5061/dryad.qq846,True,False,False,dna,139,6827,25,True,Melanotaeniidae,rainbowfish
-Wainwright_2012,yes,yes,yes,dx.doi.org/10.1093/sysbio/sys060,dx.doi.org/10.5061/dryad.5h951h04,False,True,False,dna,188,8439,30,True,Acanthomorpha,Acanthomorph fishes
-Ward_2010,yes,yes,yes,dx.doi.org/10.1093/sysbio/syq012,NA,False,True,False,dna,54,9173,27,True,Dolichoderinae,Dolichoderine Ants
-Welton_2013,yes,yes,yes,dx.doi.org/10.1111/mec.12324,dx.doi.org/10.5061/dryad.m0n61,True,True,False,dna,137,4552,16,True,Varanus,monotor lizards
-Wood_2012,yes,yes,yes,dx.doi.org/10.1093/sysbio/sys092,dx.doi.org/10.5061/dryad.7231d,True,True,False,dna,37,5313,8,,Archaeidae,pelican spiders
+gc_skew,study_DOI,n_taxa,study_year,n_datablocks,root_age_study,n_sites,clade_latin,name,license,clade_english,root_age_timetree,gc_percent,dataset_DOI,taxon_ID
+0.060848637053314496,dx.doi.org/10.1007/s10750-013-1599-1,145,2014,4,NA,3037,Loliginidae,Anderson_2013,CC0,pencil squids,NA,13.021016656637109,dx.doi.org/10.5061/dryad.93s3n,6615
+-6.448284756254837e-05,dx.doi.org/10.1093/sysbio/syt029,38,2013,8,NA,2111,Dytiscidae,Bergsten_2013,CC0,diving beetles,NA,38.66588546211573,dx.doi.org/10.5061/dryad.s631d,50515
+0.47422782524746576,dx.doi.org/10.1186/s12864-015-2146-4,36,2015,1080,NA,384981,Metazoa,Borowiec_2015,CC0,metazoans,936.0 mya,10.917652790368587,dx.doi.org/10.5061/dryad.k6tq2,33208
+-0.025639669841001262,dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e,61,2013,61,427 mya,19997,Osteichthyes,Broughton_2013,CC0,bony fishes,436.8 mya,31.00858571408662,dx.doi.org/10.5061/dryad.f1t15,117571
+-0.3044382000846838,dx.doi.org/10.1016/j.ympev.2012.02.019,41,2012,7,NA,1665,Ptychozoon,Brown_2012,CC0,Asian geckos,84.7 mya,38.05610488537318,dx.doi.org/10.5061/dryad.7bn0fr99,1118401
+-0.08354710130628676,dx.doi.org/10.1080/106351501753462803,44,2001,7,NA,1897,Coleoptera: Scolytinae,Cognato_2001,CC0,Bark beetles,NA,30.357741889107203,dx.doi.org/10.5061/dryad.678,55867
+0.0034411467224348827,dx.doi.org/10.1098/rsbl.2012.0331,10,2012,1145,NA,465241,Sauria,Crawford_2012,CC0,Diapsids,277.8 mya,34.23565420932377,dx.doi.org/10.5061/dryad.75nv22qj,32561
+-0.15374661579819413,dx.doi.org/10.1093/sysbio/syt001,152,2013,11,NA,3586,Synodontis,Day_2013,CC0,African catfish,18.5 mya,38.42428156280271,dx.doi.org/10.5061/dryad.b6225,42509
+-0.3107769423558897,dx.doi.org/10.1111/mec.12196,69,2013,4,NA,823,Ensatina eschscholtzii klauberi,Devitt_2013,CC0,Large-blotched Ensatina salamander,NA,33.72602884462993,dx.doi.org/10.5061/dryad.k9g50,58674
+-0.02210641180012041,dx.doi.org/10.1016/j.ympev.2012.07.020,44,2013,21,NA,5919,Teleostei: Beryciformes: Holocentridae,Dornburg_2012,CC0,Squirrel Fishes,144.4 mya,40.81770569352931,dx.doi.org/10.5061/dryad.3t19n,47697
+0.07866604111014354,dx.doi.org/10.1371/journal.pone.0048990,110,2012,168,NA,25919,Vertebrata,Fong_2012,CC0,vertebrates,NA,20.26800276385523,dx.doi.org/10.5061/dryad.25j6h,7742
+-0.006862385321100917,dx.doi.org/10.1111/jeb.12176,70,2013,9,NA,2238,Hyposmocoma,Kawahara_2013,CC0,Hawaiian fancy cased caterpillars,NA,34.789991063449506,dx.doi.org/10.5061/dryad.gh895,545366
+-0.020776959169981995,dx.doi.org/10.1111/j.1558-5646.2011.01558.x,78,2012,51,100 mya,15117,Eutheria,Lartillot_2012,CC0,placental mammals,105 mya,41.59038135025434,dx.doi.org/10.5061/dryad.tt28qk6f,9347
+0.0026949135440212176,dx.doi.org/10.1093/gbe/evv026,11,2015,583,54 mya,358363,Phrynosomatinae,Leache_2015,CC0,Iguanian lizards,50.6 mya,34.44305964013635,dx.doi.org/10.5061/dryad.4vt08,6615
+-0.026647517148274825,dx.doi.org/10.1371/journal.pone.0054848,33,2013,1541,NA,539526,Neoaves,McCormack_2013,CC0,birds,82.8 mya,30.23362594708554,dx.doi.org/10.5061/dryad.sd080,8782
+-0.006935796267320108,dx.doi.org/10.1093/sysbio/syw014,18,2016,1501,NA,614159,Phasianidae,Meiklejohn_2016,CC0,Gallopheasants,48.2 mya,39.086331425937296,dx.doi.org/10.5061/dryad.p1m52,9005
+0.4525987304883361,dx.doi.org/10.1126/science.1257570,144,2014,2868,479 mya,595033,Insecta,Misof_2014,CC0,insects,495.1 mya,8.94263310699668,dx.doi.org/10.5061/dryad.3c0f1,50557
+-0.008903313535631287,dx.doi.org/10.1038/ncomms12709,106,2016,515,32 mya,375172,Oscines,Moyle_2016,CC0,songbirds,53.8 mya,37.36898336340424,dx.doi.org/10.5061/dryad.nf01p,6615
+0.11335088078553983,dx.doi.org/10.1098/rspb.2013.0495,237,2013,9,NA,3111,Eucharitidae,Murray_2013,CC0,eucharitid wasps,NA,27.156259197322147,dx.doi.org/10.5061/dryad.qn57t,216140
+-0.016362123850616146,dx.doi.org/10.1073/pnas.1304661110,608,2013,30,NA,8577,Acanthomorpha,Near_2013,CC0,spiny-rayed fishes,NA,43.22419046041126,dx.doi.org/10.5061/dryad.d3mb4,123368
+-0.12631923295609437,dx.doi.org/10.1111/j.1558-5646.2011.01373.x,79,2011,50,NA,7282,Crocodylia,Oaks_2011,CC0,Crocodilians,NA,44.637201492148144,dx.doi.org/10.5061/dryad.5k9s0,1294634
+-0.09221282752130078,dx.doi.org/10.1016/j.ympev.2011.06.012,2872,2011,34,NA,12712,Amphibia,Pyron_2011,CC0,amphibians,321.1 mya,8.75541621892152,dx.doi.org/10.5061/dryad.vd0m7,8292
+0.00808080808080808,dx.doi.org/10.1111/syen.12013,94,2013,25,NA,3692,Hymenoptera: Megachilidae,Rightmyer_2013,CC0,bee,NA,34.520296904174636,dx.doi.org/10.5061/dryad.jd5ff,124286
+0.04879944259834924,dx.doi.org/10.1093/sysbio/syr116,51,2012,10,72 mya,5444,Nothofagus,Sauquet_2011,CC0,southern beeches,79 mya,26.88118597916757,dx.doi.org/10.5061/dryad.qq106tm4,26779
+0.01941112322791712,dx.doi.org/10.1016/j.ympev.2011.03.015,97,2011,7,NA,2253,Coccinellidae,Seago_2011,CC0,ladybirds,NA,29.372978068188576,dx.doi.org/10.5061/dryad.dc1r2,7080
+0.11645716495842197,dx.doi.org/10.1111/j.1365-3113.2011.00580.x,139,2011,11,NA,3982,Braconidae,Sharanowski_2011,CC0,parasitoid wasps,NA,37.38206822788881,dx.doi.org/10.5061/dryad.1688p,7402
+-0.20454444984748685,dx.doi.org/10.1111/zsc.12007,61,2013,7,NA,2697,Lycodon,Siler_2013,CC0,wolf snakes,40.2 mya,27.500501467933404,dx.doi.org/10.5061/dryad.cp6gg,39095
+-0.14823884983185898,dx.doi.org/10.1098/rspb.2013.0184,203,2013,16,65 mya,5054,Chamaeleonidae,Tolley_2013,CC0,chameleons,56.7 mya,32.63980537290855,dx.doi.org/10.5061/dryad.11350,40248
+-0.3418819849636561,dx.doi.org/10.1016/j.ympev.2012.12.019,139,2013,25,75 mya,6827,Melanotaeniidae,Unmack_2013,CC0,rainbowfish,NA,40.564706576616544,dx.doi.org/10.5061/dryad.qq846,30700
+-0.014678872958696984,dx.doi.org/10.1093/sysbio/sys060,188,2012,30,NA,8439,Acanthomorpha,Wainwright_2012,CC0,Acanthomorph fishes,144.4 mya,48.70018379711219,dx.doi.org/10.5061/dryad.5h951h04,123368
+0.09909149307148757,dx.doi.org/10.1093/sysbio/sys092,37,2012,8,276.5 mya,5185,Archaeidae,Wood_2012,CC0,pelican spiders,NA,28.409392999556935,dx.doi.org/10.5061/dryad.7231d,336678
