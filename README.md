@@ -1,5 +1,5 @@
-BenmarkAlignments repository
-============================
+BenchmarkAlignments repository
+==============================
 
 What's this?
 ------------
