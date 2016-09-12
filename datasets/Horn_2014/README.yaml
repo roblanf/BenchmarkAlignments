@@ -1,0 +1,16 @@
+study:
+    reference: "Horn JW, Xi Z, Riina R, Peirson JA, Yang Y, Dorsey BL, Berry PE, Davis CC, Wurdack KJ (2014) Evolutionary bursts in Euphorbia (Euphorbiaceae) are linked with photosynthetic pathway. Evolution 68(12): 3485-3504."
+    year: 2014
+    DOI: dx.doi.org/10.1111/evo.12534
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.sb1j1
+    license: CC0
+    used for tree inference: yes
+    timetree root age: 61.8 mya
+    study root age: 47.8 mya
+    study clade:
+        latin:  Euphorbia
+        english: spurge
+        taxon ID: 3990
+    notes: NA
