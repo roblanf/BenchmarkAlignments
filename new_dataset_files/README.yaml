@@ -1,5 +1,5 @@
 study:
-    reference:  [reference taken from google scholar's 'cite' button, in APA format]
+    reference:  [reference taken from Dryad repository]
     year: [year of publication, as an integer]
     DOI: [URL starting dx.doi.org, check and double check that this points to the right study]
 
