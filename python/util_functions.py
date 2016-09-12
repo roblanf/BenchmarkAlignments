@@ -14,11 +14,28 @@ def add_alignment(aln, result):
 
     # get GC skew
     aln_seq = ''.join([str(x) for x in aln.matrix.values()])
-    gc_skew = SeqUtils.GC_skew(aln_seq, window = len(aln_seq))[0]
     gc = SeqUtils.GC(aln_seq)
 
-    result["gc_skew"] = gc_skew
-    result["gc_percent"] = gc
+    # ACGT proportions
+    A = float(aln_seq.count('A'))
+    T = float(aln_seq.count('T'))
+    G = float(aln_seq.count('G'))
+    C = float(aln_seq.count('C'))
+    print(A, C, T, G)
+    sum_count = A + T + G + C
+
+
+
+    # gaps
+    gaps = float(aln_seq.count('?') + aln_seq.count('-') + aln_seq.count('N'))
+    gap_proportion = gaps/float(len(aln_seq))
+
+    result["gc_proportion"] = gc
+    result["gap_proportion"] = gap_proportion
+    result["a_proportion"] = A/sum_count
+    result["c_proportion"] = C/sum_count
+    result["g_proportion"] = G/sum_count
+    result["t_proportion"] = T/sum_count
 
     return result
 
@@ -83,8 +100,8 @@ def add_yaml(yaml_file, result):
     result["study_year"]        =  y['study']['year']
     result["dataset_DOI"]       =  y['dataset']['DOI']
     result["license"]           =  y['dataset']['license']
-    result["root_age_timetree"] =  y['dataset']['timetree root age']
-    result["root_age_study"]    =  y['dataset']['study root age']
+    result["root_age_timetree_mya"] =  y['dataset']['timetree root age'].rstrip(' mya')
+    result["root_age_study_mya"]    =  y['dataset']['study root age'].rstrip(' mya')
     result["clade_latin"]       =  y['dataset']['study clade']['latin']
     result["clade_english"]     =  y['dataset']['study clade']['english']
     result["taxon_ID"]          =  y['dataset']['study clade']['taxon ID']
@@ -143,7 +160,6 @@ def check_clade(clade):
         logging.error("The taxon ID must be a number")
         raise ValueError
 
-    logging.info("Checking that your taxon ID is valid")
     tax_url = "".join(['http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=', str(clade['taxon ID'])])
     check_url(tax_url)
 
