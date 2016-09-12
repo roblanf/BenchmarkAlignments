@@ -21,7 +21,6 @@ def add_alignment(aln, result):
     T = float(aln_seq.count('T'))
     G = float(aln_seq.count('G'))
     C = float(aln_seq.count('C'))
-    print(A, C, T, G)
     sum_count = A + T + G + C
 
 
