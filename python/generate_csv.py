@@ -12,7 +12,7 @@ logging.basicConfig(format='%(levelname)s:\t%(asctime)s:\t%(message)s', datefmt=
 # each one is a dataset that SHOULD have an associated .yaml readme
 dataset_folders = [x[0] for x in os.walk(os.path.join(os.getcwd(), "../datasets"))][1:]
 
-logging.info("Found these %d datasets %s" %(len(dataset_folders), dataset_folders))
+#logging.info("Found these %d datasets %s" %(len(dataset_folders), dataset_folders))
 
 # let's keep it simple and use a dictionary here
 dataset = {"name":"NA",
@@ -20,16 +20,20 @@ dataset = {"name":"NA",
           "study_year":"NA",
           "dataset_DOI":"NA",
           "license":"NA",
-          "root_age_timetree":"NA",
-          "root_age_study":"NA",
+          "root_age_timetree_mya":"NA",
+          "root_age_study_mya":"NA",
           "clade_latin":"NA",
           "clade_english":"NA",
           "taxon_ID":"NA",
           "n_taxa":"NA",
           "n_sites":"NA",
           "n_datablocks":"NA",
-          "gc_percent":"NA",
-          "gc_skew":"NA"
+          "gc_proportion":"NA",
+          "gap_proportion":"NA",
+          "a_proportion":"NA",
+          "c_proportion":"NA",
+          "g_proportion":"NA",
+          "t_proportion":"NA"
           }
 
 # read each file and extract the things you want, writing a csv as you go
@@ -70,11 +74,9 @@ for folder in dataset_folders:
     aln = check_alignment(alignment_file)
     result = add_alignment(aln, result)
 
-    logging.info("Done %s" %folder)
+    print(result)
 
     results.append(result)
-
-    print result
 
 logging.info("Database contains %d datasets" % ( len(dataset_folders)))
 
