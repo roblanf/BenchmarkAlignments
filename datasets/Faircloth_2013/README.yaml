@@ -1,0 +1,16 @@
+study:
+    reference:  "Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A phylogenomic perspective on the radiation of ray-finned fishes based upon targeted sequencing of ultraconserved elements (UCEs). PLoS ONE 8(6): e65923"
+    year: 2013
+    DOI: dx.doi.org/10.1371/journal.pone.0065923
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.j015n
+    license: CC0
+    used for tree inference: yes
+    timetree root age: 386.7 mya
+    study root age: NA
+    study clade:
+        latin:  Actinopterygii
+        english: Ray-finned fishes
+        taxon ID: 7898
+    notes: The individual UCEs in the file "fish-nexus-files-with-gaps-from-uce-alignment.tar.gz" were concatenated into a single .nex file
