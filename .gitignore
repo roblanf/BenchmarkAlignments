@@ -2,3 +2,5 @@
 *.DS_Store
 
 R/check_yaml/.Rhistory
+
+*.pyc
