@@ -74,8 +74,6 @@ for folder in dataset_folders:
     aln = check_alignment(alignment_file)
     result = add_alignment(aln, result)
 
-    print(result)
-
     results.append(result)
 
 logging.info("Database contains %d datasets" % ( len(dataset_folders)))
