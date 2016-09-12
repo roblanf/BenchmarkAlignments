@@ -5,9 +5,7 @@ study:
 
 dataset:
     DOI: dx.doi.org/10.5061/dryad.75nv22qj
-    license: 
-        type: CC0
-        notes: NA
+    license: CC0
     used for tree inference: yes
     timetree root age: 277.8 mya
     study root age: NA

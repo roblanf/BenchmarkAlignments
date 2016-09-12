@@ -82,7 +82,7 @@ def add_yaml(yaml_file, result):
     result["study_DOI"]         =  y['study']['DOI']
     result["study_year"]        =  y['study']['year']
     result["dataset_DOI"]       =  y['dataset']['DOI']
-    result["license"]           =  y['dataset']['license']['type']
+    result["license"]           =  y['dataset']['license']
     result["root_age_timetree"] =  y['dataset']['timetree root age']
     result["root_age_study"]    =  y['dataset']['study root age']
     result["clade_latin"]       =  y['dataset']['study clade']['latin']
@@ -186,12 +186,11 @@ def check_tree(text):
 def check_license(license):
 
     # if it's not CC0, it needs an explanation
-    if license['type'] == "CC0":
+    if license == "CC0":
         pass
     else:
-        if license['notes'] == 'NA' or license['notes'] == "":
-            logging.error("If the license isn't CC0, you need to explain why")
-            raise ValueError
+        logging.error("The license for the dataset must be CC0")
+        raise ValueError
 
 
 def check_url(url):

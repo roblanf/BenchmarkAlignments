@@ -5,9 +5,7 @@ study:
 
 dataset:
     DOI: dx.doi.org/10.5061/dryad.qn57t
-    license: 
-        type: CC0
-        notes: NA
+    license: CC0
     used for tree inference: yes
     timetree root age: NA
     study root age: NA
