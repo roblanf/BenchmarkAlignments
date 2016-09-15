@@ -1,0 +1,16 @@
+study:
+    reference: "Worobey M, Han G, Rambaut A (2014) A synchronized global sweep of the internal genes of modern avian influenza virus. Nature 508(7495): 254–257."
+    year: 2014
+    DOI: dx.doi.org/10.1038/nature13016
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.m04j9
+    license: CC0
+    used for tree inference: yes
+    timetree root age: NA
+    study root age: 0.000281 mya
+    study clade:
+        latin: Influenzavirus A
+        english: Influenza A virus
+        taxon ID: 197911
+    notes: This is the NS gene from figure 2 in the ms. Root age is the oldest node in the tree, taken from the MCC trees on Dryad. Note that the dates of the names represent sampling dates that can be used for tip dating analyses. See original paper and repository for details.
