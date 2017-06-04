@@ -14,28 +14,6 @@ dataset_folders = [x[0] for x in os.walk(os.path.join(os.getcwd(), "../datasets"
 
 #logging.info("Found these %d datasets %s" %(len(dataset_folders), dataset_folders))
 
-# let's keep it simple and use a dictionary here
-dataset = {"name":"NA",
-          "study_DOI":"NA",
-          "study_year":"NA",
-          "dataset_DOI":"NA",
-          "license":"NA",
-          "root_age_timetree_mya":"NA",
-          "root_age_study_mya":"NA",
-          "clade_latin":"NA",
-          "clade_english":"NA",
-          "taxon_ID":"NA",
-          "n_taxa":"NA",
-          "n_sites":"NA",
-          "n_datablocks":"NA",
-          "gc_proportion":"NA",
-          "gap_proportion":"NA",
-          "a_proportion":"NA",
-          "c_proportion":"NA",
-          "g_proportion":"NA",
-          "t_proportion":"NA"
-          }
-
 # read each file and extract the things you want, writing a csv as you go
 results = []
 warnings = 0
@@ -56,7 +34,7 @@ for folder in dataset_folders:
         raise ValueError
 
     # clean up the folder: remove all files except the two we want
-    extras = set(files) - set(['alignment.nex', 'README.yaml'])
+    extras = set(files) - set(['alignment.nex', 'README.yaml', 'alignment.nex-seq-summary.txt', 'alignment.nex-summary.txt'])
     if extras:
         logging.info("Removing %d additional files", len(extras))
         for f in extras:
@@ -66,26 +44,10 @@ for folder in dataset_folders:
     yaml_file = os.path.join(folder, "README.yaml")
     check_yaml(yaml_file)
 
-    # 3. add yaml data to the result for this dataset
-    result = add_yaml(yaml_file, result)
-
     # 4. check the alignment file
     alignment_file = os.path.join(folder, "alignment.nex")
     aln = check_alignment(alignment_file)
-    result = add_alignment(aln, result)
 
-    results.append(result)
 
 logging.info("Database contains %d datasets" % ( len(dataset_folders)))
 
-
-# now write it out
-f = open('summary.csv','wb')
-headers = dataset.keys()
-w = csv.DictWriter(f, headers, extrasaction='ignore')
-w.writeheader()
-
-for r in results: 
-    w.writerow(r)
-    
-f.close()
