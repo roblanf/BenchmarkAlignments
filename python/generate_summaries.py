@@ -19,5 +19,9 @@ for f in all_files:
 	# get the AMAS summaries
 	aln = AMAS.MetaAlignment(in_files=[alnf], data_type=type,in_format="nexus", cores=1)
 	sumf = os.path.join(f, "alignment.nex-summary.txt")
-	aln.write_summaries(sumf)
-	aln.write_taxa_summaries()
+
+	if os.path.isfile(sumf) == False:
+		aln.write_summaries(sumf)
+
+	if os.path.isfile(os.path.join(f, "alignment.nex-seq-summary.txt") == False):
+		aln.write_taxa_summaries()
