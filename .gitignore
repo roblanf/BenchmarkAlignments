@@ -4,3 +4,5 @@
 R/check_yaml/.Rhistory
 
 *.pyc
+
+datasets/Chen_2015/alignment.nex
