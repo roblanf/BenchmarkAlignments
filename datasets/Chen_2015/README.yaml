@@ -4,7 +4,7 @@ study:
     DOI: dx.doi.org/10.1093/sysbio/syv059
 
 dataset:
-    DOI: http://dx.doi.org/10.5061/dryad.47v40
+    DOI: dx.doi.org/10.5061/dryad.47v40
     license: "CC0"
     used for tree inference: yes
     timetree root age: 473 mya
