@@ -1,0 +1,16 @@
+study:
+    reference:  "Cannon JT, Vellutini BC, Smith J, Ronquist F, Jondelius U, Hejnol A (2016) Xenacoelomorpha is the sister group to Nephrozoa. Nature 530(7588): 89–93. http://dx.doi.org/10.1038/nature16520"
+    year: 2016
+    DOI: dx.doi.org/10.1038/nature16520
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.493b7
+    license: CC0
+    used for tree inference: yes
+    timetree root age: 952 mya
+    study root age: NA
+    study clade:
+        latin:  Metazoa
+        english: Animals
+        taxon ID: 33208
+    notes: This dataset (78 taxa, 212 loci) is referred to as the 'primary' dataset in the ms, and forms the basis of Figure 2 in the ms. This is the nucleotide dataset (212_78_MB_aa.nex) taken from the 'supplementary mrbayes files' link in the Dryad repository (http://datadryad.org/bitstream/handle/10255/dryad.107232/supplementarymrbayesfiles.zip?sequence=1). There is a nucleotide (1st and 2nd positions only) version of this dataset stored in this repository as Cannon_2016a.
