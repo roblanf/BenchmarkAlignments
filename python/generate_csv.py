@@ -38,4 +38,7 @@ concatenated_yaml.insert(0, 'name', datasets)
 # merge
 summarydf = pd.merge(concatenated_smy, concatenated_yaml,  how='left', left_on=['name'], right_on = ['name'])
 
-# TODO: add data types and genomes.
+#write
+summarydf.to_csv(os.path.abspath(os.path.join(os.getcwd(),'../summary.csv')))
+
+# TODO: add data types, genomes, number of charsets

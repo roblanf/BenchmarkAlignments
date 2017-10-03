@@ -15,26 +15,33 @@ dataset_folders = [x[0] for x in os.walk(os.path.join(os.getcwd(), "../datasets"
 #logging.info("Found these %d datasets %s" %(len(dataset_folders), dataset_folders))
 
 # read each file and extract the things you want, writing a csv as you go
-results = []
 warnings = 0
+
 for folder in dataset_folders:
 
     folder = os.path.realpath(folder) # prettier
     logging.info("Checking %s" %folder)
-    result = dataset.copy()
-    result["name"] = os.path.basename(folder)
+    zipflag = 0
     
     # 1. Check that the two files exist, at least in principle (maybe they're empty)
     files = os.listdir(folder)
     if files.count("README.yaml") != 1: 
         logging.error("couldn't find a YAML file for %s" %folder)
         raise ValueError
-    if files.count("alignment.nex") != 1: 
-        logging.error("couldn't find alignment.phy file for %s" %folder)
+
+    if files.count("alignment.nex.tar.gz") == 1:
+        command = "tar -zxvf %s -C %s" %(os.path.join(folder, "alignment.nex.tar.gz"), folder)
+        os.system(command)
+        zipflag = 1
+        files = os.listdir(folder)
+
+
+    if files.count("alignment.nex") != 1:
+        logging.error("couldn't find alignment.nex file for %s" %folder)
         raise ValueError
 
     # clean up the folder: remove all files except the two we want
-    extras = set(files) - set(['alignment.nex', 'README.yaml', 'alignment.nex-seq-summary.txt', 'alignment.nex-summary.txt'])
+    extras = set(files) - set(['alignment.nex', 'README.yaml', 'alignment.nex-seq-summary.txt', 'alignment.nex-summary.txt', 'alignment.nex.tar.gz'])
     if extras:
         logging.info("Removing %d additional files", len(extras))
         for f in extras:
@@ -48,6 +55,9 @@ for folder in dataset_folders:
     alignment_file = os.path.join(folder, "alignment.nex")
     aln = check_alignment(alignment_file)
 
+    # 5. clean up the unzipped file if necessary
+    if zipflag==1:
+        os.system("rm %s" %(os.path.join(folder, "alignment.nex")))
 
 logging.info("Database contains %d datasets" % ( len(dataset_folders)))
 
