@@ -1,0 +1,16 @@
+study:
+    reference:  "Prebus M (2017) Insights into the evolution, biogeography and natural history of the acorn ants, genus Temnothorax Mayr (hymenoptera: Formicidae). BMC Evolutionary Biology 17: 250. https://doi.org/10.1186/s12862-017-1095-8"
+    year: 2017
+    DOI: dx.doi.org/10.1186/s12862-017-1095-8
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.b464m
+    license: CC0
+    used for tree inference: yes
+    timetree root age: NA
+    study root age: 35 mya
+    study clade:
+        latin:  Temnothorax
+        english: Acorn ants
+        taxon ID: 300110
+    notes: This is the tmno_50t_min90 dataset from Dryad. The UCE positions were inferred from the rcluster_50t_min90_part.txt file. 

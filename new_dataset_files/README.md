@@ -44,13 +44,17 @@ What you do
 
 10. Add in the dataset itself, in NEXUS format, and named alignment.nex
 
+Running tests and updating the database
+---------------------------------------
 
-Before you submit a pull request
---------------------------------
+Once your new dataset is in, you need to test the database (including the new dataset), calculate summaries, and update the `summary.csv` file. You will need python 2.7.x and python 3.x. Python scripts are all in the 'python' folder.
 
-1. Check you have completed the ENTIRE README.yaml file, and that there are no errors in your nexus or YAML file. Take your time.
+1. `python check_files.py`. Use Python 2.7.x to check all of the files in your repository, including the new dataset you added. This will run a comprehensive set of tests on all datasets, including checking all of the alignment formats, yaml files, DOI links, etc.
 
-2. Try running the python scrit to build the CSV file. This will also check your data.
+2. `python generate_summaries.py`. Use python 3.x to generate summaries of any new datasets (uses AMAS.py, which is included in the repository).
+
+3. `python generate_csv.py`. Use python 3.x to generate the summary.csv file.  
+
 
 Conventions
 -----------
