@@ -56,8 +56,19 @@ for folder in dataset_folders:
     aln = check_alignment(alignment_file)
 
     # 5. clean up the unzipped file if necessary
-    if zipflag==1:
-        os.system("rm %s" %(os.path.join(folder, "alignment.nex")))
+    # this is coded so that we zip up any alignment >100MB, since that's the github limit
+    if os.path.getsize(os.path.join(folder, "alignment.nex")) >= 100000000.0:
+
+        if zipflag == 0:
+            logging.info(".tar.gzipping alignment because it's larger than 100MB")
+            command = "tar -czvf %s --directory=%s %s" %(os.path.join(folder, "alignment.nex.tar.gz"), folder, "alignment.nex")
+            os.system(command)
+
+        # remove the original, but only if we managed to zip it successfully
+        files = os.listdir(folder)
+        if files.count("alignment.nex.tar.gz") == 1:
+            logging.info("Removing large raw alignment file")
+            os.system("rm %s" %(os.path.join(folder, "alignment.nex")))
 
 logging.info("Database contains %d datasets" % ( len(dataset_folders)))
 
