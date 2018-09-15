@@ -55,6 +55,14 @@ Once your new dataset is in, you need to test the database (including the new da
 
 3. `python generate_csv.py`. Use python 3.x to generate the summary.csv file.  
 
+On my system, this invovles the following (2.7.x is my default, and I use Conda to manage environments)
+
+```
+python check_files.py
+source activate snakes
+python generate_summaries.py
+python generate_csv.py
+```
 
 Conventions
 -----------
