@@ -1,2 +1,0 @@
-Alignment_name	No_of_taxa	Alignment_length	Total_matrix_cells	Undetermined_characters	Missing_percent	No_variable_sites	Proportion_variable_sites	Parsimony_informative_sites	Proportion_parsimony_informative	AT_content	GC_content	A	C	G	T	K	M	R	Y	S	W	B	V	H	D	X	N	O	-	?
-alignment.nex	351	2280	800280	27	0.003	1390	0.61	1250	0.548	0.56	0.44	272020	149458	202916	175805	1	6	21	24	0	2	0	0	0	0	0	0	0	27	0

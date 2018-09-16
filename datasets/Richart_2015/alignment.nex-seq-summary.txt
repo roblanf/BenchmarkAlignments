@@ -1,7 +1,0 @@
-Alignment_name	Taxon_name	Sequence_length	Undetermined_characters	Missing_percent	AT_content	GC_content	A	C	G	T	K	M	R	Y	S	W	B	V	H	D	X	N	O	-	?
-alignment.nex	Acuclavella	536124	2896	0.54	0.609	0.391	172104	96208	112393	152523	0	0	0	0	0	0	0	0	0	0	0	0	0	1911	985
-alignment.nex	Hesperoneamstoma	536124	534795	99.752	0.497	0.503	370	325	344	290	0	0	0	0	0	0	0	0	0	0	0	534777	0	18	0
-alignment.nex	Hesperonemastoma	536124	9792	1.826	0.57	0.43	161376	105060	121047	138849	0	0	0	0	0	0	0	0	0	0	0	0	0	3567	6225
-alignment.nex	Ortholasma	536124	8848	1.65	0.562	0.438	159671	110685	120343	136577	0	0	0	0	0	0	0	0	0	0	0	0	0	2652	6196
-alignment.nex	Sabacon	536124	2254	0.42	0.576	0.424	161421	106730	119778	145941	0	0	0	0	0	0	0	0	0	0	0	0	0	1812	442
-alignment.nex	Trogulus	536124	12463	2.325	0.574	0.426	160071	104130	118932	140528	0	0	0	0	0	0	0	0	0	0	0	0	0	2778	9685
