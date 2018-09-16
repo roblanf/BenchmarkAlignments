@@ -1,10 +1,3 @@
-
 *.DS_Store
-
-R/check_yaml/.Rhistory
-
 *.pyc
-
-datasets/Chen_2015/alignment.nex
-
-python/util_functions.pyc
+datasets/
