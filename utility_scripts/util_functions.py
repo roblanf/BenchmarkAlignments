@@ -6,6 +6,18 @@ import urllib2
 from Bio.Nexus import Nexus
 from Bio import SeqUtils
 import itertools
+import os
+
+def walklevel(some_dir, level=1):
+    #thanks to https://stackoverflow.com/questions/229186/os-walk-without-digging-into-directories-below
+    some_dir = some_dir.rstrip(os.path.sep)
+    assert os.path.isdir(some_dir)
+    num_sep = some_dir.count(os.path.sep)
+    for root, dirs, files in os.walk(some_dir):
+        yield root, dirs, files
+        num_sep_this = root.count(os.path.sep)
+        if num_sep + level <= num_sep_this:
+            del dirs[:]
 
 def check_alignment(alignment_file):
     # do lots of checks on an alignment
@@ -19,16 +31,19 @@ def check_alignment(alignment_file):
         raise ValueError
 
     # Check that there are just two charpartitions: 'loci' and 'genomes'
+    logging.info("        checking correct charpartitions exist")
     if aln.charpartitions.keys() != ['loci', 'genomes']:
         logging.error("There should be exactly two CHARPARTITIONS: 'loci' and 'genomes'. Check and try again.")    
         raise ValueError
 
     # Check for an 'outgroup' taxset
+    logging.info("        checking outgroup taxset exists")
     if aln.taxsets.keys() != ['outgroups']:
         logging.error("There should be exactly one TAXSET: 'outgroups'. Check and try again.")    
         raise ValueError
 
     # Check that no sites are duplicated in either charpartition
+    logging.info("        checking for duplicates sites in charpartitions")
     all_sites = set(range(aln.nchar))
 
     loci_sites = [x[1] for x in aln.charpartitions['loci'].items()]
@@ -37,7 +52,6 @@ def check_alignment(alignment_file):
     if len(loci_sites) > len(all_sites):
         logging.error("The loci charpartition has %d more site(s) than the number of sites in the alignment" %(len(loci_sites) - len(all_sites)))    
         raise ValueError
-
 
     geno_sites = [x[1] for x in aln.charpartitions['genomes'].items()]
     geno_sites = list(itertools.chain.from_iterable(geno_sites))
@@ -48,6 +62,7 @@ def check_alignment(alignment_file):
 
 
     # Check that all sites are covered by 'loci' charpartition
+    logging.info("        checking that all sites are covered by charpartitions")
     if len(set(loci_sites)) < len(all_sites):
         logging.error("The loci charpartition does not cover the following sites, please fix: %s" %(all_sites.difference(set(loci_sites))))    
         raise ValueError
@@ -66,6 +81,7 @@ def check_yaml(yaml_file):
     y = yaml.load(open(yaml_file, 'r'))
 
     # Basic structure of the file
+    logging.info("        checking basic structure")
     if set(y.keys()) != set(['study', 'dataset']): 
         logging.error("Missing 'study' or 'dataset' section from your yaml file")
         raise ValueError
@@ -83,20 +99,25 @@ def check_yaml(yaml_file):
         raise ValueError
 
     # Check values one by one
+    logging.info("        checking study url")
     check_url("".join(["http://", y['study']['DOI']]))
+    logging.info("        checking study reference and year")
     check_reference(y['study']['reference'])
     check_year(y['study']['year'])
 
+    logging.info("        checking dataset url")    
     dataset_url = y['dataset']['DOI']
-    if dataset_url != 'NA':
-        check_url("".join(["http://", y['dataset']['DOI']]))
+    check_url("".join(["http://", y['dataset']['DOI']]))
 
+    logging.info("        checking license")
     check_license(y['dataset']['license'])
-    check_tree(y['dataset']['used for tree inference'])
 
+    logging.info("        checking tree and age details")
+    check_tree(y['dataset']['used for tree inference'])
     check_age(y['dataset']['timetree root age'])
     check_age(y['dataset']['study root age'])
 
+    logging.info("        checking genbank taxonomy")
     check_clade(y['dataset']['study clade'])    
 
 def check_clade(clade):
@@ -164,13 +185,16 @@ def check_license(license):
 
 def check_url(url):
     try: 
-        urllib2.urlopen(url)
+        urllib2.urlopen(url, timeout = 4)
     except urllib2.URLError as e:
         logging.error("There was a URLError: %r" % e)
         logging.error("This URL didn't work: %s" % url)
     except socket.timeout as e:
         logging.error("The url timed out. Check and try again please!")
         logging.error("The error was: %r" %e)
+        logging.error("This URL didn't work: %s" % url)
+    except:
+        logging.error("The url timed out. Check and try again please!")
         logging.error("This URL didn't work: %s" % url)
 
 def check_reference(text):

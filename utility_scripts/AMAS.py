@@ -660,6 +660,7 @@ class Alignment:
         self.prop_parsimony = self.get_prop_parsimony()
         self.char_count_records = self.get_counts_from_parsed()
         self.missing_records = self.get_missing_from_parsed()
+        print(self.missing_records)
         name = str(self.get_name())
         taxa_no = str(self.get_taxa_no())
         cells = str(self.get_matrix_cells())
@@ -675,11 +676,12 @@ class Alignment:
         per_taxon_summary = []
         taxa_no = self.get_taxa_no()
         self.length = self.get_alignment_length()
+        self.missing_records = self.get_missing_from_parsed()
+        self.char_count_records = self.get_counts_from_parsed()
         lengths = (self.length for i in range(taxa_no))
         name = self.get_name()
         names = (name for i in range(taxa_no))
-        taxa_names = (taxon.replace(" ","_").replace(".","_").replace("'","") \
-         for taxon, missing_count, missing_percent in self.missing_records)
+        taxa_names = (taxon.replace(" ","_").replace(".","_").replace("'","") for taxon, missing_count, missing_percent in self.missing_records)
         missing = (missing_count for taxon, missing_count, missing_percent in self.missing_records)
         missing_percent = (missing_percent for taxon, missing_count, missing_percent in self.missing_records)
         self.check_data_type()
