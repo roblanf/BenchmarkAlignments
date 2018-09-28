@@ -909,6 +909,7 @@ class DNAAlignment(Alignment):
         return atgc_content
 
     def get_list_from_atgc(self):
+        self.atgc_records = self.get_atgc_from_parsed()
         records = (atgc for taxon, atgc in self.atgc_records)
         return records
 

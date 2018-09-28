@@ -15,7 +15,6 @@ logging.basicConfig(format='%(levelname)s:\t%(asctime)s:\t%(message)s', datefmt=
 # each one is a dataset that SHOULD have an associated .yaml readme
 dataset_folders = [x[0] for x in walklevel(os.path.join(os.getcwd(), "../datasets"))][1:]
 
-
 logging.info("Found %d datasets" %(len(dataset_folders)))
 for f in dataset_folders:
 	logging.info("    %s", f)

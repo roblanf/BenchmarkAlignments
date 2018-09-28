@@ -167,19 +167,20 @@ def check_age(age):
 
 
 def check_tree(text):
-    if text != True:
-        logging.error("The 'used for tree inference' section must be 'yes'. Otherwise we don't want the dataset")
-        logging.error("Yours is: '%s'", text)
+    if text in [True, False]:
+        pass
+    else:
+        logging.error("The 'used for tree inference' section must be 'yes' or 'no'")
         raise ValueError
 
 
 def check_license(license):
 
     # if it's not CC0, it needs an explanation
-    if license == "CC0":
+    if license in ["CC0", "CCBY"]:
         pass
     else:
-        logging.error("The license for the dataset must be CC0")
+        logging.error("The license for the dataset must be CC0 or CCBY")
         raise ValueError
 
 
@@ -187,15 +188,11 @@ def check_url(url):
     try: 
         urllib2.urlopen(url, timeout = 4)
     except urllib2.URLError as e:
-        logging.error("There was a URLError: %r" % e)
-        logging.error("This URL didn't work: %s" % url)
-    except socket.timeout as e:
-        logging.error("The url timed out. Check and try again please!")
-        logging.error("The error was: %r" %e)
-        logging.error("This URL didn't work: %s" % url)
+        logging.error("        there was a URLError: %r" % e)
+        logging.error("        this URL didn't work: %s" % url)
     except:
-        logging.error("The url timed out. Check and try again please!")
-        logging.error("This URL didn't work: %s" % url)
+        logging.error("        the url timed out. Check and try again please!")
+        logging.error("        this URL didn't work: %s" % url)
 
 def check_reference(text):
     if len(text) < 10:
