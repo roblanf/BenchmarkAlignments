@@ -4,7 +4,7 @@ from util_functions import *
 # first we get a list of all the datasets
 dataset_folders = [x[0] for x in walklevel(os.path.join(os.getcwd(), "../datasets"))][1:]
 
-#os.mkdir("../zips/")
+os.mkdir("../zips/")
 
 for f in dataset_folders:
     b = os.path.basename(f)

@@ -29,6 +29,10 @@ cols = ['Alignment_length',
 
 concatenated_smy = concatenated_smy[cols]
 
+# get data types
+
+
+
 # dataset names
 datasets = glob.glob(os.path.abspath(os.path.join(os.getcwd(),'../datasets/*')))
 datasets = [os.path.basename(f) for f in datasets]
@@ -38,7 +42,7 @@ concatenated_yaml.insert(0, 'name', datasets)
 # merge
 summarydf = pd.merge(concatenated_smy, concatenated_yaml,  how='left', left_on=['name'], right_on = ['name'])
 
-#write
+# write
 summarydf.to_csv(os.path.abspath(os.path.join(os.getcwd(),'../summary.csv')))
 
 # TODO: add data types, genomes, number of charsets
