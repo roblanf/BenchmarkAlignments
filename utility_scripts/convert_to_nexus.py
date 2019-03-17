@@ -6,10 +6,11 @@ from Bio.Alphabet import generic_protein
 from Bio import AlignIO
 import os
 
-infile  = "/Users/roblanfear/Desktop/cds_5162/"
-outdir = "/Users/roblanfear/Desktop/cds_5162nex/"
+infile  = "/Users/roblanfear/Desktop/prot/"
+outdir = "/Users/roblanfear/Desktop/prot_nex/"
 
 file_list = [x for x in os.walk(infile)][0][2]
+file_list.remove(".DS_Store") # thanks Mac
 
 for f in file_list:
 	print(f)

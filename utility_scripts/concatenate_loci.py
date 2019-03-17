@@ -1,10 +1,12 @@
 # a little script to concatenate lots of nexus files in a folder
 # and write a new one.
+# cd to the infile before running
+
 from Bio.Nexus import Nexus
 from Bio import AlignIO
 import os
 
-infile  = "/Users/roblanfear/Desktop/cds_5162nex/"
+infile  = "/Users/roblanfear/Desktop/prot_nex/"
 
 file_list = [x for x in os.walk(infile)][0][2]
 print(file_list)
