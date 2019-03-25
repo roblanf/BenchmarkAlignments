@@ -8,10 +8,10 @@ dataset:
     license: CC0
     used for tree inference: yes
     alignment:
-        ntax: 
-        nchar: 
-        datatype: 
-        partitions: 
+        ntax: 146
+        nchar: 1716
+        datatype: nucleotide
+        partitions: 3
     genomes:
         mitochondrial: no
         nuclear: no
@@ -19,7 +19,7 @@ dataset:
         dsDNA: no
         ssDNA: no
         dsRNA: no
-        ssRNA: no
+        ssRNA: yes
         bacterial: no
     timetree root age: NA
     study root age: 0.000156 mya

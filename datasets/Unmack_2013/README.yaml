@@ -8,13 +8,13 @@ dataset:
     license: CC0
     used for tree inference: yes
     alignment:
-        ntax: 
-        nchar: 
-        datatype: 
-        partitions: 
+        ntax: 139
+        nchar: 6827
+        datatype: nucleotide
+        partitions: 25
     genomes:
-        mitochondrial: no
-        nuclear: no
+        mitochondrial: yes
+        nuclear: yes
         chloroplast: no
         dsDNA: no
         ssDNA: no
