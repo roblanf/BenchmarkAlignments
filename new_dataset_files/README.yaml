@@ -7,6 +7,20 @@ dataset:
     DOI: [must be a URL starting dx.doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
     license: [should always == "CC0"]
     used for tree inference: ['yes' or 'no']
+    alignment:
+        ntax: [number of taxa]
+        nchar: [number of sites]
+        datatype: [nucleotide or protein]
+        partitions: [number of partitions]
+    genomes:
+        mitochondiral: [yes or no, if it has this genome type]
+        nuclear: [yes or no, if it has this genome type]
+        chloroplast: [yes or no, if it has this genome type]
+        dsDNA: [yes or no, if it has this genome type]
+        ssDNA: [yes or no, if it has this genome type]
+        dsRNA: [yes or no, if it has this genome type]
+        ssRNA: [yes or no, if it has this genome type]
+        bacterial: [yes or no, if it has this genome type]
     timetree root age: ['NA' or an integer optionally followed by 'mya'; get this from timetree.org, as the age of the root of your tree]
     study root age: ['NA' or an integer optionally followed by 'mya', if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
