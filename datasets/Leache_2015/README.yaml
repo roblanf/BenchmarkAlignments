@@ -11,7 +11,7 @@ dataset:
         ntax: 11
         nchar: 358363
         datatype: nucleotide
-        partitions: 
+        partitions: 583
     genomes:
         mitochondrial: no
         nuclear: yes
