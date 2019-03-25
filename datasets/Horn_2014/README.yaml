@@ -13,7 +13,7 @@ dataset:
         datatype: nucleotide
         partitions: 28
     genomes:
-        mitochondiral: yes
+        mitochondrial: yes
         nuclear: yes
         chloroplast: yes
         dsDNA: no

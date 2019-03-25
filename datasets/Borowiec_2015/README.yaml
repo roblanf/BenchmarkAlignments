@@ -13,7 +13,7 @@ dataset:
         datatype: protein
         partitions: 1080
     genomes:
-        mitochondiral: no
+        mitochondrial: no
         nuclear: yes
         chloroplast: no
         dsDNA: no
