@@ -9,7 +9,7 @@ dataset:
     used for tree inference: yes
     alignment:
         ntax: 5285
-        nchar: 5727
+        nchar: 5737
         datatype: nucleotide
         partitions: 3
     genomes:
