@@ -8,13 +8,13 @@ dataset:
     license: "CC0"
     used for tree inference: yes
     alignment:
-        ntax: 
-        nchar: 
-        datatype: 
-        partitions: 
+        ntax: 58
+        nchar: 1806035
+        datatype: protein
+        partitions: 4682
     genomes:
         mitochondiral: no
-        nuclear: no
+        nuclear: yes
         chloroplast: no
         dsDNA: no
         ssDNA: no
