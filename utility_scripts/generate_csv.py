@@ -15,9 +15,7 @@ all_smys_f = glob.glob(os.path.abspath(os.path.join(os.getcwd(),'../datasets/**/
 all_smys = (pd.read_table(open(f)) for f in all_smys_f)
 concatenated_smy = pd.concat(all_smys, ignore_index=True, axis=0)
 
-cols = ['Alignment_length',
-		'No_of_taxa',
-		'Total_matrix_cells',
+cols = ['Total_matrix_cells',
 		'Undetermined_characters',
 		'Missing_percent',
        	'No_variable_sites',
@@ -45,4 +43,3 @@ summarydf = pd.merge(concatenated_smy, concatenated_yaml,  how='left', left_on=[
 # write
 summarydf.to_csv(os.path.abspath(os.path.join(os.getcwd(),'../summary.csv')))
 
-# TODO: add data types, genomes, number of charsets
