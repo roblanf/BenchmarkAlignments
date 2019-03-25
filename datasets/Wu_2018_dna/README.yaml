@@ -1,0 +1,30 @@
+study:
+    reference:  'Wu, S., Edwards, S., & Liu, L. (2018). Genome-scale DNA sequence data and the evolutionary history of placental mammals. Data in brief, 18, 1972-1975.'
+    year: 2018
+    DOI: dx.doi.org/10.1016/j.dib.2018.04.094
+
+dataset:
+    DOI: dx.doi.org/10.6084/m9.figshare.6031190.v2
+    license: CCBY
+    used for tree inference: no
+    alignment:
+        ntax: 
+        nchar: 
+        datatype: 
+        partitions: 
+    genomes:
+        mitochondiral: no
+        nuclear: no
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: 177 mya
+    study root age: NA
+    study clade:
+        latin:  mammalia
+        english: mammals
+        taxon ID: 40674
+    notes: This is the cds_5162.zip dataset, loci were in frame and codon positions were annotated as such.

@@ -1,0 +1,30 @@
+study:
+    reference:  "Reddy S, Kimball RT, Pandey A, Hosner PA, Braun MJ, Hackett SJ, Han K, Harshman J, Huddleston CJ, Kingston S, Marks BD, Miglia KJ, Moore WS, Sheldon FH, Witt CC, Yuri T, Braun EL (2017) Why do phylogenomic data sets yield conflicting trees? Data type influences the avian tree of life more than taxon sampling. Systematic Biology 66(5): 857-879."
+    year: 2017
+    DOI: dx.doi.org/10.1093/sysbio/syx041
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.6536v
+    license: CC0
+    used for tree inference: yes
+    alignment:
+        ntax: 
+        nchar: 
+        datatype: 
+        partitions: 
+    genomes:
+        mitochondiral: no
+        nuclear: no
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: 111 mya
+    study root age: NA
+    study clade:
+        latin:  Aves
+        english: Birds
+        taxon ID: 8782
+    notes: this is the dataset Reddy_sup_fileS5_EB2taxset.nex, which was used to produce figure 3 in the paper from this link https://datadryad.org/bitstream/handle/10255/dryad.141055/Reddy_sup_fileS5_alignments.tar.gz?sequence=1. The charsets in this repository are the main charsets derived from that file (88 in total).

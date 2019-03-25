@@ -1,6 +1,4 @@
 *.DS_Store
 *.pyc
-/datasets/*
-datasets/*
-possible_datasets/*
 zips/*
+*.nex

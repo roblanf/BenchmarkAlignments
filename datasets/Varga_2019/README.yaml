@@ -1,0 +1,30 @@
+study:
+    reference:  "Varga, T., Krizsán, K., Földi, C., Dima, B., Sánchez-García, M., Sánchez-Ramírez, S., et al. (2019). Megaphylogeny resolves global patterns of mushroom evolution. Nature Ecology and Evolution."
+    year: 2019
+    DOI: dx.doi.org/10.1038/s41559-019-0834-1
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.gc2k9r9
+    license: CC0
+    used for tree inference: yes
+    alignment:
+        ntax: 
+        nchar: 
+        datatype: 
+        partitions: 
+    genomes:
+        mitochondiral: no
+        nuclear: no
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: NA
+    study root age: NA
+    study clade:
+        latin:  Basidiomycota
+        english: Mushrooms
+        taxon ID: 5204
+    notes: This is the dataset with excluded sites removed. The alignment file is "5284taxa_ML_alignment_exclude.txt" from this download https://datadryad.org/bitstream/handle/10255/dryad.203726/Varga_2019_NEE_5284taxa_MaximumLikelihood_analysis.zip?sequence=1. Illegal nexus characters in the alignment (e.g. '/') were replaced with underscores. It was not possible to identify all outgroup species from the published manuscript.
