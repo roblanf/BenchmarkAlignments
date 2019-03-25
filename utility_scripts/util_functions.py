@@ -90,12 +90,20 @@ def check_yaml(yaml_file):
         logging.error("The sections of your 'study' section should be 'reference', 'year', and 'DOI'")
         raise ValueError
 
-    if set(y["dataset"].keys()) != set(['DOI', 'license', 'used for tree inference', 'notes', 'study clade', 'timetree root age', 'study root age']):
+    if set(y["dataset"].keys()) != set(['DOI', 'license', 'used for tree inference', 'notes', 'study clade', 'timetree root age', 'study root age', 'alignment', 'genomes']):
         logging.error("The sections of your 'dataset' section should be 'DOI', 'license', 'used for tree inference', 'notes', 'study clade', 'timetree root age', 'study root age'")
         raise ValueError
 
     if set(y["dataset"]["study clade"].keys()) != set(['english', 'latin', 'taxon ID']):
         logging.error("The sections of your 'study clade' section should be 'english', 'latin', 'taxon ID'")
+        raise ValueError
+
+    if set(y["dataset"]["alignment"].keys()) != set(['ntax', 'nchar', 'datatype', 'partitions']):
+        logging.error("The sections of your 'alignment' section should be 'ntax', 'nchar', 'datatype', and 'partitions'")
+        raise ValueError
+
+    if set(y["dataset"]["genomes"].keys()) != set(['mitochondrial', 'nuclear', 'chloroplast', 'dsDNA', 'ssDNA', 'dsRNA', 'ssRNA', 'bacterial']):
+        logging.error("The sections of your 'genomes' section should be 'mitochondrial', 'nuclear', 'chloroplast', 'dsDNA', 'ssDNA', 'dsRNA', 'ssRNA', and 'bacterial'")
         raise ValueError
 
     # Check values one by one
@@ -112,6 +120,13 @@ def check_yaml(yaml_file):
     logging.info("        checking license")
     check_license(y['dataset']['license'])
 
+    logging.info("        checking alignment block")
+    check_aln_block(y['dataset']['alignment'])
+
+    logging.info("        checking genomes block")
+    check_genomes(y['dataset']['genomes'])
+
+
     logging.info("        checking tree and age details")
     check_tree(y['dataset']['used for tree inference'])
     check_age(y['dataset']['timetree root age'])
@@ -119,6 +134,52 @@ def check_yaml(yaml_file):
 
     logging.info("        checking genbank taxonomy")
     check_clade(y['dataset']['study clade'])    
+
+
+
+def check_aln_block(aln):
+
+    if isinstance(aln['datatype'], basestring) == False:
+        logging.error("The datatype must be a string")
+        raise ValueError
+
+    if aln['datatype'] in ["nucleotide", "protein"]:
+        pass
+    else:
+        logging.error("The datatype must be a 'nucleotide' or 'protein'")
+        raise ValueError
+
+    if isinstance(aln['ntax'], int) == False:
+        logging.error("ntax must be a number")
+        raise ValueError
+
+    if isinstance(aln['nchar'], int) == False:
+        logging.error("nchar must be a number")
+        raise ValueError
+
+    if isinstance(aln['partitions'], int) == False:
+        logging.error("partitions must be a number")
+        raise ValueError
+
+
+def check_genomes(gen):
+
+    responses = set([gen['mitochondrial'],
+                    gen['nuclear'],
+                    gen['chloroplast'],
+                    gen['dsDNA'],
+                    gen['ssDNA'],
+                    gen['dsRNA'],
+                    gen['ssRNA'],
+                    gen['bacterial']])
+
+    if responses.issubset(set([True, False])) == True:
+        pass
+    else:
+        logging.error("All entries in the 'genome' section must be either 'yes' or 'no'")
+        logging.error("Your responses contained the following: %s", responses)
+        raise ValueError
+
 
 def check_clade(clade):
 
