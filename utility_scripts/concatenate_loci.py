@@ -6,16 +6,24 @@ from Bio.Nexus import Nexus
 from Bio import AlignIO
 import os
 
-infile  = "/Users/roblanfear/Desktop/prot_nex/"
+infile  = "/Users/roblanfear/Desktop/pep_nex/"
 
 file_list = [x for x in os.walk(infile)][0][2]
 print(file_list)
-file_list.remove(".DS_Store") # thanks Mac
+
+try:
+	file_list.remove(".DS_Store") # thanks Mac
+except:
+	pass
+
+print("loading files")
 nexi =  [(fname, Nexus.Nexus(fname)) for fname in file_list]
+
+print("combining alignments")
 combined = Nexus.combine(nexi)
+
+print("writing output")
 outfile = os.path.join(infile, "alignment.nex")
 outfile = open(outfile, 'w')
-
 combined.write_nexus_data(outfile)
-
 outfile.close()

@@ -6,15 +6,19 @@ from Bio.Alphabet import generic_protein
 from Bio import AlignIO
 import os
 
-infile  = "/Users/roblanfear/Desktop/prot/"
-outdir = "/Users/roblanfear/Desktop/prot_nex/"
+infile  = "/Users/roblanfear/Desktop/no_out/"
+outdir = "/Users/roblanfear/Desktop/no_out_nex/"
 
 file_list = [x for x in os.walk(infile)][0][2]
-file_list.remove(".DS_Store") # thanks Mac
+
+try:
+	file_list.remove(".DS_Store") # thanks Mac
+except:
+	pass
 
 for f in file_list:
 	print(f)
-	a = AlignIO.read(open(os.path.join(infile, f)), "phylip")
+	a = AlignIO.read(open(os.path.join(infile, f)), "fasta")
 	a._alphabet = generic_protein
 
 	name = os.path.basename(f)
