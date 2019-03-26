@@ -13,7 +13,7 @@ dataset:
         datatype: [nucleotide or protein]
         partitions: [number of partitions]
     genomes:
-        mitochondiral: [yes or no, if it has this genome type]
+        mitochondrial: [yes or no, if it has this genome type]
         nuclear: [yes or no, if it has this genome type]
         chloroplast: [yes or no, if it has this genome type]
         dsDNA: [yes or no, if it has this genome type]
