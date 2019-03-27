@@ -4,13 +4,15 @@
 import os
 
 # input file, can't be NEXUS alignments
-infile  = "/Users/roblanfear/Desktop/CDS_fine/"
-
-# output directory
-outdir = "/Users/roblanfear/Desktop/CDS_prot/"
+infile  = "/Users/roblanfear/Dropbox/Projects_Current/benchmark_alignments_in_progress/Wu_2018_aa/cds_aa"
+outdir = "/Users/roblanfear/Dropbox/Projects_Current/benchmark_alignments_in_progress/Wu_2018_aa/cds_aa_nex"
 
 file_list = [x for x in os.walk(infile)][0][2]
-file_list.remove(".DS_Store") # thanks Mac
+
+try:
+	file_list.remove(".DS_Store") # thanks Mac
+except:
+	pass
 
 for f in file_list:
 	print(f)
