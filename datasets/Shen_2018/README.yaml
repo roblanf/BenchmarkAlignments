@@ -1,0 +1,30 @@
+study:
+    reference:  "Shen, X. X., Opulente, D. A., Kominek, J., Zhou, X., Steenwyk, J. L., Buh, K. V., ... & Boudouris, J. T. (2018). Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum. Cell, 175(6), 1533-1545."
+    year: 2018
+    DOI: dx.doi.org/10.1016/j.cell.2018.10.023
+
+dataset:
+    DOI: dx.doi.org/10.6084/m9.figshare.5854692
+    license: "CCBY"
+    used for tree inference: yes
+    alignment:
+        ntax: 343
+        nchar: 1162805
+        datatype: protein
+        partitions: 2407
+    genomes:
+        mitochondrial: no
+        nuclear: yes
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: NA
+    study root age: 404 mya
+    study clade:
+        latin:  "Saccharomycotina"
+        english: "budding yeasts"
+        taxon ID: 147537
+    notes: "This alignment is that used to infer the tree in Figure 1, which is named '343_2408OGs.fasta' in the FigShare repository"

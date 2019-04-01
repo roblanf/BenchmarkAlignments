@@ -1,0 +1,30 @@
+study:
+    reference: "Rightmyer MG, Griswold T, Brady SG. Phylogeny and systematics of the bee genus Osmia (Hymenoptera: Megachilidae) with emphasis on North American Melanosmia: subgenera, synonymies and nesting biology revisited. Systematic Entomology. 2013 Jul 1;38(3):561-76."
+    year: 2013
+    DOI: dx.doi.org/10.1111/syen.12013
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.jd5ff
+    license: CC0
+    used for tree inference: yes
+    alignment:
+        ntax: 94
+        nchar: 3692
+        datatype: nucleotide
+        partitions: 25
+    genomes:
+        mitochondrial: yes
+        nuclear: yes
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: NA
+    study root age: NA
+    study clade:
+        latin:  "Hymenoptera: Megachilidae"
+        english: "bee"
+        taxon ID: 124286
+    notes: NA

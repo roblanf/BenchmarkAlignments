@@ -64,6 +64,13 @@ python generate_summaries.py
 python generate_csv.py
 ```
 
+Upload to figshare
+------------------
+
+1. `python gzip_datasets.py` to zip up the datasets
+2. Add any new .tar.gz files to: https://figshare.com/s/622e9e0a156e5233944b
+
+
 Conventions
 -----------
 Follow all of these rules...

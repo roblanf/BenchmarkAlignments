@@ -7,10 +7,15 @@
 python check_files.py
 
 # make summaries (Python 3.x)
-# note that currently, if the alignment gets zipped you'll need to unzip it first before doing this step
 source activate snakes
 python generate_summaries.py
 
 # update csv
 python generate_csv.py
+
+# zip up the datasets
+source deactivate
+python gzip_datasets.py
+
+
 ```

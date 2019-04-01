@@ -1,0 +1,30 @@
+study:
+    reference: "Bergsten J, Nilsson AN, Ronquist F. Bayesian tests of topology hypotheses with an example from diving beetles. Systematic biology. 2013 Sep 1;62(5):660-73."
+    year: 2013
+    DOI: dx.doi.org/10.1093/sysbio/syt029
+
+dataset:
+    DOI: dx.doi.org/10.5061/dryad.s631d
+    license: CC0
+    used for tree inference: yes
+    alignment:
+        ntax: 38
+        nchar: 2111
+        datatype: nucleotide
+        partitions: 8
+    genomes:
+        mitochondrial: yes
+        nuclear: yes
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: NA
+    study root age: NA
+    study clade:
+        latin: "Dytiscidae"
+        english: "diving beetles"
+        taxon ID: 50515
+    notes: NA

@@ -1,0 +1,30 @@
+study:
+    reference: "Whelan, N.V., Kocot, K.M., Moroz, T.P., Mukherjee, K., Williams, P., Paulay, G., Moroz, L.L. and Halanych, K.M., 2017. Ctenophore relationships and their placement as the sister group to all other animals. Nature ecology & evolution, 1(11), p.1737."
+    year: 2017
+    DOI: dx.doi.org/10.1038/s41559-017-0381-6
+
+dataset:
+    DOI: dx.doi.org/10.6084/m9.figshare.4484138.v1
+    license: CCBY
+    used for tree inference: yes
+    alignment:
+        ntax: 76
+        nchar: 49388
+        datatype: protein
+        partitions: 127
+    genomes:
+        mitochondrial: no
+        nuclear: yes
+        chloroplast: no
+        dsDNA: no
+        ssDNA: no
+        dsRNA: no
+        ssRNA: no
+        bacterial: no
+    timetree root age: NA
+    study root age: NA
+    study clade:
+        latin:  Metazoa
+        english: Animals
+        taxon ID: 33208
+    notes: No study root age is given, becuase the root of the ingroup was used as a calibration. Thanks to Nathan V Whelan for confirming the gene boundaries in the dataset.
