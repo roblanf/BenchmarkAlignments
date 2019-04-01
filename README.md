@@ -8,6 +8,10 @@ A curated repository of DNA and amino acid alignments with comprehensive metadat
 
 To test, verify, benchmark, and compare software and methods in phylogenetics.
 
+## How many datasets, how big?
+
+Check out the `summary.csv` file in this repository. It has most of the data you might want on all of the alignments in the database. You can view it straight on github by just clicking on it above.
+
 ## Getting the data
 
 The data are stored on figShare, and the total download size is roughly 1GB.
