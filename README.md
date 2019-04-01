@@ -10,9 +10,9 @@ To test, verify, benchmark, and compare software and methods in phylogenetics.
 
 ## Getting the data
 
-The data are stored at figShare, so first we need to download and unpack it.
+The data are stored on figShare, and the total download size is roughly 1GB.
 
-You can do it by hand by clicking 'Download All' at this link: https://figshare.com/s/622e9e0a156e5233944b, and then extracting each of the `.tar.gz` files yourself.
+You can download it by hand by clicking 'Download All' at this link: https://figshare.com/s/622e9e0a156e5233944b, and then extracting each of the `.tar.gz` files yourself.
 
 If you are comfortable with the commandline, you can do it like this
 
@@ -34,7 +34,6 @@ rm *.zip
 ```
 
 You should now have a series of folders named e.g. `Anderson_2013`. This is the database.
-
 
 # What's in each folder?
 
@@ -58,13 +57,39 @@ Everything here and on figShare that is not a dataset (e.g. the `summary.csv` fi
 
 If you use any of the datasets, please make sure to reference three things:
 
-1.  The original study (the full reference and DOI are provided in `README.yaml`)
+1.  The original study (the full reference and DOI are provided in `README.yaml` and in `summary.csv`)
 
-2.  The dataset itself (the DOI is provided in `README.yaml`)
+2.  The dataset itself (the DOI is provided in `README.yaml` and in `summary.csv`)
 
 3.  This repository (github.com/roblanf/BenchmarkAlignments)
 
 This is essential to reward and acknowledge those who spend weeks and months in the field, laboriously chasing frogs/flies/lizards etc., then are kind enough to share their data with the world so that people like me (and you, if you're reading this) can re-use them for other things.
+
+# I want individual loci, not concatenated alignments
+
+Depending on what you're doing, you might be more interested in single-locus alignments rather than concatenated multi-locus alignments. If this is the case, please use the script `split_into_loci.py` (in the `utility_scripts` folder), as follows:
+
+```{shell}
+python3 split_into_loci.py -i 'INPUT_FOLDER' -o 'OUTPUT_FOLDER'
+```
+
+Your output folder will now contain a series of single-locus alignments, with the name of the dataset prepended to the locus name (which is itself taken from the concatenated alignment file):
+
+```
+Anderson_2013_16S
+Anderson_2013_COI
+Seago_2011_28S
+Seago_2011_COI
+Seago_2011_COII
+```
+
+Note that this script will only work properly on alignments from this database, because all of the loci and other character sets in the nexus files are named with a consistent naming scheme upon which the script relies. This script will recursively search for alignments in the `INPUT_FOLDER`, and then output each locus to a new nexus file in the `OUTPUT_FOLDER`. There are two differences between the charsets in the nexus file and the single locus alignments in the `OUTPUT_FOLDER`:
+
+1. Protein coding loci in the original files are split into 1st, 2nd, and 3rd codon positions. These are concatenated into single alignments in the output folder. (Note that they will be concatenated in no particular order).
+
+2. Genome charsets (which are present in the original alignments) are ignored
+
+One thing to note is that the meaning of a 'locus' differs somewhat (and unavoidably) between datatsets. For example, in many datasets a 'locus' corresponds to a single transcript (i.e. multiple exons). But in other datasets, a 'locus' corresponds to a single exon. You can find more information on all of this by studying the alignments themselves, and by reading the original papers describing the study. The reference and DOI for each original study is given in the `readme.YAML` file in each folder, and in the `summary.csv` file on this repository. 
 
 # I have something to say
 
