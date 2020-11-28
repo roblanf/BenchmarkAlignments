@@ -10,9 +10,9 @@ What you need
 
 3. Lots of additional information on the alignment, including:
 
-    (i) Where the loci are (AKA partition boundaries)
+    (i) Where the partitions AND the physical loci are
 
-    (ii) Which genome (mitochondrial, nuclear, chloroplast) each locus comes from
+    (ii) Which genome (mitochondrial, nuclear, chloroplast) each partition comes from
 
     (iii) Codon positions (for protein-coding DNA datasets)
 
@@ -24,17 +24,17 @@ What you do
 
 1. Convert your alignment to NEXUS format. The format should be identical to that in Anderson_2013, this is not flexible or negotiable. See below for precise details on how to format this file.
 
-2. Add a SETS block to the .nex file with three comments [loci], [genomes], [outgroups].
+2. Add a SETS block to the .nex file with four comments [partitions], [loci], [genomes], [outgroups].
 
-3. Add CHARSETS that describe each locus to the [loci] section, according to the conventions below. Every site in the alignment needs to be covered by one and only one of these CHARSETS.
+3. Add CHARSETS that describe each partition in the [partitions] section, according to the conventions below. Every site in the alignment needs to be covered by one and only one of these CHARSETS.
 
 4. Add CHARSETS that describe each genome of origin to the [genomes] section, according to the conventions below. Every site in the alignment needs to be covered by one and only one of these CHARSETS.
 
-5. Define outgroups such that the tree can be rooted.
+5. Define outgroups such that the tree can be rooted. You will need to carefully read the original paper to do this. 
 
 6. If you have heterochronous data, create a SAMPLINGDATES block, and populate it with the sampling dates of all taxa (see Duchene_2015a for an example).
 
-7. Check and double check the nexus file. Check it loads into a couple of programs too.
+7. Check and double check the nexus file. Check it loads into IQ-TREE and RAxML.
 
 7. Make a new folder in the /datasets folder
 
@@ -89,40 +89,48 @@ The datatype must be either 'nucleotide' or 'protein'. The missing and gap symbo
 
 4. Your 'SETS' block should look like this before you put the data in:
 
-        begin sets;
+```
+    begin sets;
 
-            [loci]
+        [partitions]
 
-            [genomes]
+        [loci]
 
-            [outgroups]
+        [genomes]
 
-        end;
+        [outgroups]
+
+    end;
+```
 
 5. Inside the 'sets' block, we are aiming for something like this:
 
-        begin SETS;
+```
+begin SETS;
 
-        	[loci]
-        	CHARSET	COI_1stpos = 1-1592\3;
-        	CHARSET	COI_2ndpos = 2-1592\3;
-        	CHARSET	COI_3rdpos = 3-1592\3;
-        	CHARSET	16S = 1593-3037;
+	[partitions]
+	CHARSET	COI_1stpos = 1-1592\3;
+	CHARSET	COI_2ndpos = 2-1592\3;
+	CHARSET	COI_3rdpos = 3-1592\3;
+	CHARSET	16S = 1593-3037;
 
-            CHARPARTITION loci = 	1:COI_1stpos,
-        							2:COI_2ndpos,
-        							3:COI_3rdpos,
-        							4:16S;
+    CHARPARTITION partitions =  1:COI_1stpos,
+							    2:COI_2ndpos,
+							    3:COI_3rdpos,
+							    4:16S;
 
-        	[genomes]
-        	CHARSET	mitochondrial_genome = 1-3037;
+    [loci]
+    CHARPARTITION loci =    1:COI_1stpos COI_2ndpos COI_3rdpos,
+                            2:16S;
 
-            CHARPARTITION genomes = 1:mitochondrial_genome;
+	[genomes]
+    CHARPARTITION genomes = mitochondrial_genome: COI_1stpos COI_2ndpos COI_3rdpos 16S;
 
-        	[outgroups]
-        	TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327;
+	[outgroups]
+	TAXSET outgroups = Afrololigo_mercatoris_FEA Alloteuthis_africana_312327;
 
-        end;
+end;
+```
 
 6. ALL protein coding genes must have their codon positions delineated. We use the format above, which is e.g. NAME_1stpos. Where "NAME" is the name of the gene. Every gene must have all three positions defined.
 
@@ -161,4 +169,4 @@ The latter four are reserved for viruses
 
 10. In the README.yaml file, fill out everything as instructed in the file itself. Don't change the structure of the yaml file, or delete any entries.
 
-11. Fill in the CHARPARTITIONS. Make sure that each CHARPARTITION covers every single base (yes, every single one) in teh alignment.
+11. Fill in the CHARPARTITIONS. Make sure that each CHARPARTITION covers every single base (yes, every single one) in the alignment. There are three 
