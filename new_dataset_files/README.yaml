@@ -1,11 +1,11 @@
 study:
-    reference:  [reference taken from Dryad repository]
+    reference:  [reference taken from Google Scholar, in the VANCOUVER style when you find the paper and press 'cite']
     year: [year of publication, as an integer]
-    DOI: [URL starting dx.doi.org, check and double check that this points to the right study]
+    DOI: [URL for the paper starting dx.doi.org, check and double check that this points to the right study]
 
 dataset:
-    DOI: [must be a URL starting dx.doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
-    license: [should always == "CC0"]
+    DOI: [must be a URL for the dataset, starting dx.doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
+    license: [should always == "CC0" or "CCBY", usually Dryad datasets are CC0, and FigShare are CCBY, but you have to know for sure]
     used for tree inference: ['yes' or 'no']
     alignment:
         ntax: [number of taxa]
@@ -21,10 +21,10 @@ dataset:
         dsRNA: [yes or no, if it has this genome type]
         ssRNA: [yes or no, if it has this genome type]
         bacterial: [yes or no, if it has this genome type]
-    timetree root age: ['NA' or an integer optionally followed by 'mya'; get this from timetree.org, as the age of the root of your tree]
-    study root age: ['NA' or an integer optionally followed by 'mya', if the estimated age of the clade of interest is mentioned in the study itself, put it here]
+    timetree root age: ['NA' or an integer followed by 'mya' (millions of year ago); get this from timetree.org, as the age of the root of your tree]
+    study root age: ['NA' or an integer followed by 'mya' (millions of year ago), if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
-        latin:  [A single word in latin that describes the smalles clade of organisms that includes all those in the current study]
+        latin:  [A single word in latin that describes the smallest clade of organisms that includes all those in the current study]
         english: [One or more words]
-        taxon ID: [a GenBank Taxon ID, which should be an integer that resolves without a 404 when you add it to the end of this URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, e.g. http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=27563]
-    notes: ['NA', or some text, for example if the dataset DOI points to lots of datasets, we need to know which one we have here]
+        taxon ID: [a GenBank Taxon ID by searching here: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, which should be an integer that resolves without a 404 when you add it to the end of this URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, e.g. http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=27563]
+    notes: ['NA', or some text, for example if the dataset DOI points to lots of datasets, we need to know which one we have here, or if you need to provide information about which of many datasets you used, etc.]
