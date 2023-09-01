@@ -2,26 +2,42 @@
 # just change the input format in the loop as appropriate
 # and the alphabet
 
-from Bio.Alphabet import generic_protein
-from Bio import AlignIO
 import os
+import shutil
+import argparse
 
-infile  = "/Users/roblanfear/Dropbox/Projects_Current/benchmark_alignments_in_progress/Wu_2018_aa/cds_aa"
-outdir = "/Users/roblanfear/Dropbox/Projects_Current/benchmark_alignments_in_progress/Wu_2018_aa/cds_aa_nex"
+def conver_to_nexus(inpath, outdir, rootpath):
 
-file_list = [x for x in os.walk(infile)][0][2]
+    outpath = os.path.join(inpath, outdir)
+    if not os.path.isdir(outpath):
+        os.makedirs(outpath)
 
-try:
-	file_list.remove(".DS_Store") # thanks Mac
-except:
-	pass
+    file_list = [x for x in os.walk(inpath)][0][2]
 
-for f in file_list:
-	print(f)
-	a = AlignIO.read(open(os.path.join(infile, f)), "phylip")
-	a._alphabet = generic_protein
 
-	name = os.path.basename(f)
-	outfile = os.path.join(outdir, name)
+    for f in file_list:
+        cmd = r'python C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\utility_scripts\AMAS.py convert -d aa -f phylip -i '+ inpath + '\\' + f +' -u nexus'
+        os.system(cmd)
+        fnex = f + '-out.nex'
+        
+        outfile = os.path.join(outpath, fnex)
+        shutil.move(fnex, outfile)
+    
 
-	AlignIO.write(a, outfile, "nexus")
+        
+        
+# running
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('--inpath', '-i', help='', 
+                    default = r"C:\Users\u7151703\Desktop\research\datasets\processing")
+parser.add_argument('--outdir', '-o', help='', 
+                    default = "nex")
+parser.add_argument('--rootpath', '-r', help='', 
+                    default = r"C:\Users\u7151703")
+args = parser.parse_args()
+
+if __name__ == '__main__':
+    try:
+       conver_to_nexus(args.inpath, args.outdir, args.rootpath)
+    except Exception as e:
+        print(e)
