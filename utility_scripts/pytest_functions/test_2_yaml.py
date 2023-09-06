@@ -8,9 +8,7 @@ import requests
  
 
 folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
-files = os.listdir(folder)
 yaml_file = os.path.join(folder, "README.yaml")  
-alignment_file = os.path.join(folder, "alignment.nex")
 
 
 def test_yaml_titles():
@@ -100,3 +98,12 @@ def test_genbank_taxanomy():
     print('\ttaxon ID correct')
     
     
+def test_outgroups():
+    y = yaml.load(open(yaml_file, 'r'),Loader=yaml.FullLoader)
+    outgroups = y['dataset']['outgroups']
+    
+    assert ',' not in outgroups, "Outgroups shoulb be seperated by blank space"
+    assert len(outgroups.split(' ')) > 0, "There should be at list one outgroup taxon"
+    print('\toutgroups correct')
+
+

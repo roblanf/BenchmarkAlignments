@@ -32,7 +32,6 @@ def test_extra_file():
 #    aln = Nexus.Nexus()
 #    aln.read(alignment_file)
 #    assert list(aln.charpartitions.keys()) == ['loci', 'genomes'], "There should be exactly two CHARPARTITIONS: 'loci' and 'genomes'. Check and try again."
-#    assert list(aln.taxsets.keys()) == ['outgroups'], "There should be exactly one TAXSET: 'outgroups'. Check and try again."
     
 
 #def test_charpart_length():
