@@ -110,7 +110,7 @@ elif datatype == 'protein':
 
 # merge
 summarydf = concatenated_smy.join(concatenated_aln).join(concatenated_yaml)
-datasets ='Sanchez-Baracaldo_2017'
+datasets ='Ran_2018_dna'
 summarydf.insert(0, 'name', datasets)
 
 # write
@@ -119,6 +119,6 @@ with open(r"C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\summary.
     line_count = sum(1 for row in reader) - 1
 summarydf.insert(0, 'index', line_count)    
 
-summarydf.to_csv(r"C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\summary.csv",  mode='a', header=True, index = False)
+summarydf.to_csv(r"C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\summary.csv",  mode='a', header=False, index = False)
 
 
