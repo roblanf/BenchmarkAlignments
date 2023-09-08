@@ -4,8 +4,8 @@ import argparse
 
 def charset_csv(inpath,seq_type):
     
-    partitions_content = [['charset', 'start', 'end']]
-    loci_content = [['charset', 'start', 'end']]
+    partitions_content = [['partitions', 'par_start', 'par_end']]
+    loci_content = [['loci', 'loci_start', 'loci_end']]
     
     file = os.path.join(inpath, 'alignment.nex')
     with open(file, 'r') as file_open:
@@ -28,21 +28,16 @@ def charset_csv(inpath,seq_type):
                 partitions_content.append([line.split()[1], float(line.split()[-1].split(';')[0].split('-')[0]), float(line.split()[-1].split(';')[0].split('-')[1])])
                 loci_content.append([line.split()[1], float(line.split()[-1].split(';')[0].split('-')[0]), float(line.split()[-1].split(';')[0].split('-')[1])])
     
-    # add partitions sheet
-    xlsx_file = os.path.join(inpath, 'charset.xlsx')
+    # combine dataframe
     df_partitions = pd.DataFrame(partitions_content)
-    df_partitions.to_excel(xlsx_file, sheet_name='partitions', index=False, header=False)
-    
-    # add loci sheet
     df_loci = pd.DataFrame(loci_content)
-    with pd.ExcelWriter(xlsx_file, engine='openpyxl', mode='a') as xf:
-        df_loci.to_excel(xf, sheet_name='loci', index=False, header=False)
-        
-    # add genome sheet
-    df = pd.DataFrame(pd.DataFrame([['charset', 'start', 'end']]))
-    with pd.ExcelWriter(xlsx_file, engine='openpyxl', mode='a') as xf:
-        df.to_excel(xf, sheet_name='genomes', index=False, header=False)
-        
+    df_genomes = pd.DataFrame(pd.DataFrame([['genomes', 'gen_start', 'gen_end']]))
+    df = pd.concat([df_partitions, df_loci, df_genomes], axis=1)
+
+    # add to csv
+    csv_file = os.path.join(inpath, 'charset.csv')
+    df.to_csv(csv_file, mode= 'w', index=False, header=False)
+    
     # remove sets information in nex file
     new_lines = []
     for line in lines:
