@@ -1,29 +1,31 @@
 # python -m pytest, test cmd
 # python -m pytest -x, stop after one failure
 # python -m pytest -s, see print messages
+# python -m pytest > ..path\pytest_log.txt, record the output. Mine: C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets\pytest_log.txt
 import os
-import yaml
-import pytest
-import requests
-from Bio.Nexus import Nexus
-import itertools
  
 
 folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
 files = os.listdir(folder)
-yaml_file = os.path.join(folder, "README.yaml")  
-alignment_file = os.path.join(folder, "alignment.nex")
 
 
 def test_file_existing():
     assert files.count("README.yaml") == 1, "couldn't find README.yaml file"
     assert files.count("alignment.nex") == 1, "couldn't find alignment.nex"
-    assert files.count('charset.xlsx') == 1, "couldn't find charset.xlsx"
+    assert files.count('charset.csv') == 1, "couldn't find charset.csv"
     print('\n\t3 required files exist')
  
     
 def test_extra_file():
-    extras = set(files) - set(['alignment.nex', 'README.yaml', 'alignment.nex-seq-summary.txt', 'alignment.nex-summary.txt', 'charset.xlsx', 'genomes.nex', 'loci.nex', 'partition.nex'])
+    extras = set(files) - set(['alignment.nex',
+                               'charset.csv',
+                               'README.yaml', 
+                               'alignment.nex-seq-summary.txt', 
+                               'alignment.nex-summary.txt',
+                               'partitions.nex',
+                               'loci.nex',
+                               'genomes.nex',
+                               'pytest_log.txt'])
     assert len(extras) == 0, "There are extra file(s)"
     print('\tno extra file(s)')
 
