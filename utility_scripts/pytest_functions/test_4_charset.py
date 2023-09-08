@@ -35,7 +35,7 @@ def test_partititons():
     sites_range = []
     for i in range(len(x)):
         site_length = site_length + x.par_end[i] + 1 - x.par_start[i]
-        sites_range.append(range(x.par_start[i] - 1, x.par_end[i]))
+        sites_range.append(range(int(x.par_start[i]) - 1, int(x.par_end[i])))
     sites = set((itertools.chain.from_iterable(sites_range)))
     
     assert site_length == len(all_sites), "The partitions charpartition has {} more/less site(s) than the number of sites in the alignment".format(abs(site_length - len(all_sites)))
@@ -55,7 +55,7 @@ def test_loci():
     sites_range = []
     for i in range(len(x)):
         site_length = site_length + x.loci_end[i] + 1 - x.loci_start[i]
-        sites_range.append(range(x.loci_start[i] - 1, x.loci_end[i]))
+        sites_range.append(range(int(x.loci_start[i]) - 1, int(x.loci_end[i])))
     sites = set((itertools.chain.from_iterable(sites_range)))
     
     assert site_length == len(all_sites), "The loci charpartition has {} more/less site(s) than the number of sites in the alignment".format(abs(site_length - len(all_sites)))
