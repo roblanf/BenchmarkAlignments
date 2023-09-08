@@ -10,40 +10,40 @@ datatype = aln.datatype
 aln_length = aln.nchar
 ntaxa = aln.ntax
 
-charset_file = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets\charset.xlsx"
-df_loci = pd.read_excel(charset_file, sheet_name= 'loci' , engine='openpyxl')
-partitions = len(df_loci)
+charset_file = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets\charset.csv"
+df_char = pd.read_csv(charset_file)
+partitions = len(df_char.partitions)
 
-df_genomes = pd.read_excel(charset_file, sheet_name= 'genomes' , engine='openpyxl')
-if 'bacterial' in list(df_genomes.charset):
+df_char = df_char.dropna(subset=['genomes']) 
+if 'bacterial' in list(df_char.genomes):
     bacterial = 'TRUE'
 else:
     bacterial = 'FALSE'
-if 'chloroplast' in list(df_genomes.charset):
+if 'chloroplast' in list(df_char.genomes):
     chloroplast = 'TRUE'
 else:
     chloroplast = 'FALSE'
-if 'dsDNA' in list(df_genomes.charset):
+if 'dsDNA' in list(df_char.genomes):
     dsDNA = 'TRUE'
 else:
     dsDNA = 'FALSE'
-if 'dsRNA' in list(df_genomes.charset):
+if 'dsRNA' in list(df_char.genomes):
     dsRNA = 'TRUE'
 else:
     dsRNA = 'FALSE'
-if 'mitochondrial' in list(df_genomes.charset):
+if 'mitochondrial' in list(df_char.genomes):
     mitochondrial = 'TRUE'
 else:
     mitochondrial = 'FALSE'
-if 'nuclear' in list(df_genomes.charset):
+if 'nuclear' in list(df_char.genomes):
     nuclear = 'TRUE'
 else:
     nuclear = 'FALSE'
-if 'ssDNA' in list(df_genomes.charset):
+if 'ssDNA' in list(df_char.genomes):
     ssDNA = 'TRUE'
 else:
     ssDNA = 'FALSE'
-if 'ssRNA' in list(df_genomes.charset):
+if 'ssRNA' in list(df_char.genomes):
     ssRNA = 'TRUE'
 else:
     ssRNA = 'FALSE'
