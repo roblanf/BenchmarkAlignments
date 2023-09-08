@@ -15,7 +15,7 @@ def csv_to_nex(inpath,seq_type):
     par_list = ['#NEXUS', 'begin sets;','','[partitions]']
     charpar_str = 'charpartition partitions ='
     for i in range(len(df)):
-        par_list.append('charset ' + df.partitions[i] + ' = ' + str(df.par_start[i]) + '-' + str(df.par_end[i]) + ';')
+        par_list.append('charset ' + df.partitions[i] + ' = ' + str(int(df.par_start[i])) + '-' + str(int(df.par_end[i])) + ';')
         charpar_str = charpar_str + ' ' + model + ': ' + df.partitions[i] + ','
     charpar_str = charpar_str[:-1] + ';'
     par_list = par_list + ['', charpar_str, '', 'end;']
@@ -28,7 +28,7 @@ def csv_to_nex(inpath,seq_type):
     loci_list = ['#NEXUS', 'begin sets;','','[loci]']
     charpar_str = 'charpartition loci ='
     for i in range(len(df)):
-        loci_list.append('charset ' + df.loci[i] + ' = ' + str(df.loci_start[i]) + '-' + str(df.loci_end[i]) + ';')
+        loci_list.append('charset ' + df.loci[i] + ' = ' + str(int(df.loci_start[i])) + '-' + str(int(df.loci_end[i])) + ';')
         charpar_str = charpar_str + ' ' + model + ': ' + df.loci[i] + ','
     charpar_str = charpar_str[:-1] + ';'
     loci_list = loci_list + ['', charpar_str, '', 'end;']
