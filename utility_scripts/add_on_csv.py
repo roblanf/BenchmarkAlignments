@@ -131,7 +131,7 @@ def add_on_csv(inpath, outfile, dataset_name):
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
                     default = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets")
-parser.add_argument('--outpath', '-o', help='', 
+parser.add_argument('--outfile', '-o', help='', 
                     default = r"C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\summary.csv")
 parser.add_argument('--dataset_name', '-n', help='', 
                     required= True)
