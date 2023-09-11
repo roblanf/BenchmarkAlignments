@@ -15,6 +15,10 @@ alignment_file = os.path.join(folder, "alignment.nex")
 charset_file = os.path.join(folder, "charset.csv")
 df = pd.read_csv(charset_file)
 
+aln = Nexus.Nexus()
+aln.read(alignment_file)
+all_sites = set(range(aln.nchar))
+
 def test_charpart_keys():
     x = df   
     
@@ -25,10 +29,6 @@ def test_charpart_keys():
     
 
 def test_partititons():
-    aln = Nexus.Nexus()
-    aln.read(alignment_file)
-    all_sites = set(range(aln.nchar))
-    
     x = df.dropna(subset=['partitions'])
     
     site_length = 0
@@ -45,10 +45,6 @@ def test_partititons():
 
 
 def test_loci():
-    aln = Nexus.Nexus()
-    aln.read(alignment_file)
-    all_sites = set(range(aln.nchar))
-    
     x = df.dropna(subset=['loci'])
     
     site_length = 0
@@ -65,10 +61,6 @@ def test_loci():
 
 
 def test_genomes():
-    aln = Nexus.Nexus()
-    aln.read(alignment_file)
-    all_sites = set(range(aln.nchar))
-    
     x = df.dropna(subset=['genomes'])
     
     site_length = 0
