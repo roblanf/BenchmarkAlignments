@@ -42,7 +42,7 @@ def charset_csv(inpath,seq_type):
     new_lines = []
     for line in lines:
         new_lines.append(line)
-        if 'begin sets;' in line or 'begin SETS;' in line:
+        if 'begin sets;' in line or 'begin SETS;' in line or 'BEGIN SETS;' in line:
             new_lines.pop()
             break
 
