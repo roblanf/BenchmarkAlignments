@@ -62,6 +62,7 @@ def test_loci():
 
 def test_genomes():
     x = df.dropna(subset=['genomes'])
+    candi_gen_list = ['bacterial', 'chloroplast', 'dsDNA', 'dsRNA', 'mitochondrial', 'nuclear', 'ssDNA', 'ssRNA']
     
     site_length = 0
     sites_range = []
@@ -70,6 +71,7 @@ def test_genomes():
         sites_range.append(range(int(x.gen_start[i]) - 1, int(x.gen_end[i])))
     sites = set((itertools.chain.from_iterable(sites_range)))
     
+    assert all(gen in candi_gen_list for gen in x.genomes), "unexpect name(s) in charset genomes: {}".format([gen for gen in x.genomes if gen not in candi_gen_list])
     assert site_length == len(all_sites), "The genomes charpartition has {} more/less site(s) than the number of sites in the alignment".format(abs(site_length - len(all_sites)))
     assert all_sites.difference(sites) == set(), "The genomes charpartition does not cover the following sites: {}".format(all_sites.difference(sites))     
     assert sites.difference(all_sites) == set(), "The genomes charpartition has unexpected sites: {}".format(sites.difference(all_sites)) 
