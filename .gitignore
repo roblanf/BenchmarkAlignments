@@ -5,3 +5,4 @@ zips/*
 utility_scripts/raxml_to_charcsv.py
 utility_scripts/fix_liu2019.py
 utility_scripts/loci_to_codon.py
+utility_scripts/replace_hyphen.py
