@@ -16,7 +16,7 @@ def conver_to_nexus(inpath, outdir, rootpath):
 
 
     for f in file_list:
-        cmd = r'python C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\utility_scripts\AMAS.py convert -d aa -f phylip -i '+ inpath + '\\' + f +' -u nexus'
+        cmd = r'python AMAS.py convert -d aa -f phylip -i '+ inpath + '\\' + f +' -u nexus'
         os.system(cmd)
         fnex = f + '-out.nex'
         
