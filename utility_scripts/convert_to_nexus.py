@@ -34,7 +34,7 @@ parser.add_argument('--outdir', '-o', help='',
                     default = "nex")
 parser.add_argument('--rootpath', '-r', help='', 
                     default = r"C:\Users\u7151703")
-parser.add_argument('--informat', '-r', help='', 
+parser.add_argument('--informat', '-f', help='', 
                     default = 'phylip')
 args = parser.parse_args()
 
