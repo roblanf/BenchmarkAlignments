@@ -13,7 +13,7 @@ def concatenate_loci(inpath):
     print(file_list)
 
     #full_file_list = [[x, os.path.join(inpath, x)] for x in file_list]
-    full_file_list = [[x.split('_')[1], os.path.join(inpath, x)] for x in file_list] #
+    full_file_list = [[x, os.path.join(inpath, x)] for x in file_list] #
 
     print("loading files")
     nexi =  [(fname[0], Nexus.Nexus(fname[1])) for fname in full_file_list]
