@@ -6,7 +6,7 @@ import os
 import shutil
 import argparse
 
-def conver_to_nexus(inpath, outdir, rootpath):
+def conver_to_nexus(inpath, outdir, rootpath, informat):
 
     outpath = os.path.join(inpath, outdir)
     if not os.path.isdir(outpath):
@@ -16,7 +16,7 @@ def conver_to_nexus(inpath, outdir, rootpath):
 
 
     for f in file_list:
-        cmd = r'python AMAS.py convert -d aa -f phylip -i '+ inpath + '\\' + f +' -u nexus'
+        cmd = r'python AMAS.py convert -d aa -f ' + informat + ' -i '+ inpath + '\\' + f +' -u nexus'
         os.system(cmd)
         fnex = f + '-out.nex'
         
@@ -34,10 +34,12 @@ parser.add_argument('--outdir', '-o', help='',
                     default = "nex")
 parser.add_argument('--rootpath', '-r', help='', 
                     default = r"C:\Users\u7151703")
+parser.add_argument('--informat', '-r', help='', 
+                    default = 'phylip')
 args = parser.parse_args()
 
 if __name__ == '__main__':
     try:
-       conver_to_nexus(args.inpath, args.outdir, args.rootpath)
+       conver_to_nexus(args.inpath, args.outdir, args.rootpath, args.informat)
     except Exception as e:
         print(e)
