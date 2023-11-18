@@ -17,7 +17,7 @@ def charset_csv(inpath,seq_type):
             if 'charset ' in line or 'CHARSET ' in line:
                 partitions_content.append([line.split()[1], float(line.split()[-1].split(';')[0].split('-')[0]), float(line.split()[-1].split(';')[0].split('-')[1].split('\\')[0])])
                 
-                gene_id = '_'.join(line.split()[1].split('_')[:-1])
+                gene_id = '_'.join(line.split()[1].split('.')[:-3])
                 if gene_id not in gene_dict:
                     gene_dict[gene_id] = []
                     loci_content.append([gene_id ,float(line.split()[-1].split(';')[0].split('-')[0]), float(line.split()[-1].split(';')[0].split('-')[1].split('\\')[0])])
