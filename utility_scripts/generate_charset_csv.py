@@ -15,6 +15,7 @@ def charset_csv(inpath,seq_type):
         gene_dict = {}
         for line in lines:
             if 'charset ' in line or 'CHARSET ' in line:
+                line = line.replace('\'','')
                 partitions_content.append([line.split()[1], float(line.split()[-1].split(';')[0].split('-')[0]), float(line.split()[-1].split(';')[0].split('-')[1].split('\\')[0])])
                 
                 gene_id = '_'.join(line.split()[1].split('.')[:-3])
