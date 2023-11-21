@@ -6,7 +6,14 @@ study:
 dataset:
     DOI: [must be a URL for the dataset, starting dx.doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
     license: [should always == "CC0" or "CCBY", usually Dryad datasets are CC0, and FigShare are CCBY, but you have to know for sure]
-    used for tree inference: ['yes' or 'no']
+    dataset_curation:
+        alignment_file: [A file path in unix format. which alignment file do I use from the repo linked in the doi. give a file path e.g. alignments/nt-mt.phy] 
+        partition_information: [A file path or notes about where the partition information is, or how it was obtained. E.g. "alignments/nt-mt-gene-partitioning.txt, each partition was assumed to be in frame 1; this was checked by eye"]
+        justification: [Why use this alignment file? E.g. "This is the alignment used to produce figure x in the paper"]
+        sequence_edits: [Describe any changes made to the alignment, e.g. "removed taxon "Test123" because it was not in the tree in figure x of the paper"
+    used for tree inference:
+        concatenated: ['yes' or 'no']
+        locus_trees: ['yes' or 'no']
     timetree root age: ['NA' or an integer followed by 'mya' (millions of year ago); get this from timetree.org, as the age of the root of your tree]
     study root age: ['NA' or an integer followed by 'mya' (millions of year ago), if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
