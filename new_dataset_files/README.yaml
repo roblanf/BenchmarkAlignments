@@ -15,11 +15,18 @@ dataset:
     used for tree inference:
         concatenated: ['yes' or 'no']
         locus_trees: ['yes' or 'no']
-    timetree root age: ['NA' or an integer followed by 'mya' (millions of year ago); get this from timetree.org, as the age of the root of your tree]
+    timetree:
+        timetree species 1: [species name added to Taxon 1 box on timetree.org]
+        timetree species 2: [species name added to Taxon 2 box on timetree.org]
+        date accessed: [date timetree used]
+        timetree root age: ['NA' or an integer followed by 'mya' (millions of year ago); get this from timetree.org, as the median age of the root of your tree]
+        timetree lower CI: [lower CI from timetree followed by 'mya'
+        timetree upper CI: [upper CI from timetree followed by 'mya'
+        timetree N: [number of studies used to get time stats, from timetree.org]
     study root age: ['NA' or an integer followed by 'mya' (millions of year ago), if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
         latin:  [A single word in latin that describes the smallest clade of organisms that includes all those in the current study]
         english: [One or more words]
         taxon ID: [a GenBank Taxon ID by searching here: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, which should be an integer that resolves without a 404 when you add it to the end of this URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=, e.g. http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=27563]
-    outgroups: [the outgroup taxa names, seperated by blank]
-    notes: ['NA', or some text, for example if the dataset DOI points to lots of datasets, we need to know which one we have here, or if you need to provide information about which of many datasets you used, etc.]
+    outgroups: [the outgroup taxa names, seperated by comma]
+    notes: ['NA', or some text. Anything important not covered by the sections above, that a user should know about]
