@@ -1,2 +1,0 @@
-Alignment_name	No_of_taxa	Alignment_length	Total_matrix_cells	Undetermined_characters	Missing_percent	No_variable_sites	Proportion_variable_sites	Parsimony_informative_sites	Proportion_parsimony_informative	A	C	D	E	F	G	H	I	K	L	M	N	P	Q	R	S	T	V	W	Y	B	J	Z	X	.	*	-	?
-alignment.nex	58	1806035	104750030	22063606	21.063	1195041	0.662	876162	0.485	5407618	1717936	4388012	6122028	3277392	4620491	2179263	4225371	5485908	8556165	1997335	3245861	3936491	3947100	4492162	5934322	4222976	5359790	1009437	2560766	0	0	0	0	0	0	156936	21906670
