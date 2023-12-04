@@ -41,6 +41,13 @@ def test_license():
     assert y['dataset']['license'] in ["CC0", "CCBY"], "The license for the dataset must be CC0 or CCBY"
     print('\tlicense correct')
         
+
+def test_figshare():
+    y = yaml.load(open(yaml_file, 'r'),Loader=yaml.FullLoader)
+    response_f = requests.get("".join(["http://", y['dataset']['figshare']]))
+    
+    assert response_f.status_code == 200, "The figshare URL didn't work."
+        
     
 def test_tree():
     y = yaml.load(open(yaml_file, 'r'),Loader=yaml.FullLoader)
