@@ -8,7 +8,7 @@ import pytest
 import requests
  
 
-folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
+folder = "processing\\nex\\datasets" # prettier 
 yaml_file = os.path.join(folder, "README.yaml")  
 
 

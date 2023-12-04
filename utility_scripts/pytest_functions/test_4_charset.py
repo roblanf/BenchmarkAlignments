@@ -9,7 +9,7 @@ import itertools
 from datetime import datetime
  
 
-folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
+folder = "processing\\nex\\datasets" # prettier
 files = os.listdir(folder)
 alignment_file = os.path.join(folder, "alignment.nex")
 charset_file = os.path.join(folder, "charset.csv")

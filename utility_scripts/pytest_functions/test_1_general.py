@@ -5,7 +5,7 @@
 import os
  
 
-folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
+folder = "processing\\nex\\datasets" # prettier    
 files = os.listdir(folder)
 
 

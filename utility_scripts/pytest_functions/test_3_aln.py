@@ -6,7 +6,7 @@ import os
 from Bio.Nexus import Nexus
 
 
-folder = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets" # prettier    
+folder = "processing\\nex\\datasets" # prettier 
 alignment_file = os.path.join(folder, "alignment.nex")
 
 
