@@ -20,8 +20,8 @@ dataset:
         timetree species 2: [species name added to Taxon 2 box on timetree.org]
         date accessed: [date timetree used]
         timetree root age: ['NA' or an integer followed by 'mya' (millions of year ago); get this from timetree.org, as the median age of the root of your tree]
-        timetree lower CI: [lower CI from timetree followed by 'mya'
-        timetree upper CI: [upper CI from timetree followed by 'mya'
+        timetree lower CI: [lower CI from timetree followed by 'mya']
+        timetree upper CI: [upper CI from timetree followed by 'mya']
         timetree N: [number of studies used to get time stats, from timetree.org]
     study root age: ['NA' or an integer followed by 'mya' (millions of year ago), if the estimated age of the clade of interest is mentioned in the study itself, put it here]
     study clade:
