@@ -7,14 +7,14 @@ dataset:
     DOI: [must be a URL for the dataset, starting doi.org, which is different from 'study' DOI, check and double check that this points to the right dataset]
     license: [should always == "CC0" or "CCBY", usually Dryad datasets are CC0, and FigShare are CCBY, but you have to know for sure]
     figshare: [valid URL to figshare version of the dataset in our repository]
-    dataset_curation:
+    dataset curation:
         alignment_file: [A file path in unix format. which alignment file do I use from the repo linked in the doi. give a file path e.g. alignments/nt-mt.phy] 
         partition_information: [A file path or notes about where the partition information is, or how it was obtained. E.g. "alignments/nt-mt-gene-partitioning.txt, each partition was assumed to be in frame 1; this was checked by eye"]
         justification: [Why use this alignment file? E.g. "This is the alignment used to produce figure x in the paper"]
-        sequence_edits: [Describe any changes made to the alignment, e.g. "removed taxon "Test123" because it was not in the tree in figure x of the paper"
+        sequence edits: [Describe any changes made to the alignment, e.g. "removed taxon "Test123" because it was not in the tree in figure x of the paper"
     used for tree inference:
         concatenated: ['yes' or 'no']
-        locus_trees: ['yes' or 'no']
+        locus trees: ['yes' or 'no']
     timetree:
         timetree species 1: [species name added to Taxon 1 box on timetree.org]
         timetree species 2: [species name added to Taxon 2 box on timetree.org]
