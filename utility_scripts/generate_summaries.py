@@ -1,4 +1,3 @@
-# generates AMAS summaries for all datasets, only where they are missing
 from Bio.Nexus import Nexus
 import os
 import shutil
@@ -16,12 +15,12 @@ def gen_smy(inpath, cores):
         # get the data type
         dat = Nexus.Nexus()
         dat.read(alnf)
-        if dat.datatype == 'nucleotide':
+        if dat.datatype == 'dna':
             data_type = 'dna'
         if dat.datatype == 'protein':
             data_type = 'aa'
                
-        cmd = r'python C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\utility_scripts\AMAS.py summary -f nexus -d '+data_type+' -i '+alnf+' -c '+str(cores)+' -s'   
+        cmd = 'python AMAS.py summary -f nexus -d '+data_type+' -i '+alnf+' -c '+str(cores)+' -s'   
         os.system(cmd)
         shutil.move('summary.txt', sumf)
 
@@ -29,7 +28,7 @@ def gen_smy(inpath, cores):
 # running
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
-                    default = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets")
+                    required = True)
 parser.add_argument('--cores', '-c', help='', 
                     default = 1)
 args = parser.parse_args()
