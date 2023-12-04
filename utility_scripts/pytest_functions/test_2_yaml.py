@@ -17,7 +17,10 @@ def test_yaml_titles():
 
     assert set(y.keys()) == set(['study', 'dataset']),"Missing 'study' or 'dataset' section from your yaml file"
     assert set(y["study"].keys()) == set(['DOI', 'reference', 'year']),"The sections of your 'study' section should be 'reference', 'year', and 'DOI'"
-    assert set(y["dataset"].keys()) == set(['DOI', 'license', 'used for tree inference', 'notes', 'study clade', 'timetree root age', 'study root age', 'outgroups']),"The sections of your 'dataset' section should be 'DOI', 'license', 'used for tree inference', 'notes', 'study clade', 'timetree root age', 'study root age'"
+    assert set(y["dataset"].keys()) == set(['DOI', 'license', 'figshare', 'dataset curation', 'used for tree inference', 'timetree', 'study root age', 'study clade', 'outgroups', 'notes']),"The sections of your 'dataset' section should be 'DOI', 'license', 'figshare', 'dataset curation', 'used for tree inference', 'timetree', 'study root age', 'study clade', 'outgroups', 'notes'"
+    assert set(y["dataset"]["dataset curation"].keys()) == set(['alignment file', 'partition information', 'justification', 'sequence edits']),"The sections of your 'dataset curation' section should be 'alignment file', 'partition information', 'justification', 'sequence edits'"
+    assert set(y["dataset"]["used for tree inference"].keys()) == set(['concatenated', 'locus_trees']),"The sections of your 'study clade' section should be 'concatenated', 'locus_trees'"
+    assert set(y["dataset"]["timetree"].keys()) == set(['timetree species 1', 'timetree species 2', 'date accessed', 'timetree root age', 'timetree lower CI', 'timetree upper CI', 'timetree N']),"The sections of your 'timetree' section should be 'timetree species 1', 'timetree species 2', 'date accessed', 'timetree root age', 'timetree lower CI', 'timetree upper CI', 'timetree N'"
     assert set(y["dataset"]["study clade"].keys()) == set(['english', 'latin', 'taxon ID']),"The sections of your 'study clade' section should be 'english', 'latin', 'taxon ID'"
     print('\n\tyaml file structure correct')
 
