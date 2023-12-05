@@ -35,7 +35,7 @@ def concatenate_loci(inpath):
 # running
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
-                    default = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex")
+                    required = True)
 args = parser.parse_args()
 
 if __name__ == '__main__':

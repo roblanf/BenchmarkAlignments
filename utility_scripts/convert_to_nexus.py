@@ -29,7 +29,7 @@ def conver_to_nexus(inpath, informat):
 # running
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
-                    require = True)
+                    required = True)
 parser.add_argument('--informat', '-f', help='', 
                     default = 'phylip')
 args = parser.parse_args()
