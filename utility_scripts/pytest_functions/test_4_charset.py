@@ -6,7 +6,7 @@ import os
 import pandas as pd
 from Bio.Nexus import Nexus
 import numpy as np
-import itertools
+import math
 from datetime import datetime
  
 
@@ -51,10 +51,12 @@ def test_partititons():
 
 def test_loci():
     x = df
+    candi_list = [1,2,3]
     
     for i in range(len(x)):
         assert x.partition_name[i].split('_')[0] == x.locus_name[i], "The partition name {} doesn't match the locus name.".format(x.partition_name[i].split('_')[0])
-    print('\tloci sites correct')
+    assert all((cod in candi_list) or (math.isnan(cod)) for cod in x.codon_position), "unexpect name(s) in codon position: {}".format([cod for cod in x.codon_position if cod not in candi_list])
+    print('\tloci information correct')
 
 
 def test_genomes():
@@ -63,6 +65,14 @@ def test_genomes():
      
     assert all(gen in candi_gen_list for gen in x.genome), "unexpect name(s) in charset genomes: {}".format([gen for gen in x.genomes if gen not in candi_gen_list])
     print('\tgenomes sites correct')
+    
+    
+def test_data_type():
+    x = df
+    candi_data_list = ['DNA', 'AA', 'RNA']
+    
+    assert all(data in candi_data_list for data in x.data_type), "unexpect name(s) in data type: {}".format([data for data in x.data_type if data not in candi_data_list])
+    print('\tdata type correct')
 
 now = datetime.now()
 print('\npytest running date and time: ' + now.strftime('%Y-%m-%d %H:%M:%S'))

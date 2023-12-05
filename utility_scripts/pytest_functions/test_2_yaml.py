@@ -61,7 +61,7 @@ def test_data_curation():
     assert isinstance(par_file, str) and len(par_file.split()) == 1,"Partition information must be a file name."
     assert isinstance(justification, str),"Justification must be a string."
     assert isinstance(edits, str),"Sequence edits must be a string."
-    print('\ndataset curation imformation correct')
+    print('\tdataset curation imformation correct')
         
     
 def test_tree():
