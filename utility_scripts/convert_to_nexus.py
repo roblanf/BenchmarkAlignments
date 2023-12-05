@@ -6,9 +6,9 @@ import os
 import shutil
 import argparse
 
-def conver_to_nexus(inpath, outdir, rootpath, informat):
+def conver_to_nexus(inpath, informat):
 
-    outpath = os.path.join(inpath, outdir)
+    outpath = os.path.join(inpath, 'nex')
     if not os.path.isdir(outpath):
         os.makedirs(outpath)
 
@@ -29,17 +29,13 @@ def conver_to_nexus(inpath, outdir, rootpath, informat):
 # running
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
-                    default = r"C:\Users\u7151703\Desktop\research\datasets\processing")
-parser.add_argument('--outdir', '-o', help='', 
-                    default = "nex")
-parser.add_argument('--rootpath', '-r', help='', 
-                    default = r"C:\Users\u7151703")
+                    require = True)
 parser.add_argument('--informat', '-f', help='', 
                     default = 'phylip')
 args = parser.parse_args()
 
 if __name__ == '__main__':
     try:
-       conver_to_nexus(args.inpath, args.outdir, args.rootpath, args.informat)
+       conver_to_nexus(args.inpath, args.informat)
     except Exception as e:
         print(e)
