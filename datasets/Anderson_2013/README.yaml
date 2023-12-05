@@ -1,0 +1,32 @@
+study:
+    reference:  "Anderson F E, Bergman A, Cheng S H, et al. Lights out: the evolution of bacterial bioluminescence in Loliginidae[J]. Hydrobiologia, 2014, 725: 189-203."
+    year: 2014
+    DOI: doi.org/10.1007/s10750-013-1599-1
+
+dataset:
+    DOI: doi.org/10.5061/dryad.93s3n
+    license: CC0
+    figshare: figshare.com/s/622e9e0a156e5233944b?file=14698430
+    dataset curation:
+        alignment file: LolioliniCOI16S.nex
+        partition information: LolioliniCOI16S.nex
+        justification: This is the alignment of 145 sequences used to produce fig. 1 in the paper.
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    timetree:
+        timetree species 1: Uroteuthis 
+        timetree species 2: Sepioteuthis
+        date accessed: 4/12/2023
+        timetree root age: NA
+        timetree lower CI: NA
+        timetree upper CI: NA
+        timetree N: NA
+    study root age: NA
+    study clade:
+        latin:  "Loliginidae"
+        english: "pencil squids"
+        taxon ID: 6615
+    outgroups: Afrololigo_mercatoris_FEA, Alloteuthis_africana_312327, Alloteuthis_africana_312328, Alloteuthis_africana_312329, Alloteuthis_africana_312330, Alloteuthis_africana_312331, Alloteuthis_africana_312333, Alloteuthis_africana_312334, Alloteuthis_africana_312335, Alloteuthis_africana_312336, Alloteuthis_media_312337, Alloteuthis_media_312340, Alloteuthis_media_312342, Alloteuthis_media_312344, Alloteuthis_media_312346, Alloteuthis_media_312348, Alloteuthis_media_312349, Alloteuthis_media_312350, Alloteuthis_media_312355, Alloteuthis_media_312359, Alloteuthis_media_312361, Alloteuthis_subulata_312364, Alloteuthis_subulata_312365, Alloteuthis_subulata_312366, Alloteuthis_subulata_FEA1, Doryteuthis_gahi_FEA1, Doryteuthis_opalescens_2001_MB_1, Doryteuthis_opalescens_FEAa, Doryteuthis_pealeii_FEA1, Doryteuthis_pleii_FEA1, Loligo_bleekeri_CG, Loligo_forbesii_FEA, Loligo_formosana_Lind, Loligo_reynaudii_FEA, Loligo_vulgaris_FEA, Lolliguncula_brevis_FEA, Lolliguncula_diomedeae_Lind, Sepioteuthis_australis_FEAb, Sepioteuthis_lessoniana_1, Sepioteuthis_lessoniana_ha13, Sepioteuthis_lessoniana_ha16, Sepioteuthis_lessoniana_ha17, Sepioteuthis_lessoniana_ha18, Sepioteuthis_lessoniana_ha19, Sepioteuthis_lessoniana_ha20, Sepioteuthis_lessoniana_ha21, Sepioteuthis_lessoniana_ha22, Sepioteuthis_lessoniana_ha23, Sepioteuthis_lessoniana_ha24, Sepioteuthis_lessoniana_ha25, Sepioteuthis_lessoniana_ha26, Sepioteuthis_lessoniana_ha27, Sepioteuthis_lessoniana_ha28, Sepioteuthis_lessoniana_ha29, Sepioteuthis_lessoniana_ha4, Sepioteuthis_lessoniana_ha5, Sepioteuthis_lessoniana_ha6, Sepioteuthis_lessoniana_ha7, Sepioteuthis_lessoniana_ha8, Sepioteuthis_lessoniana_NC_007, Sepioteuthis_lessoniana_SL_1, Sepioteuthis_lessoniana_SL_2, Sepioteuthis_lessoniana_SL_3, Sepioteuthis_sepioidea_FEA
+    notes: NA

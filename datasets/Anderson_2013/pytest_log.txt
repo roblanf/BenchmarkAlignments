@@ -1,0 +1,36 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-7.4.0, pluggy-1.2.0
+rootdir: C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\utility_scripts
+
+pytest running date and time: 2023-12-05 12:11:17
+collected 19 items
+
+pytest_functions\test_1_general.py 
+	3 required files exist
+.	no extra file(s)
+.
+pytest_functions\test_2_yaml.py 
+	yaml file structure correct
+.	doi correct
+.	license correct
+.	figshare link correct
+.	dataset curation imformation correct
+.	whether used for tree inference correct
+.	time tree correct
+.	timetree root age correct
+s	study root age correct
+s	taxon ID correct
+.	outgroups correct
+.
+pytest_functions\test_3_aln.py 
+	alignment.nex file correct
+.
+pytest_functions\test_4_charset.py 
+	charset columns correct
+.	partitions sites correct
+.	loci information correct
+.	genomes sites correct
+.	data type correct
+.
+
+======================== 17 passed, 2 skipped in 7.73s ========================

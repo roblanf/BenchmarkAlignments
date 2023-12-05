@@ -1,0 +1,5 @@
+alignment_name,partition_name,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Anderson_2013,COI_1stpos,1,1591,3,COI,1,mitochondrial,DNA
+Anderson_2013,COI_2ndpos,2,1592,3,COI,2,mitochondrial,DNA
+Anderson_2013,COI_3rdpos,3,1590,3,COI,3,mitochondrial,DNA
+Anderson_2013,16S,1593,3037,1,16S,NA,mitochondrial,DNA
