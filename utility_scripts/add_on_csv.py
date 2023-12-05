@@ -15,38 +15,37 @@ def add_on_csv(inpath, outfile, dataset_name):
     
     charset_file = os.path.join(inpath, 'charset.csv')
     df_char = pd.read_csv(charset_file)
-    partitions = len(df_char.partitions)
+    partitions = len(df_char.partition_name)
     
-    df_char = df_char.dropna(subset=['genomes']) 
-    if 'bacterial' in list(df_char.genomes):
+    if 'bacterial' in list(df_char.genome):
         bacterial = 'TRUE'
     else:
         bacterial = 'FALSE'
-    if 'chloroplast' in list(df_char.genomes):
+    if 'chloroplast' in list(df_char.genome):
         chloroplast = 'TRUE'
     else:
         chloroplast = 'FALSE'
-    if 'dsDNA' in list(df_char.genomes):
+    if 'dsDNA' in list(df_char.genome):
         dsDNA = 'TRUE'
     else:
         dsDNA = 'FALSE'
-    if 'dsRNA' in list(df_char.genomes):
+    if 'dsRNA' in list(df_char.genome):
         dsRNA = 'TRUE'
     else:
         dsRNA = 'FALSE'
-    if 'mitochondrial' in list(df_char.genomes):
+    if 'mitochondrial' in list(df_char.genome):
         mitochondrial = 'TRUE'
     else:
         mitochondrial = 'FALSE'
-    if 'nuclear' in list(df_char.genomes):
+    if 'nuclear' in list(df_char.genome):
         nuclear = 'TRUE'
     else:
         nuclear = 'FALSE'
-    if 'ssDNA' in list(df_char.genomes):
+    if 'ssDNA' in list(df_char.genome):
         ssDNA = 'TRUE'
     else:
         ssDNA = 'FALSE'
-    if 'ssRNA' in list(df_char.genomes):
+    if 'ssRNA' in list(df_char.genome):
         ssRNA = 'TRUE'
     else:
         ssRNA = 'FALSE'
@@ -79,8 +78,8 @@ def add_on_csv(inpath, outfile, dataset_name):
             'dataset.study clade.latin',
             'dataset.study clade.taxon ID',
             'dataset.study root age',
-            'dataset.timetree root age',
-            'dataset.used for tree inference',
+            'dataset.timetree.timetree root age',
+            'dataset.used for tree inference.concatenated',
             'study.DOI',
             'study.reference',
             'study.year']
@@ -130,9 +129,9 @@ def add_on_csv(inpath, outfile, dataset_name):
 # running
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--inpath', '-i', help='', 
-                    default = r"C:\Users\u7151703\Desktop\research\datasets\processing\nex\datasets")
+                    required= True)
 parser.add_argument('--outfile', '-o', help='', 
-                    default = r"C:\Users\u7151703\Desktop\research\code\BenchmarkAlignments\summary.csv")
+                    required= True)
 parser.add_argument('--dataset_name', '-n', help='', 
                     required= True)
 args = parser.parse_args()
