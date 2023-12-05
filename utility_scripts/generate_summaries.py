@@ -15,7 +15,7 @@ def gen_smy(inpath, cores):
         # get the data type
         dat = Nexus.Nexus()
         dat.read(alnf)
-        if dat.datatype == 'dna':
+        if dat.datatype == 'dna' or dat.datatype == 'nucleotide':
             data_type = 'dna'
         if dat.datatype == 'protein':
             data_type = 'aa'
