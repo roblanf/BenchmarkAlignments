@@ -1,7 +1,3 @@
-# python -m pytest, test cmd
-# python -m pytest -x, stop after one failure
-# python -m pytest -s, see print messages
-# python -m pytest > ..path\pytest_log.txt, record the output.
 import os
 import pandas as pd
 from Bio.Nexus import Nexus
