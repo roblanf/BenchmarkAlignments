@@ -13,3 +13,6 @@ pdfs/
 datasets/*/*_paper.*
 datasets/*/*_supplement_*
 utility_scripts/processing/
+# credentials, never tracked
+*.token
+.figshare*
