@@ -33,8 +33,9 @@ issues labelled `legacy-data`.
    Murray_2013 COII (2nd and 3rd only) look like curation slips; Cannon_2016_dna (1st and
    2nd only) is by design. To be checked against the Dryad archives and papers. Dryad blocks
    automated downloads (HTTP 403), so the archives have to be fetched in a browser.
-4. **figshare links** are NA for all 67 until the per-file links are collected from the
-   figShare record.
+4. **figshare links** are NA for all 67, which now fails validation (a dataset without its
+   figShare link is not finished). The per-file links have to be collected from the private
+   figShare record, which the public API does not expose; needs Rob's figShare account.
 5. **Provenance fields** (`dataset curation`) are NA for all 67 with a note. Filling them
    means re-opening each archive; low priority.
 6. **study root age** is NA for most; filling it needs the PDFs.

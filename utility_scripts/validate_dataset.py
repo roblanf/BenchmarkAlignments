@@ -176,7 +176,7 @@ def check_yaml(path, errors, warnings, network=True):
     if not (_is_na(fs) or (isinstance(fs, str) and "figshare.com" in fs)):
         errors.append(f"dataset / figshare: must be 'NA' or a figshare.com URL, got {fs!r}")
     if _is_na(fs):
-        warnings.append("dataset / figshare is NA: remember to upload the archive and fill this in")
+        errors.append("dataset / figshare is NA: the archive must be on figShare and linked before the dataset is finished")
 
     cur = ds.get("dataset curation", {})
     if isinstance(cur, dict):

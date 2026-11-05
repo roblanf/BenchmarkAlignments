@@ -141,7 +141,7 @@ Specific rules:
 - `DOI` fields start with `doi.org/`, no scheme. Study and dataset DOIs differ.
 - `license`: read it from the archive page. Dryad is CC0, figShare and Zenodo show the
   licence on the record. CC-BY is written `CCBY`.
-- `figshare: NA` (Rob fills it after upload).
+- `figshare`: NA while curating; the figShare file link once Rob has uploaded the archive (step 9). Required before the PR.
 - `dataset curation`: the exact path inside the archive of the file you used; where the
   partitions came from; why this alignment; every edit you made.
 - `outgroups`: the same names, comma-separated, as the TAXSET.
@@ -162,14 +162,26 @@ cd utility_scripts && pytest -q tests/ -k <Name>
 
 All errors must be fixed. Warnings must each be either fixed or explained in the PR.
 
-## 9. Hand over
+## 9. figShare
 
-Only when step 8 passes in full with network checks on, and nothing about the dataset is
-waiting on Rob, open a pull request from `dataset/<Name>` to `main` containing the four tracked files and
-the regenerated `summary.csv`. The PR description lists: the archive file used, every
-judgement call, every sequence edit, the codon-frame table, the DateLife output, and any
-warnings. Say that the alignment is at `$BENCHALN_DATA/<Name>/alignment.nex` and needs
-uploading to figShare. Rob reviews, uploads, fills `figshare`, and merges.
+When step 8 passes (the only acceptable error being the missing figShare link), build the
+archive and hand it to Rob:
+
+```bash
+python utility_scripts/gzip_datasets.py <Name>      # writes zips/<Name>.tar.gz
+```
+
+Tell Rob the path. Rob uploads it to the figShare collection and replies with the file's
+figShare link. Put that link in `figshare:` in `README.yaml`, then run step 8 again; it
+must now pass with no errors.
+
+## 10. Hand over
+
+Only now, with every test passing and nothing waiting on Rob, open a pull request from
+`dataset/<Name>` to `main` containing the four tracked files and the regenerated
+`summary.csv`. The PR description lists: the archive file used, every judgement call, every
+sequence edit, the codon-frame table, the DateLife output, the figShare link, and the test
+result. Rob reviews and merges.
 
 ## What NA means
 

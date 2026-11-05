@@ -56,11 +56,14 @@ up another env's python, call the binaries by absolute path, e.g.
    (`dataset curation` and `notes`), and summarise them for Rob in the pull request.
 8. Work on a branch named `dataset/<Name>`, in its own git worktree so the main working tree
    is never switched; one dataset per branch and pull request.
-9. Open the pull request only when the dataset is finished: the full test suite passes with
+9. figShare comes before the pull request. When the tests pass, build the archive with
+   `gzip_datasets.py <Name>` and tell Rob where it is. Rob uploads it and gives you the
+   figShare file link; you put it in `figshare:` and run the tests again. A dataset with
+   `figshare: NA` is not finished and fails validation.
+10. Open the pull request only when the dataset is finished: the full test suite passes with
    network checks on (`pytest -q tests/ -k <Name>` in `utility_scripts/`), every step of
    `docs/ADDING_A_DATASET.md` is done, and nothing is waiting on Rob. The tests define
    "done". State the test result in the PR.
-10. Do not upload to figShare; Rob does that. Leave `figshare: NA` and say so in the PR.
 
 ## Attribution
 
