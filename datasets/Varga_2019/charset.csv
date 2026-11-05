@@ -1,0 +1,4 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Varga_2019,tef,1-1052,1,1052,1,tef,NA,nuclear,DNA
+Varga_2019,lsu,1053-3820,1053,3820,1,lsu,NA,nuclear,DNA
+Varga_2019,rpb2,3821-5737,3821,5737,1,rpb2,NA,nuclear,DNA

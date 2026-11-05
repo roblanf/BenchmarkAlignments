@@ -1,0 +1,5 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Looney_2016,ITS,1-845,1,845,1,ITS,NA,nuclear,DNA
+Looney_2016,LSU,846-1800,846,1800,1,LSU,NA,nuclear,DNA
+Looney_2016,rpb1,1801-3114,1801,3114,1,rpb1,NA,chloroplast,DNA
+Looney_2016,rpb2,3115-3927,3115,3927,1,rpb2,NA,chloroplast,DNA

@@ -1,30 +1,33 @@
 study:
     reference: "Near TJ, Dornburg A, Eytan RI, Keck BP, Smith WL, Kuhn KL, Moore JA, Price SA, Burbrink FT, Friedman M, Wainwright PC. Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the National Academy of Sciences. 2013 Jul 30;110(31):12738-43."
     year: 2013
-    DOI: dx.doi.org/10.1073/pnas.1304661110
+    DOI: doi.org/10.1073/pnas.1304661110
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.d3mb4
+    DOI: doi.org/10.5061/dryad.d3mb4
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 608
-        nchar: 8577
-        datatype: nucleotide
-        partitions: 30
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Acanthomorpha"
-        english: "spiny-rayed fishes" 
+        english: "spiny-rayed fishes"
         taxon ID: 123368
-    notes: "There were a few issues with capitalisations in the species names, which I fixed"
+    outgroups: "Chanos_chanosB, Gonorynchus_abB, Gonorynchus_greyiA, Cromeria_niloticaA, Phractolaemus_ansorgiiA, Opsariichthys_uncirostrisA, Ameiurus_natalisA"
+    notes: "There were a few issues with capitalisations in the species names, which I fixed Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

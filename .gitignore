@@ -1,4 +1,12 @@
 *.DS_Store
 *.pyc
+__pycache__/
+.pytest_cache/
 zips/*
 *.nex
+*.pdf
+*.PDF
+*.Pdf
+pdfs/
+!pdfs/README.txt
+utility_scripts/processing/

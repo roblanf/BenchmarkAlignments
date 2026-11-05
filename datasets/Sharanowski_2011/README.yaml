@@ -1,30 +1,33 @@
 study:
     reference: "Sharanowski BJ, Dowling AP, Sharkey MJ. Molecular phylogenetics of Braconidae (Hymenoptera: Ichneumonoidea), based on multiple nuclear genes, and implications for classification. Systematic Entomology. 2011 Jul 1;36(3):549-72."
     year: 2011
-    DOI: dx.doi.org/10.1111/j.1365-3113.2011.00580.x
+    DOI: doi.org/10.1111/j.1365-3113.2011.00580.x
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.1688p
+    DOI: doi.org/10.5061/dryad.1688p
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 139
-        nchar: 3982
-        datatype: nucleotide
-        partitions: 11
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Braconidae"
         english: "parasitoid wasps"
         taxon ID: 7402
-    notes: NA
+    outgroups: "DM054, DM057, DM059, DM094, DM095"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

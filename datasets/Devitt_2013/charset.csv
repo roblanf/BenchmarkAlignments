@@ -1,0 +1,5 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Devitt_2013,ND4_1stpos,1-686\3,1,685,3,ND4,1,mitochondrial,DNA
+Devitt_2013,ND4_2ndpos,2-686\3,2,686,3,ND4,2,mitochondrial,DNA
+Devitt_2013,ND4_3rdpos,3-686\3,3,684,3,ND4,3,mitochondrial,DNA
+Devitt_2013,tRNAs,687-823,687,823,1,tRNAs,NA,mitochondrial,DNA

@@ -1,0 +1,2 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Nguyen_2016e,hsp40,1-385,1,385,1,hsp40,NA,nuclear,AA

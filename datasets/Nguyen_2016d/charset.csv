@@ -1,0 +1,2 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Nguyen_2016d,hsc70_5,1-704,1,704,1,hsc70_5,NA,nuclear,AA

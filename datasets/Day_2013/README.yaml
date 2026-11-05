@@ -1,30 +1,33 @@
 study:
     reference: "Day JJ, Peart CR, Brown KJ, Friel JP, Bills R, Moritz T. Continental diversification of an African catfish radiation (Mochokidae: Synodontis). Systematic biology. 2013 Jan 9:syt001."
     year: 2013
-    DOI: dx.doi.org/10.1093/sysbio/syt001 
+    DOI: doi.org/10.1093/sysbio/syt001
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.b6225
+    DOI: doi.org/10.5061/dryad.b6225
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 152
-        nchar: 3586
-        datatype: nucleotide
-        partitions: 11
-    genomes:
-        mitochondrial: yes
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 18.5 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 18.5 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Synodontis"
         english: "African catfish"
         taxon ID: 42509
-    notes: NA
+    outgroups: "CU88625_Malapterurustanganyikaensis, CU81135_Atopochilussavorgnani, CU87530_Euchilichthysdybowskii, CU89213_Microsynodontissp, S018_Mocholkusniloticus, S068_Chiloglanisniloticus, CU90429_Chiloglanissp, Mochokiellapaynei"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

@@ -1,30 +1,33 @@
 study:
     reference: "Looney BP, Ryberg M, Hampe F, Sánchez-García M, Matheny PB (2016) Into and out of the tropics: global diversification patterns in a hyper-diverse clade of ectomycorrhizal fungi. Molecular Ecology 25(2): 630–647."
     year: 2016
-    DOI: dx.doi.org/10.1111/mec.13506
+    DOI: doi.org/10.1111/mec.13506
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.gn4p4
+    DOI: doi.org/10.5061/dryad.gn4p4
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 1171
-        nchar: 3927
-        datatype: nucleotide
-        partitions: 4
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: yes
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: 44 mya
     study clade:
-        latin:  Russula
-        english: Russula
+        latin: "Russula"
+        english: "Russula"
         taxon ID: 5402
-    notes: There is some uncertainty about the outgroups in this dataset. The paper lists them as "Lactifluus deceptivus, Lactarius lignyotus and Multifurca zonaria", but the first outgroup does not exist in the alignment - it seems to be listed as "Lactarius deceptivus".
+    outgroups: "AFTOL_Lactarius_deceptivus, AFTOL_Lactarius_lignyotus, M_zonaria_DED7442_THA"
+    notes: "There is some uncertainty about the outgroups in this dataset. The paper lists them as \"Lactifluus deceptivus, Lactarius lignyotus and Multifurca zonaria\", but the first outgroup does not exist in the alignment - it seems to be listed as \"Lactarius deceptivus\". Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

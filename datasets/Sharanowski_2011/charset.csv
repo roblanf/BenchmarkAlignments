@@ -1,0 +1,12 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Sharanowski_2011,28S,1-1351,1,1351,1,28S,NA,nuclear,DNA
+Sharanowski_2011,18S,1352-2077,1352,2077,1,18S,NA,nuclear,DNA
+Sharanowski_2011,CAD54_1stpos,2078-2803\3,2078,2801,3,CAD54,1,nuclear,DNA
+Sharanowski_2011,CAD54_2ndpos,2079-2803\3,2079,2802,3,CAD54,2,nuclear,DNA
+Sharanowski_2011,CAD54_3rdpos,2080-2803\3,2080,2803,3,CAD54,3,nuclear,DNA
+Sharanowski_2011,CADap_1stpos,2804-3445\3,2804,3443,3,CADap,1,nuclear,DNA
+Sharanowski_2011,CADap_2ndpos,2805-3445\3,2805,3444,3,CADap,2,nuclear,DNA
+Sharanowski_2011,CADap_3rdpos,2806-3445\3,2806,3445,3,CADap,3,nuclear,DNA
+Sharanowski_2011,ACC_1stpos,3446-3982\3,3446,3980,3,ACC,1,nuclear,DNA
+Sharanowski_2011,ACC_2ndpos,3447-3982\3,3447,3981,3,ACC,2,nuclear,DNA
+Sharanowski_2011,ACC_3rdpos,3448-3982\3,3448,3982,3,ACC,3,nuclear,DNA

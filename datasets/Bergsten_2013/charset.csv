@@ -1,0 +1,9 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Bergsten_2013,COI_1stpos,3-752\3,3,750,3,COI,1,mitochondrial,DNA
+Bergsten_2013,COI_2ndpos,1-752\3,1,751,3,COI,2,mitochondrial,DNA
+Bergsten_2013,COI_3rdpos,2-752\3,2,752,3,COI,3,mitochondrial,DNA
+Bergsten_2013,H3_1stpos,755-1062\3,755,1061,3,H3,1,nuclear,DNA
+Bergsten_2013,H3_2ndpos,753-1062\3,753,1062,3,H3,2,nuclear,DNA
+Bergsten_2013,H3_3rdpos,754-1062\3,754,1060,3,H3,3,nuclear,DNA
+Bergsten_2013,16S,1063-1501,1063,1501,1,16S,NA,mitochondrial,DNA
+Bergsten_2013,18S,1502-2111,1502,2111,1,18S,NA,nuclear,DNA

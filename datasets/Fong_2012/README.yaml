@@ -1,31 +1,33 @@
 study:
     reference: "Fong JJ, Brown JM, Fujita MK, Boussau B. A phylogenomic approach to vertebrate phylogeny supports a turtle-archosaur affinity and a possible paraphyletic lissamphibia. PLoS One. 2012 Nov 7;7(11):e48990."
     year: 2012
-    DOI: dx.doi.org/10.1371/journal.pone.0048990
+    DOI: doi.org/10.1371/journal.pone.0048990
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.25j6h
+    DOI: doi.org/10.5061/dryad.25j6h
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 110
-        nchar: 25919
-        datatype: nucleotide
-        partitions: 168
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
-        latin: Vertebrata  
-        english: vertebrates 
+        latin: "Vertebrata"
+        english: "vertebrates"
         taxon ID: 7742
-    notes: This is the SlowGenes dataset from Dryad
-    
+    outgroups: "Tetraodon, Takifugu, Oryzias, Gasterosteus, Danio"
+    notes: "This is the SlowGenes dataset from Dryad Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

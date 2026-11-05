@@ -1,30 +1,33 @@
 study:
-    reference:  "Cannon JT, Vellutini BC, Smith J, Ronquist F, Jondelius U, Hejnol A (2016) Xenacoelomorpha is the sister group to Nephrozoa. Nature 530(7588): 89–93. http://dx.doi.org/10.1038/nature16520"
+    reference: "Cannon JT, Vellutini BC, Smith J, Ronquist F, Jondelius U, Hejnol A (2016) Xenacoelomorpha is the sister group to Nephrozoa. Nature 530(7588): 89–93. http://dx.doi.org/10.1038/nature16520"
     year: 2016
-    DOI: dx.doi.org/10.1038/nature16520
+    DOI: doi.org/10.1038/nature16520
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.493b7
+    DOI: doi.org/10.5061/dryad.493b7
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 78
-        nchar: 44896
-        datatype: protein
-        partitions: 212
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 952 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 952 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
-        latin:  Metazoa
-        english: Animals
+        latin: "Metazoa"
+        english: "Animals"
         taxon ID: 33208
-    notes: This dataset (78 taxa, 212 loci) is referred to as the 'primary' dataset in the ms, and forms the basis of Figure 2 in the ms. This is the amino acid dataset (212_78_MB_aa.nex) taken from the 'supplementary mrbayes files' link in the Dryad repository (http://datadryad.org/bitstream/handle/10255/dryad.107232/supplementarymrbayesfiles.zip?sequence=1). There is a nucleotide (1st and 2nd positions only) version of this dataset stored in this repository as Cannon_2016a.
+    outgroups: "SROS, MBRE"
+    notes: "This dataset (78 taxa, 212 loci) is referred to as the 'primary' dataset in the ms, and forms the basis of Figure 2 in the ms. This is the amino acid dataset (212_78_MB_aa.nex) taken from the 'supplementary mrbayes files' link in the Dryad repository (http://datadryad.org/bitstream/handle/10255/dryad.107232/supplementarymrbayesfiles.zip?sequence=1). There is a nucleotide (1st and 2nd positions only) version of this dataset stored in this repository as Cannon_2016a. Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

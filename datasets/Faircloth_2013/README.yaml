@@ -1,30 +1,33 @@
 study:
-    reference:  "Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A phylogenomic perspective on the radiation of ray-finned fishes based upon targeted sequencing of ultraconserved elements (UCEs). PLoS ONE 8(6): e65923"
+    reference: "Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A phylogenomic perspective on the radiation of ray-finned fishes based upon targeted sequencing of ultraconserved elements (UCEs). PLoS ONE 8(6): e65923"
     year: 2013
-    DOI: dx.doi.org/10.1371/journal.pone.0065923
+    DOI: doi.org/10.1371/journal.pone.0065923
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.j015n
+    DOI: doi.org/10.5061/dryad.j015n
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 27
-        nchar: 149366
-        datatype: nucleotide
-        partitions: 491
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 386.7 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 386.7 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
-        latin:  Actinopterygii
-        english: Ray-finned fishes
+        latin: "Actinopterygii"
+        english: "Ray-finned fishes"
         taxon ID: 7898
-    notes: The individual UCEs in the file "fish-nexus-files-with-gaps-from-uce-alignment.tar.gz" were concatenated into a single .nex file
+    outgroups: NA
+    notes: "The individual UCEs in the file \"fish-nexus-files-with-gaps-from-uce-alignment.tar.gz\" were concatenated into a single .nex file Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

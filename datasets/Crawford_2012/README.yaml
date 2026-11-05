@@ -1,30 +1,33 @@
 study:
     reference: "Crawford, N. G., Faircloth, B. C., McCormack, J. E., Brumfield, R. T., Winker, K., & Glenn, T. C. (2012). More than 1000 ultraconserved elements provide evidence that turtles are the sister group of archosaurs. Biology Letters, 8(5), 783-786."
     year: 2012
-    DOI: dx.doi.org/10.1098/rsbl.2012.0331
+    DOI: doi.org/10.1098/rsbl.2012.0331
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.75nv22qj
+    DOI: doi.org/10.5061/dryad.75nv22qj
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 10
-        nchar: 465241
-        datatype: nucleotide
-        partitions: 1145
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 277.8 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 277.8 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
-        latin:  "Sauria"
+        latin: "Sauria"
         english: "Diapsids"
         taxon ID: 32561
-    notes: NA
+    outgroups: "homo_sapiens"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

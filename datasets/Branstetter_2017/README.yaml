@@ -1,30 +1,33 @@
 study:
-    reference:  "Branstetter MG, Danforth BN, Pitts JP, Faircloth BC, Ward PS, Buffington ML, Gates MW, Kula RR, Brady SG (2017) Phylogenomic Insights into the Evolution of Stinging Wasps and the Origins of Ants and Bees. Current Biology 27(7): 1019-1025."
+    reference: "Branstetter MG, Danforth BN, Pitts JP, Faircloth BC, Ward PS, Buffington ML, Gates MW, Kula RR, Brady SG (2017) Phylogenomic Insights into the Evolution of Stinging Wasps and the Origins of Ants and Bees. Current Biology 27(7): 1019-1025."
     year: 2017
-    DOI: dx.doi.org/10.1016/j.cub.2017.03.027
+    DOI: doi.org/10.1016/j.cub.2017.03.027
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.r8d4q
+    DOI: doi.org/10.5061/dryad.r8d4q
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 187
-        nchar: 183747
-        datatype: nucleotide
-        partitions: 807
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 169 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 169 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: 170 mya
     study clade:
-        latin:  "Aculeata"
-        english: Stinging wasps
+        latin: "Aculeata"
+        english: "Stinging wasps"
         taxon ID: 7434
-    notes: This is the dataset Hym-187T-F75, which is the dataset used for the main figure in the paper. One of many datasets available from the link under "Alignment supermatrices" on Dryad.
+    outgroups: "Abia_lonicerae_EX455, Acordulecera_pellucida_HPG3, Arge_humeralis_EX469, Athalia_rosae_Genome, Atomacera_decepta_EX467, Brachymeria_tegularis_EX477, Campopleginae_sp_EX482, Cephus_cinctus_Genome, Ceratosolen_solmsi_Genome, Copidosoma_floridanum_Genome, Cotesia_vestalis_Genome, Disholcaspis_lasia_EX580, Disholcaspis_quercusmamma_EX579, Entomacis_sp_EX486, Ephedrus_sp_EX489, Euplectrus_sp_EX492, Evaniella_semaeoda_HPG5, Fopius_arisanus_Genome, Hartigia_trimaculata_EX454, Hyptia_harpyoides_EX470, Ibalia_anceps_EX464, Ichneumoninae_sp_EX481, Leucospis_affinis_EX478, Megaspilus_sp_EX487, Microgastrinae_sp_EX480, Microplitis_demolitor_Genome, Monodontomerus_sp_EX476, Nasonia_vitripennis_2, Nasonia_vitripennis_Genome, Nematus_tibialis_HPG2, Neodiprion_lecontei_Genome, Onycholyda_luteicornis_EX473, Orthogonalys_pulchella_HPG4, Orussus_minutus_EX472, Parambynotus_virginianus_EX499, Pelecinus_sp_EX451, Pristaulacus_stigmaterus_EX465, Prosaspicera_sp_EX484, Ropronia_garmani_EX456, Taeniogonalys_gundlachi_EX468, Taxonus_pallidicornis_HPG1, Tetramesa_panici_EX493, Tremex_columba_EX452, Trichogramma_pretiosum_Genome, Vanhornia_eucnemidarum_EX498, Xiphydria_tibialis_EX474, Xyela_sp_EX453"
+    notes: "This is the dataset Hym-187T-F75, which is the dataset used for the main figure in the paper. One of many datasets available from the link under \"Alignment supermatrices\" on Dryad. Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

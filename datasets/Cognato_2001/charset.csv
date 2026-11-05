@@ -1,0 +1,8 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Cognato_2001,ef1a_1stpos,1-649\3,1,649,3,ef1a,1,nuclear,DNA
+Cognato_2001,ef1a_2ndpos,2-649\3,2,647,3,ef1a,2,nuclear,DNA
+Cognato_2001,ef1a_3rdpos,3-649\3,3,648,3,ef1a,3,nuclear,DNA
+Cognato_2001,COI_1stpos,650-1415\3,650,1415,3,COI,1,mitochondrial,DNA
+Cognato_2001,COI_2ndpos,651-1415\3,651,1413,3,COI,2,mitochondrial,DNA
+Cognato_2001,COI_3rdpos,652-1415\3,652,1414,3,COI,3,mitochondrial,DNA
+Cognato_2001,16S,1416-1897,1416,1897,1,16S,NA,mitochondrial,DNA

@@ -1,0 +1,11 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Sauquet_2011,atpb_1stpos,1-1353\3,1,1351,3,atpb,1,chloroplast,DNA
+Sauquet_2011,atpb_2ndpos,2-1353\3,2,1352,3,atpb,2,chloroplast,DNA
+Sauquet_2011,atpb_3rdpos,3-1353\3,3,1353,3,atpb,3,chloroplast,DNA
+Sauquet_2011,rbcl_1stpos,1354-2784\3,1354,2782,3,rbcl,1,chloroplast,DNA
+Sauquet_2011,rbcl_2ndpos,1355-2784\3,1355,2783,3,rbcl,2,chloroplast,DNA
+Sauquet_2011,rbcl_3rdpos,1356-2784\3,1356,2784,3,rbcl,3,chloroplast,DNA
+Sauquet_2011,spacer_rbcl,2785-3777,2785,3777,1,spacer_rbcl,NA,chloroplast,DNA
+Sauquet_2011,spacer_trnlf,3778-4258,3778,4258,1,spacer_trnlf,NA,chloroplast,DNA
+Sauquet_2011,trnl_intron,4259-4816,4259,4816,1,trnl_intron,NA,chloroplast,DNA
+Sauquet_2011,its,4817-5444,4817,5444,1,its,NA,nuclear,DNA

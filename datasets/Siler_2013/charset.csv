@@ -1,0 +1,8 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Siler_2013,Cytb_1stpos,1-1110\3,1,1108,3,Cytb,1,mitochondrial,DNA
+Siler_2013,Cytb_2ndpos,2-1110\3,2,1109,3,Cytb,2,mitochondrial,DNA
+Siler_2013,Cytb_3rdpos,3-1110\3,3,1110,3,Cytb,3,mitochondrial,DNA
+Siler_2013,Cmos_1stpos,1113-1679\3,1113,1677,3,Cmos,1,nuclear,DNA
+Siler_2013,Cmos_2ndpos,1111-1679\3,1111,1678,3,Cmos,2,nuclear,DNA
+Siler_2013,Cmos_3rdpos,1112-1679\3,1112,1679,3,Cmos,3,nuclear,DNA
+Siler_2013,Vim,1680-2697,1680,2697,1,Vim,NA,nuclear,DNA

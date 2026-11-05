@@ -1,0 +1,49 @@
+# Conda environment for curating and checking BenchmarkAlignments datasets.
+# Create with:   conda env create -f environment.yml
+# Then install DateLife (not on conda) with:
+#   conda run -n benchaln Rscript utility_scripts/install_datelife.R
+name: benchaln
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - biopython
+  - pyyaml
+  - pandas
+  - numpy
+  - requests
+  - openpyxl
+  - pytest
+  - iqtree
+  - mafft
+  - r-base>=4.3
+  - r-ape
+  - r-phangorn
+  - r-remotes
+  - r-jsonlite
+  - r-optparse
+  # compiled R dependencies of DateLife, installed from conda so R need not build them
+  - r-png
+  - r-phytools
+  - r-geiger
+  - r-rotl
+  - r-taxize
+  - r-paleotree
+  - r-bold
+  - r-ips
+  - r-treebase
+  - r-rncl
+  - r-rnexml
+  - r-phylobase
+  - r-knitcitations
+  - r-stringr
+  - r-httr
+  - r-plyr
+  - r-data.table
+  - r-curl
+  - r-biocmanager
+  - r-abind
+  - r-cluster
+  - r-compare
+  - pip

@@ -1,30 +1,33 @@
 study:
     reference: "Broughton RE, Betancur RR, Li C, Arratia G, Ortí G. Multi-locus phylogenetic analysis reveals the pattern and tempo of bony fish evolution. PLoS Curr. 2013 Apr 16;5(5)."
     year: 2013
-    DOI: dx.doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e
+    DOI: doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.f1t15
+    DOI: doi.org/10.5061/dryad.f1t15
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 61
-        nchar: 19997
-        datatype: nucleotide
-        partitions: 61
-    genomes:
-        mitochondrial: yes
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 436.8 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 436.8 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: 427 mya
     study clade:
         latin: "Osteichthyes"
         english: "bony fishes"
         taxon ID: 117571
-    notes: NA
+    outgroups: "Callorhinchus_milii, Leucoraja_erinacea"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

@@ -1,30 +1,33 @@
 study:
     reference: "Pyron RA, Wiens JJ. A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution. 2011 Nov 30;61(2):543-83."
     year: 2011
-    DOI: dx.doi.org/10.1016/j.ympev.2011.06.012
+    DOI: doi.org/10.1016/j.ympev.2011.06.012
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.vd0m7
+    DOI: doi.org/10.5061/dryad.vd0m7
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 2872
-        nchar: 12712
-        datatype: nucleotide
-        partitions: 34
-    genomes:
-        mitochondrial: yes
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 321.1 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 321.1 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Amphibia"
         english: "amphibians"
         taxon ID: 8292
-    notes: NA
+    outgroups: "Homo_sapiens"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

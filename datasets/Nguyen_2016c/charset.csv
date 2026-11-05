@@ -1,0 +1,2 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Nguyen_2016c,hsp83,1-811,1,811,1,hsp83,NA,nuclear,AA

@@ -1,0 +1,4 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Worobey_2014d,NP_1stpos,1-1497\3,1,1495,3,NP,1,ssRNA,DNA
+Worobey_2014d,NP_2ndpos,2-1497\3,2,1496,3,NP,2,ssRNA,DNA
+Worobey_2014d,NP_3rdpos,3-1497\3,3,1497,3,NP,3,ssRNA,DNA

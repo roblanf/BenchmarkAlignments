@@ -1,30 +1,33 @@
 study:
     reference: "Oaks JR. A time-calibrated species tree of Crocodylia reveals a recent radiation of the true crocodiles. Evolution. 2011 Nov 1;65(11):3285-97."
     year: 2011
-    DOI: dx.doi.org/10.1111/j.1558-5646.2011.01373.x
+    DOI: doi.org/10.1111/j.1558-5646.2011.01373.x
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.5k9s0
+    DOI: doi.org/10.5061/dryad.5k9s0
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 79
-        nchar: 7282
-        datatype: nucleotide
-        partitions: 50
-    genomes:
-        mitochondrial: yes
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA 
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Crocodylia"
         english: "Crocodilians"
         taxon ID: 1294634
-    notes: "The original dataset specified each exon for each of the nuclear coding genes. But many of these exons are very short, making it impractical to divide them up into codon positions, so I made the pragmatic decision to lump exons together."
+    outgroups: "LSUMZ_H21755, LSUMZ_H21756, LSUMZ_H6990, LSUMZ_H6992, LSUMZ_H6976, LSUMZ_H21718, LSUMZ_H21719, LSUMZ_H21720"
+    notes: "The original dataset specified each exon for each of the nuclear coding genes. But many of these exons are very short, making it impractical to divide them up into codon positions, so I made the pragmatic decision to lump exons together. Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

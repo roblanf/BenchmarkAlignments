@@ -1,0 +1,10 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Murray_2013,18S,1-780,1,780,1,18S,NA,nuclear,DNA
+Murray_2013,COII_1stpos,781-1036\3,781,1036,3,COII,1,mitochondrial,DNA
+Murray_2013,COII_2ndpos,782-1037\3,782,1037,3,COII,2,mitochondrial,DNA
+Murray_2013,COII_3rdpos,783-1038\3,783,1038,3,COII,3,mitochondrial,DNA
+Murray_2013,COI_1stpos,1039-1816\3,1039,1816,3,COI,1,mitochondrial,DNA
+Murray_2013,COI_2ndpos,1040-1817\3,1040,1817,3,COI,2,mitochondrial,DNA
+Murray_2013,COI_3rdpos,1041-1818\3,1041,1818,3,COI,3,mitochondrial,DNA
+Murray_2013,28S_D2,1819-2498,1819,2498,1,28S_D2,NA,nuclear,DNA
+Murray_2013,28S_D3,2499-3111,2499,3111,1,28S_D3,NA,nuclear,DNA

@@ -1,0 +1,8 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Seago_2011,COI_1stpos,1-688\3,1,688,3,COI,1,mitochondrial,DNA
+Seago_2011,COI_2ndpos,2-688\3,2,686,3,COI,2,mitochondrial,DNA
+Seago_2011,COI_3rdpos,3-688\3,3,687,3,COI,3,mitochondrial,DNA
+Seago_2011,COII_1stpos,689-1390\3,689,1388,3,COII,1,mitochondrial,DNA
+Seago_2011,COII_2ndpos,690-1390\3,690,1389,3,COII,2,mitochondrial,DNA
+Seago_2011,COII_3rdpos,691-1390\3,691,1390,3,COII,3,mitochondrial,DNA
+Seago_2011,28S,1391-2253,1391,2253,1,28S,NA,nuclear,DNA

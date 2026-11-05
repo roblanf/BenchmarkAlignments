@@ -1,30 +1,33 @@
 study:
     reference: "Moyle RG, Oliveros CH, Andersen MJ, Hosner PA, Benz BW, Manthey JD, Travers SL, Brown RM, Faircloth BC. Tectonic collision and uplift of Wallacea triggered the global songbird radiation. Nature Communications. 2016 Aug 30;7."
     year: 2016
-    DOI: dx.doi.org/10.1038/ncomms12709
+    DOI: doi.org/10.1038/ncomms12709
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.nf01p
+    DOI: doi.org/10.5061/dryad.nf01p
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 106
-        nchar: 375172
-        datatype: nucleotide
-        partitions: 515
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 53.8 mya
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 53.8 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: 32 mya
     study clade:
-        latin:  "Oscines"
+        latin: "Oscines"
         english: "songbirds"
         taxon ID: 6615
-    notes: additional information on UCE boundaries was kindly provided by Rob Moyle
+    outgroups: "menura_novaehollandiae_uwbm_76638"
+    notes: "additional information on UCE boundaries was kindly provided by Rob Moyle Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

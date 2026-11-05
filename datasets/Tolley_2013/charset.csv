@@ -1,0 +1,17 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Tolley_2013,cmos_1stpos,1-855\3,1,853,3,cmos,1,nuclear,DNA
+Tolley_2013,cmos_2ndpos,2-855\3,2,854,3,cmos,2,nuclear,DNA
+Tolley_2013,cmos_3rdpos,3-855\3,3,855,3,cmos,3,nuclear,DNA
+Tolley_2013,ND2_1stpos,856-1803\3,856,1801,3,ND2,1,mitochondrial,DNA
+Tolley_2013,ND2_2ndpos,857-1803\3,857,1802,3,ND2,2,mitochondrial,DNA
+Tolley_2013,ND2_3rdpos,858-1803\3,858,1803,3,ND2,3,mitochondrial,DNA
+Tolley_2013,ND4_1stpos,1804-2505\3,1804,2503,3,ND4,1,mitochondrial,DNA
+Tolley_2013,ND4_2ndpos,1805-2505\3,1805,2504,3,ND4,2,mitochondrial,DNA
+Tolley_2013,ND4_3rdpos,1806-2505\3,1806,2505,3,ND4,3,mitochondrial,DNA
+Tolley_2013,PRLR_1stpos,2506-3086\3,2506,3085,3,PRLR,1,nuclear,DNA
+Tolley_2013,PRLR_2ndpos,2507-3086\3,2507,3086,3,PRLR,2,nuclear,DNA
+Tolley_2013,PRLR_3rdpos,2508-3086\3,2508,3084,3,PRLR,3,nuclear,DNA
+Tolley_2013,RAG1_1stpos,3087-4661\3,3087,4659,3,RAG1,1,nuclear,DNA
+Tolley_2013,RAG1_2ndpos,3088-4661\3,3088,4660,3,RAG1,2,nuclear,DNA
+Tolley_2013,RAG1_3rdpos,3089-4661\3,3089,4661,3,RAG1,3,nuclear,DNA
+Tolley_2013,16S,4662-5054,4662,5054,1,16S,NA,nuclear,DNA

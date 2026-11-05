@@ -1,0 +1,10 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Kawahara_2013,CAD_1stpos,1-705\3,1,703,3,CAD,1,nuclear,DNA
+Kawahara_2013,CAD_2ndpos,2-705\3,2,704,3,CAD,2,nuclear,DNA
+Kawahara_2013,CAD_3rdpos,3-705\3,3,705,3,CAD,3,nuclear,DNA
+Kawahara_2013,EF1a_1stpos,706-1476\3,706,1474,3,EF1a,1,nuclear,DNA
+Kawahara_2013,EF1a_2ndpos,707-1476\3,707,1475,3,EF1a,2,nuclear,DNA
+Kawahara_2013,EF1a_3rdpos,708-1476\3,708,1476,3,EF1a,3,nuclear,DNA
+Kawahara_2013,COI_1stpos,1477-2238\3,1477,2236,3,COI,1,mitochondrial,DNA
+Kawahara_2013,COI_2ndpos,1478-2238\3,1478,2237,3,COI,2,mitochondrial,DNA
+Kawahara_2013,COI_3rdpos,1479-2238\3,1479,2238,3,COI,3,mitochondrial,DNA

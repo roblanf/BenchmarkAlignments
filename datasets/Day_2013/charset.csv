@@ -1,0 +1,12 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Day_2013,Cytb_1stpos,1-1138\3,1,1138,3,Cytb,1,mitochondrial,DNA
+Day_2013,Cytb_2ndpos,2-1138\3,2,1136,3,Cytb,2,mitochondrial,DNA
+Day_2013,Cytb_3rdpos,3-1138\3,3,1137,3,Cytb,3,mitochondrial,DNA
+Day_2013,tRNA,1139-1256,1139,1256,1,tRNA,NA,mitochondrial,DNA
+Day_2013,S7,1257-1887,1257,1887,1,S7,NA,nuclear,DNA
+Day_2013,Rag2_1stpos,1888-2909\3,1888,2908,3,Rag2,1,nuclear,DNA
+Day_2013,Rag2_2ndpos,1889-2909\3,1889,2909,3,Rag2,2,nuclear,DNA
+Day_2013,Rag2_3rdpos,1890-2909\3,1890,2907,3,Rag2,3,nuclear,DNA
+Day_2013,CO1_1stpos,2910-3586\3,2910,3585,3,CO1,1,mitochondrial,DNA
+Day_2013,CO1_2ndpos,2911-3586\3,2911,3586,3,CO1,2,mitochondrial,DNA
+Day_2013,CO1_3rdpos,2912-3586\3,2912,3584,3,CO1,3,mitochondrial,DNA

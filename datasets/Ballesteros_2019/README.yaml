@@ -1,30 +1,33 @@
 study:
-    reference:  "Ballesteros JA, Sharma PP (2019) A critical appraisal of the placement of Xiphosura (Chelicerata) with account of known sources of phylogenetic error. Systematic Biology, online in advance of print."
+    reference: "Ballesteros JA, Sharma PP (2019) A critical appraisal of the placement of Xiphosura (Chelicerata) with account of known sources of phylogenetic error. Systematic Biology, online in advance of print."
     year: 2019
-    DOI: dx.doi.org/10.1093/sysbio/syz011
+    DOI: doi.org/10.1093/sysbio/syz011
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.2g1f4n5
-    license: "CC0"
-    used for tree inference: yes
-    alignment:
-        ntax: 53
-        nchar: 1484206
-        datatype: protein
-        partitions: 3534
-    genomes:
-        mitochondrial: no
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: 530 mya
+    DOI: doi.org/10.5061/dryad.2g1f4n5
+    license: CC0
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: timetree.org
+        query taxa: NA
+        date accessed: NA
+        median age: 530 mya
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
-        latin:  Chelicerata
-        english: Sea spiders, arachnids, and others
+        latin: "Chelicerata"
+        english: "Sea spiders, arachnids, and others"
         taxon ID: 6843
-    notes: NA
+    outgroups: "Tribolium_castaneum, Drosophila_melanogaster, Nasonia_vitripenis, Camponotus_floridanus, Zootermopsos_nevadensis, Folsomia_candida, Daphnia_pulex, Hyalella_azteca, Lithobius2, Alipes, Strigamia_maritima, Glomeris_pustulata, Symphyllela_vulgaris, Peripatopsis2"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

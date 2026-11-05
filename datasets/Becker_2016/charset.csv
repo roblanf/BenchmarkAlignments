@@ -1,0 +1,2 @@
+alignment_name,partition_name,charset_definition,partition_start,partition_end,partition_skip,locus_name,codon_position,genome,data_type
+Becker_2016,opsin,1-217,1,217,1,opsin,NA,bacterial,AA

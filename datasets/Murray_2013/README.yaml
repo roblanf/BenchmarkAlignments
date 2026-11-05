@@ -1,30 +1,33 @@
 study:
     reference: "Murray EA, Carmichael AE, Heraty JM. Ancient host shifts followed by host conservatism in a group of ant parasitoids. Proceedings of the Royal Society of London B: Biological Sciences. 2013 May 22;280(1759):20130495."
     year: 2013
-    DOI: dx.doi.org/10.1098/rspb.2013.0495
+    DOI: doi.org/10.1098/rspb.2013.0495
 
 dataset:
-    DOI: dx.doi.org/10.5061/dryad.qn57t
+    DOI: doi.org/10.5061/dryad.qn57t
     license: CC0
-    used for tree inference: yes
-    alignment:
-        ntax: 237
-        nchar: 3111
-        datatype: nucleotide
-        partitions: 9
-    genomes:
-        mitochondrial: yes
-        nuclear: yes
-        chloroplast: no
-        dsDNA: no
-        ssDNA: no
-        dsRNA: no
-        ssRNA: no
-        bacterial: no
-    timetree root age: NA
+    figshare: NA
+    dataset curation:
+        alignment file: NA
+        partition information: NA
+        justification: NA
+        sequence edits: NA
+    used for tree inference:
+        concatenated: yes
+        locus trees: no
+    divergence time:
+        source: NA
+        query taxa: NA
+        date accessed: NA
+        median age: NA
+        min age: NA
+        max age: NA
+        N chronograms: NA
+        source studies: NA
     study root age: NA
     study clade:
         latin: "Eucharitidae"
         english: "eucharitid wasps"
         taxon ID: 216140
-    notes: NA
+    outgroups: "OG_Cleonymus.sp.D1452, OG_Erixestus.sp.D2637, OG_Ormocerus.sp.D2134, OG_Perilampidea.sp.D0628, OG_Podagrion.sp.D0023, OG_Pteromalus.ablipennis.D0724, OG_Thinodytes.sp.D0726, OG_Torymus.sp.D0027"
+    notes: "Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."
