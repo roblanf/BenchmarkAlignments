@@ -1,0 +1,33 @@
+study:
+    reference: "Zuntini AR, Carruthers T, Maurin O, Bailey PC, Leempoel K, Brewer GE, et al. Phylogenomics and the rise of the angiosperms. Nature. 2024 May;629(8013):843-850."
+    year: 2024
+    DOI: doi.org/10.1038/s41586-024-07324-0
+
+dataset:
+    DOI: doi.org/10.5281/zenodo.10778207
+    license: CCBY
+    figshare: NA
+    dataset curation:
+        alignment file: "Analyses.zip -> Analyses/3_global_analysis/global_analysis.tar.gz -> 09_sortadate/aligns/g*.fasta (353 single-gene FASTA files, concatenated here in sorted file-name order)"
+        partition information: "One charset per gene, from the file boundaries of the 353 single-gene alignments. Codon positions are not annotated: the published alignments had sites with >90% missing data removed (Methods, 'Global gene alignments and trees'), which breaks the reading frame; in the cleaned alignments no frame has fewer than ~4% internal stop codons, and the raw HybPiper sequences, which are individually in frame 1, lose that frame after cleaning (checked with utility_scripts/check_codon_frames.py and a per-sequence translation test on gene g4471)."
+        justification: "These are the final cleaned global gene alignments of the study: the alignments from which the global gene trees (FastTree) and the global species tree (ASTRAL-MP; Figs. 1-2, Supplementary Fig. 3) were inferred, and whose AMAS summaries are reported in Supplementary Table 5. The dimensions of each file match that table (e.g. g4471: 8,964 taxa, 841 sites). The 04_merged_aligs folder holds the same alignments before gappy-site removal and before TreeShrink outlier removal (e.g. g4471: 8,973 taxa, 12,283 sites) and was not used."
+        sequence edits: "Taxon labels were changed from the archive's sample IDs (e.g. s18517) to the published tip names of Supplementary Table 1 with the sample ID appended, in the form Order_Family_Genus_species_sNNNNN (e.g. Amborellales_Amborellaceae_Amborella_trichopoda_s18517), so that names are informative and still traceable to the archive; hyphens in a few published tip names (e.g. Galeomma oculus-cati) became underscores. No sequences were altered or removed. Taxa absent from a gene alignment are filled with '?' for that gene in the concatenation."
+    used for tree inference:
+        concatenated: no
+        locus trees: yes
+    divergence time:
+        source: datelife
+        query taxa: "Amborella trichopoda, Arabidopsis thaliana, Oryza sativa"
+        date accessed: 2026-11-05
+        median age: 187.6 mya
+        min age: 129.4 mya
+        max age: 247.0 mya
+        N chronograms: 8
+        source studies: "Pease JB, Brown JW, Walker JF, Hinchliff CE, Smith SA. 2018. Quartet Sampling distinguishes lack of support from conflicting support in the green plant tree of life. American Journal of Botany | Magallon S, Gomez-Acevedo S, Sanchez-Reyes LL, Hernandez-Hernandez T. 2015. A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity. New Phytologist 207:437-453 | Foster CSP, Sauquet H, van der Merwe M, McPherson H, Rossetto M, Ho SYW. 2016. Evaluating the impact of genomic data and priors on Bayesian estimates of the angiosperm evolutionary timescale. Systematic Biology syw086 | Parfrey LW, Lahr DJG, Knoll AH, Katz LA. 2011. Estimating the timing of early eukaryotic diversification with multigene molecular clocks. PNAS 108:13624-13629 | Zanne AE et al. 2013. Three keys to the radiation of angiosperms into freezing environments. Nature 506:89-92 | Zuntini AR, Carruthers T, Maurin O et al. 2024. Phylogenomics and the rise of the angiosperms. Nature. doi:10.1038/s41586-024-07324-0"
+    study root age: 154 mya
+    study clade:
+        latin: "Magnoliopsida"
+        english: "flowering plants"
+        taxon ID: 3398
+    outgroups: "Cycadales_Cycadaceae_Cycas_micholitzii_s18411, Cycadales_Zamiaceae_Encephalartos_barteri_s17409, Ephedrales_Ephedraceae_Ephedra_sinica_s18215, Ginkgoales_Ginkgoaceae_Ginkgo_biloba_s18047, Gnetales_Gnetaceae_Gnetum_montanum_s17419, Gnetales_Welwitschiaceae_Welwitschia_mirabilis_s18137, Pinales_Araucariaceae_Wollemia_nobilis_s18015, Pinales_Cupressaceae_Metasequoia_glyptostroboides_s17789, Pinales_Pinaceae_Pinus_jeffreyi_s17711, Pinales_Podocarpaceae_Retrophyllum_minus_s18225, Pinales_Sciadopityaceae_Sciadopitys_verticillata_s18419, Pinales_Taxaceae_Torreya_taxifolia_s17275"
+    notes: "Angiosperms353 target-capture data (Johnson et al. 2019) for 9,506 angiosperm species in 7,923 genera, all 416 families and 64 orders, plus 12 gymnosperm outgroups (one per family; Methods and Reporting Summary). The dataset DOI is the Zenodo version record (10.5281/zenodo.10778207); the paper cites the concept DOI 10.5281/zenodo.10778206, which resolves to the latest version. Tree inference: the species tree was inferred under the multispecies coalescent with ASTRAL-MP from 353 global gene trees (FastTree, GTR+G, constrained by backbone gene trees); this concatenated alignment was not itself analysed. A concatenated alignment of only the top 25 genes ranked by SortaDate (09_sortadate/ and 10_calibrate/top_25/ in the archive) was analysed in IQ-TREE to obtain molecular branch lengths on the fixed ASTRAL topology for divergence-time estimation in treePL, so 'concatenated: no' refers to topology inference. Study root age: the angiosperm crown node was dated under two maximum-age constraints; its estimated age equals the constraint in both cases, 154 Ma in the 'young tree' and 247 Ma in the 'old tree' (Methods, 'Divergence time estimation'; Analyses/4_calibrated_trees). The young tree is the one illustrated in the main figures, so 154 mya is recorded here. Supplementary Table 3 gives crown ages for subclades (e.g. eudicots 150.8/240.5 Ma). Supplementary Table 1 lists 9,524 samples: 9,512 angiosperm samples (9,506 species in 7,923 genera; six species are represented by two samples each, distinguished here by the sample-ID suffix) plus 12 gymnosperms; all 9,524 are tips of the published global species tree (Analyses/3_global_analysis/global_tree_renamed.tre) and all occur in this alignment. Twelve samples are flagged as placed outside their family or order in that table ('OUTLIER' column) but were retained by the authors and are retained here."

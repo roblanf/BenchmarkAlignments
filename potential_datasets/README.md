@@ -47,12 +47,13 @@ next agent does not re-check the same study. The rules below were agreed with Ro
 | `journal` | journal name |
 | `year` | year of publication |
 | `clade` | the ingroup, in one or two words |
+| `type` | the broad data-generation approach, one token: `AHE`, `UCE`, `transcriptome`, `exon_capture`, `plastome`, `mitogenome`, `genome`, `Sanger`, `mixed` |
 | `DNA_alignment` | `yes` or `no`: the archive holds a nucleotide alignment |
 | `AA_alignment` | `yes` or `no`: the archive holds an amino-acid alignment |
 | `ntax` | number of taxa in the candidate alignment, or `unknown` |
 | `nloci` | number of loci, or `unknown` |
 | `nchar` | alignment length in sites, or `unknown` |
-| `locus_type` | e.g. `UCE`, `AHE`, `transcriptome`, `exon`, `plastome`, `mitogenome`, `Sanger`, `genome`, `rRNA` |
+| `locus_type` | finer description of the loci than `type`, e.g. `AHE+transcriptome`, `UCE`, `exons`, `rRNA` |
 | `dataset_DOI` | `doi.org/...` of the data archive |
 | `repository` | `Dryad`, `Zenodo`, `figshare`, `OSF`, ... |
 | `license` | `CC0`, `CCBY`, or exactly what the record says if neither |
