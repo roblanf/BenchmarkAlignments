@@ -21,8 +21,9 @@ the **ingroup** is the clade the study is about, excluding outgroups.
 ## 1. Set up
 
 ```bash
-git checkout main && git pull
-git checkout -b dataset/<Name>          # Name = FirstAuthor_Year, e.g. Zuntini_2024
+cd /path/to/BenchmarkAlignments && git pull
+git worktree add -b dataset/<Name> ../BenchmarkAlignments-<Name> main   # Name = FirstAuthor_Year
+cd ../BenchmarkAlignments-<Name>        # work here; the main working tree is never switched
 mkdir datasets/<Name>
 mkdir -p $BENCHALN_DATA/<Name> $BENCHALN_DATA/_sources/<Name>
 ```
@@ -163,7 +164,8 @@ All errors must be fixed. Warnings must each be either fixed or explained in the
 
 ## 9. Hand over
 
-Open a pull request from `dataset/<Name>` to `main` containing the four tracked files and
+Only when step 8 passes in full with network checks on, and nothing about the dataset is
+waiting on Rob, open a pull request from `dataset/<Name>` to `main` containing the four tracked files and
 the regenerated `summary.csv`. The PR description lists: the archive file used, every
 judgement call, every sequence edit, the codon-frame table, the DateLife output, and any
 warnings. Say that the alignment is at `$BENCHALN_DATA/<Name>/alignment.nex` and needs

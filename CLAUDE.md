@@ -54,8 +54,13 @@ up another env's python, call the binaries by absolute path, e.g.
    never assumed from a partition file.
 7. Record every judgement call and every edit to the data in `README.yaml`
    (`dataset curation` and `notes`), and summarise them for Rob in the pull request.
-8. Work on a branch named `dataset/<Name>`; one dataset per branch and pull request.
-9. Do not upload to figShare; Rob does that. Leave `figshare: NA` and say so in the PR.
+8. Work on a branch named `dataset/<Name>`, in its own git worktree so the main working tree
+   is never switched; one dataset per branch and pull request.
+9. Open the pull request only when the dataset is finished: the full test suite passes with
+   network checks on (`pytest -q tests/ -k <Name>` in `utility_scripts/`), every step of
+   `docs/ADDING_A_DATASET.md` is done, and nothing is waiting on Rob. The tests define
+   "done". State the test result in the PR.
+10. Do not upload to figShare; Rob does that. Leave `figshare: NA` and say so in the PR.
 
 ## Attribution
 
