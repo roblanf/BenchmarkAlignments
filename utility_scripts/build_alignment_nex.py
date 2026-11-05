@@ -14,7 +14,7 @@ partitions.csv (for --alignment) has columns: name, start, end, codon (0 or 1), 
 Ranges are 1-based inclusive. codon=1 produces NAME_1stpos/_2ndpos/_3rdpos charsets with
 stride 3 starting at start, start+1, start+2 (so start must be a first codon position; shift it
 if the source gene starts mid-codon and say so in README.yaml). --genome gives the genome for
-rows without one. Taxon names are sanitised to [A-Za-z0-9_.-]; the sanitisation table is
+rows without one. Taxon names are sanitised to [A-Za-z0-9_.]; the sanitisation table is
 printed so it can be recorded in README.yaml under 'sequence edits'.
 
 For --loci-dir, loci are concatenated in sorted file-name order; taxa missing from a locus
@@ -35,7 +35,7 @@ GENOMES = ["mitochondrial", "nuclear", "chloroplast", "bacterial", "dsDNA", "ssD
 
 
 def sanitise(name):
-    new = re.sub(r"[^A-Za-z0-9_.\-]", "_", name.strip().strip("'\""))
+    new = re.sub(r"[^A-Za-z0-9_.]", "_", name.strip().strip("'\""))
     return new
 
 

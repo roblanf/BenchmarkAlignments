@@ -82,7 +82,7 @@ Conventions the validator enforces:
   site exactly once.
 - `TAXSET outgroups` names at least one taxon, unless the data are tip-dated and carry a
   SAMPLINGDATES block.
-- Taxon names use only `A-Z a-z 0-9 _ . -`. The build script sanitises names and prints the
+- Taxon names use only `A-Z a-z 0-9 _ .` (no hyphens: Biopython reads an unquoted hyphen as a gap). The build script sanitises names and prints the
   changes; copy that list into `dataset curation / sequence edits`.
 - Unix line endings. No duplicate taxon names.
 

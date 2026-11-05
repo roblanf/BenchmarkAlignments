@@ -2070,7 +2070,7 @@ alignment.nex	Entoloma_sp_G0032_NL5155	5737	4477	78.037	0.516	0.484	344	251	359	
 alignment.nex	Entoloma_sp_G0109_NL5038	5737	4477	78.037	0.517	0.483	346	249	360	305	0	0	0	0	0	0	0	0	0	0	0	0	0	4477	0
 alignment.nex	Entoloma_sp_Omphalina_sp_volt_G0013_NL	5737	4479	78.072	0.522	0.478	352	250	351	304	0	0	1	0	0	0	0	0	0	0	0	0	0	4479	0
 alignment.nex	Entoloma_sp_sect_Nolanea_G1614_TUR141	5737	4479	78.072	0.512	0.488	342	254	360	301	0	0	1	0	0	0	0	0	0	0	0	0	0	4479	0
-alignment.nex	Entoloma_sp_thujae_!_G0016_NL5095	5737	4477	78.037	0.526	0.474	353	246	351	310	0	0	0	0	0	0	0	0	0	0	0	0	0	4477	0
+alignment.nex	Entoloma_sp_thujae___G0016_NL5095	5737	4477	78.037	0.526	0.474	353	246	351	310	0	0	0	0	0	0	0	0	0	0	0	0	0	4477	0
 alignment.nex	Entoloma_speculum_G1622_Luiss_personal_c	5737	4477	78.037	0.516	0.484	344	251	359	306	0	0	0	0	0	0	0	0	0	0	0	0	0	4477	0
 alignment.nex	Entoloma_sphagneti	5737	4853	84.591	0.503	0.497	232	175	264	213	0	0	0	0	0	0	0	0	0	0	0	0	0	4853	0
 alignment.nex	Entoloma_splendidum_G1623_M_E_Noordelo	5737	4478	78.055	0.512	0.488	343	251	364	301	0	0	0	0	0	0	0	0	0	0	0	0	0	4478	0
@@ -2105,7 +2105,7 @@ alignment.nex	Entoloma_viridomarginatum_G1638_M_E_No	5737	4477	78.037	0.511	0.48
 alignment.nex	Entoloma_xanthochroum_G0330_NL3171	5737	4497	78.386	0.519	0.481	345	247	349	299	0	0	0	0	0	0	0	0	0	0	0	0	0	4497	0
 alignment.nex	Entoloma_yunnanense_JQ320128	5737	4883	85.114	0.541	0.459	243	154	238	219	0	0	0	0	0	0	0	0	0	0	0	0	0	4883	0
 alignment.nex	Entoloma_zuccherellii	5737	4804	83.737	0.52	0.48	259	177	271	226	0	0	0	0	0	0	0	0	0	0	0	0	0	4804	0
-alignment.nex	Eonema_pyriforme_lett_Agaricales!_G106	5737	4480	78.09	0.494	0.506	331	268	368	290	0	0	0	0	0	0	0	0	0	0	0	0	0	4480	0
+alignment.nex	Eonema_pyriforme_lett_Agaricales__G106	5737	4480	78.09	0.494	0.506	331	268	368	290	0	0	0	0	0	0	0	0	0	0	0	0	0	4480	0
 alignment.nex	Epithele_macarangae	5737	4835	84.277	0.498	0.502	241	183	270	208	0	0	0	0	0	0	0	0	0	0	0	0	0	4835	0
 alignment.nex	Epithele_typhae	5737	4432	77.253	0.5	0.5	355	273	379	296	0	0	0	2	0	0	0	0	0	0	0	0	0	4432	0
 alignment.nex	Eriocybe_chionea_HM488772	5737	4515	78.7	0.506	0.494	312	258	346	306	0	0	0	0	0	0	0	0	0	0	0	0	0	4515	0
@@ -3583,7 +3583,7 @@ alignment.nex	Melanoleuca_melaleuca_G0589_NL0369	5737	4482	78.124	0.52	0.48	349	
 alignment.nex	Melanoleuca_pallidicutis_G1003_M103	5737	4482	78.124	0.524	0.476	353	245	353	304	0	0	0	0	0	0	0	0	0	0	0	0	0	4482	0
 alignment.nex	Melanoleuca_privernensis	5737	4846	84.469	0.522	0.478	243	169	257	222	0	0	0	0	0	0	0	0	0	0	0	0	0	4846	0
 alignment.nex	Melanoleuca_rasilis_G0726_NL3539	5737	4477	78.037	0.528	0.472	352	241	354	313	0	0	0	0	0	0	0	0	0	0	0	0	0	4477	0
-alignment.nex	Melanoleuca_sp_blue_stipe_!_G0291_NL52	5737	4482	78.124	0.522	0.478	350	244	356	305	0	0	0	0	0	0	0	0	0	0	0	0	0	4482	0
+alignment.nex	Melanoleuca_sp_blue_stipe___G0291_NL52	5737	4482	78.124	0.522	0.478	350	244	356	305	0	0	0	0	0	0	0	0	0	0	0	0	0	4482	0
 alignment.nex	Melanoleuca_stridula_G1002_M101	5737	4481	78.107	0.519	0.481	350	248	356	302	0	0	0	0	0	0	0	0	0	0	0	0	0	4481	0
 alignment.nex	Melanoleuca_subexcentrica_G0924_Antonin	5737	4483	78.142	0.522	0.478	350	245	355	304	0	0	0	0	0	0	0	0	0	0	0	0	0	4483	0
 alignment.nex	Melanoleuca_sublanipes_G1007_M151	5737	4482	78.124	0.524	0.476	353	244	353	305	0	0	0	0	0	0	0	0	0	0	0	0	0	4482	0

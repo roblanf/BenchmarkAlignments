@@ -337,9 +337,9 @@ def check_nexus(path, errors, warnings):
     dups = [t[:-5] for t in aln.taxlabels if t.endswith(".copy")]  # Bio.Nexus renames duplicates
     if dups or len(set(aln.taxlabels)) != len(aln.taxlabels):
         errors.append(f"alignment.nex: duplicate taxon names: {sorted(set(dups))[:5]}")
-    bad = [t for t in aln.taxlabels if re.search(r"[^A-Za-z0-9_.\-]", t)]
+    bad = [t for t in aln.taxlabels if re.search(r"[^A-Za-z0-9_.]", t)]
     if bad:
-        warnings.append(f"alignment.nex: {len(bad)} taxon names need quoting in NEXUS (characters outside A-Z a-z 0-9 _ . -), e.g. {bad[:3]}; prefer sanitising to underscores and recording it in 'sequence edits'")
+        warnings.append(f"alignment.nex: {len(bad)} taxon names need quoting in NEXUS (characters outside A-Z a-z 0-9 _ .), e.g. {bad[:3]}; prefer sanitising to underscores and recording it in 'sequence edits'")
 
     charsets, charpartitions, taxsets = _parse_sets_block(text)
     if charsets is None:

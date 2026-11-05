@@ -11,7 +11,7 @@ dataset:
         alignment file: NA
         partition information: NA
         justification: NA
-        sequence edits: NA
+        sequence edits: "Taxon names sanitised in November 2025: characters other than letters, digits, underscore and dot (spaces, '|', '/', '-') were replaced with underscores in 25 of 25 names, e.g. 'A. cephalotes' became 'A._cephalotes'."
     used for tree inference:
         concatenated: yes
         locus trees: no
@@ -29,5 +29,5 @@ dataset:
         latin: "Hymenoptera"
         english: "sawflies, wasps, bees, and ants"
         taxon ID: 7399
-    outgroups: "C. quinquefasciatus_1, C. quinquefasciatus_2, C. quinquefasciatus_3, D. melanogaster, B. mori, T. castaneum, A. pisum_1, A. pisum_2"
+    outgroups: "C._quinquefasciatus_1, C._quinquefasciatus_2, C._quinquefasciatus_3, D._melanogaster, B._mori, T._castaneum, A._pisum_1, A._pisum_2"
     notes: "This is the hsp83 dataset from the repository. Root ages are not determined because these are trees of duplicated genes, not just taxa. Curated before the November 2025 schema: source file, partition provenance and sequence edits were not recorded at the time."

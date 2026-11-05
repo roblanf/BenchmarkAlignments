@@ -11,7 +11,7 @@ dataset:
         alignment file: NA
         partition information: NA
         justification: NA
-        sequence edits: NA
+        sequence edits: "Taxon names sanitised in November 2025: characters other than letters, digits, underscore and dot (spaces, '|', '/', '-') were replaced with underscores in 146 of 146 names, e.g. '1935|Avian|A/chicken/Brescia/1902_Italy|H7N7' became '1935_Avian_A_chicken_Brescia_1902_Italy_H7N7'."
     used for tree inference:
         concatenated: yes
         locus trees: no
