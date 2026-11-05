@@ -8,6 +8,7 @@ The procedure for adding a dataset is in `../docs/ADDING_A_DATASET.md`. In pipel
 
 | Script | Purpose |
 |---|---|
+| `fetch_paper.py` | Download a paper's PDF and supplements from PubMed Central's open-access bucket, given its DOI. |
 | `build_alignment_nex.py` | Build a conforming `alignment.nex` from a concatenated alignment plus a partition table, or from a folder of single-locus files. Sanitises taxon names and reports the changes. |
 | `check_codon_frames.py` | Verify `_1stpos/_2ndpos/_3rdpos` annotations by translating in all three frames and counting stop codons. |
 | `datelife_query.R` | Query DateLife for the MRCA age of a set of taxa; `--yaml` prints a block for `README.yaml`. |

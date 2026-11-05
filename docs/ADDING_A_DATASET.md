@@ -27,11 +27,23 @@ mkdir datasets/<Name>
 mkdir -p $BENCHALN_DATA/<Name> $BENCHALN_DATA/_sources/<Name>
 ```
 
-Put the paper and supplement PDFs in `datasets/<Name>/` (gitignored), named
-`<Name>_paper.pdf` and `<Name>_supplement.pdf`. Rob drops PDFs in `pdfs/` at the repository
-root; move them from there. If the paper is open access you may try to download it, but
-publisher sites usually block automated downloads, so ask Rob rather than persisting. Do not
-proceed to step 3 until you have the paper and its supplements. Download the data archive into `$BENCHALN_DATA/_sources/<Name>/`, in its own
+Get the paper and supplement PDFs into `datasets/<Name>/` (gitignored):
+
+```bash
+python utility_scripts/fetch_paper.py 10.1038/s41586-024-07324-0 <Name>
+```
+
+This resolves the DOI to a PubMed Central id and downloads the article PDF
+(`<Name>_paper.pdf`) and every supplementary file from PMC's open-access bucket. It works
+for open-access papers and for NIH-funded author manuscripts. If it reports that the paper
+is not in PMC, ask Rob: he drops PDFs in `pdfs/` at the repository root; move them into the
+dataset folder and name them `<Name>_paper.pdf` and `<Name>_supplement.pdf`. Publisher
+sites block scripted downloads, so do not persist with them. Do not proceed to step 3 until
+you have the paper and its supplements.
+
+Data archives: Zenodo and figShare can be downloaded by script (see `_sources/` under
+`$BENCHALN_DATA`); Dryad blocks scripts, so ask Rob to download Dryad archives into
+`$BENCHALN_DATA/_sources/<Name>/`. Download the data archive into `$BENCHALN_DATA/_sources/<Name>/`, in its own
 empty folder, and keep it: it is the provenance.
 
 ## 2. Read the paper

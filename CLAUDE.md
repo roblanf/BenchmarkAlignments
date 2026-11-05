@@ -42,10 +42,12 @@ up another env's python, call the binaries by absolute path, e.g.
    Rob and keep asking until it is resolved. Do not fill a field with NA to make a test pass,
    except where `docs/ADDING_A_DATASET.md` explicitly says NA is allowed.
 4. The paper and supplement PDFs live beside the dataset as `datasets/<Name>/*.pdf`. They are
-   gitignored. Rob drops PDFs in `pdfs/` at the repository root (also gitignored); move
-   them into the dataset folder and name them `<Name>_paper.pdf`, `<Name>_supplement.pdf`.
-   If they are missing and the paper is not open access, ask Rob for them. Publisher sites
-   block automated PDF downloads; do not spend long trying.
+   gitignored. First try `utility_scripts/fetch_paper.py DOI <Name>`, which pulls the PDF
+   and supplements from PubMed Central's open-access bucket (works for most OA papers and
+   NIH-funded author manuscripts). If that reports the paper is not in PMC, ask Rob: he
+   drops PDFs in `pdfs/` at the repository root (also gitignored); move them into the
+   dataset folder and name them `<Name>_paper.pdf`, `<Name>_supplement.pdf`. Publisher
+   sites and Dryad block scripted downloads; do not spend long trying them.
 5. Divergence times come from DateLife (`utility_scripts/datelife_query.R`) and from the
    study itself (`study root age`). timetree.org is not used for new datasets.
 6. Every codon-position annotation is verified by translation (`check_codon_frames.py`),

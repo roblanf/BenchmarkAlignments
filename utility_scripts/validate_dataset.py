@@ -567,7 +567,8 @@ def validate(folder, data_dir=None, network=True):
         errors.append(f"folder name '{name}' should look like Author_2013, Author_2013a, or Author_2013_aa")
 
     files = set(os.listdir(folder))
-    unexpected = {f for f in files if f not in ALLOWED_FILES and not f.lower().endswith(".pdf") and not f.startswith(".")}
+    unexpected = {f for f in files if f not in ALLOWED_FILES and not f.lower().endswith(".pdf")
+                  and not f.startswith(".") and not re.match(rf"{re.escape(name)}_(paper\.|supplement_)", f)}
     if unexpected:
         errors.append(f"unexpected files in dataset folder: {sorted(unexpected)}")
     for f in ["README.yaml", "charset.csv", "alignment.nex-summary.txt", "alignment.nex-seq-summary.txt"]:

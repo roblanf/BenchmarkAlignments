@@ -9,4 +9,7 @@ zips/*
 *.Pdf
 pdfs/
 !pdfs/README.txt
+# papers and supplements fetched into dataset folders (any file type)
+datasets/*/*_paper.*
+datasets/*/*_supplement_*
 utility_scripts/processing/
